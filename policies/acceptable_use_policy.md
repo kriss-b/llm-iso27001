@@ -52,7 +52,12 @@ The following activities are **strictly prohibited**:
 - Remote access to Company systems must be conducted via secure VPN.
 - Lost or stolen devices must be reported immediately to the IT Team.
 
-### 3.7 Monitoring and Privacy
+### 3.7 AI Tools
+- Only AI tools approved by the IT Team may be used to process Company data.
+- Confidential or Restricted data must not be entered into AI tools or services.
+- AI-generated outputs must be critically reviewed before use in business decisions or communications.
+
+### 3.8 Monitoring and Privacy
 - The Company reserves the right to monitor the use of its information systems and resources.
 - Employees have no expectation of privacy when using Company-owned systems.
 
