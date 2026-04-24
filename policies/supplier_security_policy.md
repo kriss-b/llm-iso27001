@@ -18,6 +18,7 @@ This policy applies to:
   - Review of the supplier's information security policies and procedures.
   - Assessment of compliance with ISO 27001:2022 or equivalent standards.
   - Completion of the **Vendor Security Review Template** (`procedures/vendor_security_review_template.md`).
+  - Disclosure of whether the supplier uses AI systems to process organizational data, and if so, the purpose, data handling practices, and any AI sub-processors involved. Suppliers providing AI systems must additionally describe their model governance and data retention practices.
 
 **Approved Suppliers**:
 - **Bitwarden (Managed Service)**: Password management. ISO 27001:2022 certified, SOC 2 Type 2 compliant, GDPR/CCPA compliant.
@@ -31,6 +32,7 @@ All supplier agreements must include clauses addressing:
 - Incident reporting within **24 hours** of discovery.
 - The organization's right to audit supplier security practices annually or as needed.
 - Compliance with applicable laws and standards.
+- Prohibition on using AI systems to process organizational data without explicit written consent.
 
 ---
 
