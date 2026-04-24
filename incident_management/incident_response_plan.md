@@ -15,6 +15,7 @@ This plan applies to:
   - Malware infections.
   - Denial-of-service (DoS) attacks.
   - Physical security breaches.
+  - AI-specific incidents (e.g., harmful AI output, model failure, prompt injection).
 
 ---
 
@@ -35,10 +36,10 @@ This plan applies to:
 
 | **Severity** | **Description**                                                                 | **Examples**                                                                                     |
 |--------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| **Low**      | Minor impact on operations or data. No immediate risk to business continuity.   | Isolated malware infection, minor policy violation.                                            |
-| **Medium**   | Moderate impact on operations or data. Requires timely resolution.             | Unauthorized access to non-sensitive data, minor DoS attack.                                  |
-| **High**     | Significant impact on operations, data, or reputation. Requires immediate action. | Data breach involving sensitive data, major DoS attack, ransomware infection.                |
-| **Critical** | Severe impact on business continuity, data integrity, or reputation.          | Large-scale data breach, extended system outage, physical security breach.                   |
+| **Low**      | Minor impact on operations or data. No immediate risk to business continuity.   | Isolated malware infection, isolated AI hallucination with no downstream impact.                                            |
+| **Medium**   | Moderate impact on operations or data. Requires timely resolution.             | Unauthorized access to non-sensitive data, AI model producing biased output affecting a limited scope.                                  |
+| **High**     | Significant impact on operations, data, or reputation. Requires immediate action. | Data breach involving sensitive data, ransomware infection, prompt injection leading to data exposure.                |
+| **Critical** | Severe impact on business continuity, data integrity, or reputation.          | Large-scale data breach, extended system outage, AI model failure causing widespread harmful or erroneous decisions.                   |
 
 ---
 

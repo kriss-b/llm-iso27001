@@ -11,6 +11,7 @@
 **Date/Time of Incident**: [YYYY-MM-DD HH:MM]
 **Detection Method**: [e.g., Automated alert, Employee report]
 **Classification**: [Level 1 (Low) / Level 2 (Medium) / Level 3 (High)]
+**AI Specificity**: [None / Indirect / Direct]
 
 ### 1.1 Description
 [Brief description of the incident, including systems/data affected.]
