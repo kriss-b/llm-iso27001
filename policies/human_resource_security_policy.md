@@ -27,6 +27,7 @@ This policy applies to all employees, contractors, and third parties with access
 - Role-specific training must be provided where relevant — developers receive secure coding training, IT staff receive security operations training, and managers receive training on their security responsibilities.
 - Completion of training is tracked by the CPO and reported at the annual management review.
 - Employees who fail to complete mandatory training within the required timeframe will be followed up by their manager and the CPO.
+- Employees who use AI systems must additionally receive training on safe AI use, including avoiding sensitive data in prompts and critically evaluating AI-generated outputs.
 - The detailed training programme is defined in the **[Employee Training Procedure](../procedures/employee_training_procedure.md)**.
 
 ## 4. Roles and Responsibilities
