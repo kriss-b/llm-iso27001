@@ -13,6 +13,7 @@ This policy applies to:
   - Company data (financial records, HR data, internal documents).
   - Systems and infrastructure (cloud services, internal networks, endpoints).
   - Physical assets (servers, workstations, mobile devices).
+  - AI systems and models (training data, model weights, AI-generated outputs).
 
 ---
 
