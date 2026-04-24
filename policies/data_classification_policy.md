@@ -24,8 +24,8 @@ All information assets must be assigned one of the following classification leve
 |-----------|---------------|--------------|
 | **Public** | Information approved for public disclosure. | Marketing materials, public website content. |
 | **Internal** | Information for internal use only; not for public release. | Internal procedures, meeting notes, org charts. |
-| **Confidential** | Sensitive information restricted to specific roles or teams. | Customer data, contracts, financial reports, HR records. |
-| **Restricted** | Highly sensitive information requiring the strictest controls. | Encryption keys, credentials, audit findings, personal health data. |
+| **Confidential** | Sensitive information restricted to specific roles or teams. | Customer data, contracts, financial reports, HR records, prompt logs, AI evaluation datasets. |
+| **Restricted** | Highly sensitive information requiring the strictest controls. | Encryption keys, credentials, audit findings, personal health data, proprietary fine-tuned model weights. |
 
 ### 3.2 Classification Responsibilities
 - All information assets must be classified at the time of creation or acquisition.
