@@ -48,7 +48,7 @@ This policy applies to all employees, contractors, and third parties involved in
 
 ### 3.3 Technical Leadership
 #### **CTO (Chief Technology Officer)**
-- Oversee the implementation of technical security controls.
+- Oversee the implementation of technical security controls, including the governance and security of AI systems and models.
 - Ensure secure development practices are followed.
 - Collaborate with the CISO to address technical risks.
 - Approve changes to IT infrastructure and systems.
