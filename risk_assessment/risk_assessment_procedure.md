@@ -30,6 +30,7 @@ This procedure applies to all information assets, including:
 ### 4.2 Threat and Vulnerability Identification
 - Identify threats (e.g., cyberattacks, natural disasters) and vulnerabilities (e.g., unpatched software, weak access controls).
 - Use tools (e.g., vulnerability scanners, threat intelligence feeds) to assist in identification.
+- Assign an **AI Specificity** value (`None`, `Indirect`, or `Direct`) to each identified risk, as defined in the [Risk Assessment Framework](risk_assessment_framework.md).
 
 ### 4.3 Risk Evaluation
 - Assess the **likelihood** and **impact** of each risk using the following matrix:
