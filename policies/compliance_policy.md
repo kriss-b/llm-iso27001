@@ -8,7 +8,7 @@ This policy applies to all employees, contractors, and third parties with access
 
 ## 3. Policy Statements
 ### 3.1 Legal and Regulatory Compliance
-- The Company must comply with all applicable laws and regulations (e.g., GDPR, CCPA).
+- The Company must comply with all applicable laws and regulations (e.g., GDPR, CCPA, EU AI Act).
 - Legal advice must be sought for new or updated regulations.
 
 ### 3.2 Contractual Obligations
