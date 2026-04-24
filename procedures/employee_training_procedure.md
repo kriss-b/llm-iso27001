@@ -36,6 +36,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
 - **Topics**:
   - Updates to policies and procedures
   - Emerging threats (phishing, ransomware, social engineering)
+  - Safe use of AI systems
   - Secure coding practices (developers only)
   - Remote work security
 
@@ -67,6 +68,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
 | Incident Reporting | How to report security incidents and suspicious activities. |
 | Data Protection and Privacy | Overview of data protection laws and organizational policies. |
 | Remote Work Security | Best practices for securing remote work environments. |
+| Safe Use of AI Systems | Avoiding sensitive data in prompts, critically evaluating AI-generated outputs, and recognizing AI-specific threats such as prompt injection. |
 
 ## 6. Training Records
 - Maintain records of all training completions in the HR system.
