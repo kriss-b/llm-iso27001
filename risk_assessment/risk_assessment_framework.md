@@ -21,8 +21,8 @@ This framework applies to:
 - **Impacts**: Determine the potential impact of a security incident (e.g., financial loss, reputational damage, legal consequences).
 - **AI Specificity**: Classify each risk according to how directly it relates to AI systems, using one of three values:
   - `None`: The risk has no meaningful connection to AI systems or their use.
-  - `Indirect`: The risk originates independently of AI but also applies to AI systems (e.g., unauthorized access, supply chain attack). These risks are referenced in the ISO 42001 Statement of Applicability.
-  - `Direct`: The risk only exists because of AI systems (e.g., model poisoning, hallucination, prompt injection, training data leakage). These risks require AI-specific controls beyond ISO 27001 Annex A.
+  - `Indirect`: The risk originates independently of AI but also applies to AI systems (e.g., unauthorized access, supply chain attack).
+  - `Direct`: The risk only exists because of AI systems (e.g., model poisoning, hallucination, prompt injection, training data leakage).
 
 ### **3.2 Risk Analysis**
 - **Likelihood**: Assess the likelihood of a risk occurring (e.g., Low, Medium, High).
