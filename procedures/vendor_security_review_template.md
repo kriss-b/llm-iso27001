@@ -42,6 +42,11 @@
 - Does the vendor allow ACME CORP to audit their security practices? ☐ Yes ☐ No
 - Has the vendor provided evidence of compliance with this template? ☐ Yes ☐ No
 
+### 7. **AI Usage**
+- Does the vendor use AI systems to process organizational data? ☐ Yes ☐ No
+- If yes, describe the AI systems used, their purpose, any AI sub-processors, and data retention practices:
+  ________________________________________________________
+
 ---
 
 ## 📝 **Assessment Summary**
@@ -53,6 +58,7 @@
 | Access Management              | ☐ Compliant ☐ Non-Compliant ☐ Partial                          |                                    |
 | Incident Response              | ☐ Compliant ☐ Non-Compliant ☐ Partial                          |                                    |
 | Audit and Compliance           | ☐ Compliant ☐ Non-Compliant ☐ Partial                          |                                    |
+| AI Usage                       | ☐ Compliant ☐ Non-Compliant ☐ Partial                          |                                    |
 
 ---
 
