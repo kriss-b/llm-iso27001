@@ -61,7 +61,7 @@ If you cloned this repo to create your own ISMS, you can track upstream improvem
 **Add the template as a remote (one-time setup):**
 
 ```bash
-git remote add upstream https://github.com/christophebourguignat/llm-iso27001.git
+git remote add upstream https://github.com/kriss-b/llm-iso27001.git
 ```
 
 **When you want to check for updates:**
