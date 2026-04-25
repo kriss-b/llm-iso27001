@@ -24,12 +24,12 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 4.3 | Determining the scope of the AIMS | ❓ TBC | |
 | 4.4 | AI management system | ❓ TBC | |
 | 5.1 | Leadership and commitment to the AIMS | ❓ TBC | |
-| 5.2 | Establish an AI Policy | ❓ TBC | |
+| 5.2 | Establish an AI Policy | ❓ TBC | [ai_policy.md](policies/ai_policy.md) |
 | 5.3 | Organizational roles, responsibilities and authorities for AI | ❓ TBC | |
 | 6.1.1 | Actions to address AI risks and opportunities — General | ❓ TBC | |
 | 6.1.2 | AI risk assessment | ❓ TBC | |
 | 6.1.3 | AI risk treatment | ❓ TBC | |
-| 6.1.4 | AI system impact assessment | ❓ TBC | |
+| 6.1.4 | AI system impact assessment | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 6.2 | AI objectives and planning to achieve them | ❓ TBC | |
 | 7.1 | Resources for the AIMS | ❓ TBC | |
 | 7.2 | Competence for AI governance | ❓ TBC | |
@@ -54,7 +54,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.2.2 | AI policy for the organization | ❓ TBC | Mandatory governance anchor for the AIMS. | |
+| A.2.2 | AI policy for the organization | ❓ TBC | Mandatory governance anchor for the AIMS. | [ai_policy.md](policies/ai_policy.md) |
 
 ### A.3 Internal Organization
 
@@ -73,8 +73,8 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.5.2 | Process for assessing AI system impact | ❓ TBC | Mandatory — evaluates potential harms to individuals, groups, and society before deployment. | |
-| A.5.3 | Documenting AI system impact assessment | ❓ TBC | Ensures impact assessments are recorded and auditable. | |
+| A.5.2 | Process for assessing AI system impact | ❓ TBC | Mandatory — evaluates potential harms to individuals, groups, and society before deployment. | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| A.5.3 | Documenting AI system impact assessment | ❓ TBC | Ensures impact assessments are recorded and auditable. | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 
 ### A.6 AI System Lifecycle
 
@@ -125,7 +125,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.10.2 | Third-party AI system acquisition | ❓ TBC | Ensures AI systems acquired from third parties meet organizational AI governance requirements. | |
+| A.10.2 | Third-party AI system acquisition | ❓ TBC | Ensures AI systems acquired from third parties meet organizational AI governance requirements. | [supplier_security_policy.md](../../policies/supplier_security_policy.md) |
 | A.10.3 | Sharing AI system information with third parties | ❓ TBC | Controls disclosure of AI system details to third parties. | |
 | A.10.4 | Responsible use of AI systems by customers | ❓ TBC | Ensures customers are informed of conditions and limitations of AI systems they use. | |
 
