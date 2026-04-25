@@ -88,7 +88,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.33 | Protection of records | ❓ TBC | Ensures integrity and availability of records. | [data_retention_disposal_policy.md](policies/data_retention_disposal_policy.md) |
 | A.5.34 | Privacy and protection of PII | ❓ TBC | Required for GDPR compliance. | [data_protection_policy.md](policies/data_protection_policy.md) |
 | A.5.35 | Independent review of information security | ❓ TBC | Ensures objectivity in ISMS reviews and audit findings. | [audit_policy.md](policies/audit_policy.md) |
-| A.5.36 | Compliance with policies, rules and standards | ❓ TBC | Ensures adherence to internal policies and external standards. | [compliance_policy.md](policies/compliance_policy.md) |
+| A.5.36 | Compliance with policies, rules and standards for information security | ❓ TBC | Ensures adherence to internal policies and external standards. | [compliance_policy.md](policies/compliance_policy.md) |
 | A.5.37 | Documented operating procedures | ❓ TBC | Ensures consistency and repeatability of operations. | [procedures/](procedures/) |
 
 ### A.6 People Controls
