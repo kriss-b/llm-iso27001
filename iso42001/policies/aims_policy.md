@@ -147,7 +147,7 @@ The **CEO** provides overall leadership and ensures that adequate resources are 
 ### 9.4 All Employees
 All employees and contractors are responsible for complying with AI policies, using AI systems responsibly, and reporting AI-related concerns or incidents promptly.
 
-Full role definitions are documented in the **[Roles and Responsibilities Policy](../../policies/roles_and_responsibilities_policy.md)** and the **[AI Policy](ai_policy.md)**.
+Full role definitions are documented in the **[Roles and Responsibilities Policy](../../policies/roles_and_responsibilities_policy.md)**.
 
 ---
 
