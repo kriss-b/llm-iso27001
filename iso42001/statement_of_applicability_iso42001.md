@@ -23,26 +23,26 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 4.2 | Understanding the needs and expectations of interested parties (AI perspective) | ❓ TBC | |
 | 4.3 | Determining the scope of the AIMS | ❓ TBC | |
 | 4.4 | AI management system | ❓ TBC | |
-| 5.1 | Leadership and commitment to the AIMS | ❓ TBC | |
+| 5.1 | Leadership and commitment to the AIMS | ❓ TBC | [ai_policy.md](policies/ai_policy.md) |
 | 5.2 | Establish an AI Policy | ❓ TBC | [ai_policy.md](policies/ai_policy.md) |
 | 5.3 | Organizational roles, responsibilities and authorities for AI | ❓ TBC | [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md), [ai_policy.md](policies/ai_policy.md) |
 | 6.1.1 | Actions to address AI risks and opportunities — General | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md) |
 | 6.1.2 | AI risk assessment | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md), [risk_assessment_procedure.md](../../risk_assessment/risk_assessment_procedure.md) |
 | 6.1.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md) |
 | 6.1.4 | AI system impact assessment | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| 6.2 | AI objectives and planning to achieve them | ❓ TBC | |
+| 6.2 | AI objectives and planning to achieve them | ❓ TBC | [ai_policy.md](policies/ai_policy.md) |
 | 7.1 | Resources for the AIMS | ❓ TBC | |
-| 7.2 | Competence for AI governance | ❓ TBC | |
+| 7.2 | Competence for AI governance | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md) |
 | 7.3 | Awareness of AI risks and responsibilities | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md), [human_resource_security_policy.md](../../policies/human_resource_security_policy.md) |
 | 7.4 | Communication on AI management | ❓ TBC | |
 | 7.5 | Documented information for the AIMS | ❓ TBC | |
 | 8.1 | Operational planning and control of AI systems | ❓ TBC | |
 | 8.2 | AI risk assessment (operational) | ❓ TBC | [risk_register.md](../../risk_assessment/risk_register.md) |
 | 8.3 | AI risk treatment (operational) | ❓ TBC | [risk_register.md](../../risk_assessment/risk_register.md) |
-| 8.4 | AI system impact assessment (operational) | ❓ TBC | |
+| 8.4 | AI system impact assessment (operational) | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation of the AIMS | ❓ TBC | |
-| 9.2 | Internal audit of the AIMS | ❓ TBC | |
-| 9.3 | Management review of the AIMS | ❓ TBC | |
+| 9.2 | Internal audit of the AIMS | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
+| 9.3 | Management review of the AIMS | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
 | 10.1 | Nonconformity and corrective action | ❓ TBC | |
 | 10.2 | Continual improvement of the AIMS | ❓ TBC | |
 
@@ -61,13 +61,13 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
 | A.3.2 | AI roles and responsibilities | ❓ TBC | Ensures accountability for AI governance across the organization. | [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md), [ai_policy.md](policies/ai_policy.md) |
-| A.3.3 | Reporting of concerns related to AI systems | ❓ TBC | Enables employees and third parties to raise AI-related concerns safely. | |
+| A.3.3 | Reporting of concerns related to AI systems | ❓ TBC | Enables employees and third parties to raise AI-related concerns safely. | [incident_response_plan.md](../../incident_management/incident_response_plan.md) |
 
 ### A.4 Resources for AI Systems
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.4.2 | AI resources | ❓ TBC | Ensures adequate technical and human resources are allocated for AI governance. | |
+| A.4.2 | AI resources | ❓ TBC | Ensures adequate technical and human resources are allocated for AI governance. | [ai_policy.md](policies/ai_policy.md) |
 
 ### A.5 Assessing Impacts of AI Systems
 
