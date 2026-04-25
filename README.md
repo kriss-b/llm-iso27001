@@ -16,7 +16,7 @@ The `iso42001/` directory is an optional overlay that extends the ISMS with an A
 
 ---
 
-## How to use this with an LLM agent
+## How to use this with an LLM Agent
 
 Click **Use this template** on GitHub to create your own repository under **YOUR_GITHUB_USERNAME**, name it **my-company-isms**, then clone it locally:
 
