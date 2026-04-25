@@ -80,28 +80,28 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.6.1 | General — lifecycle approach to AI systems | ❓ TBC | Ensures AI systems are governed across their full lifecycle. | [ai_policy.md](policies/ai_policy.md) |
-| A.6.2 | AI system design | ❓ TBC | Integrates responsible AI principles from the design phase. | |
-| A.6.3 | Data for AI systems (development phase) | ❓ TBC | Ensures data used in development is appropriate and documented. | |
+| A.6.1 | General — lifecycle approach to AI systems | ❓ TBC | Ensures AI systems are governed across their full lifecycle. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2 | AI system design | ❓ TBC | Integrates responsible AI principles from the design phase. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.3 | Data for AI systems (development phase) | ❓ TBC | Ensures data used in development is appropriate and documented. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.4 | Acquisition of AI system components | ❓ TBC | Controls security and quality of third-party AI components. | [supplier_security_policy.md](../../policies/supplier_security_policy.md) |
-| A.6.5 | AI system operation | ❓ TBC | Ensures AI systems operate within defined parameters and constraints. | |
-| A.6.6 | AI system documentation | ❓ TBC | Ensures AI systems are sufficiently documented for users and auditors. | |
-| A.6.7 | AI system testing | ❓ TBC | Validates AI system behaviour, including edge cases and bias, before deployment. | |
-| A.6.8 | AI system monitoring | ❓ TBC | Detects drift, degradation, or unexpected behaviour in production. | |
-| A.6.9 | Change management of AI systems | ❓ TBC | Controls changes to AI models, prompts, and configurations. | |
-| A.6.10 | Decommissioning of AI systems | ❓ TBC | Ensures AI systems are retired securely and data is disposed of appropriately. | |
+| A.6.5 | AI system operation | ❓ TBC | Ensures AI systems operate within defined parameters and constraints. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.6 | AI system documentation | ❓ TBC | Ensures AI systems are sufficiently documented for users and auditors. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.7 | AI system testing | ❓ TBC | Validates AI system behaviour, including edge cases and bias, before deployment. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.8 | AI system monitoring | ❓ TBC | Detects drift, degradation, or unexpected behaviour in production. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.9 | Change management of AI systems | ❓ TBC | Controls changes to AI models, prompts, and configurations. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.10 | Decommissioning of AI systems | ❓ TBC | Ensures AI systems are retired securely and data is disposed of appropriately. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 
 ### A.7 Data for AI Systems
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.7.2 | Data management policies | ❓ TBC | Establishes governance for all data used in AI systems. | |
-| A.7.3 | Data acquisition | ❓ TBC | Ensures data is acquired lawfully and ethically. | |
-| A.7.4 | Data quality | ❓ TBC | Ensures training and evaluation data meets quality standards. | |
-| A.7.5 | Data preparation | ❓ TBC | Controls data preprocessing to prevent bias introduction or data leakage. | |
-| A.7.6 | Data provenance | ❓ TBC | Ensures origin and lineage of AI data is documented and traceable. | |
-| A.7.7 | Data pertaining to persons | ❓ TBC | Protects personal data used in AI systems in compliance with GDPR and EU AI Act. | |
-| A.7.8 | Data for testing AI systems | ❓ TBC | Ensures test datasets are representative and do not include inappropriate personal data. | |
+| A.7.2 | Data management policies | ❓ TBC | Establishes governance for all data used in AI systems. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.3 | Data acquisition | ❓ TBC | Ensures data is acquired lawfully and ethically. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.4 | Data quality | ❓ TBC | Ensures training and evaluation data meets quality standards. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.5 | Data preparation | ❓ TBC | Controls data preprocessing to prevent bias introduction or data leakage. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.6 | Data provenance | ❓ TBC | Ensures origin and lineage of AI data is documented and traceable. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.7 | Data pertaining to persons | ❓ TBC | Protects personal data used in AI systems in compliance with GDPR and EU AI Act. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.8 | Data for testing AI systems | ❓ TBC | Ensures test datasets are representative and do not include inappropriate personal data. | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 
 ### A.8 Information for Interested Parties About AI Systems
 
