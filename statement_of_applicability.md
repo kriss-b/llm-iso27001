@@ -20,28 +20,28 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 
 | Clause | Requirement | Status | Document |
 |--------|-------------|--------|----------|
-| 4.1 | Understanding the organization and its context | ❓ TBC | — |
-| 4.2 | Understanding the needs and expectations of interested parties | ❓ TBC | — |
-| 4.3 | Determining the scope of the ISMS | ❓ TBC | — |
-| 4.4 | Information security management system | ❓ TBC | — |
-| 5.1 | Leadership and commitment | ❓ TBC | — |
-| 5.2 | Policy | ❓ TBC | — |
-| 5.3 | Organizational roles, responsibilities and authorities | ❓ TBC | — |
-| 6.1 | Actions to address risks and opportunities | ❓ TBC | — |
-| 6.2 | Information security objectives and planning to achieve them | ❓ TBC | — |
-| 7.1 | Resources | ❓ TBC | — |
-| 7.2 | Competence | ❓ TBC | — |
-| 7.3 | Awareness | ❓ TBC | — |
-| 7.4 | Communication | ❓ TBC | — |
-| 7.5 | Documented information | ❓ TBC | — |
-| 8.1 | Operational planning and control | ❓ TBC | — |
-| 8.2 | Information security risk assessment | ❓ TBC | — |
-| 8.3 | Information security risk treatment | ❓ TBC | — |
-| 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | — |
-| 9.2 | Internal audit | ❓ TBC | — |
-| 9.3 | Management review | ❓ TBC | — |
-| 10.1 | Nonconformity and corrective action | ❓ TBC | — |
-| 10.2 | Continual improvement | ❓ TBC | — |
+| 4.1 | Understanding the organization and its context | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.2 | Understanding the needs and expectations of interested parties | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.3 | Determining the scope of the ISMS | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.4 | Information security management system | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 5.1 | Leadership and commitment | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 5.2 | Policy | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
+| 5.3 | Organizational roles, responsibilities and authorities | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
+| 6.1 | Actions to address risks and opportunities | ❓ TBC | [risk_assessment_policy.md](policies/risk_assessment_policy.md), [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md) |
+| 6.2 | Information security objectives and planning to achieve them | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 7.1 | Resources | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 7.2 | Competence | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md), [employee_training_procedure.md](procedures/employee_training_procedure.md) |
+| 7.3 | Awareness | ❓ TBC | [employee_training_procedure.md](procedures/employee_training_procedure.md) |
+| 7.4 | Communication | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 7.5 | Documented information | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 8.1 | Operational planning and control | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 8.2 | Information security risk assessment | ❓ TBC | [risk_assessment_procedure.md](risk_assessment/risk_assessment_procedure.md), [risk_register.md](risk_assessment/risk_register.md) |
+| 8.3 | Information security risk treatment | ❓ TBC | [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md), [risk_register.md](risk_assessment/risk_register.md) |
+| 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
+| 9.2 | Internal audit | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
+| 9.3 | Management review | ❓ TBC | [management_review_template.md](procedures/management_review_template.md) |
+| 10.1 | Continual improvement | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 10.2 | Nonconformity and corrective action | ❓ TBC | — |
 
 ---
 
