@@ -22,13 +22,14 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 |--------|-------------|--------|----------|
 | 4.1 | Understanding the organization and its context | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 4.2 | Understanding the needs and expectations of interested parties | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 4.3 | Determining the scope of the ISMS | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.3 | Determining the scope of the information security management system | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 4.4 | Information security management system | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 5.1 | Leadership and commitment | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 5.2 | Policy | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
 | 5.3 | Organizational roles, responsibilities and authorities | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
 | 6.1 | Actions to address risks and opportunities | ❓ TBC | [risk_assessment_policy.md](policies/risk_assessment_policy.md), [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md) |
 | 6.2 | Information security objectives and planning to achieve them | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 6.3 | Planning for changes | ❓ TBC | — |
 | 7.1 | Resources | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 7.2 | Competence | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md), [employee_training_procedure.md](procedures/employee_training_procedure.md) |
 | 7.3 | Awareness | ❓ TBC | [employee_training_procedure.md](procedures/employee_training_procedure.md) |
@@ -127,7 +128,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 
 | Control | Title | Status | Justification | Document |
 |---------|-------|--------|---------------|----------|
-| A.8.1 | User endpoint devices | ❓ TBC | Secures laptops, mobile devices and other endpoints. | [mobile_device_policy.md](policies/mobile_device_policy.md) |
+| A.8.1 | User end point devices | ❓ TBC | Secures laptops, mobile devices and other endpoints. | [mobile_device_policy.md](policies/mobile_device_policy.md) |
 | A.8.2 | Privileged access rights | ❓ TBC | Limits and controls administrative access to critical systems. | [access_control_policy.md](policies/access_control_policy.md) |
 | A.8.3 | Information access restriction | ❓ TBC | Ensures users access only information they are authorised to see. | [access_control_policy.md](policies/access_control_policy.md) |
 | A.8.4 | Access to source code | ❓ TBC | Protects source code from unauthorised access or modification. | [secure_development_policy.md](policies/secure_development_policy.md) |
@@ -143,7 +144,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.8.14 | Redundancy of information processing facilities | ❓ TBC | Ensures availability of critical IT systems. | [disaster_recovery_plan.md](procedures/disaster_recovery_plan.md) |
 | A.8.15 | Logging | ❓ TBC | Enables detection of and response to security events. | [operations_security_policy.md](policies/operations_security_policy.md) |
 | A.8.16 | Monitoring activities | ❓ TBC | Detects anomalies and suspicious behaviour in real time. | [operations_security_policy.md](policies/operations_security_policy.md) |
-| A.8.17 | Clock synchronisation | ❓ TBC | Ensures consistent and reliable timestamps across systems for log correlation. | [operations_security_policy.md](policies/operations_security_policy.md) |
+| A.8.17 | Clock synchronization | ❓ TBC | Ensures consistent and reliable timestamps across systems for log correlation. | [operations_security_policy.md](policies/operations_security_policy.md) |
 | A.8.18 | Use of privileged utility programs | ❓ TBC | Controls use of tools that could bypass security controls. | — |
 | A.8.19 | Installation of software on operational systems | ❓ TBC | Prevents unauthorised or untested software from being deployed. | [operations_security_policy.md](policies/operations_security_policy.md) |
 | A.8.20 | Networks security | ❓ TBC | Protects the network infrastructure from attack and misuse. | [communication_security_policy.md](policies/communication_security_policy.md) |
