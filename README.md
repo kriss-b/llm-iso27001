@@ -51,6 +51,8 @@ From there, iterate. The LLM can update the SoA and the policies, refine the ris
 
 **Git is the changelog.** Per-document changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
 
+**ISO 42001 as an overlay, not a parallel system.** The `iso42001/` directory extends the ISMS rather than duplicating it. AI-specific controls live there; everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the two standards in sync without maintaining redundant content.
+
 ---
 
 
