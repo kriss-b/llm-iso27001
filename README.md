@@ -23,7 +23,6 @@ Click **Use this template** on GitHub to create your own repository under **YOUR
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/my-company-isms.git
 cd my-company-isms
-ln -s AGENTS.md CLAUDE.md   # Claude Code only — auto-loads agent instructions
 ```
 
 Then open a session with your LLM Agent of choice and give it context about your company. The more context, the better the output. For example:
