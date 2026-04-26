@@ -54,6 +54,56 @@ From there, iterate. The LLM can update the SoA and the policies, refine the ris
 
 ---
 
+## Tips & Tricks
+
+Beyond the initial setup, the real leverage is in day-to-day operations. Here are patterns that work well in practice,
+organised by type of task.
+
+### Updating the ISMS
+
+- **Add risks conversationally.** Don't fill in the risk register yourself. Just say:
+  *"Add the following risk to our list and tell me what information I should provide."*
+  The LLM will prompt you for the right fields, then write the entry and update the SoA
+  cross-reference in one pass.
+
+- **Log incidents the same way.** *"Add this incident to the log"* followed by a brief
+  description is enough. The LLM will extract the relevant fields, format the entry, and
+  flag any Annex A controls the incident implies are weak or missing.
+
+- **Ask what's missing before writing.** Prefix any new entry with *"what do you need from
+  me?"* rather than a half-complete description. The LLM asks the right questions first;
+  the resulting entry will be far more defensible in an audit.
+
+### Dashboards and navigation
+
+- **Generate a navigation UI in one shot.** Ask: *"Create a simple HTML page to navigate
+  through the ISMS."* The LLM the directory structure, infers the hierarchy from
+  the SoA and relative links, and produces a self-contained HTML file — useful for sharing
+  a read-only view with management or auditors.
+
+- **Plot your incident history.** *"Plot a chart with the number of incidents per month
+  over the past 12 months"* works well if your incident log follows a consistent date
+  format. Useful for the management review.
+
+### Quick lookups
+
+- **Use the LLM as a search layer.** *"Is this supplier already referenced?"* is faster
+  than grepping markdown by hand. The LLM scans across the vendor list, SoA, procedures,
+  and risk register simultaneously — and tells you exactly where something appears, or doesn't.
+
+### Open-ended tasks
+
+- **Ask "what should I do next?" at the start of every session.** The LLM reads the SoA,
+  open action items, and the most recent management review, and surfaces the highest-priority
+  gaps. More useful than a static checklist as the ISMS matures.
+
+- **Run a consistency check periodically.** *"Look for any inconsistency in the ISMS"*
+  is a powerful prompt. The LLM cross-references controls, flags broken links, identifies
+  risks with no treatment decision, and surfaces controls referenced in procedures but absent
+  from the SoA. Think of it as a pre-audit lint pass.
+
+---
+
 
 ## Staying up to date with the template
 
