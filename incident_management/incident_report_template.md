@@ -17,10 +17,11 @@
 [Brief description of the incident, including systems/data affected.]
 
 ### 1.2 Impact
+Assess each dimension as defined in the [Incident Management Policy](../policies/incident_management_policy.md):
 - **Confidentiality**: [e.g., Data exposed, None]
 - **Integrity**: [e.g., Data altered, None]
 - **Availability**: [e.g., System downtime, None]
-- **Regulatory**: [e.g., GDPR breach, None]
+- **Regulatory**: [e.g., GDPR breach notification required, None]
 
 ---
 

@@ -8,6 +8,8 @@ This log records all security incidents. One row per incident. Use [incident_rep
 
 Severity levels: `Low` | `Medium` | `High` | `Critical` — see [Incident Management Policy](../policies/incident_management_policy.md).
 
+Impact column: brief summary across Confidentiality / Integrity / Availability / Regulatory — see [Incident Management Policy](../policies/incident_management_policy.md).
+
 ---
 
 ## Changelog

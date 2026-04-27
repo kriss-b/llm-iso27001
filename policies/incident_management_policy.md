@@ -37,25 +37,35 @@ All security events must be assessed and classified according to severity:
 | **High** | Significant impact, confirmed data loss, likely regulatory implications. | Confirmed breach, ransomware infection. |
 | **Critical** | Catastrophic impact, confirmed data breach, certain regulatory implications. | Mass data exfiltration, full system compromise. |
 
-### 3.2 Reporting
+### 3.2 Incident Impact Assessment
+For each incident, the IRT must assess impact across the following dimensions:
+
+| **Dimension** | **Description** |
+|---|---|
+| **Confidentiality** | Whether information was disclosed to unauthorised parties (e.g., data exposed, credentials leaked). |
+| **Integrity** | Whether information or systems were altered, corrupted, or destroyed. |
+| **Availability** | Whether systems or data became unavailable (e.g., downtime, service disruption). |
+| **Regulatory** | Whether the incident triggers legal or regulatory obligations (e.g., GDPR breach notification). |
+
+### 3.3 Reporting
 - All employees must report suspected or confirmed security incidents **immediately** to the **Incident Response Team (IRT)**.
 - Reports must be submitted using the **Incident Report Template** (`incident_management/incident_report_template.md`).
 - No employee shall attempt to investigate or remediate an incident without IRT involvement.
 
-### 3.3 Response
+### 3.4 Response
 - The IRT must acknowledge all reported incidents within **1 hour**.
 - Incidents must be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
 - Evidence must be preserved in a manner that maintains its integrity and chain of custody.
 
-### 3.4 Regulatory Notification
+### 3.5 Regulatory Notification
 - Data breaches involving personal data must be reported to the relevant supervisory authority within **72 hours** of discovery, in compliance with GDPR and applicable regulations.
 - Affected individuals must be notified without undue delay where the breach is likely to result in a high risk to their rights and freedoms.
 
-### 3.5 Post-Incident Review
+### 3.6 Post-Incident Review
 - A post-incident review must be conducted for all **High** and **Critical** incidents within **5 business days** of resolution.
 - Lessons learned must be documented and used to improve controls, procedures, and training.
 
-### 3.6 Non-Retaliation
+### 3.7 Non-Retaliation
 - Employees who report incidents in good faith are protected from retaliation.
 - This protection applies regardless of whether the report results in a confirmed incident.
 
