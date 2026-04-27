@@ -32,14 +32,9 @@ This plan applies to:
 
 ---
 
-## 🚨 **Incident Classification**
+## 🚨 **Incident Severity**
 
-| **Severity** | **Description**                                                                 | **Examples**                                                                                     |
-|--------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| **Low**      | Minor impact on operations or data. No immediate risk to business continuity.   | Isolated malware infection, isolated AI hallucination with no downstream impact.                                            |
-| **Medium**   | Moderate impact on operations or data. Requires timely resolution.             | Unauthorized access to non-sensitive data, AI model producing biased output affecting a limited scope.                                  |
-| **High**     | Significant impact on operations, data, or reputation. Requires immediate action. | Data breach involving sensitive data, ransomware infection, prompt injection leading to data exposure.                |
-| **Critical** | Severe impact on business continuity, data integrity, or reputation.          | Large-scale data breach, extended system outage, AI model failure causing widespread harmful or erroneous decisions.                   |
+Incident severity levels (Low / Medium / High / Critical) are defined in the [Incident Management Policy](../policies/incident_management_policy.md). The IRT assigns a severity level upon initial assessment.
 
 ---
 
@@ -52,7 +47,7 @@ This plan applies to:
 
 ### 2. **Detection and Reporting**
 - Employees must report suspected security incidents to the IRT immediately.
-- The IRT will investigate and classify the incident based on severity.
+- The IRT will investigate and assign a severity level to the incident.
 
 ### 3. **Containment**
 - **Short-term containment**: Isolate affected systems to prevent further damage.

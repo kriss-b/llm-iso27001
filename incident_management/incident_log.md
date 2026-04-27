@@ -2,11 +2,11 @@
 
 This log records all security incidents. One row per incident. Use [incident_report_template.md](incident_report_template.md) for detailed per-incident documentation when warranted.
 
-| Incident ID | Date detected | Classification | Summary | Impact | Status | Lessons learned | Closed date |
-|-------------|--------------|---------------|---------|--------|--------|----------------|-------------|
+| Incident ID | Date detected | Severity | Summary | Impact | Status | Lessons learned | Closed date |
+|-------------|--------------|----------|---------|--------|--------|----------------|-------------|
 | — | — | — | — | — | — | — | — |
 
-Classifications: `L1 — Low` | `L2 — Medium` | `L3 — High`
+Severity levels: `Low` | `Medium` | `High` | `Critical` — see [Incident Management Policy](../policies/incident_management_policy.md).
 
 ---
 

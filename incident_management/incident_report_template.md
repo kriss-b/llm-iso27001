@@ -10,7 +10,7 @@
 ## 1. Incident Details
 **Date/Time of Incident**: [YYYY-MM-DD HH:MM]
 **Detection Method**: [e.g., Automated alert, Employee report]
-**Classification**: [Level 1 (Low) / Level 2 (Medium) / Level 3 (High)]
+**Severity**: [Low / Medium / High / Critical — see [Incident Management Policy](../policies/incident_management_policy.md)]
 **AI Specificity**: [None / Indirect / Direct]
 
 ### 1.1 Description
