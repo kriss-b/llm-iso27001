@@ -8,11 +8,7 @@ This policy applies to all employees, contractors, and third parties who process
 
 ## 3. Policy Statements
 ### 3.1 Data Classification
-Data is classified as:
-- **Public**: No restrictions on access.
-- **Internal**: Restricted to employees and authorized third parties.
-- **Confidential**: Restricted to specific roles (e.g., HR, Finance).
-- **Restricted**: Highly sensitive data (e.g., customer payment details, health records).
+Data classification levels and handling requirements are defined in the [Data Classification Policy](data_classification_policy.md). All personal and sensitive data processed by the Company must be classified and handled in accordance with that policy.
 
 ### 3.2 Data Handling
 - **Storage**: Data must be stored securely using encryption and access controls.
