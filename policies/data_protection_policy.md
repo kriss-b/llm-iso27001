@@ -1,7 +1,7 @@
 # Data Protection Policy
 
 ## 1. Purpose
-This policy ensures the protection of personal and sensitive data in compliance with ISO 27001:2022 (Control A.18.1) and applicable data protection regulations (e.g., GDPR).
+This policy ensures the protection of personal and sensitive data in compliance with ISO 27001:2022 (Control A.5.34) and applicable data protection regulations (e.g., GDPR).
 
 ## 2. Scope
 This policy applies to all employees, contractors, and third parties who process personal or sensitive data on behalf of the Company.
