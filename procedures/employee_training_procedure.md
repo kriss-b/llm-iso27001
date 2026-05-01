@@ -36,7 +36,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
 - **Topics**:
   - Updates to policies and procedures
   - Emerging threats (phishing, ransomware, social engineering)
-  - Safe use of AI systems
+  - Safe use of AI systems (employees who use AI systems only)
   - Secure coding practices (developers only)
   - Remote work security
 
