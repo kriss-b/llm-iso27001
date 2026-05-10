@@ -18,7 +18,7 @@ This policy applies to:
 
 ## 3. Policy Statements
 ### 3.1 General Use
-- Information systems and resources must be used for **business purposes only**.
+- Information systems and resources shall be used for **business purposes only**.
 - Personal use is permitted only if it does not interfere with business operations or violate this policy.
 
 ### 3.2 Prohibited Activities
@@ -34,28 +34,28 @@ The following activities are **strictly prohibited**:
 - Tampering with or disabling security software or monitoring tools.
 
 ### 3.3 Email and Communication
-- Email and communication systems must be used professionally and respectfully.
+- Email and communication systems shall be used professionally and respectfully.
 - Phishing, spam, or other malicious communications are prohibited.
-- Email must not be used to transmit sensitive or confidential information unless encrypted.
+- Email shall not be used to transmit sensitive or confidential information unless encrypted.
 
 ### 3.4 Internet Use
-- Internet access must be used responsibly and in compliance with this policy.
+- Internet access shall be used responsibly and in compliance with this policy.
 - Visiting malicious or inappropriate websites is prohibited.
 - Downloading unauthorized software or files is prohibited.
 
 ### 3.5 Social Media
-- Employees must not disclose confidential or sensitive Company information on social media.
-- Employees must not represent the Company on social media without authorization.
+- Employees shall not disclose confidential or sensitive Company information on social media.
+- Employees shall not represent the Company on social media without authorization.
 
 ### 3.6 Mobile Devices and Remote Work
-- Mobile devices (e.g., laptops, smartphones) must be secured with passwords or biometric authentication.
-- Remote access to Company systems must be conducted via secure VPN.
-- Lost or stolen devices must be reported immediately to the IT Team.
+- Mobile devices (e.g., laptops, smartphones) shall be secured with passwords or biometric authentication.
+- Remote access to Company systems shall be conducted via secure VPN.
+- Lost or stolen devices shall be reported immediately to the IT Team.
 
 ### 3.7 AI Tools
 - Only AI tools approved by the IT Team may be used to process Company data.
-- Confidential or Restricted data must not be entered into AI tools or services.
-- AI-generated outputs must be critically reviewed before use in business decisions or communications.
+- Confidential or Restricted data shall not be entered into AI tools or services.
+- AI-generated outputs shall be critically reviewed before use in business decisions or communications.
 
 ### 3.8 Monitoring and Privacy
 - The Company reserves the right to monitor the use of its information systems and resources.

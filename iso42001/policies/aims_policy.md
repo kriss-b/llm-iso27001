@@ -54,7 +54,7 @@ The following issues are considered in defining the scope and objectives of the 
 | Customer concerns about AI transparency and bias | Evidence of responsible AI practices increasingly required |
 | Evolving AI threat landscape | New attack vectors (prompt injection, adversarial inputs) require ongoing attention |
 | Public and societal scrutiny of AI systems | Reputational risk from harmful or biased AI outputs |
-| Third-party and supply chain risks | AI model providers and data suppliers must meet governance standards |
+| Third-party and supply chain risks | AI model providers and data suppliers shall meet governance standards |
 
 ---
 
@@ -74,7 +74,7 @@ The following interested parties have been identified as having requirements rel
 | Certification body | Compliance with ISO 42001:2023 requirements |
 
 ### 5.1 Contact with Authorities
-The CTO and CISO are responsible for maintaining appropriate contacts with relevant AI regulatory authorities, including the EU AI Office and national competent authorities. These contacts must be activated in the event of a significant AI incident, regulatory inquiry, or when required by applicable law.
+The CTO and CISO are responsible for maintaining appropriate contacts with relevant AI regulatory authorities, including the EU AI Office and national competent authorities. These contacts shall be activated in the event of a significant AI incident, regulatory inquiry, or when required by applicable law.
 
 ### 5.2 Contact with Special Interest Groups
 The CTO is responsible for maintaining engagement with AI governance communities, standards bodies, and research organisations. This ensures the Company remains informed of emerging AI risks, best practices, and regulatory developments. Intelligence gathered through these channels feeds into the AI risk assessment process.
@@ -195,10 +195,10 @@ The AIMS operates through the following recurring activities:
 Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risk_assessment/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risk_assessment/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risk_assessment/risk_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
 
 ### 12.2 AI System Impact Assessment
-Before any AI system is deployed, an impact assessment must be completed in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**. The assessment evaluates potential harms to individuals, groups, and society, and defines mitigation measures and human oversight requirements.
+Before any AI system is deployed, an impact assessment shall be completed in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**. The assessment evaluates potential harms to individuals, groups, and society, and defines mitigation measures and human oversight requirements.
 
 ### 12.3 Policy and Documented Information Management
-All AIMS policies and documented information are reviewed at least annually. Policy owners are responsible for initiating reviews and obtaining approval from the CTO. Documented information must remain accurate, accessible, and fit for purpose. Version history is maintained in the Changelog of each document.
+All AIMS policies and documented information are reviewed at least annually. Policy owners are responsible for initiating reviews and obtaining approval from the CTO. Documented information shall remain accurate, accessible, and fit for purpose. Version history is maintained in the Changelog of each document.
 
 ### 12.4 AI Safety Training
 All employees complete AI safety training as part of the annual security awareness programme, as defined in the **[Employee Training Procedure](../../procedures/employee_training_procedure.md)**. Employees developing or operating AI systems receive additional role-specific AI governance training.
@@ -210,7 +210,7 @@ AI-specific incidents are managed in accordance with the **[Incident Response Pl
 Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Vendor Security Review Template](../../procedures/vendor_security_review_template.md)**.
 
 ### 12.7 Nonconformity and Corrective Actions
-Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) must be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the CTO and reported at the next management review.
+Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) shall be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the CTO and reported at the next management review.
 
 ### 12.8 Performance Monitoring and Measurement
 The CTO monitors and measures AI management performance on an ongoing basis. Key inputs include AI system monitoring results, incident metrics, impact assessment outcomes, training completion rates, and audit findings. Results are consolidated and presented at the annual management review.

@@ -9,22 +9,22 @@ This policy applies to all employees, contractors, and third parties with access
 ## 3. Policy Statements
 ### 3.1 Secure Areas
 - Access to secure areas (e.g., data centers, server rooms) is restricted to authorized personnel.
-- Visitors must be escorted and logged.
-- CCTV cameras must monitor all entry and exit points.
+- Visitors shall be escorted and logged.
+- CCTV cameras shall monitor all entry and exit points.
 
 ### 3.2 Equipment Security
-- Equipment must be protected from physical damage, theft, or unauthorized access.
-- Laptops and mobile devices must be secured when not in use.
-- Equipment must be disposed of securely (e.g., degaussing, physical destruction).
+- Equipment shall be protected from physical damage, theft, or unauthorized access.
+- Laptops and mobile devices shall be secured when not in use.
+- Equipment shall be disposed of securely (e.g., degaussing, physical destruction).
 
 ### 3.3 Environmental Controls
-- Facilities must have fire detection and suppression systems.
-- Temperature and humidity must be monitored in server rooms.
-- Uninterruptible Power Supply (UPS) systems must be in place for critical infrastructure.
+- Facilities shall have fire detection and suppression systems.
+- Temperature and humidity shall be monitored in server rooms.
+- Uninterruptible Power Supply (UPS) systems shall be in place for critical infrastructure.
 
 ### 3.4 Clear Desk and Screen Policy
-- Sensitive documents must be stored securely when not in use.
-- Workstations must be locked when unattended.
+- Sensitive documents shall be stored securely when not in use.
+- Workstations shall be locked when unattended.
 
 ## 4. Roles and Responsibilities
 ### 4.1 COO (Owner)

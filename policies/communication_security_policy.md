@@ -8,22 +8,22 @@ This policy applies to all employees, contractors, and third parties who transmi
 
 ## 3. Policy Statements
 ### 3.1 Network Security
-- All network traffic must be encrypted using TLS 1.2 or higher.
-- Wireless networks must use WPA3 encryption and require authentication.
-- Remote access must be secured using VPNs with MFA.
+- All network traffic shall be encrypted using TLS 1.2 or higher.
+- Wireless networks shall use WPA3 encryption and require authentication.
+- Remote access shall be secured using VPNs with MFA.
 
 ### 3.2 Email Security
-- Email must be encrypted for sensitive communications (e.g., using PGP or S/MIME).
-- Phishing and spam filters must be enabled for all email accounts.
-- Employees must not open suspicious attachments or links.
+- Email shall be encrypted for sensitive communications (e.g., using PGP or S/MIME).
+- Phishing and spam filters shall be enabled for all email accounts.
+- Employees shall not open suspicious attachments or links.
 
 ### 3.3 Voice and Video Communications
-- Voice and video calls must be encrypted (e.g., using Signal, Zoom with end-to-end encryption).
-- Conference call links must not be shared publicly.
+- Voice and video calls shall be encrypted (e.g., using Signal, Zoom with end-to-end encryption).
+- Conference call links shall not be shared publicly.
 
 ### 3.4 Third-Party Communications
-- Third parties must comply with the Company’s communication security requirements.
-- Data shared with third parties must be encrypted and protected by contractual agreements.
+- Third parties shall comply with the Company’s communication security requirements.
+- Data shared with third parties shall be encrypted and protected by contractual agreements.
 
 ## 4. Roles and Responsibilities
 ### 4.1 CTO (Owner)

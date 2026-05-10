@@ -13,12 +13,12 @@ This policy applies to:
 ---
 
 ## 3. Supplier Selection and Evaluation
-- Suppliers must be vetted based on their security practices, compliance with relevant regulations (e.g., ISO 27001, SOC 2), and alignment with organizational requirements.
+- Suppliers shall be vetted based on their security practices, compliance with relevant regulations (e.g., ISO 27001, SOC 2), and alignment with organizational requirements.
 - The evaluation process includes:
   - Review of the supplier's information security policies and procedures.
   - Assessment of compliance with ISO 27001:2022 or equivalent standards.
   - Completion of the **Vendor Security Review Template** (`procedures/vendor_security_review_template.md`).
-  - Disclosure of whether the supplier uses AI systems to process organizational data, and if so, the purpose, data handling practices, and any AI sub-processors involved. Suppliers providing AI systems must additionally describe their model governance and data retention practices.
+  - Disclosure of whether the supplier uses AI systems to process organizational data, and if so, the purpose, data handling practices, and any AI sub-processors involved. Suppliers providing AI systems shall additionally describe their model governance and data retention practices.
 
 **Approved Suppliers**:
 - **Bitwarden (Managed Service)**: Password management. ISO 27001:2022 certified, SOC 2 Type 2 compliant, GDPR/CCPA compliant.
@@ -26,7 +26,7 @@ This policy applies to:
 ---
 
 ## 4. Contractual Obligations
-All supplier agreements must include clauses addressing:
+All supplier agreements shall include clauses addressing:
 - Information security requirements and responsibility to protect organizational data.
 - Data protection, confidentiality, and prohibition on sharing data with third parties without written consent.
 - Incident reporting within **24 hours** of discovery.
@@ -37,22 +37,22 @@ All supplier agreements must include clauses addressing:
 ---
 
 ## 5. Data Protection and Access Management
-- Suppliers must implement appropriate technical and organizational measures to protect organizational data.
-- Suppliers must encrypt all data in transit and at rest using industry-standard protocols.
-- Suppliers must apply least-privilege access controls and revoke access promptly when no longer required.
-- Suppliers must use multi-factor authentication (MFA) for all remote access to organizational systems.
+- Suppliers shall implement appropriate technical and organizational measures to protect organizational data.
+- Suppliers shall encrypt all data in transit and at rest using industry-standard protocols.
+- Suppliers shall apply least-privilege access controls and revoke access promptly when no longer required.
+- Suppliers shall use multi-factor authentication (MFA) for all remote access to organizational systems.
 
 ---
 
 ## 6. Ongoing Relationship Management
 - Conduct regular reviews of supplier performance, security posture, and compliance with contractual obligations.
 - ACME CORP reserves the right to audit supplier security practices annually or as needed.
-- Suppliers must provide evidence of compliance with this policy upon request.
+- Suppliers shall provide evidence of compliance with this policy upon request.
 
 ---
 
 ## 7. Termination of Relationships
-Procedures for secure termination of supplier relationships must cover:
+Procedures for secure termination of supplier relationships shall cover:
 - Data handling: return or certified destruction of organizational data.
 - Asset recovery.
 - Transition of services to minimize disruption.

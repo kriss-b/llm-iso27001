@@ -12,71 +12,71 @@ This policy applies to all cloud services used by ACME CORP, including infrastru
 
 ## 3. Cloud Provider Assessment and Approval
 
-- All cloud services must be formally assessed and approved before use. Unapproved cloud services must not be used to process or store Company or customer data.
-- Cloud providers must be assessed against the criteria defined in the **[Supplier Security Policy](supplier_security_policy.md)** and the **[Vendor Security Review Template](../procedures/vendor_security_review_template.md)**.
+- All cloud services shall be formally assessed and approved before use. Unapproved cloud services shall not be used to process or store Company or customer data.
+- Cloud providers shall be assessed against the criteria defined in the **[Supplier Security Policy](supplier_security_policy.md)** and the **[Vendor Security Review Template](../procedures/vendor_security_review_template.md)**.
 - Approved cloud providers are maintained in the asset register (see **[Asset Management Policy](asset_management_policy.md)**).
-- Cloud service agreements must include provisions for security, data protection, incident notification, audit rights, and data deletion upon termination.
+- Cloud service agreements shall include provisions for security, data protection, incident notification, audit rights, and data deletion upon termination.
 
 ---
 
 ## 4. Shared Responsibility Model
 
 - The CTO is responsible for maintaining a documented understanding of the shared responsibility model for each cloud provider in use, defining which security controls are the provider's responsibility and which are the Company's.
-- Company-owned responsibilities (e.g., identity and access management, data encryption, application security, logging) must be explicitly assigned and implemented.
-- Provider security certifications (e.g., ISO 27001, SOC 2) must be reviewed annually to confirm continued compliance.
+- Company-owned responsibilities (e.g., identity and access management, data encryption, application security, logging) shall be explicitly assigned and implemented.
+- Provider security certifications (e.g., ISO 27001, SOC 2) shall be reviewed annually to confirm continued compliance.
 
 ---
 
 ## 5. Data Classification and Residency
 
-- Data stored or processed in cloud environments must be classified in accordance with the **[Data Classification Policy](data_classification_policy.md)**.
-- Confidential and Restricted data must only be stored in cloud regions that meet the Company's data residency requirements, including GDPR obligations for EU personal data.
-- Data residency requirements must be verified before onboarding a new cloud provider or enabling a new cloud region.
+- Data stored or processed in cloud environments shall be classified in accordance with the **[Data Classification Policy](data_classification_policy.md)**.
+- Confidential and Restricted data shall only be stored in cloud regions that meet the Company's data residency requirements, including GDPR obligations for EU personal data.
+- Data residency requirements shall be verified before onboarding a new cloud provider or enabling a new cloud region.
 
 ---
 
 ## 6. Access Control for Cloud Environments
 
-- Access to cloud management consoles and APIs must follow the least privilege principle, in accordance with the **[Access Control Policy](access_control_policy.md)**.
+- Access to cloud management consoles and APIs shall follow the least privilege principle, in accordance with the **[Access Control Policy](access_control_policy.md)**.
 - Multi-factor authentication (MFA) is mandatory for all cloud console and administrative access.
-- Root or super-admin accounts must not be used for day-to-day operations and must be secured with strong credentials and MFA.
-- Access rights to cloud environments must be reviewed semi-annually and revoked promptly when no longer required.
-- All access keys and API credentials must be rotated regularly and must never be hardcoded in source code or configuration files.
+- Root or super-admin accounts shall not be used for day-to-day operations and shall be secured with strong credentials and MFA.
+- Access rights to cloud environments shall be reviewed semi-annually and revoked promptly when no longer required.
+- All access keys and API credentials shall be rotated regularly and shall never be hardcoded in source code or configuration files.
 
 ---
 
 ## 7. Security Configuration and Hardening
 
-- All cloud resources must be deployed in accordance with security hardening guidelines (e.g., CIS Benchmarks for the relevant cloud provider).
-- Default credentials and unnecessary services must be disabled before deployment.
-- Network security controls (firewalls, security groups, private subnets) must be configured to restrict access to the minimum required.
-- Infrastructure as Code (IaC) templates must be reviewed for security misconfigurations before deployment, in accordance with the **[Secure Development Policy](secure_development_policy.md)**.
-- Configuration management must ensure that cloud environments remain in their approved secure state (see **[Statement of Applicability](../statement_of_applicability.md)**, A.8.9).
+- All cloud resources shall be deployed in accordance with security hardening guidelines (e.g., CIS Benchmarks for the relevant cloud provider).
+- Default credentials and unnecessary services shall be disabled before deployment.
+- Network security controls (firewalls, security groups, private subnets) shall be configured to restrict access to the minimum required.
+- Infrastructure as Code (IaC) templates shall be reviewed for security misconfigurations before deployment, in accordance with the **[Secure Development Policy](secure_development_policy.md)**.
+- Configuration management shall ensure that cloud environments remain in their approved secure state (see **[Statement of Applicability](../statement_of_applicability.md)**, A.8.9).
 
 ---
 
 ## 8. Monitoring and Logging
 
-- Cloud activity logs (e.g., AWS CloudTrail, Azure Monitor) must be enabled for all production environments and retained for at least 90 days.
-- Alerts must be configured for high-risk events, including unauthorised access attempts, changes to security configurations, and unusual data access patterns.
-- Logs must be protected from tampering and must not be accessible to the accounts they monitor.
+- Cloud activity logs (e.g., AWS CloudTrail, Azure Monitor) shall be enabled for all production environments and retained for at least 90 days.
+- Alerts shall be configured for high-risk events, including unauthorised access attempts, changes to security configurations, and unusual data access patterns.
+- Logs shall be protected from tampering and shall not be accessible to the accounts they monitor.
 - Monitoring requirements are defined in the **[Operations Security Policy](operations_security_policy.md)**.
 
 ---
 
 ## 9. Incident Management with Cloud Providers
 
-- In the event of a security incident involving a cloud service, the CISO must engage the cloud provider's security or incident response team as appropriate.
-- Cloud provider incident notification clauses must be reviewed during onboarding to ensure timely alerting obligations are defined.
+- In the event of a security incident involving a cloud service, the CISO shall engage the cloud provider's security or incident response team as appropriate.
+- Cloud provider incident notification clauses shall be reviewed during onboarding to ensure timely alerting obligations are defined.
 - Cloud-related incidents are managed in accordance with the **[Incident Management Policy](incident_management_policy.md)** and **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
 
 ---
 
 ## 10. Exit Strategy and Portability
 
-- Before onboarding a cloud provider, the CTO must document an exit strategy covering data export, migration, and deletion procedures.
-- Cloud service agreements must include provisions for data portability and secure deletion of Company data upon contract termination.
-- Data deletion by the provider must be confirmed in writing upon termination of the service.
+- Before onboarding a cloud provider, the CTO shall document an exit strategy covering data export, migration, and deletion procedures.
+- Cloud service agreements shall include provisions for data portability and secure deletion of Company data upon contract termination.
+- Data deletion by the provider shall be confirmed in writing upon termination of the service.
 
 ---
 

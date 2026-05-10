@@ -17,9 +17,9 @@ This policy applies to all employees, contractors, and third parties who use cry
   - **FIPS 140-compliant cryptography libraries**.
 
 ### 3.2 Key Management
-- Encryption keys must be stored securely (e.g., in a key management system like AWS KMS or HashiCorp Vault).
-- Keys must be rotated annually or after a suspected compromise.
-- Access to keys must be restricted to authorized personnel.
+- Encryption keys shall be stored securely (e.g., in a key management system like AWS KMS or HashiCorp Vault).
+- Keys shall be rotated annually or after a suspected compromise.
+- Access to keys shall be restricted to authorized personnel.
 
 ### 3.3 Digital Signatures
 - Use digital signatures (e.g., RSA-2048 or ECDSA) to verify the authenticity and integrity of critical documents and transactions.

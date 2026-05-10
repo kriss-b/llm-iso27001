@@ -12,14 +12,14 @@ This procedure applies to all employees, contractors, and third parties who are 
 
 ## 3. Onboarding Checklist
 
-The following steps must be completed before or on the first day of employment.
+The following steps shall be completed before or on the first day of employment.
 
 ### 3.1 Prior to Start Date
 
 | # | Task | Responsible | Notes |
 |---|------|-------------|-------|
 | 1 | Conduct background screening (identity, references, criminal record where applicable) | CPO | In accordance with [Human Resource Security Policy](../policies/human_resource_security_policy.md) |
-| 2 | Issue and obtain signed Employment Contract | CPO | Must include confidentiality obligations |
+| 2 | Issue and obtain signed Employment Contract | CPO | Shall include confidentiality obligations |
 | 3 | Issue and obtain signed Confidentiality / NDA Agreement | CPO | See [confidentiality_agreement_template.md](confidentiality_agreement_template.md) |
 | 4 | Issue and obtain signed Acceptable Use Policy acknowledgement | CPO | See [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
 | 5 | Create user account and assign role-based access rights | CTO | Follow least privilege principle |
@@ -40,13 +40,13 @@ The following steps must be completed before or on the first day of employment.
 
 ## 4. Offboarding Checklist
 
-The following steps must be completed on or before the employee's last day.
+The following steps shall be completed on or before the employee's last day.
 
 ### 4.1 On or Before Last Day
 
 | # | Task | Responsible | Notes |
 |---|------|-------------|-------|
-| 1 | Revoke all system and application access | CTO | Must be completed by end of last working day |
+| 1 | Revoke all system and application access | CTO | Shall be completed by end of last working day |
 | 2 | Disable user account and invalidate active sessions | CTO | Including SSO, VPN, cloud consoles |
 | 3 | Revoke MFA tokens and API keys | CTO | |
 | 4 | Retrieve all Company-owned equipment (laptop, mobile, access cards) | COO | Log return in asset register |
@@ -68,7 +68,7 @@ The following steps must be completed on or before the employee's last day.
 ---
 
 ## 5. Role Changes
-When an employee changes role internally, access rights must be reviewed and updated to reflect the new role. Access no longer required must be revoked. The steps in Section 3.1 (items 5 and 7) and Section 4.1 (items 1–3) apply as relevant.
+When an employee changes role internally, access rights shall be reviewed and updated to reflect the new role. Access no longer required shall be revoked. The steps in Section 3.1 (items 5 and 7) and Section 4.1 (items 1–3) apply as relevant.
 
 ---
 

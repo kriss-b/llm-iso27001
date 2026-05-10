@@ -8,24 +8,24 @@ This policy applies to all employees, contractors, and third parties with access
 
 ## 3. Policy Statements
 ### 3.1 Legal and Regulatory Compliance
-- The Company must comply with all applicable laws and regulations (e.g., GDPR, CCPA, EU AI Act).
-- Legal advice must be sought for new or updated regulations.
+- The Company shall comply with all applicable laws and regulations (e.g., GDPR, CCPA, EU AI Act).
+- Legal advice shall be sought for new or updated regulations.
 
 ### 3.2 Contractual Obligations
-- The Company must comply with all contractual obligations related to information security.
-- Third parties must be held accountable for their compliance with contractual security requirements.
+- The Company shall comply with all contractual obligations related to information security.
+- Third parties shall be held accountable for their compliance with contractual security requirements.
 
 ### 3.3 Intellectual Property Rights
-- The Company must respect intellectual property rights (e.g., software licenses, copyrights).
+- The Company shall respect intellectual property rights (e.g., software licenses, copyrights).
 - Unauthorized use or distribution of copyrighted material is prohibited.
 
 ### 3.4 Records Management
-- Records must be retained and disposed of in accordance with legal and regulatory requirements.
-- Records must be protected from unauthorized access or modification.
+- Records shall be retained and disposed of in accordance with legal and regulatory requirements.
+- Records shall be protected from unauthorized access or modification.
 
 ### 3.5 Audits and Assessments
-- Internal and external audits must be conducted annually to verify compliance.
-- Audit findings must be addressed promptly.
+- Internal and external audits shall be conducted annually to verify compliance.
+- Audit findings shall be addressed promptly.
 
 ## 4. Roles and Responsibilities
 ### 4.1 DPO (Owner)

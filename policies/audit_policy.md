@@ -42,7 +42,7 @@ The audit programme is reviewed and approved at the annual management review. It
 ## 5. Audit Execution
 
 ### 5.1 Auditor Independence
-Auditors must be independent of the area being audited. Internal staff may conduct ISMS audits provided they do not audit their own work. External auditors are preferred for independent reviews and penetration testing.
+Auditors shall be independent of the area being audited. Internal staff may conduct ISMS audits provided they do not audit their own work. External auditors are preferred for independent reviews and penetration testing.
 
 ### 5.2 Methodology
 Auditors shall:
@@ -52,7 +52,7 @@ Auditors shall:
 - Test technical controls where in scope (subject to Section 9).
 
 ### 5.3 Evidence Collection
-All audit evidence must be collected, recorded, and retained in a manner that supports the audit findings. Evidence must be sufficient, relevant, and reliable.
+All audit evidence shall be collected, recorded, and retained in a manner that supports the audit findings. Evidence shall be sufficient, relevant, and reliable.
 
 ---
 
@@ -69,7 +69,7 @@ Audit findings are classified as follows:
 | **Positive finding** | Evidence of effective implementation or best practice |
 
 ### 6.2 Audit Report
-A written audit report must be produced for every audit. It shall include:
+A written audit report shall be produced for every audit. It shall include:
 - Audit scope, objectives, and criteria.
 - Summary of findings by classification.
 - Evidence referenced for each finding.
@@ -83,7 +83,7 @@ Audit reports are distributed to the ISMS Owner, CISO, and relevant process owne
 ## 7. Corrective Actions
 
 ### 7.1 Response to Non-conformities
-For each non-conformity identified, the responsible process owner must:
+For each non-conformity identified, the responsible process owner shall:
 - Investigate the root cause.
 - Define and implement corrective actions.
 - Verify the effectiveness of the corrective action.
@@ -116,11 +116,11 @@ Findings from the independent review are treated with the same corrective action
 
 To prevent audit activities from disrupting or compromising production systems:
 
-- Technical audits (e.g., penetration tests, vulnerability scans) must be formally scoped and authorised in writing by the CTO before commencement.
-- Testing must not be conducted directly against production systems unless explicitly approved and scheduled during a low-risk window.
-- A rollback or incident response plan must be in place before any intrusive testing begins.
-- Any unintended impact on systems during audit testing must be reported immediately to the CISO and treated as a security incident.
-- Audit tools and access credentials must be revoked and removed upon completion of testing.
+- Technical audits (e.g., penetration tests, vulnerability scans) shall be formally scoped and authorised in writing by the CTO before commencement.
+- Testing shall not be conducted directly against production systems unless explicitly approved and scheduled during a low-risk window.
+- A rollback or incident response plan shall be in place before any intrusive testing begins.
+- Any unintended impact on systems during audit testing shall be reported immediately to the CISO and treated as a security incident.
+- Audit tools and access credentials shall be revoked and removed upon completion of testing.
 
 ---
 

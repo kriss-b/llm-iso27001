@@ -86,13 +86,13 @@ While the **likelihood** of environmental threats is generally **low to medium**
 
 ## 6. **Documentation**
 - This assessment **documents** that environmental risks have been evaluated.
-- If environmental risks are deemed **irrelevant**, this decision must be **approved by the CEO** and **reviewed annually**.
+- If environmental risks are deemed **irrelevant**, this decision shall be **approved by the CEO** and **reviewed annually**.
 
 ---
 
 ## 7. **Review and Update**
-- This assessment must be **reviewed annually** or after significant changes.
-- Updates must be **approved by the CEO** and communicated to all stakeholders.
+- This assessment shall be **reviewed annually** or after significant changes.
+- Updates shall be **approved by the CEO** and communicated to all stakeholders.
 
 ---
 

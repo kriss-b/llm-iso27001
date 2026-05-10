@@ -13,7 +13,7 @@ This policy applies to all employees, contractors, and third parties who handle 
 
 ## 3. Data Retention
 ### 3.1 Retention Periods
-Data must be retained for the minimum period required by law or business needs. The following retention periods apply:
+Data shall be retained for the minimum period required by law or business needs. The following retention periods apply:
 
 | **Data Type**               | **Retention Period**       | **Notes**                          |
 |-----------------------------|----------------------------|------------------------------------|
@@ -24,13 +24,13 @@ Data must be retained for the minimum period required by law or business needs. 
 | Operational data            | 3 years                    | Logs, backups, and system data.    |
 
 ### 3.2 Storage Requirements
-- Data must be stored securely, with access restricted to authorized personnel.
-- Encryption must be used for sensitive data at rest and in transit.
-- Backups must be tested regularly to ensure data integrity.
+- Data shall be stored securely, with access restricted to authorized personnel.
+- Encryption shall be used for sensitive data at rest and in transit.
+- Backups shall be tested regularly to ensure data integrity.
 
 ## 4. Data Disposal
 ### 4.1 Disposal Methods
-Data must be disposed of securely to prevent unauthorized access. Approved disposal methods include:
+Data shall be disposed of securely to prevent unauthorized access. Approved disposal methods include:
 
 | **Data Type**               | **Disposal Method**        | **Notes**                          |
 |-----------------------------|----------------------------|------------------------------------|
@@ -39,9 +39,9 @@ Data must be disposed of securely to prevent unauthorized access. Approved dispo
 | Hardware                    | Physical destruction        | Degaussing or crushing for HDDs/SSDs. |
 
 ### 4.2 Disposal Process
-- All disposal activities must be documented in an **Asset Disposal Log**.
-- A designated employee must verify the disposal process.
-- Third-party vendors must provide a certificate of destruction for physical records.
+- All disposal activities shall be documented in an **Asset Disposal Log**.
+- A designated employee shall verify the disposal process.
+- Third-party vendors shall provide a certificate of destruction for physical records.
 
 ## 5. Roles and Responsibilities
 | **Role**                    | **Responsibility**                          |

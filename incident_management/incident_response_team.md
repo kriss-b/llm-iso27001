@@ -71,12 +71,12 @@ This document applies to all members of the IRT, including employees, contractor
 | **Critical** | Catastrophic impact, confirmed data breach, regulatory implications certain.      | Immediate          |
 
 ## 6. Training and Awareness
-- The IRT must undergo annual training to ensure readiness.
-- Training must cover incident response procedures, tools, and communication protocols.
-- All employees must be aware of the incident reporting process.
+- The IRT shall undergo annual training to ensure readiness.
+- Training shall cover incident response procedures, tools, and communication protocols.
+- All employees shall be aware of the incident reporting process.
 
 ## 7. Review
-This document must be reviewed annually to ensure alignment with the **Incident Response Plan** and business requirements.
+This document shall be reviewed annually to ensure alignment with the **Incident Response Plan** and business requirements.
 
 ---
 

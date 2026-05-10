@@ -19,8 +19,8 @@ This policy applies to:
 
 ## 3. Policy Statements
 ### 3.1 Change Request
-- All changes must be **documented** and **submitted** via a **Change Request Form**.
-- Change requests must include:
+- All changes shall be **documented** and **submitted** via a **Change Request Form**.
+- Change requests shall include:
   - Description of the change.
   - Justification and expected benefits.
   - Risk assessment and mitigation plan.
@@ -41,28 +41,28 @@ Changes are classified as follows:
 - The CAB meets **weekly** to review change requests.
 
 ### 3.4 Testing and Validation
-- All changes must be **tested** in a non-production environment before deployment.
-- Testing must validate:
+- All changes shall be **tested** in a non-production environment before deployment.
+- Testing shall validate:
   - Functionality.
   - Security.
   - Performance.
-- Test results must be documented and approved.
+- Test results shall be documented and approved.
 
 ### 3.5 Deployment
-- Changes must be deployed during **approved maintenance windows** to minimize disruption.
+- Changes shall be deployed during **approved maintenance windows** to minimize disruption.
 - Emergency changes may be deployed outside maintenance windows with **retrospective approval**.
 
 ### 3.6 Rollback Plan
-- A **rollback plan** must be documented for all changes.
-- Rollback plans must be tested and validated.
+- A **rollback plan** shall be documented for all changes.
+- Rollback plans shall be tested and validated.
 
 ### 3.7 Post-Implementation Review
 - Conduct a **post-implementation review** for all changes to assess success and identify lessons learned.
 - Document review findings and update processes as needed.
 
 ### 3.8 Documentation
-- All changes must be documented in the **Change Log**.
-- The Change Log must include:
+- All changes shall be documented in the **Change Log**.
+- The Change Log shall include:
   - Change details.
   - Approval status.
   - Deployment status.

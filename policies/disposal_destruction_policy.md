@@ -16,7 +16,7 @@ This policy applies to:
 
 ## 3. Policy Statements
 ### 3.1 Data Classification
-- All assets must be classified according to the **[Data Protection Policy](data_protection_policy.md)** before disposal:
+- All assets shall be classified according to the **[Data Protection Policy](data_protection_policy.md)** before disposal:
   - **Public**: No special handling required.
   - **Internal**: Secure disposal required.
   - **Confidential**: Secure destruction required.
@@ -45,7 +45,7 @@ This policy applies to:
 
 ### 3.5 Documentation
 - Document all disposal and destruction activities in an **Asset Disposal Log**.
-- The log must include:
+- The log shall include:
   - Asset description and classification.
   - Disposal method.
   - Date and time of disposal.

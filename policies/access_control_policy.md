@@ -18,20 +18,20 @@ This policy applies to:
 ## 3. **Policy Statements**
 
 ### 3.1 **Access Control Principles**
-- Access to information assets must be **granted based on business need** and **least privilege**.
-- Access rights must be **reviewed quarterly** and revoked when no longer needed.
+- Access to information assets shall be **granted based on business need** and **least privilege**.
+- Access rights shall be **reviewed quarterly** and revoked when no longer needed.
 - **Multi-Factor Authentication (MFA)** is required for:
   - Remote access to company systems.
   - Privileged accounts (e.g., admin, root).
   - Access to customer data.
 
 ### 3.2 **User Access Management**
-- **User Registration**: All users must be **formally registered** before access is granted. Registration must include:
+- **User Registration**: All users shall be **formally registered** before access is granted. Registration shall include:
   - Approval from the user’s manager.
   - Unique user ID (no shared accounts).
   - Assignment of appropriate roles/permissions.
-- **User De-Registration**: Access must be **revoked immediately** upon termination or role change.
-- **Privileged Access**: Privileged accounts must be:
+- **User De-Registration**: Access shall be **revoked immediately** upon termination or role change.
+- **Privileged Access**: Privileged accounts shall be:
   - Approved by the **CTO**.
   - Monitored and logged.
   - Reviewed **quarterly**.
@@ -40,30 +40,30 @@ This policy applies to:
 - **Passwords**:
   - Minimum length: **12 characters**.
   - Complexity: **Uppercase, lowercase, numbers, and special characters**.
-  - Passwords must be **changed every 90 days**.
-  - Passwords must **not be reused** for at least 5 cycles.
-  - Passwords must **not be shared** or written down.
+  - Passwords shall be **changed every 90 days**.
+  - Passwords shall **not be reused** for at least 5 cycles.
+  - Passwords shall **not be shared** or written down.
 - **MFA**:
-  - MFA must be enabled for all remote access and privileged accounts.
+  - MFA shall be enabled for all remote access and privileged accounts.
   - MFA methods: **TOTP (Time-Based One-Time Password)** or **hardware tokens**.
 
 ### 3.4 **Access Review**
-- Access rights must be **reviewed quarterly** by asset owners.
-- Reviews must be **documented** and retained for **1 year**.
-- Unnecessary or excessive access must be **revoked immediately**.
+- Access rights shall be **reviewed quarterly** by asset owners.
+- Reviews shall be **documented** and retained for **1 year**.
+- Unnecessary or excessive access shall be **revoked immediately**.
 
 ### 3.5 **Third-Party Access**
-- Third-party access must be **approved by the CTO** and **documented in contracts**.
-- Third parties must comply with this policy and the **[Supplier Security Policy](supplier_security_policy.md)**.
-- Access must be **revoked immediately** upon contract termination.
+- Third-party access shall be **approved by the CTO** and **documented in contracts**.
+- Third parties shall comply with this policy and the **[Supplier Security Policy](supplier_security_policy.md)**.
+- Access shall be **revoked immediately** upon contract termination.
 
 ### 3.6 **Remote Access**
-- Remote access must be **secured using MFA** and **encrypted connections (VPN or SSH)**.
-- Remote sessions must be **logged and monitored**.
+- Remote access shall be **secured using MFA** and **encrypted connections (VPN or SSH)**.
+- Remote sessions shall be **logged and monitored**.
 
 ### 3.7 **Physical Access**
-- Physical access to servers and workstations must be **restricted to authorized personnel**.
-- Access to data centers must be **logged and reviewed quarterly**.
+- Physical access to servers and workstations shall be **restricted to authorized personnel**.
+- Access to data centers shall be **logged and reviewed quarterly**.
 
 ---
 
@@ -85,8 +85,8 @@ This policy applies to:
 ---
 
 ## 6. **Review and Update**
-- This policy must be **reviewed annually** or after significant changes.
-- Updates must be **approved by the CEO** and communicated to all stakeholders.
+- This policy shall be **reviewed annually** or after significant changes.
+- Updates shall be **approved by the CEO** and communicated to all stakeholders.
 
 ---
 

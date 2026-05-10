@@ -40,10 +40,10 @@ The following issues are considered in defining the scope and objectives of the 
 
 | Issue | Impact on ISMS |
 |-------|----------------|
-| Small team size | Limited dedicated security resources; roles must be combined |
+| Small team size | Limited dedicated security resources; roles shall be combined |
 | Remote and hybrid working model | Increased endpoint and access control requirements |
-| Reliance on cloud infrastructure | Shared responsibility model with cloud providers must be managed |
-| Rapid product development pace | Security must be integrated into development processes (DevSecOps) |
+| Reliance on cloud infrastructure | Shared responsibility model with cloud providers shall be managed |
+| Rapid product development pace | Security shall be integrated into development processes (DevSecOps) |
 | Early-stage security maturity | Policies and controls are being progressively implemented |
 
 ### 4.2 External Issues
@@ -53,7 +53,7 @@ The following issues are considered in defining the scope and objectives of the 
 | GDPR and data protection regulations | Strict requirements on personal data handling and breach notification |
 | Customer contractual requirements | Some customers require evidence of ISO 27001 compliance |
 | Evolving threat landscape | Continuous monitoring and threat intelligence required |
-| Third-party and supply chain risks | Vendors and cloud providers must meet security standards |
+| Third-party and supply chain risks | Vendors and cloud providers shall meet security standards |
 | Regulatory requirements in target markets | Compliance obligations vary across jurisdictions |
 
 ---
@@ -74,7 +74,7 @@ The following interested parties have been identified as having requirements rel
 | Certification body | Compliance with ISO 27001:2022 requirements |
 
 ### 5.1 Contact with Authorities
-The ISMS Owner and CISO are responsible for maintaining appropriate contacts with relevant authorities, including data protection supervisory authorities (e.g., CNIL, ICO), law enforcement, and national cybersecurity agencies. These contacts must be activated in the event of a significant security incident, data breach, or when required by applicable law. Contact details are maintained by the Legal & Compliance function and reviewed annually.
+The ISMS Owner and CISO are responsible for maintaining appropriate contacts with relevant authorities, including data protection supervisory authorities (e.g., CNIL, ICO), law enforcement, and national cybersecurity agencies. These contacts shall be activated in the event of a significant security incident, data breach, or when required by applicable law. Contact details are maintained by the Legal & Compliance function and reviewed annually.
 
 ### 5.2 Contact with Special Interest Groups
 The CISO is responsible for maintaining membership of, or engagement with, relevant security special interest groups, such as national CERTs, sector-specific ISACs, and professional security communities. This ensures the Company remains informed of emerging threats, vulnerabilities, and security best practices. Threat intelligence gathered through these channels feeds into the risk assessment process.
@@ -199,7 +199,7 @@ Risks to the confidentiality, integrity, and availability of information are ide
 Internal audits verify that the ISMS is implemented and maintained effectively and in conformance with ISO 27001:2022. Findings are reported to executive management and tracked to resolution.
 
 ### 12.3 Policy and Documented Information Management
-All ISMS policies and documented information (procedures, plans, templates, registers, and records) are reviewed at least annually. Policy owners are responsible for initiating reviews and obtaining approval from the ISMS Owner. Documented information must be created, updated, controlled, and retained in a manner that ensures it remains accurate, accessible, and fit for purpose. Version history is maintained in the Changelog of each document.
+All ISMS policies and documented information (procedures, plans, templates, registers, and records) are reviewed at least annually. Policy owners are responsible for initiating reviews and obtaining approval from the ISMS Owner. Documented information shall be created, updated, controlled, and retained in a manner that ensures it remains accurate, accessible, and fit for purpose. Version history is maintained in the Changelog of each document.
 
 ### 12.4 Security Awareness Training
 All employees complete information security awareness training upon onboarding and at least annually thereafter, as defined in the **[Employee Training Procedure](../procedures/employee_training_procedure.md)**.
@@ -211,7 +211,7 @@ Security incidents are managed in accordance with the **[Incident Management Pol
 Third-party suppliers with access to Company systems or data are assessed for security risks in accordance with the **[Supplier Security Policy](supplier_security_policy.md)**.
 
 ### 12.7 Nonconformity and Corrective Actions
-Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) must be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the ISMS Owner and reported at the next management review. Audit-related nonconformities follow the process defined in the **[Audit Policy](audit_policy.md)**.
+Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) shall be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the ISMS Owner and reported at the next management review. Audit-related nonconformities follow the process defined in the **[Audit Policy](audit_policy.md)**.
 
 ### 12.8 Performance Monitoring and Measurement
 The ISMS Owner monitors and measures information security performance on an ongoing basis. Key inputs include audit results, incident metrics, vulnerability scan outcomes, access rights review findings, and training completion rates. Results are consolidated and presented at the annual management review to evaluate whether information security objectives are being met and to identify areas for improvement.

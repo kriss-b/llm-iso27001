@@ -15,8 +15,8 @@ This policy applies to:
 
 ## 3. Policy Statements
 ### 3.1 Mobile Device Security
-- **Device Encryption**: All mobile devices must be encrypted (e.g., BitLocker, FileVault).
-- **Authentication**: Devices must be protected with strong passwords, PINs, or biometric authentication.
+- **Device Encryption**: All mobile devices shall be encrypted (e.g., BitLocker, FileVault).
+- **Authentication**: Devices shall be protected with strong passwords, PINs, or biometric authentication.
 - **Lost or Stolen Devices**: Report lost or stolen devices to the IT Team **immediately**.
 - **Software Updates**: Install security updates and patches within **7 days** of release.
 - **Prohibited Actions**:
@@ -31,7 +31,7 @@ This policy applies to:
 - **Printing**: Avoid printing sensitive documents at home. If necessary, securely dispose of printed materials.
 
 ### 3.3 Bring Your Own Device (BYOD)
-- **BYOD Registration**: Employees must register personal devices with the IT Team before accessing Company systems.
+- **BYOD Registration**: Employees shall register personal devices with the IT Team before accessing Company systems.
 - **Company Rights**: The Company reserves the right to wipe Company data from personal devices if lost or stolen.
 - **Separation of Data**: Use separate profiles or containers for personal and Company data.
 

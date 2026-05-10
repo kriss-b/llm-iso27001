@@ -8,30 +8,30 @@ This policy applies to all employees, contractors, and third parties responsible
 
 ## 3. Policy Statements
 ### 3.1 Change Management
-- All changes to information systems must be documented, tested, and approved before implementation.
-- Emergency changes must be reviewed and approved retrospectively.
+- All changes to information systems shall be documented, tested, and approved before implementation.
+- Emergency changes shall be reviewed and approved retrospectively.
 
 ### 3.2 Backup and Recovery
-- Critical data must be backed up daily and tested quarterly.
-- Backup media must be stored securely and encrypted.
+- Critical data shall be backed up daily and tested quarterly.
+- Backup media shall be stored securely and encrypted.
 
 ### 3.3 Logging and Monitoring
-- System logs must be enabled for all critical systems and retained for at least 90 days.
-- Logs must be monitored for suspicious activity (e.g., failed login attempts, unauthorized access).
+- System logs shall be enabled for all critical systems and retained for at least 90 days.
+- Logs shall be monitored for suspicious activity (e.g., failed login attempts, unauthorized access).
 
 ### 3.4 Malware Protection
-- Anti-malware software must be installed and updated on all endpoints and servers.
-- Regular scans must be conducted to detect and remove malware.
+- Anti-malware software shall be installed and updated on all endpoints and servers.
+- Regular scans shall be conducted to detect and remove malware.
 
 ### 3.5 Clock Synchronisation
-- All servers, network devices, and critical systems must synchronise their clocks using a reliable time source (e.g., NTP servers).
-- A consistent and authoritative time source must be configured across all environments (development, staging, production).
-- Clock synchronisation must be monitored; significant drift must be alerted and corrected promptly.
+- All servers, network devices, and critical systems shall synchronise their clocks using a reliable time source (e.g., NTP servers).
+- A consistent and authoritative time source shall be configured across all environments (development, staging, production).
+- Clock synchronisation shall be monitored; significant drift shall be alerted and corrected promptly.
 - Accurate timestamps are essential for log integrity, incident investigation, and audit trail reliability.
 
 ### 3.6 Patch Management
-- Security patches must be applied within 30 days of release for critical systems.
-- End-of-life software must not be used in production.
+- Security patches shall be applied within 30 days of release for critical systems.
+- End-of-life software shall not be used in production.
 
 ## 4. Roles and Responsibilities
 ### 4.1 CTO (Owner)

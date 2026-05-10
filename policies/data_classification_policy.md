@@ -18,7 +18,7 @@ This policy applies to:
 ## 3. Policy Statements
 
 ### 3.1 Classification Levels
-All information assets must be assigned one of the following classification levels:
+All information assets shall be assigned one of the following classification levels:
 
 | **Level** | **Definition** | **Examples** |
 |-----------|---------------|--------------|
@@ -28,13 +28,13 @@ All information assets must be assigned one of the following classification leve
 | **Restricted** | Highly sensitive information requiring the strictest controls. | Encryption keys, credentials, audit findings, personal health data, proprietary fine-tuned model weights. |
 
 ### 3.2 Classification Responsibilities
-- All information assets must be classified at the time of creation or acquisition.
+- All information assets shall be classified at the time of creation or acquisition.
 - Asset owners are responsible for assigning and maintaining the correct classification.
-- Classification must be reviewed when assets are transferred, repurposed, or significantly modified.
+- Classification shall be reviewed when assets are transferred, repurposed, or significantly modified.
 
 ### 3.3 Labelling
-- Digital documents must include the classification level in the file header, metadata, or footer where technically feasible.
-- Physical documents must be labelled with the classification level on the first page.
+- Digital documents shall include the classification level in the file header, metadata, or footer where technically feasible.
+- Physical documents shall be labelled with the classification level on the first page.
 
 ### 3.4 Handling Requirements
 
@@ -47,12 +47,12 @@ All information assets must be assigned one of the following classification leve
 
 ### 3.5 Reclassification and Declassification
 - Information may be reclassified or declassified when its sensitivity changes (e.g., upon contract expiry or public release).
-- Reclassification must be approved by the asset owner and documented.
+- Reclassification shall be approved by the asset owner and documented.
 
 ### 3.6 Third-Party Sharing
-- Information shared with third parties must be classified before sharing.
-- Third parties must be informed of the classification and required handling obligations.
-- Confidential and Restricted information must only be shared under a signed NDA or equivalent contractual protection.
+- Information shared with third parties shall be classified before sharing.
+- Third parties shall be informed of the classification and required handling obligations.
+- Confidential and Restricted information shall only be shared under a signed NDA or equivalent contractual protection.
 
 ---
 

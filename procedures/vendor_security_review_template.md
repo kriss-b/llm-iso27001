@@ -71,8 +71,8 @@
 ---
 
 ## 📌 **Notes**
-- This template must be completed for all new vendors before engagement.
-- Existing vendors must be reassessed annually using this template.
+- This template shall be completed for all new vendors before engagement.
+- Existing vendors shall be reassessed annually using this template.
 
 ---
 

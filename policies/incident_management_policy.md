@@ -28,7 +28,7 @@ This policy applies to:
 ## 3. Policy Statements
 
 ### 3.1 Incident Classification
-All security events must be assessed and classified according to severity:
+All security events shall be assessed and classified according to severity:
 
 | **Severity** | **Definition** | **Examples** |
 |---|---|---|
@@ -38,7 +38,7 @@ All security events must be assessed and classified according to severity:
 | **Critical** | Catastrophic impact, confirmed data breach, certain regulatory implications. | Mass data exfiltration, full system compromise. |
 
 ### 3.2 Incident Impact Assessment
-For each incident, the IRT must assess impact across the following dimensions:
+For each incident, the IRT shall assess impact across the following dimensions:
 
 | **Dimension** | **Description** |
 |---|---|
@@ -48,22 +48,22 @@ For each incident, the IRT must assess impact across the following dimensions:
 | **Regulatory** | Whether the incident triggers legal or regulatory obligations (e.g., GDPR breach notification). |
 
 ### 3.3 Reporting
-- All employees must report suspected or confirmed security incidents **immediately** to the **Incident Response Team (IRT)**.
-- Reports must be submitted using the **Incident Report Template** (`incident_management/incident_report_template.md`).
+- All employees shall report suspected or confirmed security incidents **immediately** to the **Incident Response Team (IRT)**.
+- Reports shall be submitted using the **Incident Report Template** (`incident_management/incident_report_template.md`).
 - No employee shall attempt to investigate or remediate an incident without IRT involvement.
 
 ### 3.4 Response
-- The IRT must acknowledge all reported incidents within **1 hour**.
-- Incidents must be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
-- Evidence must be preserved in a manner that maintains its integrity and chain of custody.
+- The IRT shall acknowledge all reported incidents within **1 hour**.
+- Incidents shall be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
+- Evidence shall be preserved in a manner that maintains its integrity and chain of custody.
 
 ### 3.5 Regulatory Notification
-- Data breaches involving personal data must be reported to the relevant supervisory authority within **72 hours** of discovery, in compliance with GDPR and applicable regulations.
-- Affected individuals must be notified without undue delay where the breach is likely to result in a high risk to their rights and freedoms.
+- Data breaches involving personal data shall be reported to the relevant supervisory authority within **72 hours** of discovery, in compliance with GDPR and applicable regulations.
+- Affected individuals shall be notified without undue delay where the breach is likely to result in a high risk to their rights and freedoms.
 
 ### 3.6 Post-Incident Review
-- A post-incident review must be conducted for all **High** and **Critical** incidents within **5 business days** of resolution.
-- Lessons learned must be documented and used to improve controls, procedures, and training.
+- A post-incident review shall be conducted for all **High** and **Critical** incidents within **5 business days** of resolution.
+- Lessons learned shall be documented and used to improve controls, procedures, and training.
 
 ### 3.7 Non-Retaliation
 - Employees who report incidents in good faith are protected from retaliation.

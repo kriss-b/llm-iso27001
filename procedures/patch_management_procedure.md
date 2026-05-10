@@ -49,7 +49,7 @@ This procedure applies to all systems, including:
 
 ## 5. Emergency Patches
 - Critical patches may be deployed outside maintenance windows with approval from the IT Manager.
-- Emergency patches must be documented and reviewed retrospectively.
+- Emergency patches shall be documented and reviewed retrospectively.
 
 ## 6. Compliance
 Non-compliance with this procedure may result in disciplinary action, up to and including termination of employment or contracts.

@@ -18,50 +18,50 @@ This policy applies to:
 ## 3. Policy Statements
 
 ### 3.1 Responsible AI by Design
-- Responsible AI requirements (fairness, transparency, human oversight, safety) must be defined and documented during the design phase of any AI system.
-- An **AI System Impact Assessment** must be conducted before deployment, in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**.
-- Privacy-by-design principles must be applied to all AI systems handling personal data.
+- Responsible AI requirements (fairness, transparency, human oversight, safety) shall be defined and documented during the design phase of any AI system.
+- An **AI System Impact Assessment** shall be conducted before deployment, in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**.
+- Privacy-by-design principles shall be applied to all AI systems handling personal data.
 
 ### 3.2 Data Acquisition and Quality
-- Data used to train, fine-tune, or evaluate AI systems must be acquired lawfully and ethically.
-- Training and evaluation datasets must be assessed for quality, representativeness, and potential bias before use.
-- Data provenance must be documented: origin, collection method, and any transformations applied.
+- Data used to train, fine-tune, or evaluate AI systems shall be acquired lawfully and ethically.
+- Training and evaluation datasets shall be assessed for quality, representativeness, and potential bias before use.
+- Data provenance shall be documented: origin, collection method, and any transformations applied.
 
 ### 3.3 Data Preparation and Bias Management
-- Data preparation steps (cleaning, labelling, augmentation, sampling) must be documented and reproducible.
-- Datasets must be evaluated for bias that could lead to discriminatory or unfair model outputs.
-- Test datasets must be kept separate from training data and must not be used during training or fine-tuning.
+- Data preparation steps (cleaning, labelling, augmentation, sampling) shall be documented and reproducible.
+- Datasets shall be evaluated for bias that could lead to discriminatory or unfair model outputs.
+- Test datasets shall be kept separate from training data and shall not be used during training or fine-tuning.
 
 ### 3.4 Data Classification and Protection
-- All data used in AI systems must be classified in accordance with the **[Data Classification Policy](../../policies/data_classification_policy.md)**.
-- Restricted and Confidential data must not be used in training without explicit approval from the CTO and CISO.
-- Personal data used in AI systems must comply with applicable data protection regulations, including GDPR and the EU AI Act.
+- All data used in AI systems shall be classified in accordance with the **[Data Classification Policy](../../policies/data_classification_policy.md)**.
+- Restricted and Confidential data shall not be used in training without explicit approval from the CTO and CISO.
+- Personal data used in AI systems shall comply with applicable data protection regulations, including GDPR and the EU AI Act.
 
 ### 3.5 Model Evaluation and Testing
-- AI models must be evaluated against defined performance, fairness, and safety metrics before deployment.
-- Adversarial testing (e.g., prompt injection, edge cases, out-of-distribution inputs) must be conducted before release.
-- Evaluation results must be documented and reviewed by the CTO prior to deployment approval.
+- AI models shall be evaluated against defined performance, fairness, and safety metrics before deployment.
+- Adversarial testing (e.g., prompt injection, edge cases, out-of-distribution inputs) shall be conducted before release.
+- Evaluation results shall be documented and reviewed by the CTO prior to deployment approval.
 
 ### 3.6 Deployment and Change Management
-- All AI system deployments and significant changes (model updates, fine-tuning, prompt changes, provider upgrades) must go through the change management process.
-- Production AI systems must be separated from development and test environments.
-- Deployment must not proceed if critical evaluation findings remain unresolved.
+- All AI system deployments and significant changes (model updates, fine-tuning, prompt changes, provider upgrades) shall go through the change management process.
+- Production AI systems shall be separated from development and test environments.
+- Deployment shall not proceed if critical evaluation findings remain unresolved.
 
 ### 3.7 AI System Documentation
-- Each AI system must have documented intended use, known limitations, performance metrics, and data provenance before deployment.
-- Documentation must be kept up to date across the full lifecycle and made available to users, auditors, and the incident response team.
-- Significant changes to an AI system must trigger a documentation update prior to redeployment.
+- Each AI system shall have documented intended use, known limitations, performance metrics, and data provenance before deployment.
+- Documentation shall be kept up to date across the full lifecycle and made available to users, auditors, and the incident response team.
+- Significant changes to an AI system shall trigger a documentation update prior to redeployment.
 
 ### 3.8 Monitoring and Incident Management
-- AI systems in production must operate within the parameters and constraints defined during the impact assessment and documented at deployment; inputs or use cases outside these parameters must be rejected or escalated to the system owner.
-- AI systems must be monitored for performance degradation, output drift, and unexpected behaviour.
-- AI-specific incidents (e.g., hallucination, biased output, prompt injection) must be reported and handled in accordance with the **[Incident Response Plan](../../incident_management/incident_response_plan.md)**.
-- Monitoring findings must be reviewed quarterly and feed into the next model evaluation cycle.
+- AI systems in production shall operate within the parameters and constraints defined during the impact assessment and documented at deployment; inputs or use cases outside these parameters shall be rejected or escalated to the system owner.
+- AI systems shall be monitored for performance degradation, output drift, and unexpected behaviour.
+- AI-specific incidents (e.g., hallucination, biased output, prompt injection) shall be reported and handled in accordance with the **[Incident Response Plan](../../incident_management/incident_response_plan.md)**.
+- Monitoring findings shall be reviewed quarterly and feed into the next model evaluation cycle.
 
 ### 3.9 Decommissioning
-- AI systems must be decommissioned securely when no longer in use.
-- Model weights, training data, and associated logs must be disposed of in accordance with the **[Data Retention and Disposal Policy](../../policies/data_retention_disposal_policy.md)**.
-- Decommissioning must be documented and approved by the CTO.
+- AI systems shall be decommissioned securely when no longer in use.
+- Model weights, training data, and associated logs shall be disposed of in accordance with the **[Data Retention and Disposal Policy](../../policies/data_retention_disposal_policy.md)**.
+- Decommissioning shall be documented and approved by the CTO.
 
 ---
 

@@ -18,41 +18,41 @@ This policy applies to:
 ## 3. Policy Statements
 
 ### 3.1 Security by Design
-- Security requirements must be defined and documented during the planning phase of any new system or feature.
-- Threat modeling must be conducted for new systems and significant changes to existing ones.
-- Privacy-by-design principles must be applied to all systems handling personal data.
+- Security requirements shall be defined and documented during the planning phase of any new system or feature.
+- Threat modeling shall be conducted for new systems and significant changes to existing ones.
+- Privacy-by-design principles shall be applied to all systems handling personal data.
 
 ### 3.2 Secure Coding Standards
-- Developers must follow established secure coding guidelines, including **OWASP Top 10** for web applications.
+- Developers shall follow established secure coding guidelines, including **OWASP Top 10** for web applications.
 - The following practices are mandatory:
   - Input validation and output encoding to prevent injection attacks.
   - Parameterised queries for all database interactions.
   - Authentication and authorisation enforced at every layer.
-  - Secrets (API keys, credentials, tokens) must never be hardcoded in source code or committed to version control.
+  - Secrets (API keys, credentials, tokens) shall never be hardcoded in source code or committed to version control.
 
 ### 3.3 Dependency and Third-Party Component Management
-- All third-party libraries and dependencies must be reviewed for known vulnerabilities before use.
-- Dependencies must be kept up-to-date; outdated or end-of-life components must not be used in production.
-- A software bill of materials (SBOM) must be maintained for critical applications.
+- All third-party libraries and dependencies shall be reviewed for known vulnerabilities before use.
+- Dependencies shall be kept up-to-date; outdated or end-of-life components shall not be used in production.
+- A software bill of materials (SBOM) shall be maintained for critical applications.
 
 ### 3.4 Code Review
-- All code changes must undergo peer review before merging into the main branch.
+- All code changes shall undergo peer review before merging into the main branch.
 - Security-relevant changes (e.g., authentication, authorisation, cryptography, data handling) require review by a developer with security expertise.
 
 ### 3.5 Security Testing
-- Static Application Security Testing (SAST) must be integrated into the CI/CD pipeline.
-- Dynamic Application Security Testing (DAST) must be conducted before major releases.
-- Penetration testing must be conducted **annually** or after significant architectural changes.
+- Static Application Security Testing (SAST) shall be integrated into the CI/CD pipeline.
+- Dynamic Application Security Testing (DAST) shall be conducted before major releases.
+- Penetration testing shall be conducted **annually** or after significant architectural changes.
 
 ### 3.6 Secure Deployment
-- All deployments must go through the change management process as defined in the **[Change Management Policy](change_management_policy.md)**.
-- Production environments must be separated from development and test environments.
-- Infrastructure-as-code must be reviewed for security misconfigurations before deployment.
+- All deployments shall go through the change management process as defined in the **[Change Management Policy](change_management_policy.md)**.
+- Production environments shall be separated from development and test environments.
+- Infrastructure-as-code shall be reviewed for security misconfigurations before deployment.
 
 ### 3.7 Vulnerability Remediation
-- Critical and high-severity vulnerabilities identified during testing must be remediated before release.
-- Medium-severity vulnerabilities must be tracked and remediated within **30 days**.
-- Accepted risks must be documented and approved by the CTO.
+- Critical and high-severity vulnerabilities identified during testing shall be remediated before release.
+- Medium-severity vulnerabilities shall be tracked and remediated within **30 days**.
+- Accepted risks shall be documented and approved by the CTO.
 
 ---
 

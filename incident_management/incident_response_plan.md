@@ -46,7 +46,7 @@ Incident severity levels (Low / Medium / High / Critical) are defined in the [In
 - Test this plan annually through tabletop exercises.
 
 ### 2. **Detection and Reporting**
-- Employees must report suspected security incidents to the IRT immediately.
+- Employees shall report suspected security incidents to the IRT immediately.
 - The IRT will investigate and assign a severity level to the incident.
 
 ### 3. **Containment**

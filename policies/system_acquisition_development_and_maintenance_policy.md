@@ -8,23 +8,23 @@ This policy applies to all employees, contractors, and third parties involved in
 
 ## 3. Policy Statements
 ### 3.1 Secure Development Lifecycle
-- Security requirements must be defined during the planning phase.
-- Code must be reviewed for security vulnerabilities before deployment.
-- Security testing (e.g., penetration testing, static analysis) must be conducted for all new systems.
+- Security requirements shall be defined during the planning phase.
+- Code shall be reviewed for security vulnerabilities before deployment.
+- Security testing (e.g., penetration testing, static analysis) shall be conducted for all new systems.
 
 ### 3.2 Third-Party Software
-- Third-party software must be evaluated for security risks before procurement.
-- Software must be kept up-to-date with security patches.
+- Third-party software shall be evaluated for security risks before procurement.
+- Software shall be kept up-to-date with security patches.
 
 ### 3.3 Secure Coding Practices
-- Developers must follow secure coding guidelines (e.g., OWASP Top 10).
-- Input validation must be implemented to prevent injection attacks.
-- Authentication and authorization must be enforced for all user-facing applications.
+- Developers shall follow secure coding guidelines (e.g., OWASP Top 10).
+- Input validation shall be implemented to prevent injection attacks.
+- Authentication and authorization shall be enforced for all user-facing applications.
 
 ### 3.4 System Maintenance
-- Systems must be monitored for security vulnerabilities.
-- Security patches must be applied within 30 days of release.
-- End-of-life systems must be decommissioned securely.
+- Systems shall be monitored for security vulnerabilities.
+- Security patches shall be applied within 30 days of release.
+- End-of-life systems shall be decommissioned securely.
 
 ## 4. Roles and Responsibilities
 ### 4.1 CTO (Owner)

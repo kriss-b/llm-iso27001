@@ -41,51 +41,51 @@ This policy applies to:
 
 ## 5. **Policy Statements**
 ### 5.1 **Risk Management**
-- Risks to information assets must be **identified, assessed, and treated** in accordance with the **Risk Assessment Framework**.
-- The **Risk Treatment Plan** must be reviewed and updated quarterly.
+- Risks to information assets shall be **identified, assessed, and treated** in accordance with the **Risk Assessment Framework**.
+- The **Risk Treatment Plan** shall be reviewed and updated quarterly.
 
 ### 5.2 **Access Control**
-- Access to information assets must follow the **principle of least privilege**.
+- Access to information assets shall follow the **principle of least privilege**.
 - **Multi-Factor Authentication (MFA)** is required for all remote access and privileged accounts.
-- Access reviews must be conducted **quarterly**.
+- Access reviews shall be conducted **quarterly**.
 
 ### 5.3 **Asset Management**
-- All information assets must be **identified, classified, and inventoried**.
-- Asset owners must be assigned for all critical assets.
-- Assets must be **securely disposed of** in accordance with the **[Data Retention and Disposal Policy](data_retention_disposal_policy.md)**.
+- All information assets shall be **identified, classified, and inventoried**.
+- Asset owners shall be assigned for all critical assets.
+- Assets shall be **securely disposed of** in accordance with the **[Data Retention and Disposal Policy](data_retention_disposal_policy.md)**.
 
 ### 5.4 **Incident Management**
-- All security incidents must be **reported immediately** to the **Incident Response Team (IRT)**.
-- The **[Incident Response Plan](../incident_management/incident_response_plan.md)** must be tested **annually**.
+- All security incidents shall be **reported immediately** to the **Incident Response Team (IRT)**.
+- The **[Incident Response Plan](../incident_management/incident_response_plan.md)** shall be tested **annually**.
 
 ### 5.5 **Business Continuity**
-- Business continuity and disaster recovery plans must be **tested annually**.
-- Critical systems must have **redundant backups** and **defined recovery time objectives (RTOs)**.
+- Business continuity and disaster recovery plans shall be **tested annually**.
+- Critical systems shall have **redundant backups** and **defined recovery time objectives (RTOs)**.
 
 ### 5.6 **Compliance**
-- The Company must comply with all **legal, regulatory, and contractual obligations** related to information security.
-- **Internal and external audits** must be conducted annually.
+- The Company shall comply with all **legal, regulatory, and contractual obligations** related to information security.
+- **Internal and external audits** shall be conducted annually.
 
 ### 5.7 **Environmental Risks (Amendment 1:2024)**
-- The Company must assess whether **environmental changes** (e.g., floods, fires, storms) could impact the confidentiality, integrity, or availability of information.
-- If environmental risks are deemed irrelevant, this decision must be **documented**.
+- The Company shall assess whether **environmental changes** (e.g., floods, fires, storms) could impact the confidentiality, integrity, or availability of information.
+- If environmental risks are deemed irrelevant, this decision shall be **documented**.
 
 ---
 
 ## 6. **Training and Awareness**
-- All employees must complete **annual security awareness training**.
-- New employees must complete training within **30 days of hire**.
+- All employees shall complete **annual security awareness training**.
+- New employees shall complete training within **30 days of hire**.
 
 ---
 
 ## 7. **Policy Review**
-- This policy must be **reviewed annually** or after significant changes to the ISMS.
-- Updates must be approved by the **CEO** and communicated to all stakeholders.
+- This policy shall be **reviewed annually** or after significant changes to the ISMS.
+- Updates shall be approved by the **CEO** and communicated to all stakeholders.
 
 ---
 
 ## 8. **Exceptions**
-- Exceptions to this policy must be **documented, approved by the CISO, and reviewed annually**.
+- Exceptions to this policy shall be **documented, approved by the CISO, and reviewed annually**.
 
 ---
 

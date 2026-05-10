@@ -55,7 +55,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
 
 ### 5.1 Online Modules
 - **Platform**: Learning Management System (LMS) or third-party training provider.
-- **Assessment**: Participants must achieve a score of **80% or higher** on quizzes.
+- **Assessment**: Participants shall achieve a score of **80% or higher** on quizzes.
 
 ### 5.2 Topics Reference Table
 | **Topic** | **Description** |
