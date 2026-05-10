@@ -192,7 +192,7 @@ The AIMS operates through the following recurring activities:
 ## 12. Description of Activities
 
 ### 12.1 AI Risk Assessment
-Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risks/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risks/risk_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
+Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risks/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risks/risks_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
 
 ### 12.2 AI System Impact Assessment
 Before any AI system is deployed, an impact assessment shall be completed in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**. The assessment evaluates potential harms to individuals, groups, and society, and defines mitigation measures and human oversight requirements.

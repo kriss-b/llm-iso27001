@@ -36,8 +36,8 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 | 7.4 | Communication | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 7.5 | Documented information | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 8.1 | Operational planning and control | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 8.2 | Information security risk assessment | ❓ TBC | [risk_assessment_procedure.md](risks/risk_assessment_procedure.md), [risk_register.md](risks/risk_register.md) |
-| 8.3 | Information security risk treatment | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md), [risk_register.md](risks/risk_register.md) |
+| 8.2 | Information security risk assessment | ❓ TBC | [risk_assessment_procedure.md](risks/risk_assessment_procedure.md), [risks_register.md](risks/risks_register.md) |
+| 8.3 | Information security risk treatment | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md), [risks_register.md](risks/risks_register.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.2 | Internal audit | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.3 | Management review | ❓ TBC | [management_review_template.md](procedures/management_review_template.md) |

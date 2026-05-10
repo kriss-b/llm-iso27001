@@ -193,7 +193,7 @@ The ISMS operates through the following recurring activities:
 ## 12. Description of Activities
 
 ### 12.1 Risk Assessment
-Risks to the confidentiality, integrity, and availability of information are identified, assessed, and treated in accordance with the **[Risk Assessment Policy](risk_assessment_policy.md)** and **[Risk Assessment Procedure](../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../risks/risk_register.md)**.
+Risks to the confidentiality, integrity, and availability of information are identified, assessed, and treated in accordance with the **[Risk Assessment Policy](risk_assessment_policy.md)** and **[Risk Assessment Procedure](../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../risks/risks_register.md)**.
 
 ### 12.2 Internal Audit
 Internal audits verify that the ISMS is implemented and maintained effectively and in conformance with ISO 27001:2022. Findings are reported to executive management and tracked to resolution.

@@ -38,8 +38,8 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 7.4 | Communication | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.5 | Documented information | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.1 | Operational planning and control | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 8.2 | AI risk assessment | ❓ TBC | [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md), [risk_register.md](../../risks/risk_register.md) |
-| 8.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risk_register.md](../../risks/risk_register.md) |
+| 8.2 | AI risk assessment | ❓ TBC | [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md), [risks_register.md](../../risks/risks_register.md) |
+| 8.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risks_register.md](../../risks/risks_register.md) |
 | 8.4 | AI system impact assessment | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../../policies/audit_policy.md) |
 | 9.2 | Internal audit | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |

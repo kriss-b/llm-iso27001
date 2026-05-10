@@ -162,7 +162,7 @@ Review of the risk register and overall risk posture.
 - **New risks identified since last review:** [NUMBER]
 - **Risks closed since last review:** [NUMBER]
 
-Reference: **[Risk Register](../risks/risk_register.md)**
+Reference: **[Risk Register](../risks/risks_register.md)**
 
 ---
 
