@@ -20,29 +20,29 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 
 | Clause | Requirement | Description | Status | Document |
 |--------|-------------|-------------|--------|----------|
-| 4.1 | Understanding the organization and its context | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 4.2 | Understanding the needs and expectations of interested parties | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 4.3 | Determining the scope of the information security management system | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 4.4 | Information security management system | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 5.1 | Leadership and commitment | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 5.2 | Policy | — | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
-| 5.3 | Organizational roles, responsibilities and authorities | — | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
+| 4.1 | Understanding the organization and its context | Identify internal and external factors that influence the organization’s ability to achieve information security objectives, ensuring the ISMS is aligned with its context. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.2 | Understanding the needs and expectations of interested parties | Analyze the needs and expectations of interested parties to incorporate them into the ISMS and address relevant information security requirements. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.3 | Determining the scope of the information security management system | Define the scope of the ISMS by considering internal and external factors, stakeholder needs, and dependencies within the operational environment. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 4.4 | Information security management system | Build, run, and continually improve an ISMS to effectively manage information security risks and meet organizational goals. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 5.1 | Leadership and commitment | Demonstrate leadership and commitment by supporting the ISMS, aligning it with organizational objectives, allocating resources, promoting a security culture, and driving continual improvement. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 5.2 | Policy | Establish an information security policy aligned with the organization's objectives and strategic direction, outlining commitments to compliance, continual improvement, and the promotion of information security. | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
+| 5.3 | Organizational roles, responsibilities and authorities | Define, assign, and communicate roles, responsibilities, and authorities to ensure the effective implementation and operation of the ISMS, with accountability aligned to organizational objectives. | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
 | 6.1 | Actions to address risks and opportunities | — | ❓ TBC | [risk_assessment_policy.md](policies/risk_assessment_policy.md), [risk_assessment_framework.md](risks/risk_assessment_framework.md) |
-| 6.2 | Information security objectives and planning to achieve them | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 6.3 | Planning for changes | — | ❓ TBC | — |
-| 7.1 | Resources | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 7.2 | Competence | — | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md), [employee_training_procedure.md](procedures/employee_training_procedure.md), [training_log.md](run/logs/training_log.md) |
-| 7.3 | Awareness | — | ❓ TBC | [employee_training_procedure.md](procedures/employee_training_procedure.md), [training_log.md](run/logs/training_log.md) |
-| 7.4 | Communication | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 6.2 | Information security objectives and planning to achieve them | Set measurable information security objectives aligned with the ISMS and strategic goals, and plan actions detailing responsibilities, resources, timelines, and evaluation methods to achieve them. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 6.3 | Planning for changes | Plan changes to the ISMS systematically to ensure alignment with information security requirements, seamless integration into existing processes, and effective risk management. | ❓ TBC | — |
+| 7.1 | Resources | Provide the necessary resources to build, run, and continually improve the ISMS, ensuring its effective operation and alignment with organizational goals. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 7.2 | Competence | Ensure personnel involved in the ISMS possess the necessary competence through appropriate education, training, or experience to fulfill their responsibilities effectively. | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md), [employee_training_procedure.md](procedures/employee_training_procedure.md), [training_log.md](run/logs/training_log.md) |
+| 7.3 | Awareness | Promote awareness among relevant personnel about the ISMS, their role in information security, and the importance of compliance with security policies and requirements. | ❓ TBC | [employee_training_procedure.md](procedures/employee_training_procedure.md), [training_log.md](run/logs/training_log.md) |
+| 7.4 | Communication | Establish effective internal and external communication processes, ensuring the timely and appropriate exchange of information relevant to the ISMS and its objectives. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 7.5 | Documented information | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 8.1 | Operational planning and control | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 8.2 | Information security risk assessment | — | ❓ TBC | [risk_assessment_procedure.md](risks/risk_assessment_procedure.md), [risks_register.md](risks/risks_register.md) |
-| 8.3 | Information security risk treatment | — | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md), [risks_register.md](risks/risks_register.md) |
-| 9.1 | Monitoring, measurement, analysis and evaluation | — | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
+| 8.1 | Operational planning and control | Plan and control ISMS processes, ensuring consistency with requirements and making necessary adjustments to address risks and opportunities. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
+| 8.2 | Information security risk assessment | Implement the risk assessment process to identify, evaluate, and prioritize information security risks as defined in the ISMS framework. | ❓ TBC | [risk_assessment_procedure.md](risks/risk_assessment_procedure.md), [risks_register.md](risks/risks_register.md) |
+| 8.3 | Information security risk treatment | Apply the risk treatment process by selecting and implementing appropriate controls to address identified risks, ensuring alignment with the organization’s risk acceptance criteria. | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md), [risks_register.md](risks/risks_register.md) |
+| 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze, and evaluate the ISMS’s performance and effectiveness using appropriate methods aligned with the organization’s objectives. | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.2 | Internal audit | — | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.3 | Management review | — | ❓ TBC | [management_review_template.md](procedures/management_review_template.md) |
-| 10.1 | Continual improvement | — | ❓ TBC | [isms_policy.md](policies/isms_policy.md), [actions_register.md](run/registers/actions_register.md) |
-| 10.2 | Nonconformity and corrective action | — | ❓ TBC | [actions_register.md](run/registers/actions_register.md) |
+| 10.1 | Continual improvement | Identify and act on opportunities for continual improvement to enhance the ISMS's effectiveness and alignment with organizational goals. | ❓ TBC | [isms_policy.md](policies/isms_policy.md), [actions_register.md](run/registers/actions_register.md) |
+| 10.2 | Nonconformity and corrective action | Address nonconformities by taking corrective actions, identifying root causes, and implementing measures to prevent recurrence while documenting the process. | ❓ TBC | [actions_register.md](run/registers/actions_register.md) |
 
 ---
 
