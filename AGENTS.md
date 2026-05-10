@@ -1,10 +1,6 @@
 # AGENTS.md
 
-Read the entire repository before taking any action.
-
----
-
-## Rules
+**Read first.** Read the entire repository before taking any action.
 
 **Relative links.** All cross-references between documents use relative markdown links. Update them if files are moved or renamed.
 
