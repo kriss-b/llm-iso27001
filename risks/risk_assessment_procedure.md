@@ -56,7 +56,7 @@ This procedure applies to all information assets, including:
   - **Avoid**: Discontinue the activity causing the risk.
 
 ### 4.5 Documentation
-- Document all findings in the **Risk Register** (see `risk_assessment/risk_register.md`).
+- Document all findings in the **Risk Register** (see `risks/risk_register.md`).
 - Update the Risk Register annually or after significant changes.
 
 ## 5. Compliance

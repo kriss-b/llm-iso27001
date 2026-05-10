@@ -27,7 +27,7 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 | 5.1 | Leadership and commitment | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 5.2 | Policy | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
 | 5.3 | Organizational roles, responsibilities and authorities | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
-| 6.1 | Actions to address risks and opportunities | ❓ TBC | [risk_assessment_policy.md](policies/risk_assessment_policy.md), [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md) |
+| 6.1 | Actions to address risks and opportunities | ❓ TBC | [risk_assessment_policy.md](policies/risk_assessment_policy.md), [risk_assessment_framework.md](risks/risk_assessment_framework.md) |
 | 6.2 | Information security objectives and planning to achieve them | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 6.3 | Planning for changes | ❓ TBC | — |
 | 7.1 | Resources | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
@@ -36,8 +36,8 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 | 7.4 | Communication | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 7.5 | Documented information | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 8.1 | Operational planning and control | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| 8.2 | Information security risk assessment | ❓ TBC | [risk_assessment_procedure.md](risk_assessment/risk_assessment_procedure.md), [risk_register.md](risk_assessment/risk_register.md) |
-| 8.3 | Information security risk treatment | ❓ TBC | [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md), [risk_register.md](risk_assessment/risk_register.md) |
+| 8.2 | Information security risk assessment | ❓ TBC | [risk_assessment_procedure.md](risks/risk_assessment_procedure.md), [risk_register.md](risks/risk_register.md) |
+| 8.3 | Information security risk treatment | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md), [risk_register.md](risks/risk_register.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.2 | Internal audit | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.3 | Management review | ❓ TBC | [management_review_template.md](procedures/management_review_template.md) |
@@ -60,7 +60,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.4 | Management responsibilities | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
 | A.5.5 | Contact with authorities | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | A.5.6 | Contact with special interest groups | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
-| A.5.7 | Threat intelligence | ❓ TBC | [risk_assessment_framework.md](risk_assessment/risk_assessment_framework.md) |
+| A.5.7 | Threat intelligence | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md) |
 | A.5.8 | Information security in project management | ❓ TBC | — |
 | A.5.9 | Inventory of information and other associated assets | ❓ TBC | [asset_management_policy.md](policies/asset_management_policy.md), [asset_register.md](run/registers/asset_register.md) |
 | A.5.10 | Acceptable use of information and other associated assets | ❓ TBC | [acceptable_use_policy.md](policies/acceptable_use_policy.md) |
@@ -78,10 +78,10 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.22 | Monitoring, review and change management of supplier services | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md), [supplier_register.md](run/registers/supplier_register.md) |
 | A.5.23 | Information security for use of cloud services | ❓ TBC | [cloud_security_policy.md](policies/cloud_security_policy.md) |
 | A.5.24 | Information security incident management planning and preparation | ❓ TBC | [incident_management_policy.md](policies/incident_management_policy.md) |
-| A.5.25 | Assessment and decision on information security events | ❓ TBC | [incident_response_plan.md](incident_management/incident_response_plan.md), [incident_log.md](incident_management/incident_log.md) |
-| A.5.26 | Response to information security incidents | ❓ TBC | [incident_response_plan.md](incident_management/incident_response_plan.md), [incident_log.md](incident_management/incident_log.md) |
-| A.5.27 | Learning from information security incidents | ❓ TBC | [incident_response_plan.md](incident_management/incident_response_plan.md), [incident_log.md](incident_management/incident_log.md) |
-| A.5.28 | Collection of evidence | ❓ TBC | [incident_response_plan.md](incident_management/incident_response_plan.md), [incident_log.md](incident_management/incident_log.md) |
+| A.5.25 | Assessment and decision on information security events | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
+| A.5.26 | Response to information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
+| A.5.27 | Learning from information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
+| A.5.28 | Collection of evidence | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
 | A.5.29 | Information security during disruption | ❓ TBC | [business_continuity_policy.md](policies/business_continuity_policy.md) |
 | A.5.30 | ICT readiness for business continuity | ❓ TBC | [business_continuity_plan.md](procedures/business_continuity_plan.md), [disaster_recovery_plan.md](procedures/disaster_recovery_plan.md) |
 | A.5.31 | Legal, statutory, regulatory and contractual requirements | ❓ TBC | [compliance_policy.md](policies/compliance_policy.md) |
@@ -113,7 +113,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.7.2 | Physical entry | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
 | A.7.3 | Securing offices, rooms and facilities | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
 | A.7.4 | Physical security monitoring | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
-| A.7.5 | Protecting against physical and environmental threats | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md), [environmental_risk_assessment.md](risk_assessment/environmental_risk_assessment.md) |
+| A.7.5 | Protecting against physical and environmental threats | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md), [environmental_risk_assessment.md](risks/environmental_risk_assessment.md) |
 | A.7.6 | Working in secure areas | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
 | A.7.7 | Clear desk and clear screen | ❓ TBC | [clear_desk_policy.md](policies/clear_desk_policy.md) |
 | A.7.8 | Equipment siting and protection | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |

@@ -193,7 +193,7 @@ The ISMS operates through the following recurring activities:
 ## 12. Description of Activities
 
 ### 12.1 Risk Assessment
-Risks to the confidentiality, integrity, and availability of information are identified, assessed, and treated in accordance with the **[Risk Assessment Policy](risk_assessment_policy.md)** and **[Risk Assessment Procedure](../risk_assessment/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../risk_assessment/risk_register.md)**.
+Risks to the confidentiality, integrity, and availability of information are identified, assessed, and treated in accordance with the **[Risk Assessment Policy](risk_assessment_policy.md)** and **[Risk Assessment Procedure](../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../risks/risk_register.md)**.
 
 ### 12.2 Internal Audit
 Internal audits verify that the ISMS is implemented and maintained effectively and in conformance with ISO 27001:2022. Findings are reported to executive management and tracked to resolution.
@@ -205,7 +205,7 @@ All ISMS policies and documented information (procedures, plans, templates, regi
 All employees complete information security awareness training upon onboarding and at least annually thereafter, as defined in the **[Employee Training Procedure](../procedures/employee_training_procedure.md)**.
 
 ### 12.5 Incident Management
-Security incidents are managed in accordance with the **[Incident Management Policy](incident_management_policy.md)** and **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
+Security incidents are managed in accordance with the **[Incident Management Policy](incident_management_policy.md)** and **[Incident Response Plan](../incidents/incident_response_plan.md)**.
 
 ### 12.6 Supplier Management
 Third-party suppliers with access to Company systems or data are assessed for security risks in accordance with the **[Supplier Security Policy](supplier_security_policy.md)**.

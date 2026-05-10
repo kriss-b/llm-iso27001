@@ -55,7 +55,7 @@ This policy applies to:
 ### 3.8 Monitoring and Incident Management
 - AI systems in production shall operate within the parameters and constraints defined during the impact assessment and documented at deployment; inputs or use cases outside these parameters shall be rejected or escalated to the system owner.
 - AI systems shall be monitored for performance degradation, output drift, and unexpected behaviour.
-- AI-specific incidents (e.g., hallucination, biased output, prompt injection) shall be reported and handled in accordance with the **[Incident Response Plan](../../incident_management/incident_response_plan.md)**.
+- AI-specific incidents (e.g., hallucination, biased output, prompt injection) shall be reported and handled in accordance with the **[Incident Response Plan](../../incidents/incident_response_plan.md)**.
 - Monitoring findings shall be reviewed quarterly and feed into the next model evaluation cycle.
 
 ### 3.9 Decommissioning

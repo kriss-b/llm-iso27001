@@ -26,9 +26,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 5.1 | Leadership and commitment | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.2 | AI policy | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.3 | Roles, responsibilities and authorities | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md) |
-| 6.1.1 | General | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md) |
-| 6.1.2 | AI risk assessment | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md), [risk_assessment_procedure.md](../../risk_assessment/risk_assessment_procedure.md) |
-| 6.1.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md) |
+| 6.1.1 | General | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
+| 6.1.2 | AI risk assessment | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md) |
+| 6.1.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
 | 6.1.4 | AI system impact assessment | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 6.2 | AI objectives and planning to achieve them | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 6.3 | Planning of changes | ❓ TBC | — |
@@ -38,8 +38,8 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 7.4 | Communication | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.5 | Documented information | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.1 | Operational planning and control | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 8.2 | AI risk assessment | ❓ TBC | [risk_assessment_procedure.md](../../risk_assessment/risk_assessment_procedure.md), [risk_register.md](../../risk_assessment/risk_register.md) |
-| 8.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risk_assessment/risk_assessment_framework.md), [risk_register.md](../../risk_assessment/risk_register.md) |
+| 8.2 | AI risk assessment | ❓ TBC | [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md), [risk_register.md](../../risks/risk_register.md) |
+| 8.3 | AI risk treatment | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risk_register.md](../../risks/risk_register.md) |
 | 8.4 | AI system impact assessment | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../../policies/audit_policy.md) |
 | 9.2 | Internal audit | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
@@ -64,7 +64,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | Control | Title | Status | Document |
 |---------|-------|--------|----------|
 | A.3.2 | AI roles and responsibilities | ❓ TBC | [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
-| A.3.3 | Reporting of concerns | ❓ TBC | [incident_response_plan.md](../../incident_management/incident_response_plan.md) |
+| A.3.3 | Reporting of concerns | ❓ TBC | [incident_response_plan.md](../../incidents/incident_response_plan.md) |
 
 ### A.4 Resources for AI systems
 
@@ -115,7 +115,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 |---------|-------|--------|----------|
 | A.8.2 | System documentation and information for users | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.8.3 | External reporting | ❓ TBC | — |
-| A.8.4 | Communication of incidents | ❓ TBC | [incident_response_plan.md](../../incident_management/incident_response_plan.md) |
+| A.8.4 | Communication of incidents | ❓ TBC | [incident_response_plan.md](../../incidents/incident_response_plan.md) |
 | A.8.5 | Information for interested parties | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 
 ### A.9 Use of AI systems

@@ -49,12 +49,12 @@ For each incident, the IRT shall assess impact across the following dimensions:
 
 ### 3.3 Reporting
 - All employees shall report suspected or confirmed security incidents **immediately** to the **Incident Response Team (IRT)**.
-- Reports shall be submitted using the **Incident Report Template** (`incident_management/incident_report_template.md`).
+- Reports shall be submitted using the **Incident Report Template** (`incidents/incident_report_template.md`).
 - No employee shall attempt to investigate or remediate an incident without IRT involvement.
 
 ### 3.4 Response
 - The IRT shall acknowledge all reported incidents within **1 hour**.
-- Incidents shall be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
+- Incidents shall be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incidents/incident_response_plan.md)**.
 - Evidence shall be preserved in a manner that maintains its integrity and chain of custody.
 
 ### 3.5 Regulatory Notification

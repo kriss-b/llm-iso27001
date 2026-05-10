@@ -192,7 +192,7 @@ The AIMS operates through the following recurring activities:
 ## 12. Description of Activities
 
 ### 12.1 AI Risk Assessment
-Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risk_assessment/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risk_assessment/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risk_assessment/risk_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
+Risks specific to AI systems are identified, assessed, and treated in accordance with the **[Risk Assessment Framework](../../risks/risk_assessment_framework.md)** and **[Risk Assessment Procedure](../../risks/risk_assessment_procedure.md)**. Results are documented in the **[Risk Register](../../risks/risk_register.md)**, with AI Specificity classified as `Indirect` or `Direct`.
 
 ### 12.2 AI System Impact Assessment
 Before any AI system is deployed, an impact assessment shall be completed in accordance with the **[AI System Impact Assessment Template](../procedures/ai_system_impact_assessment_template.md)**. The assessment evaluates potential harms to individuals, groups, and society, and defines mitigation measures and human oversight requirements.
@@ -204,7 +204,7 @@ All AIMS policies and documented information are reviewed at least annually. Pol
 All employees complete AI safety training as part of the annual security awareness programme, as defined in the **[Employee Training Procedure](../../procedures/employee_training_procedure.md)**. Employees developing or operating AI systems receive additional role-specific AI governance training.
 
 ### 12.5 AI Incident Management
-AI-specific incidents are managed in accordance with the **[Incident Response Plan](../../incident_management/incident_response_plan.md)**. AI incidents include hallucination, biased output, prompt injection, model failure, and harmful AI-generated content.
+AI-specific incidents are managed in accordance with the **[Incident Response Plan](../../incidents/incident_response_plan.md)**. AI incidents include hallucination, biased output, prompt injection, model failure, and harmful AI-generated content.
 
 ### 12.6 Supplier AI Management
 Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Vendor Security Review Template](../../procedures/vendor_security_review_template.md)**.

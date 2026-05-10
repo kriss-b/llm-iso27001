@@ -56,7 +56,7 @@ This policy applies to:
 
 ### 5.4 **Incident Management**
 - All security incidents shall be **reported immediately** to the **Incident Response Team (IRT)**.
-- The **[Incident Response Plan](../incident_management/incident_response_plan.md)** shall be tested **annually**.
+- The **[Incident Response Plan](../incidents/incident_response_plan.md)** shall be tested **annually**.
 
 ### 5.5 **Business Continuity**
 - Business continuity and disaster recovery plans shall be **tested annually**.

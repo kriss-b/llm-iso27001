@@ -54,7 +54,7 @@ ___________________________________________________________
 | Reputational harm to the organization    |                |              |                |            |
 | [Additional harm specific to this system]|                |              |                |            |
 
-*Likelihood and Severity: Low / Medium / High. Risk Level derived from the [Risk Assessment Framework](../../risk_assessment/risk_assessment_framework.md).*
+*Likelihood and Severity: Low / Medium / High. Risk Level derived from the [Risk Assessment Framework](../../risks/risk_assessment_framework.md).*
 
 ---
 

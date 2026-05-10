@@ -68,7 +68,7 @@ This policy applies to all cloud services used by ACME CORP, including infrastru
 
 - In the event of a security incident involving a cloud service, the CISO shall engage the cloud provider's security or incident response team as appropriate.
 - Cloud provider incident notification clauses shall be reviewed during onboarding to ensure timely alerting obligations are defined.
-- Cloud-related incidents are managed in accordance with the **[Incident Management Policy](incident_management_policy.md)** and **[Incident Response Plan](../incident_management/incident_response_plan.md)**.
+- Cloud-related incidents are managed in accordance with the **[Incident Management Policy](incident_management_policy.md)** and **[Incident Response Plan](../incidents/incident_response_plan.md)**.
 
 ---
 
