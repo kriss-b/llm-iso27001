@@ -41,8 +41,8 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 | 9.1 | Monitoring, measurement, analysis and evaluation | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.2 | Internal audit | ❓ TBC | [audit_policy.md](policies/audit_policy.md) |
 | 9.3 | Management review | ❓ TBC | [management_review_template.md](procedures/management_review_template.md) |
-| 10.1 | Continual improvement | ❓ TBC | [isms_policy.md](policies/isms_policy.md), [action_register.md](run/registers/action_register.md) |
-| 10.2 | Nonconformity and corrective action | ❓ TBC | [action_register.md](run/registers/action_register.md) |
+| 10.1 | Continual improvement | ❓ TBC | [isms_policy.md](policies/isms_policy.md), [actions_register.md](run/registers/actions_register.md) |
+| 10.2 | Nonconformity and corrective action | ❓ TBC | [actions_register.md](run/registers/actions_register.md) |
 
 ---
 
@@ -62,7 +62,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.6 | Contact with special interest groups | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | A.5.7 | Threat intelligence | ❓ TBC | [risk_assessment_framework.md](risks/risk_assessment_framework.md) |
 | A.5.8 | Information security in project management | ❓ TBC | — |
-| A.5.9 | Inventory of information and other associated assets | ❓ TBC | [asset_management_policy.md](policies/asset_management_policy.md), [asset_register.md](run/registers/asset_register.md) |
+| A.5.9 | Inventory of information and other associated assets | ❓ TBC | [asset_management_policy.md](policies/asset_management_policy.md), [assets_register.md](run/registers/assets_register.md) |
 | A.5.10 | Acceptable use of information and other associated assets | ❓ TBC | [acceptable_use_policy.md](policies/acceptable_use_policy.md) |
 | A.5.11 | Return of assets | ❓ TBC | [disposal_destruction_policy.md](policies/disposal_destruction_policy.md) |
 | A.5.12 | Classification of information | ❓ TBC | [data_classification_policy.md](policies/data_classification_policy.md) |
@@ -75,7 +75,7 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.19 | Information security in supplier relationships | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md) |
 | A.5.20 | Addressing information security within supplier agreements | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md) |
 | A.5.21 | Managing information security in the ICT supply chain | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md) |
-| A.5.22 | Monitoring, review and change management of supplier services | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md), [supplier_register.md](run/registers/supplier_register.md) |
+| A.5.22 | Monitoring, review and change management of supplier services | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md), [suppliers_register.md](run/registers/suppliers_register.md) |
 | A.5.23 | Information security for use of cloud services | ❓ TBC | [cloud_security_policy.md](policies/cloud_security_policy.md) |
 | A.5.24 | Information security incident management planning and preparation | ❓ TBC | [incident_management_policy.md](policies/incident_management_policy.md) |
 | A.5.25 | Assessment and decision on information security events | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
