@@ -1,7 +1,7 @@
 # Business Continuity and Disaster Recovery Policy
 
 ## 1. Purpose
-This policy ensures the resilience of **ACME CORP** by establishing a framework for business continuity and disaster recovery (BC/DR) in alignment with **ISO 27001:2022 (Control A.5.29)**. The goal is to minimize disruption to business operations and protect critical assets during unforeseen events.
+This policy ensures the resilience of the organization by establishing a framework for business continuity and disaster recovery (BC/DR) in alignment with **ISO 27001:2022 (Control A.5.29)**. The goal is to minimize disruption to business operations and protect critical assets during unforeseen events.
 
 ---
 

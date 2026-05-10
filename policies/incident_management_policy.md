@@ -1,7 +1,7 @@
 # Incident Management Policy
 
 ## 1. Purpose
-This policy establishes the framework for managing information security incidents at **ACME CORP**. It ensures that incidents are detected, reported, assessed, and resolved in a timely and consistent manner, minimising their impact on the confidentiality, integrity, and availability of information assets. This policy aligns with **ISO 27001:2022 (Controls A.5.24 – A.5.28)**, which cover:
+This policy establishes the framework for managing information security incidents. It ensures that incidents are detected, reported, assessed, and resolved in a timely and consistent manner, minimising their impact on the confidentiality, integrity, and availability of information assets. This policy aligns with **ISO 27001:2022 (Controls A.5.24 – A.5.28)**, which cover:
 
 - **A.5.24** — Information security incident management planning and preparation
 - **A.5.25** — Assessment and decision on information security events

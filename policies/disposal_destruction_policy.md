@@ -1,7 +1,7 @@
 # Disposal and Destruction Policy
 
 ## 1. Purpose
-This policy establishes guidelines for the **secure disposal and destruction** of information assets at **ACME CORP** to prevent unauthorized access, data breaches, and compliance violations. This policy aligns with **ISO 27001:2022 (Control A.5.11)**.
+This policy establishes guidelines for the **secure disposal and destruction** of information assets to prevent unauthorized access, data breaches, and compliance violations. This policy aligns with **ISO 27001:2022 (Control A.5.11)**.
 
 ---
 

@@ -1,7 +1,7 @@
 # Disaster Recovery Plan (DRP)
 
 ## 1. Purpose
-This **Disaster Recovery Plan (DRP)** ensures the rapid restoration of IT systems and data for **ACME CORP** in the event of a disruption. It aligns with **ISO 27001:2022 (Control A.5.29)** and the **Business Continuity and Disaster Recovery Policy**.
+This **Disaster Recovery Plan (DRP)** ensures the rapid restoration of IT systems and data in the event of a disruption. It aligns with **ISO 27001:2022 (Control A.5.29)** and the **Business Continuity and Disaster Recovery Policy**.
 
 ---
 

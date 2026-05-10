@@ -1,7 +1,7 @@
 # Secure AI Development Policy
 
 ## 1. Purpose
-This policy establishes requirements for integrating responsible AI principles and data governance throughout the AI system lifecycle at **ACME CORP**. It ensures that safety, fairness, and transparency are addressed by design, not as an afterthought, in alignment with **ISO 42001:2023 (Controls A.6 — AI System Lifecycle and A.7 — Data for AI Systems)**.
+This policy establishes requirements for integrating responsible AI principles and data governance throughout the AI system lifecycle. It ensures that safety, fairness, and transparency are addressed by design, not as an afterthought, in alignment with **ISO 42001:2023 (Controls A.6 — AI System Lifecycle and A.7 — Data for AI Systems)**.
 
 ---
 

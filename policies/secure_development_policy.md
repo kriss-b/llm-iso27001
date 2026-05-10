@@ -1,7 +1,7 @@
 # Secure Development Policy
 
 ## 1. Purpose
-This policy establishes requirements for integrating security throughout the software development lifecycle at **ACME CORP**. It ensures that security is addressed by design, not as an afterthought, in alignment with **ISO 27001:2022 (Control A.8.25–A.8.32)**.
+This policy establishes requirements for integrating security throughout the software development lifecycle. It ensures that security is addressed by design, not as an afterthought, in alignment with **ISO 27001:2022 (Control A.8.25–A.8.32)**.
 
 ---
 

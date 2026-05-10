@@ -1,7 +1,7 @@
 # Change Management Policy
 
 ## 1. Purpose
-This policy establishes a structured approach to managing changes to **ACME CORP** information systems, processes, and services. The goal is to minimize disruption, ensure security, and maintain compliance with **ISO 27001:2022 (Control A.5.37)**.
+This policy establishes a structured approach to managing changes to information systems, processes, and services. The goal is to minimize disruption, ensure security, and maintain compliance with **ISO 27001:2022 (Control A.5.37)**.
 
 ---
 

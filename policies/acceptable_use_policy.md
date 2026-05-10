@@ -1,7 +1,7 @@
 # Acceptable Use Policy (AUP)
 
 ## 1. Purpose
-This **Acceptable Use Policy (AUP)** defines the rules and guidelines for the appropriate use of **ACME CORP** information systems, assets, and resources. This policy ensures compliance with legal, regulatory, and contractual obligations and protects the Company from security risks. It aligns with **ISO 27001:2022 (Control A.5.10 — Acceptable use of information and other associated assets)**.
+This **Acceptable Use Policy (AUP)** defines the rules and guidelines for the appropriate use of information systems, assets, and resources. This policy ensures compliance with legal, regulatory, and contractual obligations and protects the Company from security risks. It aligns with **ISO 27001:2022 (Control A.5.10 — Acceptable use of information and other associated assets)**.
 
 ---
 

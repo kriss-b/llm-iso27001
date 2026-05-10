@@ -1,7 +1,7 @@
 # Incident Response Team (IRT)
 
 ## 1. Purpose
-This document defines the roles, responsibilities, and contact information for the **Incident Response Team (IRT)** at ACME CORP. The IRT is responsible for managing and responding to security incidents in accordance with the **Incident Response Plan** (`incident_response_plan.md`).
+This document defines the roles, responsibilities, and contact information for the **Incident Response Team (IRT)**. The IRT is responsible for managing and responding to security incidents in accordance with the **Incident Response Plan** (`incident_response_plan.md`).
 
 ## 2. Scope
 This document applies to all members of the IRT, including employees, contractors, and third-party vendors involved in incident response activities.

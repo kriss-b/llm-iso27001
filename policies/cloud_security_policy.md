@@ -1,12 +1,12 @@
 # Cloud Security Policy
 
 ## 1. Purpose
-This policy defines the information security requirements for the use of cloud services at **ACME CORP**, in alignment with **ISO 27001:2022 (Control A.5.23 — Information security for use of cloud services)**. It ensures that cloud services are adopted, configured, and operated in a manner that protects the confidentiality, integrity, and availability of Company and customer information.
+This policy defines the information security requirements for the use of cloud services, in alignment with **ISO 27001:2022 (Control A.5.23 — Information security for use of cloud services)**. It ensures that cloud services are adopted, configured, and operated in a manner that protects the confidentiality, integrity, and availability of Company and customer information.
 
 ---
 
 ## 2. Scope
-This policy applies to all cloud services used by ACME CORP, including infrastructure (IaaS), platform (PaaS), and software (SaaS) services, regardless of whether they are used for production, development, or internal operations. It applies to all employees, contractors, and third parties who provision, configure, or use cloud services on behalf of the Company.
+This policy applies to all cloud services, including infrastructure (IaaS), platform (PaaS), and software (SaaS) services, regardless of whether they are used for production, development, or internal operations. It applies to all employees, contractors, and third parties who provision, configure, or use cloud services on behalf of the Company.
 
 ---
 

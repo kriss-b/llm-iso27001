@@ -1,7 +1,7 @@
 # Data Classification Policy
 
 ## 1. Purpose
-This policy establishes a framework for classifying information assets at **ACME CORP** based on their sensitivity and criticality. It ensures that information is handled, protected, and shared in a manner appropriate to its classification level, in alignment with **ISO 27001:2022 (Control A.5.12)**.
+This policy establishes a framework for classifying information assets based on their sensitivity and criticality. It ensures that information is handled, protected, and shared in a manner appropriate to its classification level, in alignment with **ISO 27001:2022 (Control A.5.12)**.
 
 ---
 

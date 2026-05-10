@@ -1,7 +1,7 @@
 # Audit Policy
 
 ## 1. Purpose
-This policy defines the framework for planning, conducting, and following up on audits of the Information Security Management System (ISMS) at **ACME CORP**. It ensures that the ISMS is regularly reviewed for effectiveness, conformance, and continual improvement, in alignment with **ISO 27001:2022 (Clause 9.2 — Internal audit, A.5.35 — Independent review of information security, and A.8.34 — Protection of information systems during audit testing)**.
+This policy defines the framework for planning, conducting, and following up on audits of the Information Security Management System (ISMS). It ensures that the ISMS is regularly reviewed for effectiveness, conformance, and continual improvement, in alignment with **ISO 27001:2022 (Clause 9.2 — Internal audit, A.5.35 — Independent review of information security, and A.8.34 — Protection of information systems during audit testing)**.
 
 ---
 

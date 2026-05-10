@@ -4,7 +4,7 @@
 This policy outlines the requirements for retaining and disposing of data in compliance with **ISO 27001:2022 (Controls A.5.33 — Protection of records, and A.8.10 — Information deletion)** and applicable legal and regulatory obligations. It ensures that data is retained only as long as necessary and disposed of securely.
 
 ## 2. Scope
-This policy applies to all employees, contractors, and third parties who handle data on behalf of ACME CORP. It covers all data, including:
+This policy applies to all employees, contractors, and third parties who handle data on behalf of the organization. It covers all data, including:
 - Customer data
 - Employee data
 - Intellectual property

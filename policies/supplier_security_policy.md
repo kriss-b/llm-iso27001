@@ -46,7 +46,7 @@ All supplier agreements shall include clauses addressing:
 
 ## 6. Ongoing Relationship Management
 - Conduct regular reviews of supplier performance, security posture, and compliance with contractual obligations.
-- ACME CORP reserves the right to audit supplier security practices annually or as needed.
+- The organization reserves the right to audit supplier security practices annually or as needed.
 - Suppliers shall provide evidence of compliance with this policy upon request.
 
 ---

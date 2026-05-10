@@ -1,14 +1,14 @@
 # Incident Response Plan
 
 ## 📌 **Purpose**
-This Incident Response Plan (IRP) outlines the processes and procedures for detecting, responding to, and recovering from security incidents. The goal is to minimize the impact of incidents on ACME CORP’s operations, data, and reputation.
+This Incident Response Plan (IRP) outlines the processes and procedures for detecting, responding to, and recovering from security incidents. The goal is to minimize the impact of incidents on the organization’s operations, data, and reputation.
 
 ---
 
 ## 🎯 **Scope**
 This plan applies to:
-- All employees, contractors, and stakeholders of ACME CORP.
-- All systems, networks, and data owned or managed by ACME CORP.
+- All employees, contractors, and stakeholders.
+- All systems, networks, and data owned or managed by the organization.
 - All security incidents, including but not limited to:
   - Data breaches.
   - Unauthorized access.

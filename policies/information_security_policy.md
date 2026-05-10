@@ -1,7 +1,7 @@
 # Information Security Policy
 
 ## 1. **Purpose**
-This Information Security Policy establishes the framework for protecting the **confidentiality, integrity, and availability** of information assets at **ACME CORP** ("the Company"). It aligns with **ISO 27001:2022 (Control A.5.1 — Policies for information security, and Clause 5.2 — Policy)** and supports our goal of achieving certification.
+This Information Security Policy establishes the framework for protecting the **confidentiality, integrity, and availability** of information assets. It aligns with **ISO 27001:2022 (Control A.5.1 — Policies for information security, and Clause 5.2 — Policy)** and supports our goal of achieving certification.
 
 ---
 

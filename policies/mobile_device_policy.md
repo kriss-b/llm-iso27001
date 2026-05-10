@@ -1,7 +1,7 @@
 # Mobile Device and Teleworking Policy
 
 ## 1. Purpose
-This policy establishes guidelines for the secure use of **mobile devices** and **teleworking** to protect **ACME CORP** information assets and ensure compliance with **ISO 27001:2022 (Controls A.8.1 — User endpoint devices, and A.6.7 — Remote working)**.
+This policy establishes guidelines for the secure use of **mobile devices** and **teleworking** to protect information assets and ensure compliance with **ISO 27001:2022 (Controls A.8.1 — User endpoint devices, and A.6.7 — Remote working)**.
 
 ---
 

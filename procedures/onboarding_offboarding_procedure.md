@@ -1,7 +1,7 @@
 # Onboarding and Offboarding Procedure
 
 ## 1. Purpose
-This procedure defines the information security steps to be completed when an employee or contractor joins or leaves **ACME CORP**, in alignment with **ISO 27001:2022 (Controls A.6.1 — Screening, A.6.2 — Terms and conditions of employment, A.6.5 — Responsibilities after termination or change of employment, and A.5.11 — Return of assets)**.
+This procedure defines the information security steps to be completed when an employee or contractor joins or leaves the organization, in alignment with **ISO 27001:2022 (Controls A.6.1 — Screening, A.6.2 — Terms and conditions of employment, A.6.5 — Responsibilities after termination or change of employment, and A.5.11 — Return of assets)**.
 
 ---
 

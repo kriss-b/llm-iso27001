@@ -3,7 +3,7 @@
 ---
 
 ## 1. **Purpose**
-This **Environmental Risk Assessment** evaluates the potential impact of environmental changes (e.g., floods, fires, storms) on ACME CORP's information assets. It aligns with **ISO 27001:2022**.
+This **Environmental Risk Assessment** evaluates the potential impact of environmental changes (e.g., floods, fires, storms) on the organization's information assets. It aligns with **ISO 27001:2022**.
 
 ---
 

@@ -1,7 +1,7 @@
 # Business Continuity Plan (BCP)
 
 ## 1. Purpose
-This **Business Continuity Plan (BCP)** ensures the resilience of **ACME CORP** by outlining procedures to maintain critical operations during disruptions. It aligns with **ISO 27001:2022 (Control A.5.29)** and the **Business Continuity and Disaster Recovery Policy**.
+This **Business Continuity Plan (BCP)** ensures the resilience of the organization by outlining procedures to maintain critical operations during disruptions. It aligns with **ISO 27001:2022 (Control A.5.29)** and the **Business Continuity and Disaster Recovery Policy**.
 
 ---
 

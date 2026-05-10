@@ -1,6 +1,6 @@
 # Security Awareness Training Log
 
-This log records all security awareness training sessions delivered to ACME CORP employees and contractors. One row per session.
+This log records all security awareness training sessions delivered to employees and contractors. One row per session.
 
 | Date | Session type | Topics | Scope | Delivered by | Notes |
 |------|-------------|--------|-------|--------------|-------|

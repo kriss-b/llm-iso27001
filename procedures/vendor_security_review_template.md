@@ -39,7 +39,7 @@
 - Does the vendor commit to reporting security incidents within 24 hours? ☐ Yes ☐ No
 
 ### 6. **Audit and Compliance**
-- Does the vendor allow ACME CORP to audit their security practices? ☐ Yes ☐ No
+- Does the vendor allow the organization to audit their security practices? ☐ Yes ☐ No
 - Has the vendor provided evidence of compliance with this template? ☐ Yes ☐ No
 
 ### 7. **AI Usage**
@@ -66,7 +66,7 @@
 | **Role**               | **Name**               | **Signature** | **Date**              |
 |------------------------|------------------------|---------------|-----------------------|
 | Vendor Representative  |                        |               |                       |
-| ACME CORP Reviewer |                        |               |                       |
+| Reviewer           |                        |               |                       |
 
 ---
 

@@ -1,7 +1,7 @@
 # Clear Desk and Clear Screen Policy
 
 ## 1. Purpose
-This policy ensures the protection of sensitive information by establishing guidelines for maintaining a **clear desk** and **clear screen** at **ACME CORP**. This policy aligns with **ISO 27001:2022 (Control A.7.7)** and reduces the risk of unauthorized access, loss, or theft of information.
+This policy ensures the protection of sensitive information by establishing guidelines for maintaining a **clear desk** and **clear screen**. This policy aligns with **ISO 27001:2022 (Control A.7.7)** and reduces the risk of unauthorized access, loss, or theft of information.
 
 ---
 

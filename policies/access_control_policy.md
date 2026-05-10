@@ -1,7 +1,7 @@
 # Access Control Policy
 
 ## 1. **Purpose**
-This **Access Control Policy** defines the requirements for managing access to **ACME CORP**'s information assets. It ensures that access is **granted, modified, and revoked** in accordance with the **principle of least privilege**, in alignment with **ISO 27001:2022 (Controls A.5.15 – A.5.18, A.8.2 – A.8.5)**, which cover identity management, authentication, access rights, and privileged access.
+This **Access Control Policy** defines the requirements for managing access to the organization's information assets. It ensures that access is **granted, modified, and revoked** in accordance with the **principle of least privilege**, in alignment with **ISO 27001:2022 (Controls A.5.15 – A.5.18, A.8.2 – A.8.5)**, which cover identity management, authentication, access rights, and privileged access.
 
 ---
 
