@@ -78,10 +78,10 @@ All 93 controls from Annex A are applicable to ACME CORP. Controls not yet imple
 | A.5.22 | Monitoring, review and change management of supplier services | ❓ TBC | [supplier_security_policy.md](policies/supplier_security_policy.md), [suppliers_register.md](run/registers/suppliers_register.md) |
 | A.5.23 | Information security for use of cloud services | ❓ TBC | [cloud_security_policy.md](policies/cloud_security_policy.md) |
 | A.5.24 | Information security incident management planning and preparation | ❓ TBC | [incident_management_policy.md](policies/incident_management_policy.md) |
-| A.5.25 | Assessment and decision on information security events | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
-| A.5.26 | Response to information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
-| A.5.27 | Learning from information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
-| A.5.28 | Collection of evidence | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incident_log.md](incidents/incident_log.md) |
+| A.5.25 | Assessment and decision on information security events | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incidents_log.md](incidents/incidents_log.md) |
+| A.5.26 | Response to information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incidents_log.md](incidents/incidents_log.md) |
+| A.5.27 | Learning from information security incidents | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incidents_log.md](incidents/incidents_log.md) |
+| A.5.28 | Collection of evidence | ❓ TBC | [incident_response_plan.md](incidents/incident_response_plan.md), [incidents_log.md](incidents/incidents_log.md) |
 | A.5.29 | Information security during disruption | ❓ TBC | [business_continuity_policy.md](policies/business_continuity_policy.md) |
 | A.5.30 | ICT readiness for business continuity | ❓ TBC | [business_continuity_plan.md](procedures/business_continuity_plan.md), [disaster_recovery_plan.md](procedures/disaster_recovery_plan.md) |
 | A.5.31 | Legal, statutory, regulatory and contractual requirements | ❓ TBC | [compliance_policy.md](policies/compliance_policy.md) |
