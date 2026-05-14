@@ -138,17 +138,12 @@ The ISMS applies to the following locations:
 
 ## 9. Governance
 
-### 9.1 ISMS Owner
-The **ISMS Owner** is responsible for the overall management and performance of the ISMS. This includes coordinating risk assessments, managing the policy framework, and driving continual improvement.
-
-### 9.2 CISO
-The **CISO** is responsible for the technical and operational implementation of the ISMS, including incident response, vulnerability management, and security monitoring.
-
-### 9.3 Executive Responsibility
-The **CEO** provides overall leadership and ensures that adequate resources are allocated to the ISMS. The CEO approves the ISMS Policy and any significant changes to the ISMS scope or risk appetite.
-
-### 9.4 All Employees
-All employees and contractors are responsible for complying with information security policies and reporting security events promptly.
+| Role | Accountability |
+|------|---------------|
+| **ISMS Owner** | Overall accountability for the ISMS |
+| **CISO** | Technical and operational implementation |
+| **CEO** | Executive oversight; approves the ISMS Policy |
+| **All employees and contractors** | Comply with information security policies and report security events |
 
 Full role definitions are documented in the **[Roles and Responsibilities Policy](roles_and_responsibilities_policy.md)**.
 
