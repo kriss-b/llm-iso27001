@@ -138,12 +138,12 @@ The ISMS applies to the following locations:
 
 ## 9. Governance
 
-| Role | Accountability |
-|------|---------------|
-| **ISMS Owner** | Overall accountability for the ISMS |
-| **CISO** | Technical and operational implementation |
-| **CEO** | Executive oversight; approves the ISMS Policy |
-| **All employees and contractors** | Comply with information security policies and report security events |
+| Role | Accountability | Name |
+|------|---------------|------|
+| **ISMS Owner** | Overall accountability for the ISMS | _TBD_ |
+| **CISO** | Technical and operational implementation | _TBD_ |
+| **CEO** | Executive oversight; approves the ISMS Policy | _TBD_ |
+| **All employees and contractors** | Comply with information security policies and report security events | — |
 
 Full role definitions are documented in the **[Roles and Responsibilities Policy](roles_and_responsibilities_policy.md)**.
 
