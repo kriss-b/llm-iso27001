@@ -48,6 +48,7 @@ This framework applies to:
 |------------------------|------------------------------------------------------------------------------------|
 | **ISMS Owner**         | Oversees the risk assessment process and ensures compliance with ISO 27001.        |
 | **Risk Assessment Team** | Identifies, analyzes, and evaluates risks.                                        |
+| **IT Team**            | Provides technical input on vulnerabilities and controls.                          |
 | **Management**         | Approves risk treatment plans and provides resources for mitigation.               |
 | **Employees**          | Report risks and adhere to risk treatment measures.                               |
 
