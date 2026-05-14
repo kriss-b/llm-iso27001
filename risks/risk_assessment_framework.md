@@ -98,7 +98,7 @@ Risk criteria shall be established before each risk assessment and documented in
 ---
 
 ## **7. Documentation**
-- **Risk Register**: Document all identified risks, their assessment, and treatment plans.
+- **[Risk Register](risks_register.md)**: Document all identified risks, their assessment, and treatment plans.
 - **Risk Assessment Report**: Summarize findings and recommendations for management review.
 
 ---
