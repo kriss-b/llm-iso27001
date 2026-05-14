@@ -6,16 +6,7 @@ This Incident Response Plan (IRP) outlines the processes and procedures for dete
 ---
 
 ## 🎯 **Scope**
-This plan applies to:
-- All employees, contractors, and stakeholders.
-- All systems, networks, and data owned or managed by the organization.
-- All security incidents, including but not limited to:
-  - Data breaches.
-  - Unauthorized access.
-  - Malware infections.
-  - Denial-of-service (DoS) attacks.
-  - Physical security breaches.
-  - AI-specific incidents (e.g., harmful AI output, model failure, prompt injection).
+Scope is defined in the [Incident Management Policy](../policies/incident_management_policy.md).
 
 ---
 
@@ -64,16 +55,14 @@ Incident severity levels (Low / Medium / High / Critical) are defined in the [In
 - Update security controls to prevent similar incidents.
 
 ### 6. **Post-Incident Review**
-- Conduct a post-incident review to identify lessons learned.
-- Update this plan based on findings from the review.
-- Document all actions taken during the incident response process.
+Post-incident reviews are conducted in accordance with the [Incident Management Policy](../policies/incident_management_policy.md) §3.6.
 
 ---
 
 ## 📞 **Communication Plan**
 
 ### 1. **Internal Communication**
-- The IRT will notify the CISO and leadership team within 1 hour of incident confirmation.
+- The IRT will notify the CISO and leadership team upon incident confirmation.
 - Employees will be informed of incidents that affect their work or data.
 
 ### 2. **External Communication**

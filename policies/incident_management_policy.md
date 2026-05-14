@@ -22,6 +22,7 @@ This policy applies to:
   - Phishing and social engineering.
   - Physical security breaches affecting information assets.
   - Accidental data loss or disclosure.
+  - AI-specific incidents (e.g., harmful AI output, model failure, prompt injection).
 
 ---
 
