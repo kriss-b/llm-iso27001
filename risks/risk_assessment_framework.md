@@ -99,7 +99,7 @@ Risk criteria shall be established before each risk assessment and documented in
 
 ## **7. Documentation**
 - **[Risk Register](risks_register.md)**: Document all identified risks, their assessment, and treatment plans.
-- **Risk Assessment Report**: Summarize findings and recommendations for management review.
+- **Risk findings and recommendations** are presented at the annual management review using the **[Management Review Template](../procedures/management_review_template.md)** (§11 and §12).
 
 ---
 
