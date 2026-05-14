@@ -14,6 +14,34 @@ This framework applies to:
 ---
 
 ## **3. Risk Assessment Methodology**
+
+### **3.0 Risk Criteria**
+Risk criteria shall be established before each risk assessment and documented in the Risk Assessment Report. They define the scales used to assess likelihood and impact, and the threshold above which risks require treatment.
+
+**Likelihood:**
+
+| Level | Definition |
+|---|---|
+| **High** | Can occur approximately once per year, or has already occurred |
+| **Medium** | Can occur approximately once every 5 years |
+| **Low** | Can occur approximately once every 10 years |
+
+**Impact** (highest applicable dimension drives the level):
+
+| Level | Definition |
+|---|---|
+| **High** | Service disruption > 48h; OR confirmed personal data breach; OR regulatory fine likely; OR major reputational damage |
+| **Medium** | Service disruption between 4h and 48h; OR potential data exposure of limited scope; OR regulatory attention possible; OR contained reputational impact |
+| **Low** | Service disruption < 4h; no personal data at risk; no regulatory implications; negligible reputational impact |
+
+**Risk acceptance threshold:**
+
+| Risk Level | Decision |
+|---|---|
+| **Low** | Acceptable — log and monitor |
+| **Medium** | Management review required; may be accepted with documented justification |
+| **High** | Treatment required; acceptance only with explicit CEO or ISMS Owner sign-off |
+
 ### **3.1 Risk Identification**
 - **Assets**: Identify all information assets (e.g., data, systems, hardware, software, people).
 - **Threats**: Identify potential threats (e.g., cyberattacks, human error, natural disasters).
