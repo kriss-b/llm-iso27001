@@ -47,6 +47,7 @@ Risk criteria shall be established before each risk assessment and documented in
 - **Threats**: Identify potential threats (e.g., cyberattacks, human error, natural disasters).
 - **Vulnerabilities**: Identify weaknesses that could be exploited by threats (e.g., unpatched software, lack of MFA).
 - **Impacts**: Determine the potential impact of a security incident (e.g., financial loss, reputational damage, legal consequences).
+- **Owner**: Assign a named owner to each identified risk, responsible for deciding and driving the treatment.
 - **AI Specificity**: Classify each risk according to how directly it relates to AI systems, using one of three values:
   - `None`: The risk has no meaningful connection to AI systems or their use.
   - `Indirect`: The risk originates independently of AI but also applies to AI systems (e.g., unauthorized access, supply chain attack).
