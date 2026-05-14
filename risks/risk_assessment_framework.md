@@ -45,7 +45,7 @@ Risk criteria shall be established before each risk assessment and documented in
 ### **3.1 Risk Identification**
 - **Assets**: Identify all information assets (e.g., data, systems, hardware, software, people).
 - **Threats**: Identify potential threats (e.g., cyberattacks, human error, natural disasters).
-- **Vulnerabilities**: Identify weaknesses that could be exploited by threats (e.g., unpatched software, lack of MFA).
+- **Weaknesses**: Identify weaknesses — technical or organisational — that could be exploited by threats (e.g., unpatched software, lack of MFA, inadequate processes).
 - **Impacts**: Determine the potential impact of a security incident (e.g., financial loss, reputational damage, legal consequences).
 - **Owner**: Assign a named owner to each identified risk, responsible for deciding and driving the treatment.
 - **AI Specificity**: Classify each risk according to how directly it relates to AI systems, using one of three values:
@@ -69,6 +69,7 @@ Risk criteria shall be established before each risk assessment and documented in
   - **Avoid**: Eliminate the risk by discontinuing the activity.
   - **Transfer**: Transfer the risk (e.g., via insurance or outsourcing).
 - **Controls**: Select controls from **Annex A of ISO 27001:2022** to mitigate risks.
+- **Residual risk**: After treatment is applied, evaluate the remaining risk level and obtain formal acceptance from the risk owner. Document the residual risk level in the [Risk Register](risks_register.md).
 
 ---
 
