@@ -17,6 +17,7 @@ The following are the information security objectives for the current annual per
 - Maintain ISO 27001:2022 certification with no critical non-conformities.
 - Achieve 100% completion of security awareness training across all employees by year-end.
 - Zero orphaned accounts found during access reviews.
+- Maintain 99.9% availability of the SaaS service.
 
 ---
 
