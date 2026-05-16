@@ -27,25 +27,8 @@ This policy applies to all employees, contractors, and third parties with access
 - Internal and external audits shall be conducted annually to verify compliance.
 - Audit findings shall be addressed promptly.
 
-## 4. Roles and Responsibilities
-### 4.1 DPO (Owner)
-- Ensure compliance with laws and regulations.
-
-### 4.2 Legal Team
-- Support the DPO in ensuring compliance.
-
-### 4.3 IT Team
-- Implement controls to support compliance.
-
-### 4.4 Employees
-- Comply with legal and regulatory requirements.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts, and legal penalties.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after changes to laws, regulations, or contractual obligations.
-
 
 ---
 
