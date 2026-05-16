@@ -25,7 +25,7 @@ This plan applies to:
 
 ### 3.2 External Communication
 - **Customers**: Status page (status.courtier-demo.com) and email notifications.
-- **Vendors**: Contact via predefined vendor lists (see Appendix A).
+- **Vendors**: Contact via the [Emergency Contacts Register](../run/registers/emergency_contacts_register.md).
 - **Media**: Statements approved by the COO or CEO.
 
 ---
@@ -75,28 +75,12 @@ This plan applies to:
 ---
 
 ## 6. Contact Lists
-### 6.1 Internal Contacts
-| **Role**               | **Name**          | **Email**                          | **Phone**            |
-|------------------------|-------------------|------------------------------------|----------------------|
-| COO                    | [Name]            | [Email]                            | +33 XXX XXX XXX      |
-| CTO                    | [Name]            | [Email]                            | +33 XXX XXX XXX      |
-| Head of Customer Support | [Name]          | [Email]                            | +33 XXX XXX XXX      |
-
-### 6.2 External Contacts
-| **Vendor**             | **Contact**       | **Email**                          | **Phone**            |
-|------------------------|-------------------|------------------------------------|----------------------|
-| AWS Support            | [Name]            | support@aws.com                    | +1 XXX XXX XXX       |
-| Zendesk Support        | [Name]            | support@zendesk.com                | +1 XXX XXX XXX       |
+See [Emergency Contacts Register](../run/registers/emergency_contacts_register.md).
 
 ---
 
 ## 7. Appendices
-### Appendix A: Vendor Contact List
-- **AWS**: [Details]
-- **Zendesk**: [Details]
-- **Datadog**: [Details]
-
-### Appendix B: Backup and Recovery Procedures
+### Appendix A: Backup and Recovery Procedures
 - **SaaS Platform**: Automated backups to AWS S3 and secondary region.
 - **Customer Data**: Encrypted backups with daily snapshots.
 

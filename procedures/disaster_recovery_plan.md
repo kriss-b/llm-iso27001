@@ -72,17 +72,7 @@ This plan applies to:
 ---
 
 ## 7. Contact Lists
-### 7.1 Internal Contacts
-| **Role**               | **Name**          | **Email**                          | **Phone**            |
-|------------------------|-------------------|------------------------------------|----------------------|
-| CTO                    | [Name]            | [Email]                            | +33 XXX XXX XXX      |
-| IT Team Lead           | [Name]            | [Email]                            | +33 XXX XXX XXX      |
-
-### 7.2 External Contacts
-| **Vendor**             | **Contact**       | **Email**                          | **Phone**            |
-|------------------------|-------------------|------------------------------------|----------------------|
-| AWS Support            | [Name]            | support@aws.com                    | +1 XXX XXX XXX       |
-| Datadog Support        | [Name]            | support@datadoghq.com              | +1 XXX XXX XXX       |
+See [Emergency Contacts Register](../run/registers/emergency_contacts_register.md).
 
 ---
 
