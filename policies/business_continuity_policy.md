@@ -45,32 +45,8 @@ This policy applies to:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 COO (Owner)
-- Oversee the development and implementation of the BCP and DRP.
-- Ensure alignment with business objectives and ISO 27001:2022.
-
-### 4.2 IT Team
-- Develop and maintain the DRP.
-- Implement and test backup and recovery procedures.
-
-### 4.3 Department Heads
-- Identify critical processes and dependencies for the BIA.
-- Ensure employees are trained and aware of their roles during a disruption.
-
-### 4.4 Employees
-- Participate in BC/DR training and exercises.
-- Follow procedures outlined in the BCP and DRP during a disruption.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to business processes or threats.
 
 ---
 
