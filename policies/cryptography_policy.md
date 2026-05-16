@@ -28,25 +28,8 @@ This policy applies to all employees, contractors, and third parties who use cry
 - Do not use deprecated algorithms (e.g., DES, MD5, SHA-1).
 - Do not hardcode encryption keys in source code or configuration files.
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Implement and maintain cryptographic controls.
-
-### 4.2 IT Team
-- Support the CTO in implementing cryptographic controls.
-
-### 4.3 Developers
-- Ensure cryptographic standards are followed in software development.
-
-### 4.4 Employees
-- Comply with encryption requirements for data storage and transmission.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to cryptographic standards or threats.
-
 
 ---
 
