@@ -56,32 +56,8 @@ All information assets shall be assigned one of the following classification lev
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 CISO (Owner)
-- Maintain and enforce this policy.
-- Ensure classification standards are communicated to all staff.
-
-### 4.2 Asset Owners
-- Assign classification levels to their information assets.
-- Review and update classifications as needed.
-
-### 4.3 IT Team
-- Implement technical controls to enforce classification-based access restrictions.
-- Ensure encryption and access controls align with classification requirements.
-
-### 4.4 Employees
-- Apply the correct classification to information they create or handle.
-- Report misclassified or improperly handled information to the IT Team.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts, and legal penalties where applicable.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to business processes, data types, or regulatory requirements.
 
 ---
 
