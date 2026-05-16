@@ -25,24 +25,8 @@ This policy applies to all employees, contractors, and third parties who transmi
 - Third parties shall comply with the Company’s communication security requirements.
 - Data shared with third parties shall be encrypted and protected by contractual agreements.
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Implement and maintain communication security controls.
-
-### 4.2 IT Team
-- Support the CTO in implementing communication security controls.
-
-### 4.3 Employees
-- Comply with communication security procedures.
-
-### 4.4 Managers
-- Ensure teams are aware of communication security risks.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to communication technologies or threats.
 
 
 ---
