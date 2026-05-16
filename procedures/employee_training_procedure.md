@@ -6,18 +6,9 @@ This procedure ensures all employees receive regular training on information sec
 ## 2. Scope
 This procedure applies to all employees (full-time, part-time, temporary), contractors, and third-party vendors with access to organizational systems or data.
 
-## 3. Roles and Responsibilities
-| **Role** | **Responsibility** |
-|---|---|
-| Chief People Officer (Owner) | Oversee the training program and ensure compliance. |
-| HR Team | Organize and track training sessions. |
-| IT Team | Provide technical training materials and run phishing simulations. |
-| Managers | Ensure their teams complete training and participate in simulations. |
-| Employees | Complete assigned training and report security concerns. |
+## 3. Training Program
 
-## 4. Training Program
-
-### 4.1 Onboarding / Initial Training
+### 3.1 Onboarding / Initial Training
 - **Audience**: All new hires and contractors.
 - **When**: Within 30 days of hire.
 - **Format**: Online module + in-person or virtual session. Duration: 60 minutes.
@@ -29,7 +20,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
   - Password security and MFA
   - Safe browsing and email practices
 
-### 4.2 Annual Refresher Training
+### 3.2 Annual Refresher Training
 - **Audience**: All employees, contractors, and third-party vendors.
 - **When**: Annually.
 - **Format**: Online module + quiz. Duration: 45 minutes.
@@ -40,24 +31,24 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
   - Secure coding practices (developers only)
   - Remote work security
 
-### 4.3 Role-Specific Training
+### 3.3 Role-Specific Training
 - **IT Team**: Advanced training on cryptography, patch management, and incident response.
 - **Developers**: Secure coding practices and system development lifecycle.
 - **Managers**: Risk management and compliance; workshops or webinars as needed.
 
-### 4.4 Quarterly Phishing Simulations
+### 3.4 Quarterly Phishing Simulations
 - **Audience**: All employees.
 - **Format**: Simulated phishing emails via third-party platform.
 - **Frequency**: Quarterly.
 - **Follow-up**: Employees who fail receive immediate feedback and targeted additional training.
 
-## 5. Training Delivery
+## 4. Training Delivery
 
-### 5.1 Online Modules
+### 4.1 Online Modules
 - **Platform**: Learning Management System (LMS) or third-party training provider.
 - **Assessment**: Participants shall achieve a score of **80% or higher** on quizzes.
 
-### 5.2 Topics Reference Table
+### 4.2 Topics Reference Table
 | **Topic** | **Description** |
 |---|---|
 | Introduction to Information Security | Overview of information security, its importance, and organizational policies. |
@@ -70,16 +61,16 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
 | Remote Work Security | Best practices for securing remote work environments. |
 | Safe Use of AI Systems | Avoiding sensitive data in prompts, critically evaluating AI-generated outputs, and recognizing AI-specific threats such as prompt injection. |
 
-## 6. Training Records
+## 5. Training Records
 - Maintain records of all training completions in the HR system.
 - Track completion rates, quiz scores, and phishing simulation results.
 - Follow up with employees who miss training deadlines.
 
-## 7. Evaluation and Improvement
+## 6. Evaluation and Improvement
 - Collect participant feedback after each training session.
 - Review the training program annually and update content to reflect new threats and policy changes.
 
-## 8. Compliance
+## 7. Compliance
 Non-compliance with this procedure may result in disciplinary action, up to and including termination of employment or contracts.
 
 ---
