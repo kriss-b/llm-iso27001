@@ -33,25 +33,8 @@ This policy applies to all employees, contractors, and third parties responsible
 - Security patches shall be applied within 30 days of release for critical systems.
 - End-of-life software shall not be used in production.
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Implement and maintain operational security controls.
-
-### 4.2 IT Team
-- Support the CTO in implementing operational security controls.
-
-### 4.3 Developers
-- Ensure secure coding practices and patch management.
-
-### 4.4 Employees
-- Comply with operational security procedures.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to operations or threats.
-
 
 ---
 
