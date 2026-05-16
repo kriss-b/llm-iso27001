@@ -72,23 +72,6 @@ When an employee changes role internally, access rights shall be reviewed and up
 
 ---
 
-## 6. Roles and Responsibilities
-
-| Role | Responsibilities |
-|------|-----------------|
-| CPO | Coordinate overall onboarding/offboarding; HR documentation; training |
-| CTO | Provision and revoke technical access; device management |
-| CISO | Security briefing; verify access revocation |
-| COO | Physical access and asset return |
-| ISMS Owner | Ensure procedure is followed; periodic review |
-
----
-
-## 7. Review and Updates
-This procedure will be reviewed annually or following a security incident related to onboarding or offboarding.
-
----
-
 ## Changelog
 
 | Version | Date | Owner | Approver | Changes |
