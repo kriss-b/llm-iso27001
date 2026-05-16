@@ -26,24 +26,8 @@ Implement controls to protect assets against unauthorized access, destruction, m
 ### 3.5 Disposal of Assets
 Dispose of assets securely and in compliance with applicable regulations and organizational policies.
 
-## 4. Roles and Responsibilities
-### 4.1 COO (Owner)
-- Ensure compliance with this policy for all assets.
-
-### 4.2 Asset Owners
-- Manage and protect their respective assets.
-
-### 4.3 Employees
-- Adhere to this policy and report any concerns regarding assets.
-
-### 4.4 IT Team
-- Implement technical controls to protect assets and maintain the inventory.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to the business or threat landscape.
 
 ---
 
