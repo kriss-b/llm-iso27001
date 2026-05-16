@@ -41,28 +41,8 @@ This policy applies to:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Oversee the implementation and enforcement of this policy.
-- Approve mobile device and teleworking arrangements.
-
-### 4.2 IT Team
-- Manage mobile device registration and security controls.
-- Provide technical support for teleworking arrangements.
-
-### 4.3 Employees
-- Comply with this policy and report security concerns.
-- Secure mobile devices and teleworking environments.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to mobile device technologies or threats.
 
 ---
 
