@@ -67,26 +67,9 @@ This policy applies to:
 
 ---
 
-## 4. **Roles and Responsibilities**
-| **Role**                     | **Responsibility**                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------------|
-| **CEO**                     | Ultimate responsibility for access control.                                      |
-| **CTO**                     | Approve privileged access and enforce access control policies.                   |
-| **Managers**                | Approve access requests for their teams and conduct access reviews.              |
-| **Employees**               | Comply with access control policies and report suspicious activity.               |
-| **Third-Party Vendors**     | Comply with access control requirements and contractual obligations.              |
-
----
-
-## 5. **Compliance**
+## 4. **Compliance**
 - Non-compliance with this policy may result in **disciplinary action**, up to and including termination.
 - Access rights may be **revoked** for non-compliance.
-
----
-
-## 6. **Review and Update**
-- This policy shall be **reviewed annually** or after significant changes.
-- Updates shall be **approved by the CEO** and communicated to all stakeholders.
 
 ---
 
