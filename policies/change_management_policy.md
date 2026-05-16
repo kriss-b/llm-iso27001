@@ -70,32 +70,8 @@ Changes are classified as follows:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Oversee the change management process.
-- Approve high-risk changes.
-
-### 4.2 Change Advisory Board (CAB)
-- Review and approve **Normal** changes.
-- Ensure changes align with business and security objectives.
-
-### 4.3 IT Team
-- Implement and test changes.
-- Document change requests and results.
-
-### 4.4 Employees
-- Submit change requests for approval.
-- Comply with change management procedures.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to business processes or threats.
 
 ---
 
