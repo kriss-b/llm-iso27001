@@ -63,27 +63,8 @@ The following activities are **strictly prohibited**:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 Chief People Officer (Owner)
-- Oversee the implementation and enforcement of this policy.
-- Ensure employees are trained and aware of their responsibilities.
-
-### 4.2 IT Team
-- Monitor compliance with this policy.
-- Implement technical controls to enforce acceptable use.
-
-### 4.3 Employees
-- Comply with this policy and report violations or security concerns.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts, and legal action where applicable.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to business processes or threats.
 
 ---
 
