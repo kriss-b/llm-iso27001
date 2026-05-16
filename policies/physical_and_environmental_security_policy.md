@@ -26,25 +26,8 @@ This policy applies to all employees, contractors, and third parties with access
 - Sensitive documents shall be stored securely when not in use.
 - Workstations shall be locked when unattended.
 
-## 4. Roles and Responsibilities
-### 4.1 COO (Owner)
-- Oversee the implementation and maintenance of physical security controls.
-
-### 4.2 Facilities Team
-- Implement and maintain physical security controls.
-
-### 4.3 Employees
-- Comply with physical security procedures.
-
-### 4.4 IT Team
-- Ensure equipment is secured and monitored.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to facilities or threats.
-
 
 ---
 
