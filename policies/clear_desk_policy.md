@@ -37,27 +37,8 @@ This policy applies to:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 COO (Owner)
-- Oversee the implementation and enforcement of this policy.
-
-### 4.2 Employees
-- Comply with this policy and maintain a clear desk and clear screen.
-- Report security concerns or violations.
-
-### 4.3 IT Team
-- Configure workstations and devices to enforce screen lock settings.
-- Provide secure storage options for physical documents and media.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to work environments or threats.
 
 ---
 
