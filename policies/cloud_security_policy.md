@@ -80,23 +80,8 @@ This policy applies to all cloud services, including infrastructure (IaaS), plat
 
 ---
 
-## 11. Roles and Responsibilities
-
-| Role | Responsibilities |
-|------|-----------------|
-| CTO (Owner) | Oversee cloud security; maintain shared responsibility documentation; approve new cloud services |
-| CISO | Monitor cloud security posture; coordinate cloud-related incidents |
-| Developers | Follow secure configuration and coding practices for cloud-hosted applications |
-| COO | Ensure contractual security requirements are included in cloud service agreements |
-| ISMS Owner | Review cloud security compliance as part of annual ISMS review |
-
----
-
-## 12. Compliance
+## 11. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 13. Review and Updates
-This policy will be reviewed annually or following a significant change to the Company's cloud infrastructure or a cloud-related security incident.
 
 ---
 
