@@ -124,23 +124,8 @@ To prevent audit activities from disrupting or compromising production systems:
 
 ---
 
-## 10. Roles and Responsibilities
-
-| Role | Responsibilities |
-|------|-----------------|
-| ISMS Owner | Maintain the audit programme; coordinate internal audits; report findings to management |
-| CISO | Support technical audits; manage corrective actions for technical findings |
-| CTO | Authorise and oversee technical audits; ensure system protection during testing |
-| Process owners | Cooperate with auditors; implement and verify corrective actions within their area |
-| External auditors | Conduct independent reviews and penetration tests in accordance with agreed scope |
-
----
-
-## 11. Compliance
+## 10. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 12. Review and Updates
-This policy will be reviewed annually or following a significant audit finding or organisational change.
 
 ---
 
