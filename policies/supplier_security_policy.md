@@ -59,22 +59,8 @@ Procedures for secure termination of supplier relationships shall cover:
 
 ---
 
-## 8. Roles and Responsibilities
-| **Role** | **Responsibility** |
-|---|---|
-| COO (Owner) | Oversee supplier management, compliance, and performance reviews. |
-| IT Team | Assess supplier security practices and monitor compliance. |
-| Legal Team | Ensure contractual agreements meet organizational and regulatory requirements. |
-
----
-
-## 9. Non-Compliance
+## 8. Non-Compliance
 Non-compliance with this policy may result in termination of supplier contracts or legal action.
-
----
-
-## 10. Review and Updates
-This policy will be reviewed annually or after significant changes to supplier relationships or regulatory requirements.
 
 ---
 
