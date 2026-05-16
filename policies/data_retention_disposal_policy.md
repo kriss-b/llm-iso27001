@@ -43,17 +43,6 @@ Data shall be disposed of securely to prevent unauthorized access. Approved disp
 - A designated employee shall verify the disposal process.
 - Third-party vendors shall provide a certificate of destruction for physical records.
 
-## 5. Roles and Responsibilities
-| **Role**                    | **Responsibility**                          |
-|-----------------------------|--------------------------------------------|
-| **Data Protection Officer** | Oversee compliance with this policy.       |
-| **IT Team**                 | Implement secure disposal methods.         |
-| **Department Heads**        | Ensure employees follow retention schedules. |
-| **Employees**               | Adhere to retention and disposal procedures. |
-
-## 6. Review and Updates
-This policy will be reviewed annually or as required by changes in legal or regulatory requirements. Updates will be communicated to all relevant stakeholders.
-
 ---
 
 ## Changelog
