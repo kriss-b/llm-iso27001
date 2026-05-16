@@ -81,8 +81,7 @@ See [Emergency Contacts Register](../run/registers/emergency_contacts_register.m
 
 ## 7. Appendices
 ### Appendix A: Backup and Recovery Procedures
-- **SaaS Platform**: Automated backups to AWS S3 and secondary region.
-- **Customer Data**: Encrypted backups with daily snapshots.
+See [Backup Procedure](backup_procedure.md).
 
 ---
 

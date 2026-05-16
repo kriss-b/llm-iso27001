@@ -16,22 +16,7 @@ This plan applies to:
 ---
 
 ## 3. Backup Procedures
-### 3.1 SaaS Platform
-- **Frequency**: Daily automated backups.
-- **Storage**: AWS S3 (primary) and AWS Frankfurt (secondary).
-- **Retention**: 30 days.
-- **Encryption**: AES-256.
-
-### 3.2 Customer Data
-- **Frequency**: Real-time replication.
-- **Storage**: AWS RDS with multi-region failover.
-- **Retention**: 90 days.
-- **Encryption**: AES-256.
-
-### 3.3 Internal Tools
-- **Frequency**: Weekly backups.
-- **Storage**: AWS S3.
-- **Retention**: 30 days.
+See [Backup Procedure](backup_procedure.md) for backup schedules, storage, retention, and validation.
 
 ---
 
@@ -77,11 +62,7 @@ See [Emergency Contacts Register](../run/registers/emergency_contacts_register.m
 ---
 
 ## 8. Appendices
-### Appendix A: Backup and Restoration Commands
-- **AWS CLI**: Commands for restoring backups.
-- **Database Recovery**: Steps for restoring AWS RDS.
-
-### Appendix B: System Diagrams
+### Appendix A: System Diagrams
 - **Network Architecture**: Diagram of primary and secondary cloud regions.
 - **Data Flow**: Diagram of data replication and failover processes.
 
