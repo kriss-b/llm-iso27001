@@ -30,27 +30,11 @@ This policy applies to all employees, contractors, and third parties with access
 - Employees who use AI systems shall additionally receive training on safe AI use, including avoiding sensitive data in prompts and critically evaluating AI-generated outputs.
 - The detailed training programme is defined in the **[Employee Training Procedure](../procedures/employee_training_procedure.md)**.
 
-## 4. Roles and Responsibilities
-### 4.1 Chief People Officer (Owner)
-- Oversee background checks, training, and termination procedures.
-
-### 4.2 HR Team
-- Conduct background checks, manage training, and oversee termination procedures.
-
-### 4.3 Managers
-- Ensure employees comply with security policies.
-
-### 4.4 Employees
-- Complete training and report security concerns.
-
-## 5. Operational Procedure
+## 4. Operational Procedure
 The operational steps for onboarding and offboarding — including checklists for access provisioning, device setup, training, asset return, and access revocation — are defined in the **[Onboarding and Offboarding Procedure](../procedures/onboarding_offboarding_procedure.md)**.
 
-## 6. Compliance
+## 5. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 7. Review and Updates
-This policy will be reviewed annually or after significant changes to HR processes or threats.
 
 
 ---
