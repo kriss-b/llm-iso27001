@@ -17,32 +17,21 @@ This plan applies to:
 
 ---
 
-## 3. Roles and Responsibilities
-| **Role**               | **Responsibilities**                                                                                     |
-|------------------------|---------------------------------------------------------------------------------------------------------|
-| **COO (Owner)**        | Oversee BCP implementation, ensure alignment with business objectives, and declare disruptions.       |
-| **IT Team**            | Support recovery of IT systems and data, coordinate with cloud providers.                              |
-| **Department Heads**   | Ensure team readiness, communicate updates to employees, and execute department-specific procedures.   |
-| **Employees**          | Follow BCP procedures, participate in training, and report incidents.                                  |
-| **Vendors**            | Provide support as outlined in contracts and SLAs.                                                     |
-
----
-
-## 4. Communication Protocols
-### 4.1 Internal Communication
+## 3. Communication Protocols
+### 3.1 Internal Communication
 - **Primary Channel**: Slack (#business-continuity).
 - **Secondary Channel**: Email (business-continuity@courtier-demo.com).
 - **Emergency Contact**: COO (phone: +33 XXX XXX XXX).
 
-### 4.2 External Communication
+### 3.2 External Communication
 - **Customers**: Status page (status.courtier-demo.com) and email notifications.
 - **Vendors**: Contact via predefined vendor lists (see Appendix A).
 - **Media**: Statements approved by the COO or CEO.
 
 ---
 
-## 5. Critical Operations and Recovery Strategies
-### 5.1 SaaS Platform
+## 4. Critical Operations and Recovery Strategies
+### 4.1 SaaS Platform
 - **Recovery Time Objective (RTO)**: 2 hours.
 - **Recovery Point Objective (RPO)**: 15 minutes.
 - **Procedures**:
@@ -50,7 +39,7 @@ This plan applies to:
   - Restore from automated backups.
   - Monitor system health via Datadog.
 
-### 5.2 Customer Support
+### 4.2 Customer Support
 - **RTO**: 1 hour.
 - **RPO**: 0 minutes (real-time).
 - **Procedures**:
@@ -58,7 +47,7 @@ This plan applies to:
   - Use Zendesk’s disaster recovery features.
   - Communicate delays via status page.
 
-### 5.3 Internal Communication
+### 4.3 Internal Communication
 - **RTO**: 30 minutes.
 - **RPO**: 0 minutes.
 - **Procedures**:
@@ -67,33 +56,33 @@ This plan applies to:
 
 ---
 
-## 6. Recovery Procedures
-### 6.1 Activation
+## 5. Recovery Procedures
+### 5.1 Activation
 - The COO declares a disruption and activates the BCP.
 - Notify all employees via Slack and email.
 
-### 6.2 Execution
+### 5.2 Execution
 1. **Assess the Situation**: Determine the scope and impact of the disruption.
 2. **Activate Recovery Teams**: Assign roles and responsibilities.
 3. **Implement Recovery Strategies**: Follow procedures for critical operations.
 4. **Communicate**: Update stakeholders on progress.
 5. **Monitor**: Track recovery efforts and adjust as needed.
 
-### 6.3 Deactivation
+### 5.3 Deactivation
 - The COO declares the end of the disruption.
 - Conduct a post-incident review and update the BCP as needed.
 
 ---
 
-## 7. Contact Lists
-### 7.1 Internal Contacts
+## 6. Contact Lists
+### 6.1 Internal Contacts
 | **Role**               | **Name**          | **Email**                          | **Phone**            |
 |------------------------|-------------------|------------------------------------|----------------------|
 | COO                    | [Name]            | [Email]                            | +33 XXX XXX XXX      |
 | CTO                    | [Name]            | [Email]                            | +33 XXX XXX XXX      |
 | Head of Customer Support | [Name]          | [Email]                            | +33 XXX XXX XXX      |
 
-### 7.2 External Contacts
+### 6.2 External Contacts
 | **Vendor**             | **Contact**       | **Email**                          | **Phone**            |
 |------------------------|-------------------|------------------------------------|----------------------|
 | AWS Support            | [Name]            | support@aws.com                    | +1 XXX XXX XXX       |
@@ -101,7 +90,7 @@ This plan applies to:
 
 ---
 
-## 8. Appendices
+## 7. Appendices
 ### Appendix A: Vendor Contact List
 - **AWS**: [Details]
 - **Zendesk**: [Details]
