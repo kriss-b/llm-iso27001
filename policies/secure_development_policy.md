@@ -56,32 +56,8 @@ This policy applies to:
 
 ---
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Oversee the implementation and enforcement of this policy.
-- Ensure secure development practices are embedded in engineering processes.
-
-### 4.2 Developers
-- Follow secure coding standards and participate in security training.
-- Conduct peer code reviews and address identified vulnerabilities promptly.
-
-### 4.3 IT Team
-- Maintain CI/CD pipeline security tooling (SAST, dependency scanning).
-- Manage separation of development, test, and production environments.
-
-### 4.4 CISO
-- Define security requirements and threat modeling standards.
-- Review and approve penetration testing scope and findings.
-
----
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
----
-
-## 6. Review and Updates
-This policy will be reviewed **annually** or after significant changes to the technology stack, development practices, or threat landscape.
 
 ---
 
