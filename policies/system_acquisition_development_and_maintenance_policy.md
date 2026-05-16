@@ -26,25 +26,8 @@ This policy applies to all employees, contractors, and third parties involved in
 - Security patches shall be applied within 30 days of release.
 - End-of-life systems shall be decommissioned securely.
 
-## 4. Roles and Responsibilities
-### 4.1 CTO (Owner)
-- Oversee secure development and maintenance processes.
-
-### 4.2 Developers
-- Follow secure coding practices and conduct security testing.
-
-### 4.3 IT Team
-- Support the CTO in implementing secure development and maintenance processes.
-
-### 4.4 Procurement Team
-- Evaluate third-party software for security risks.
-
-## 5. Compliance
+## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
-
-## 6. Review and Updates
-This policy will be reviewed annually or after significant changes to development processes or threats.
-
 
 ---
 
