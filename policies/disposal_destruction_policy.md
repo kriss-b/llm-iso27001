@@ -16,11 +16,7 @@ This policy applies to:
 
 ## 3. Policy Statements
 ### 3.1 Data Classification
-- All assets shall be classified according to the **[Data Protection Policy](data_protection_policy.md)** before disposal:
-  - **Public**: No special handling required.
-  - **Internal**: Secure disposal required.
-  - **Confidential**: Secure destruction required.
-  - **Restricted**: Secure destruction with verification.
+All assets shall be classified and handled according to the [Data Classification Policy](data_classification_policy.md) before disposal.
 
 ### 3.2 Physical Asset Disposal
 - **Electronic Media**:
