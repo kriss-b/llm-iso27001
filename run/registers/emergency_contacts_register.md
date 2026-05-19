@@ -4,20 +4,20 @@ This register is the single source of truth for emergency contacts used during b
 
 ## Internal Contacts
 
-| **Role**                 | **Name** | **Email** | **Phone**       |
-|--------------------------|----------|-----------|-----------------|
-| COO                      | [Name]   | [Email]   | +33 XXX XXX XXX |
-| CTO                      | [Name]   | [Email]   | +33 XXX XXX XXX |
-| IT Team Lead             | [Name]   | [Email]   | +33 XXX XXX XXX |
-| Head of Customer Support | [Name]   | [Email]   | +33 XXX XXX XXX |
+| **Role**                 | **Name** | **Email** | **Phone**       | **Notes** |
+|--------------------------|----------|-----------|-----------------|-----------|
+| COO                      | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
+| CTO                      | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
+| IT Team Lead             | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
+| Head of Customer Support | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
 
 ## External Contacts
 
-| **Vendor**      | **Contact** | **Email**                | **Phone**       |
-|-----------------|-------------|--------------------------|-----------------|
-| AWS Support     | [Name]      | support@aws.com          | +1 XXX XXX XXX  |
-| Zendesk Support | [Name]      | support@zendesk.com      | +1 XXX XXX XXX  |
-| Datadog Support | [Name]      | support@datadoghq.com    | +1 XXX XXX XXX  |
+| **Vendor**      | **Contact** | **Email**                | **Phone**       | **Notes** |
+|-----------------|-------------|--------------------------|-----------------|-----------|
+| AWS Support     | [Name]      | support@aws.com          | +1 XXX XXX XXX  | —         |
+| Zendesk Support | [Name]      | support@zendesk.com      | +1 XXX XXX XXX  | —         |
+| Datadog Support | [Name]      | support@datadoghq.com    | +1 XXX XXX XXX  | —         |
 
 ---
 
