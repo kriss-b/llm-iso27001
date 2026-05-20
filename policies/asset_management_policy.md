@@ -15,7 +15,7 @@ This policy applies to all assets owned or used by the organization, including:
 Maintain an up-to-date inventory of all assets, including their classification, location, and assigned owner.
 
 ### 3.2 Ownership and Classification
-Every asset shall have an assigned owner responsible for its management, security, and classification based on sensitivity and criticality.
+Every asset shall have an assigned owner responsible for its management, security, and classification. Classification shall follow the [Data Classification Policy](data_classification_policy.md).
 
 ### 3.3 Acceptable Use
 Define and communicate acceptable use guidelines for all asset categories. Employees shall be trained on these guidelines.
