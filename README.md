@@ -116,12 +116,12 @@ git remote add upstream https://github.com/kriss-b/llm-iso27001.git
 
 ```bash
 git fetch upstream
-git diff HEAD..upstream/main > upstream_changes.diff
+git log --oneline HEAD..upstream/main > upstream_changes.log
 ```
 
 Then open a session with your LLM Agent and say something like:
 
-> The file `upstream_changes.diff` contains changes made to the upstream ISMS template since I cloned it. Our company is [brief context reminder]. Please:
+> The file `upstream_changes.log` lists commits made to the upstream ISMS template since I cloned it. Our company is [brief context reminder]. Please:
 > 1. Summarise what has changed in the template (new policies, updated controls, structural improvements).
 > 2. For each change, assess whether it is relevant to us given our context.
 > 3. Propose concrete updates to our local ISMS where the upstream change adds value, adapting the content to our specific situation rather than applying it blindly.
