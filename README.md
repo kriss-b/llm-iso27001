@@ -112,21 +112,28 @@ If you cloned this repo to create your own ISMS, you can track upstream improvem
 git remote add upstream https://github.com/kriss-b/llm-iso27001.git
 ```
 
+**First time — mark your starting point:**
+
+```bash
+git tag last-upstream-check upstream/main
+```
+
 **When you want to check for updates:**
 
 ```bash
 git fetch upstream
-git log --oneline HEAD..upstream/main > upstream_changes.log
+git log --oneline last-upstream-check..upstream/main > upstream_changes.log
+git tag -f last-upstream-check upstream/main  # move the marker forward after review
 ```
 
 Then open a session with your LLM Agent and say something like:
 
-> The file `upstream_changes.log` lists commits made to the upstream ISMS template since I cloned it. Our company is [brief context reminder]. Please:
+> The file `upstream_changes.log` lists commits made to the upstream ISMS template since my last review. Our company is [brief context reminder]. Please:
 > 1. Summarise what has changed in the template (new policies, updated controls, structural improvements).
 > 2. For each change, assess whether it is relevant to us given our context.
 > 3. Propose concrete updates to our local ISMS where the upstream change adds value, adapting the content to our specific situation rather than applying it blindly.
 
-The LLM should not merge blindly. Your instantiated ISMS has been customised for your company; upstream changes are suggestions, not patches. The diff gives the agent the raw material — your company context guides what gets adopted.
+The LLM should not merge blindly. Your instantiated ISMS has been customised for your company; upstream changes are suggestions, not patches. The log gives the agent the raw material — your company context guides what gets adopted.
 
 ---
 
