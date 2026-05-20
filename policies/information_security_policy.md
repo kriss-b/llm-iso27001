@@ -43,7 +43,7 @@ This policy applies to:
 - Assets shall be **securely disposed of** in accordance with the **[Data Retention and Disposal Policy](data_retention_disposal_policy.md)**.
 
 ### 4.4 **Incident Management**
-- All security incidents shall be **reported immediately** to the **Incident Response Team (IRT)**.
+- All security incidents shall be **reported immediately** to the **CISO**.
 - The **[Incident Response Plan](../incidents/incident_response_plan.md)** shall be tested **annually**.
 
 ### 4.5 **Business Continuity**

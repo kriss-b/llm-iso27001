@@ -22,7 +22,7 @@ The Company respects the following rights of data subjects:
 - Right to data portability.
 
 ### 3.4 Data Breach Notification
-- Data breaches shall be reported to the IRT within 1 hour of discovery.
+- Data breaches shall be reported to the CISO within 1 hour of discovery.
 - Regulatory authorities and affected individuals shall be notified within 72 hours if required by law.
 
 ## 4. Roles and Responsibilities

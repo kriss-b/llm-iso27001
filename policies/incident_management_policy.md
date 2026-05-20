@@ -39,7 +39,7 @@ All security events shall be assessed and classified according to severity:
 | **Critical** | Catastrophic impact, confirmed data breach, certain regulatory implications. | Mass data exfiltration, full system compromise. |
 
 ### 3.2 Incident Impact Assessment
-For each incident, the IRT shall assess impact across the following dimensions:
+For each incident, the CISO shall assess impact across the following dimensions:
 
 | **Dimension** | **Description** |
 |---|---|
@@ -49,12 +49,12 @@ For each incident, the IRT shall assess impact across the following dimensions:
 | **Regulatory** | Whether the incident triggers legal or regulatory obligations (e.g., GDPR breach notification). |
 
 ### 3.3 Reporting
-- All employees shall report suspected or confirmed security incidents **immediately** to the **Incident Response Team (IRT)**.
+- All employees shall report suspected or confirmed security incidents **immediately** to the **CISO**.
 - Reports shall be submitted using the **Incident Report Template** (`incidents/incident_report_template.md`).
-- No employee shall attempt to investigate or remediate an incident without IRT involvement.
+- No employee shall attempt to investigate or remediate an incident without CISO involvement.
 
 ### 3.4 Response
-- The IRT shall acknowledge all reported incidents within **1 hour**.
+- The CISO shall acknowledge all reported incidents within **1 hour**.
 - Incidents shall be contained, investigated, and resolved in accordance with the **[Incident Response Plan](../incidents/incident_response_plan.md)**.
 - Evidence shall be preserved in a manner that maintains its integrity and chain of custody.
 
@@ -75,21 +75,19 @@ For each incident, the IRT shall assess impact across the following dimensions:
 ## 4. Roles and Responsibilities
 ### 4.1 CISO (Owner)
 - Maintain and enforce this policy.
-- Oversee the Incident Response Team and post-incident review process.
-
-### 4.2 Incident Response Team (IRT)
 - Receive, assess, and classify all reported incidents.
 - Lead containment, investigation, and recovery activities.
 - Coordinate regulatory notifications where required.
+- Oversee post-incident review process.
 
-### 4.3 Employees
+### 4.2 Employees
 - Report suspected or confirmed incidents immediately.
-- Cooperate fully with the IRT during investigations.
+- Cooperate fully with the CISO during investigations.
 - Preserve potential evidence and avoid actions that could compromise it.
 
-### 4.4 Managers
+### 4.3 Managers
 - Ensure their teams are aware of incident reporting obligations.
-- Support the IRT during investigations affecting their area.
+- Support the CISO during investigations affecting their area.
 
 ---
 

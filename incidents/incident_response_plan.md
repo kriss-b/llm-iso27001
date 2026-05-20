@@ -12,20 +12,13 @@ Scope is defined in the [Incident Management Policy](../policies/incident_manage
 
 ## 🔐 **Roles and Responsibilities**
 
-| **Role**                     | **Responsibilities**                                                                                     |
-|------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Incident Response Team (IRT)** | Lead incident response efforts, coordinate with stakeholders, and ensure timely resolution.         |
-| **Chief Information Security Officer (CISO)** | Oversee incident response, approve containment and recovery actions, and communicate with leadership. |
-| **IT Team**                  | Implement technical containment and recovery measures, and assist in forensic analysis.             |
-| **Legal Team**               | Provide legal guidance, ensure compliance with regulations, and manage external communications.     |
-| **Public Relations (PR) Team** | Manage external communications, including media statements and customer notifications.              |
-| **Human Resources (HR)**     | Support internal communications and manage employee-related incidents.                              |
+Roles and responsibilities are defined in the [Incident Management Policy](../policies/incident_management_policy.md) §4.
 
 ---
 
 ## 🚨 **Incident Severity**
 
-Incident severity levels (Low / Medium / High / Critical) are defined in the [Incident Management Policy](../policies/incident_management_policy.md). The IRT assigns a severity level upon initial assessment.
+Incident severity levels (Low / Medium / High / Critical) are defined in the [Incident Management Policy](../policies/incident_management_policy.md). The CISO assigns a severity level upon initial assessment.
 
 ---
 
@@ -37,8 +30,8 @@ Incident severity levels (Low / Medium / High / Critical) are defined in the [In
 - Test this plan annually through tabletop exercises.
 
 ### 2. **Detection and Reporting**
-- Employees shall report suspected security incidents to the IRT immediately.
-- The IRT will investigate and assign a severity level to the incident.
+- Employees shall report suspected security incidents to the CISO immediately.
+- The CISO will investigate and assign a severity level to the incident.
 
 ### 3. **Containment**
 - **Short-term containment**: Isolate affected systems to prevent further damage.
@@ -62,7 +55,7 @@ Post-incident reviews are conducted in accordance with the [Incident Management 
 ## 📞 **Communication Plan**
 
 ### 1. **Internal Communication**
-- The IRT will notify the CISO and leadership team upon incident confirmation.
+- The CISO will notify the CISO and leadership team upon incident confirmation.
 - Employees will be informed of incidents that affect their work or data.
 
 ### 2. **External Communication**
