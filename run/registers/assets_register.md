@@ -2,7 +2,7 @@
 
 Inventory of information assets. One row per asset. Update rows in place when status or classification changes.
 
-Asset types: `Information` | `Software` | `Hardware` | `Service` | `People` | `Facility`
+Asset types are defined in the [Asset Management Policy](../../policies/asset_management_policy.md).
 
 | Asset ID | Asset name | Type | Owner | Classification | Location | Status | Notes |
 |----------|-----------|------|-------|---------------|----------|--------|-------|

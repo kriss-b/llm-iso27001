@@ -5,10 +5,12 @@ This policy establishes the requirements for managing organizational assets to e
 
 ## 2. Scope
 This policy applies to all assets owned or used by the organization, including:
-- Physical assets (e.g., laptops, servers, networking equipment).
-- Software assets (e.g., applications, licenses).
 - Information assets (e.g., data, documents, intellectual property).
+- Software assets (e.g., applications, licenses).
+- Physical assets (e.g., laptops, servers, networking equipment).
 - Digital services (e.g., web applications, email accounts, backup systems).
+- People (e.g., employees, contractors).
+- Facilities (e.g., offices, data centres).
 
 ## 3. Policy Statements
 ### 3.1 Inventory of Assets
