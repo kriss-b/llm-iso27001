@@ -33,7 +33,7 @@ This procedure applies to all critical data and systems, including:
 
 ## 5. Backup Validation
 - **Automated Checks**: Verify backup integrity daily.
-- **Manual Tests**: Restore a sample of backups quarterly to ensure recoverability.
+- **Manual Tests**: Restore a sample of backups quarterly to ensure recoverability. Results are recorded in the [Backup Restore Test Log](../run/logs/backup_restore_test_log.md).
 - **Documentation**: Log all backup and restore activities.
 
 ## 6. Recovery Procedure
