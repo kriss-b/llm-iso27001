@@ -1,7 +1,7 @@
 # Backup Procedure
 
 ## 1. Purpose
-This procedure ensures the secure and regular backup of critical data to prevent data loss and enable recovery in alignment with the **Operations Security Policy**.
+This procedure implements the backup requirements defined in the [Operations Security Policy](../policies/operations_security_policy.md), [Business Continuity Policy](../policies/business_continuity_policy.md), and [Data Retention and Disposal Policy](../policies/data_retention_disposal_policy.md).
 
 ## 2. Scope
 This procedure applies to all critical data and systems, including:
