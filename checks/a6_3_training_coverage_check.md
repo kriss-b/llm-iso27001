@@ -1,0 +1,1 @@
+Read the required training frequencies from [employee_training_procedure.md](../procedures/employee_training_procedure.md), then verify [training_log.md](../run/logs/training_log.md) satisfies them for each session type.

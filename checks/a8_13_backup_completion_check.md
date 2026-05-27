@@ -1,0 +1,1 @@
+Read the required restore test frequency from [backup_procedure.md](../procedures/backup_procedure.md), then verify the most recent entry per backup type in [backup_restore_test_log.md](../run/logs/backup_restore_test_log.md) satisfies it.
