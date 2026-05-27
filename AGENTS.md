@@ -12,6 +12,6 @@
 
 **Git is the audit trail.** Every change to any document must be committed and pushed immediately. Commit messages should describe what changed and why. Never batch unrelated changes into a single commit.
 
-**File naming.** The suffix describes the document type: `_policy` (rules and requirements), `_procedure` (step-by-step instructions), `_plan` (operational playbook for a specific scenario), `_template` (blank form to be filled in), `_log` (append-only record of past events), `_register` (current state of a set of entities).
+**File naming.** The suffix describes the document type: `_policy` (rules and requirements), `_procedure` (step-by-step instructions), `_plan` (operational playbook for a specific scenario), `_template` (blank form to be filled in), `_log` (append-only record of past events), `_register` (current state of a set of entities), `_check` (automated verification that a control is operating as required — reads thresholds from the relevant procedure, never hard-codes them).
 
 **Template content is a starting point, not ground truth.** All existing content — scope, context, risks, roles, controls — was written for a generic placeholder company. When working with a real company, treat everything as a draft: question it, challenge it, and propose rewording wherever the content doesn't accurately reflect the company's actual situation.

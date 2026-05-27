@@ -10,6 +10,17 @@ Everything is plain markdown, version-controlled with git, and intentionally kep
 
 A full ISMS documentation set: policies, procedures, risk assessment framework, incident management, a Statement of Applicability covering all 93 ISO 27001:2022 Annex A controls, and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
+| Directory | Contents |
+|---|---|
+| `policies/` | Information security policies — the rules |
+| `procedures/` | Step-by-step operational procedures and templates |
+| `risks/` | Risk assessment framework, procedure, and register |
+| `incidents/` | Incident log, response plan, and report template |
+| `run/` | Operational records: logs and registers updated as the ISMS runs |
+| `checks/` | Automated compliance checks, one per control |
+| `iso42001/` | Optional ISO 42001:2023 AI Management System overlay |
+| `statement_of_applicability.md` | Master index mapping all 93 controls to status and documents |
+
 The `statement_of_applicability.md` is the master index. It maps every ISO 27001:2022 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. The default status is intentionally 'not yet implemented' to force proactive review of all controls.
 
 The `iso42001/` directory is an optional overlay that extends the ISMS with an AI Management System (AIMS) aligned to **ISO 42001:2023**. It adds AI-specific policies and its own `iso42001/statement_of_applicability_iso42001.md`, while reusing and referencing the base ISO 27001 documents wherever possible rather than duplicating them.
