@@ -100,6 +100,16 @@ organised by type of task.
 
 > Is this supplier already referenced anywhere in the ISMS?
 
+### Running checks
+
+- **Run a check by name.** Point the LLM at any file in `checks/` and ask it to execute the check. It will read the referenced procedure for thresholds, verify the relevant log, and report pass/fail with findings.
+
+> Run the check in checks/a8_13_backup_completion_check.md and tell me the result.
+
+- **Run all checks at once.** Useful before a management review or audit to get a full compliance picture.
+
+> Run all checks in the checks/ directory and summarise the results.
+
 ### Open-ended tasks
 
 - **Ask "what should I do next?" at the start of every session.** The LLM reads the SoA, open action items, and the most recent management review, and surfaces the highest-priority gaps. More useful than a static checklist as the ISMS matures.
