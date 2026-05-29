@@ -23,39 +23,6 @@ The risks listed below are **examples** provided as a starting point. Replace th
 
 ---
 
-## **3. Top Risks and Recommended Actions**
-### **RISK-EXAMPLE-001: Unauthorized Access to Customer Data**
-- **Recommended Action**: Implement **Multi-Factor Authentication (MFA)** for all critical systems and enforce **Role-Based Access Control (RBAC)**.
-- **Owner**: CTO
-- **Timeline**: TBD
-
-### **RISK-EXAMPLE-002: Data Breach Due to Unpatched Software**
-- **Recommended Action**: Automate patch management for all systems and conduct monthly vulnerability scans.
-- **Owner**: John Smith
-- **Timeline**: TBD
-
-### **RISK-EXAMPLE-004: Phishing Attacks Leading to Credential Theft**
-- **Recommended Action**: Conduct **quarterly security awareness training** for all employees, including phishing simulations.
-- **Owner**: Jane Doe
-- **Timeline**: TBD
-
-### **RISK-EXAMPLE-005: Non-Compliance with ISO 27001 Requirements**
-- **Recommended Action**: Develop and maintain **ISMS documentation**, including policies, procedures, and records.
-- **Owner**: ISMS Owner
-- **Timeline**: TBD
-
-### **RISK-EXAMPLE-009: Environmental Changes Disrupt SaaS Operations**
-- **Recommended Action**: Conduct an **environmental risk assessment** to evaluate the impact of floods, fires, or storms on operations. Document mitigation strategies (e.g., redundant data centers, disaster recovery plans).
-- **Owner**: COO
-- **Timeline**: TBD
-
-### **RISK-EXAMPLE-010: Supply Chain Attack via Third-Party Dependencies**
-- **Recommended Action**: Implement **supply chain security controls**, including dependency scanning, vendor security reviews, and contractual security requirements.
-- **Owner**: CTO
-- **Timeline**: TBD
-
----
-
 ## Changelog
 
 | Version | Date | Owner | Approver | Changes |
