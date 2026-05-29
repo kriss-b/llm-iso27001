@@ -1,0 +1,1 @@
+Read the required supplier review frequency from [supplier_security_policy.md](../policies/supplier_security_policy.md), then verify no supplier in [suppliers_register.md](../run/registers/suppliers_register.md) has an overdue Next review date.

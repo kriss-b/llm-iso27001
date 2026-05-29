@@ -1,0 +1,1 @@
+Read the required access review frequency from [access_control_policy.md](../policies/access_control_policy.md), then verify the most recent entry in [access_review_log.md](../run/logs/access_review_log.md) satisfies it.
