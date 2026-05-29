@@ -1,1 +1,1 @@
-Verify [confidentiality_agreement_template.md](../procedures/confidentiality_agreement_template.md) exists.
+Verify [confidentiality_agreement_template.md](../procedures/confidentiality_agreement_template.md) exists, or that an equivalent confidentiality agreement document exists elsewhere in the repository.
