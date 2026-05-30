@@ -12,10 +12,13 @@ Risk assessments shall be conducted in accordance with the [Risk Assessment Proc
 ## 4. Roles and Responsibilities
 Roles and responsibilities are defined in the [Risk Assessment Framework](../risks/risk_assessment_framework.md).
 
-## 5. Compliance
+## 5. Risk Register Review Frequency
+The risk register shall be reviewed and updated at least annually, or after any significant change to the business, threat landscape, or following a security incident.
+
+## 6. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
 
-## 6. Review and Updates
+## 7. Review and Updates
 This policy will be reviewed annually or after significant changes to the business or threat landscape.
 
 

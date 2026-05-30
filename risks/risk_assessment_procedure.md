@@ -28,7 +28,7 @@ Roles and responsibilities are defined in the [Risk Assessment Framework](risk_a
 
 ### 4.5 Documentation
 - Document all findings in the **Risk Register** (see `risks/risks_register.md`).
-- Update the Risk Register annually or after significant changes.
+- Update the Risk Register in accordance with the frequency defined in the [Risk Assessment Policy](../policies/risk_assessment_policy.md).
 
 ---
 
