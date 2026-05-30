@@ -1,0 +1,1 @@
+Read the risk register review frequency from [risk_assessment_policy.md](../policies/risk_assessment_policy.md), then verify `risks/risks_register.md` has been updated within that interval via both git log and the most recent Changelog date in the document footer.
