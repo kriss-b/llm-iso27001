@@ -11,13 +11,27 @@ This register is the single source of truth for emergency contacts used during b
 | IT Team Lead             | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
 | Head of Customer Support | [Name]   | [Email]   | +33 XXX XXX XXX | —         |
 
-## External Contacts
+## Suppliers
 
 | **Vendor**      | **Contact** | **Email**                | **Phone**       | **Notes** |
 |-----------------|-------------|--------------------------|-----------------|-----------|
 | AWS Support     | [Name]      | support@aws.com          | +1 XXX XXX XXX  | —         |
 | Zendesk Support | [Name]      | support@zendesk.com      | +1 XXX XXX XXX  | —         |
 | Datadog Support | [Name]      | support@datadoghq.com    | +1 XXX XXX XXX  | —         |
+
+## Clients
+
+| **Client** | **Contact** | **Email** | **Phone** | **Notes** |
+|------------|-------------|-----------|-----------|-----------|
+| —          | —           | —         | —         | —         |
+
+## Authorities
+
+| **Authority**                        | **Contact** | **Email** | **Phone** | **Notes** |
+|--------------------------------------|-------------|-----------|-----------|-----------|
+| Data protection supervisory authority | —           | —         | —         | e.g. CNIL, ICO |
+| National cybersecurity agency         | —           | —         | —         | e.g. ANSSI, NCSC |
+| Law enforcement                       | —           | —         | —         | —         |
 
 ---
 
