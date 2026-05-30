@@ -1,0 +1,1 @@
+Read [onboarding_offboarding_procedure.md](../procedures/onboarding_offboarding_procedure.md) and verify that retrieval of all company-owned equipment and updating the asset register are listed as explicit offboarding steps.
