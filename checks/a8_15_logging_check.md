@@ -1,0 +1,1 @@
+Read [operations_security_policy.md](../policies/operations_security_policy.md) and verify logging requirements explicitly address all four normative dimensions: production, storage, protection, and analysis of logs.

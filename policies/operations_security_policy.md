@@ -17,6 +17,7 @@ This policy applies to all employees, contractors, and third parties responsible
 
 ### 3.3 Logging and Monitoring
 - System logs shall be enabled for all critical systems and retained for at least 90 days.
+- Logs shall be protected against tampering and unauthorized access.
 - Logs shall be monitored for suspicious activity (e.g., failed login attempts, unauthorized access).
 
 ### 3.4 Malware Protection
