@@ -1,0 +1,1 @@
+Read [onboarding_offboarding_procedure.md](../procedures/onboarding_offboarding_procedure.md) and verify that reminding the employee of ongoing confidentiality obligations is listed as an explicit offboarding step.
