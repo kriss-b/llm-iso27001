@@ -1,0 +1,1 @@
+Read [emergency_contacts_register.md](../run/registers/emergency_contacts_register.md) and verify the Authorities section contains at least one entry with actual contact details (not placeholder values).
