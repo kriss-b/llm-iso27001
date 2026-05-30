@@ -1,0 +1,1 @@
+Read the review frequency from [isms_policy.md](../policies/isms_policy.md); for each ISMS document (policies, procedures, plans, templates), verify both the most recent git commit date and the most recent Changelog date in the document footer are within that interval.
