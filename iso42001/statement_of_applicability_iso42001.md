@@ -44,7 +44,8 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risks_register.md](../../risks/risks_register.md) |
 | 8.4 | AI system impact assessment | Assess potential impacts of AI systems on individuals and society. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze and evaluate AI system performance. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../../policies/audit_policy.md) |
-| 9.2 | Internal audit | Requirements for conducting internal audits. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
+| 9.2.1 | Internal audit — General | Conduct internal audits at planned intervals. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
+| 9.2.2 | Internal audit programme | Plan, establish and maintain an internal audit programme. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
 | 9.3 | Management review | Requirements for management review of the AI management system. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
 | 10.1 | Continual improvement | Continually improve suitability, adequacy and effectiveness of AI management. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 10.2 | Nonconformity and corrective action | React to nonconformities and take corrective action. | ❓ TBC | — |
