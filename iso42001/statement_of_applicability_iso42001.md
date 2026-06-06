@@ -46,7 +46,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze and evaluate AI system performance. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../../policies/audit_policy.md) |
 | 9.2.1 | Internal audit — General | Conduct internal audits at planned intervals. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
 | 9.2.2 | Internal audit programme | Plan, establish and maintain an internal audit programme. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
-| 9.3 | Management review | Requirements for management review of the AI management system. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
+| 9.3.1 | Management review — General | Review the AI management system at planned intervals. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
+| 9.3.2 | Management review inputs | Include specified inputs in management reviews. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
+| 9.3.3 | Management review results | Document decisions and actions from management reviews. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
 | 10.1 | Continual improvement | Continually improve suitability, adequacy and effectiveness of AI management. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 10.2 | Nonconformity and corrective action | React to nonconformities and take corrective action. | ❓ TBC | — |
 
