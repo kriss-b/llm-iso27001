@@ -26,7 +26,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 5.1 | Leadership and commitment | Demonstrate commitment to AI governance through active leadership involvement. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.2 | AI policy | Establish an AI policy appropriate to organizational purpose and objectives. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.3 | Roles, responsibilities and authorities | Assign and communicate AI-related roles, responsibilities and authorities. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md) |
-| 6.1.1 | General | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
+| 6.1.1 | Actions to address risks and opportunities — General | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
 | 6.1.2 | AI risk assessment | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md) |
 | 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
 | 6.1.4 | AI system impact assessment | — | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
