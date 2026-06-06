@@ -36,7 +36,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 7.2 | Competence | Ensure personnel have necessary competence for AI-related activities. | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md) |
 | 7.3 | Awareness | Ensure awareness of AI policy, roles and system implications. | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md) |
 | 7.4 | Communication | Determine internal and external communication requirements for AI. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 7.5 | Documented information | Requirements for managing documented information. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| 7.5.1 | Documented information — General | Include required documented information in the AI management system. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| 7.5.2 | Creating and updating documented information | Ensure proper identification, format and review of documentation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| 7.5.3 | Control of documented information | Control availability, distribution and protection of documentation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.1 | Operational planning and control | Plan, implement and control processes for AI system operations. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.2 | AI risk assessment | Conduct risk assessments for AI systems considering impacts and likelihood. | ❓ TBC | [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md), [risks_register.md](../../risks/risks_register.md) |
 | 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risks_register.md](../../risks/risks_register.md) |
