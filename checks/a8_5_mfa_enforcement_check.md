@@ -1,0 +1,3 @@
+> Install: `brew install gh` (GitHub) or `brew install glab` (GitLab)
+
+Detect the remote platform and owner from `git remote get-url origin`. The check fails if the owner is a personal account (`gh api users/{owner} --jq '.type'` returns `User`, or the GitLab namespace is a user), since organizational repositories must be hosted under an organization that enforces MFA. If the owner is an organization, run `gh api orgs/{org} --jq '.two_factor_requirement_enabled'` for GitHub (requires an org-owner token with the `admin:org` scope) or `glab api groups/{group} --jq '.require_two_factor_authentication'` for GitLab; check passes only if it returns `true`.
