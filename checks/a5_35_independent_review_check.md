@@ -1,0 +1,1 @@
+Read the independent review frequency from [audit_policy.md](../policies/audit_policy.md), then verify the most recent entry in [audit_log.md](../run/logs/audit_log.md) with `Audit type` = "Independent review" is within that interval.
