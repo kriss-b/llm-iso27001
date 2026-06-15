@@ -14,7 +14,7 @@ This policy applies to all assets owned or used by the organization, including:
 
 ## 3. Policy Statements
 ### 3.1 Inventory of Assets
-Maintain an up-to-date inventory of all assets, including their classification, location, and assigned owner.
+Maintain an up-to-date inventory of all assets, including their classification, location, and assigned owner. The inventory shall be reviewed at least annually.
 
 ### 3.2 Ownership and Classification
 Every asset shall have an assigned owner responsible for its management, security, and classification. Classification shall follow the [Data Classification Policy](data_classification_policy.md).

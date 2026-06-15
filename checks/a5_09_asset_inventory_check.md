@@ -1,0 +1,1 @@
+Read the required review frequency from [asset_management_policy.md](../policies/asset_management_policy.md), then verify no asset in [assets_register.md](../run/registers/assets_register.md) has a `Last reviewed` date older than that interval.

@@ -4,9 +4,9 @@ Inventory of information assets. One row per asset. Update rows in place when st
 
 Asset types are defined in the [Asset Management Policy](../../policies/asset_management_policy.md).
 
-| Asset ID | Asset name | Type | Owner | Classification | Location | Status | Notes |
-|----------|-----------|------|-------|---------------|----------|--------|-------|
-| AST-001 | — | — | — | — | — | Active | — |
+| Asset ID | Asset name | Type | Owner | Classification | Location | Status | Last reviewed | Notes |
+|----------|-----------|------|-------|---------------|----------|--------|---------------|-------|
+| AST-001 | — | — | — | — | — | Active | — | — |
 
 ---
 
