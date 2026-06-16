@@ -25,30 +25,30 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 4.4 | AI management system | Establish, implement, maintain and improve the AI management system. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.1 | Leadership and commitment | Demonstrate commitment to AI governance through active leadership involvement. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.2 | AI policy | Establish an AI policy appropriate to organizational purpose and objectives. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 5.3 | Roles, responsibilities and authorities | Assign and communicate AI-related roles, responsibilities and authorities. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md) |
-| 6.1.1 | Actions to address risks and opportunities — General | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
-| 6.1.2 | AI risk assessment | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md) |
-| 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md) |
+| 5.3 | Roles, responsibilities and authorities | Assign and communicate AI-related roles, responsibilities and authorities. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md) |
+| 6.1.1 | Actions to address risks and opportunities — General | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md) |
+| 6.1.2 | AI risk assessment | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md), [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
+| 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md) |
 | 6.1.4 | AI system impact assessment | — | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 6.2 | AI objectives and planning to achieve them | Establish measurable AI objectives and plans to achieve them. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 6.3 | Planning of changes | Plan and manage changes to the AI management system. | ❓ TBC | — |
 | 7.1 | Resources | Determine and provide resources needed for AI management. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 7.2 | Competence | Ensure personnel have necessary competence for AI-related activities. | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md) |
-| 7.3 | Awareness | Ensure awareness of AI policy, roles and system implications. | ❓ TBC | [employee_training_procedure.md](../../procedures/employee_training_procedure.md) |
+| 7.2 | Competence | Ensure personnel have necessary competence for AI-related activities. | ❓ TBC | [employee_training_procedure.md](../procedures/employee_training_procedure.md) |
+| 7.3 | Awareness | Ensure awareness of AI policy, roles and system implications. | ❓ TBC | [employee_training_procedure.md](../procedures/employee_training_procedure.md) |
 | 7.4 | Communication | Determine internal and external communication requirements for AI. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.5.1 | Documented information — General | Include required documented information in the AI management system. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.5.2 | Creating and updating documented information | Ensure proper identification, format and review of documentation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.5.3 | Control of documented information | Control availability, distribution and protection of documentation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.1 | Operational planning and control | Plan, implement and control processes for AI system operations. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 8.2 | AI risk assessment | Conduct risk assessments for AI systems considering impacts and likelihood. | ❓ TBC | [risk_assessment_procedure.md](../../risks/risk_assessment_procedure.md), [risks_register.md](../../risks/risks_register.md) |
-| 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_framework.md](../../risks/risk_assessment_framework.md), [risks_register.md](../../risks/risks_register.md) |
+| 8.2 | AI risk assessment | Conduct risk assessments for AI systems considering impacts and likelihood. | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md), [risks_register.md](../risks/risks_register.md) |
+| 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md), [risks_register.md](../risks/risks_register.md) |
 | 8.4 | AI system impact assessment | Assess potential impacts of AI systems on individuals and society. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze and evaluate AI system performance. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../../policies/audit_policy.md) |
-| 9.2.1 | Internal audit — General | Conduct internal audits at planned intervals. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
-| 9.2.2 | Internal audit programme | Plan, establish and maintain an internal audit programme. | ❓ TBC | [audit_policy.md](../../policies/audit_policy.md) |
-| 9.3.1 | Management review — General | Review the AI management system at planned intervals. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
-| 9.3.2 | Management review inputs | Include specified inputs in management reviews. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
-| 9.3.3 | Management review results | Document decisions and actions from management reviews. | ❓ TBC | [management_review_template.md](../../procedures/management_review_template.md) |
+| 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze and evaluate AI system performance. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../policies/audit_policy.md) |
+| 9.2.1 | Internal audit — General | Conduct internal audits at planned intervals. | ❓ TBC | [audit_policy.md](../policies/audit_policy.md) |
+| 9.2.2 | Internal audit programme | Plan, establish and maintain an internal audit programme. | ❓ TBC | [audit_policy.md](../policies/audit_policy.md) |
+| 9.3.1 | Management review — General | Review the AI management system at planned intervals. | ❓ TBC | [management_review_template.md](../procedures/management_review_template.md) |
+| 9.3.2 | Management review inputs | Include specified inputs in management reviews. | ❓ TBC | [management_review_template.md](../procedures/management_review_template.md) |
+| 9.3.3 | Management review results | Document decisions and actions from management reviews. | ❓ TBC | [management_review_template.md](../procedures/management_review_template.md) |
 | 10.1 | Continual improvement | Continually improve suitability, adequacy and effectiveness of AI management. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 10.2 | Nonconformity and corrective action | React to nonconformities and take corrective action. | ❓ TBC | — |
 
@@ -68,8 +68,8 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Description | Status | Document |
 |---------|-------|-------------|--------|----------|
-| A.3.2 | AI roles and responsibilities | Define roles and responsibilities for AI system activities. | ❓ TBC | [roles_and_responsibilities_policy.md](../../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
-| A.3.3 | Reporting of concerns | Establish processes for reporting AI-related concerns. | ❓ TBC | [incident_response_plan.md](../../incidents/incident_response_plan.md) |
+| A.3.2 | AI roles and responsibilities | Define roles and responsibilities for AI system activities. | ❓ TBC | [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
+| A.3.3 | Reporting of concerns | Establish processes for reporting AI-related concerns. | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 
 ### A.4 Resources for AI systems
 
@@ -79,7 +79,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | — |
 | A.4.4 | Tooling resources | Manage tools used for AI system development and operation. | ❓ TBC | — |
 | A.4.5 | System and computing resources | Manage computing infrastructure for AI systems. | ❓ TBC | — |
-| A.4.6 | Human resources | Manage human resources involved in AI activities. | ❓ TBC | [human_resource_security_policy.md](../../policies/human_resource_security_policy.md) |
+| A.4.6 | Human resources | Manage human resources involved in AI activities. | ❓ TBC | [human_resource_security_policy.md](../policies/human_resource_security_policy.md) |
 
 ### A.5 Assessing impacts of AI systems
 
@@ -120,23 +120,23 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 |---------|-------|-------------|--------|----------|
 | A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | — |
-| A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | [incident_response_plan.md](../../incidents/incident_response_plan.md) |
+| A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 | A.8.5 | Information for interested parties | Provide information to interested parties about AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 
 ### A.9 Use of AI systems
 
 | Control | Title | Description | Status | Document |
 |---------|-------|-------------|--------|----------|
-| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../../policies/acceptable_use_policy.md) |
-| A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../../policies/acceptable_use_policy.md) |
-| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | [acceptable_use_policy.md](../../policies/acceptable_use_policy.md) |
+| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
 
 ### A.10 Third-party and customer relationships
 
 | Control | Title | Description | Status | Document |
 |---------|-------|-------------|--------|----------|
 | A.10.2 | Allocating responsibilities | Allocate AI-related responsibilities between parties. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.10.3 | Suppliers | Manage suppliers involved in AI system activities. | ❓ TBC | [supplier_security_policy.md](../../policies/supplier_security_policy.md) |
+| A.10.3 | Suppliers | Manage suppliers involved in AI system activities. | ❓ TBC | [supplier_security_policy.md](../policies/supplier_security_policy.md) |
 | A.10.4 | Customers | Manage customer relationships for AI systems. | ❓ TBC | — |
 
 ---
