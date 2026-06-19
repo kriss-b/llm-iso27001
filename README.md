@@ -1,6 +1,6 @@
 # LLM ISO 27001
 
-This repository is a minimal, viable, and LLM friendly Information Security Management System (ISMS) aligned with **ISO 27001:2022**, with an **ISO 42001:2023** (AI Management System - AIMS) overlay for companies that develop or use AI. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
+This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001:2022**, with an **ISO 42001:2023** (AI Management System - AIMS) overlay for companies that develop or use AI. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human - even more preferably with a human having some level of ISO 27001 expertise.
 
@@ -8,7 +8,7 @@ Everything is plain markdown, version-controlled with git, and intentionally kep
 
 ## What's in here
 
-A full ISMS documentation set: policies, procedures, risk assessment framework, incident management, a Statement of Applicability covering all 93 ISO 27001:2022 Annex A controls, and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISMS: policies and procedures, living operational records (logs and registers), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001:2022 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
@@ -160,4 +160,4 @@ The LLM should not merge blindly. Your instantiated ISMS has been customised for
 
 ## What this is not
 
-This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. This repository gives you the documented framework. Running it is up to you and your LLM.
+This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. The `checks/` directory and `run/` logs are the start of your evidence trail. An ISMS that runs its checks and keeps its logs current is evidence of an *operating* system, not just a documented one.
