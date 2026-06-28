@@ -84,15 +84,11 @@ organised by type of task.
 
 > What do you need from me to add this entry?
 
-### Dashboards and navigation
+### Exporting documents
 
-- **Generate a navigation UI in one shot.** The LLM reads the directory structure, infers the hierarchy from the SoA and relative links, and produces a self-contained HTML file — useful for sharing a read-only view with management or auditors.
+- **Export a policy to Word.** `brew install pandoc`, then `pandoc policies/my_policy.md -o my_policy.docx`. Bulk export: `for f in policies/*.md; do pandoc "$f" -o "${f%.md}.docx"; done`
 
-> Create a simple HTML page to navigate through the ISMS.
-
-- **Plot your incident history.** Works well if your incident log follows a consistent date format. Useful for the management review.
-
-> Plot a chart with the number of incidents per month over the past 12 months.
+- **Export to PDF.** Same as above with `--pdf-engine=weasyprint` (requires `brew install weasyprint`).
 
 ### Quick lookups
 
