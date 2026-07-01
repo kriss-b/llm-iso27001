@@ -1,0 +1,1 @@
+Read [security_feeds_register.md](../run/registers/security_feeds_register.md) and verify at least one entry per category has actual subscription details (not placeholder values); then read [threat_intel_log.md](../run/logs/threat_intel_log.md) and verify at least one entry has been recorded in the past 12 months.
