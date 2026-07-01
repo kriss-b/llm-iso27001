@@ -51,6 +51,7 @@ The following issues are considered in defining the scope and objectives of the 
 | Customer contractual requirements | Some customers require evidence of ISO 27001 compliance |
 | Evolving threat landscape | Continuous monitoring and threat intelligence required |
 | Third-party and supply chain risks | Vendors and cloud providers shall meet security standards |
+| Climate change (ISO/IEC 27001:2022/AMD 1:2024) | The organization shall determine whether climate change is a relevant issue affecting its context. Where relevant, climate-related risks (e.g. extreme weather disrupting facilities or supply chains) shall be assessed and treated within the risk management process. |
 | Regulatory requirements in target markets | Compliance obligations vary across jurisdictions |
 
 ---
