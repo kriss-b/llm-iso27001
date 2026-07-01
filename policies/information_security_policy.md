@@ -45,18 +45,6 @@ This policy applies to:
 - The Company shall comply with all **legal, regulatory, and contractual obligations** related to information security.
 - **Internal and external audits** shall be conducted annually.
 
-### Environmental Risks (Amendment 1:2024)
-- The Company shall assess whether **environmental changes** (e.g., floods, fires, storms) could impact the confidentiality, integrity, or availability of information.
-- If environmental risks are deemed irrelevant, this decision shall be **documented**.
-
----
-
-## Training and Awareness
-- All employees shall complete **annual security awareness training**.
-- New employees shall complete training within **30 days of hire**.
-
----
-
 ## Exceptions
 - Exceptions to this policy shall be **documented, approved by the CISO, and reviewed annually**.
 
