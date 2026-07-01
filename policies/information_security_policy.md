@@ -1,11 +1,11 @@
 # Information Security Policy
 
-## 1. **Purpose**
+## Purpose
 This Information Security Policy establishes the framework for protecting the **confidentiality, integrity, and availability** of information assets. It aligns with **ISO 27001:2022 (Control A.5.1 — Policies for information security, and Clause 5.2 — Policy)** and supports our goal of achieving certification.
 
 ---
 
-## 2. **Scope**
+## Scope
 This policy applies to:
 - All employees, contractors, and third-party vendors.
 - All information assets, including:
@@ -17,64 +17,53 @@ This policy applies to:
 
 ---
 
-## 3. **Information Security Objectives**
-| **Objective**               | **Target**                          | **Measurement**                          |
-|-----------------------------|-------------------------------------|------------------------------------------|
-| Protect customer data       | Zero breaches of customer data      | Annual security audits, incident reports |
-| Ensure system availability  | 99.9% uptime for SaaS platform      | Monitoring and uptime reports            |
-| Compliance                  | 100% adherence to ISO 27001:2022    | Internal and external audits             |
-| Employee training           | 100% completion of annual training  | Training completion records              |
+## Policy Statements
 
----
-
-## 4. **Policy Statements**
-### 4.1 **Risk Management**
+### Risk Management
 - Risks to information assets shall be **identified, assessed, and treated** in accordance with the **Risk Assessment Framework**.
 - The **Risk Treatment Plan** shall be reviewed and updated quarterly.
 
-### 4.2 **Access Control**
+### Access Control
 - Access to information assets shall follow the **principle of least privilege**.
 - **Multi-Factor Authentication (MFA)** is required for all remote access and privileged accounts.
 - Access reviews shall be conducted **quarterly**.
 
-### 4.3 **Asset Management**
+### Asset Management
 - All information assets shall be **identified, classified, and inventoried**.
 - Asset owners shall be assigned for all critical assets.
 - Assets shall be **securely disposed of** in accordance with the **[Data Retention and Disposal Policy](data_retention_disposal_policy.md)**.
 
-### 4.4 **Incident Management**
+### Incident Management
 - All security incidents shall be **reported immediately** to the **CISO**.
 - The **[Incident Response Plan](../incidents/incident_response_plan.md)** shall be tested **annually**.
 
-### 4.5 **Business Continuity**
+### Business Continuity
 - Business continuity and disaster recovery plans shall be **tested annually**.
 - Critical systems shall have **redundant backups** and **defined recovery time objectives (RTOs)**.
 
-### 4.6 **Compliance**
+### Compliance
 - The Company shall comply with all **legal, regulatory, and contractual obligations** related to information security.
 - **Internal and external audits** shall be conducted annually.
 
-### 4.7 **Environmental Risks (Amendment 1:2024)**
+### Environmental Risks (Amendment 1:2024)
 - The Company shall assess whether **environmental changes** (e.g., floods, fires, storms) could impact the confidentiality, integrity, or availability of information.
 - If environmental risks are deemed irrelevant, this decision shall be **documented**.
 
 ---
 
-## 5. **Training and Awareness**
+## Training and Awareness
 - All employees shall complete **annual security awareness training**.
 - New employees shall complete training within **30 days of hire**.
 
 ---
 
-## 6. **Exceptions**
+## Exceptions
 - Exceptions to this policy shall be **documented, approved by the CISO, and reviewed annually**.
 
 ---
 
-## 7. **Enforcement**
+## Enforcement
 - Non-compliance with this policy may result in **disciplinary action**, up to and including termination.
-
----
 
 ---
 
