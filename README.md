@@ -47,7 +47,7 @@ Then open a session with your LLM Agent of choice and give it context about your
 > 5. Setup initial risks based on your understanding of our context
 > 6. Setup vendor list and assessment based on our context 
 
-From there, iterate. The LLM can update the SoA and the policies, refine the risk register, and maintain cross-references between documents as your ISMS evolves. It can also, why not if necessary, draft new policies. 
+From there, iterate. The LLM can update policies and the SoA, run checks, maintain operational logs, refine risks, and keep cross-references in sync as your ISMS evolves.
 
 ---
 
