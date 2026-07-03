@@ -34,9 +34,10 @@ Click **Use this template** on GitHub to create your own repository under **YOUR
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/my-company-isms.git
 cd my-company-isms
+claude  # or any other LLM agent
 ```
 
-Then open a session with your LLM Agent of choice and give it context about your company. The more context, the better the output. For example:
+Then provide to your LLM Agent context about your company. The more context, the better the output. For example:
 
 > We are **[YOUR COMPANY NAME]**, you can find information about us on **[YOUR COMPANY WEBSITE]** and more generally on the internet. We operate from [your country]. Our tech stack is [cloud providers, key systems]. We are [remote-first / hybrid / office-based].
 >
