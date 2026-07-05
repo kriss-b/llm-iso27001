@@ -179,7 +179,7 @@ The ISMS operates through the following recurring activities:
 | Backup and recovery testing | Quarterly | CTO |
 | Incident response exercises | Annual | CISO |
 | Vulnerability scanning and patching | Ongoing | CTO |
-| Access rights review | Semi-annual | CTO |
+| Access rights review | Quarterly | CTO |
 
 ---
 

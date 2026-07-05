@@ -21,7 +21,7 @@ This policy applies to:
 
 ### Risk Management
 - Risks to information assets shall be **identified, assessed, and treated** in accordance with the **Risk Assessment Framework**.
-- The **Risk Treatment Plan** shall be reviewed and updated quarterly.
+- The **Risk Treatment Plan** shall be reviewed and updated annually or after significant change.
 
 ### Access Control
 - Access to information assets shall follow the **principle of least privilege**.
