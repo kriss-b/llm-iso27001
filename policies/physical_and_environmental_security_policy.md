@@ -22,10 +22,6 @@ This policy applies to all employees, contractors, and third parties with access
 - Temperature and humidity shall be monitored in server rooms.
 - Uninterruptible Power Supply (UPS) systems shall be in place for critical infrastructure.
 
-### 3.4 Clear Desk and Screen Policy
-- Sensitive documents shall be stored securely when not in use.
-- Workstations shall be locked when unattended.
-
 ## 4. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.
 
