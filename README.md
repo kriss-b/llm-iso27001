@@ -4,6 +4,8 @@ This repository is a minimal, viable, and LLM-maintainable Information Security 
 
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human - even more preferably with a human having some level of ISO 27001 expertise.
 
+https://github.com/user-attachments/assets/d9a2c3dd-6715-413c-82f9-41401dc1e554
+
 ---
 
 ## What's in here
