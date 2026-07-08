@@ -4,7 +4,19 @@ This repository is a minimal, viable, and LLM-maintainable Information Security 
 
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human - even more preferably with a human having some level of ISO 27001 expertise.
 
+---
+
+## See it in action
+
+Watch an LLM agent stand up a working ISMS from this template — not just editing documents, but *operating* it. In one session it replaces the placeholder company, rewrites the ISMS policy to the real context, populates the risk and supplier registers, extends the ISO 42001 AI overlay, and **runs the compliance checks live** to report what passes, fails, or is out of scope — then proposes **concrete next steps to close the gaps and keep iterating**. The result is an ISMS that runs, not a static document pack.
+
+This does not replace a security expert — it accelerates one. Nothing here is magic or "done": every change lands as a git commit, so the whole ISMS stays visible, reviewable, and reversible, and a human reviews and signs off on all of it. The agent does the heavy lifting; the expert stays in control.
+
 https://github.com/user-attachments/assets/d9a2c3dd-6715-413c-82f9-41401dc1e554
+
+The full ISMS produced in this demo is public in the companion repo: **[kriss-b/mistral-demo](https://github.com/kriss-b/mistral-demo)**.
+
+> *Condensed from a ~12-minute session to ~3 minutes. Illustrative demo built from publicly available information about Mistral AI — not affiliated with, nor endorsed by, Mistral AI.*
 
 ---
 
