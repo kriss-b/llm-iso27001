@@ -1,7 +1,7 @@
 # Statement of Applicability — ISO 42001:2023 (SoA)
 
 ## 1. Introduction
-This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to **ACME CORP** and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
+This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to the organization and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
 
 ---
 
