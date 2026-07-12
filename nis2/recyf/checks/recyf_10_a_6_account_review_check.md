@@ -1,0 +1,1 @@
+Read the account review frequency from [access_control_policy.md](../../../policies/access_control_policy.md) and verify it is at least annual, then verify the latest entry in [access_review_log.md](../../../run/logs/access_review_log.md) satisfies it.

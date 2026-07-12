@@ -1,0 +1,1 @@
+Verify the ISMS contains a maintained cyber crisis management procedure (crisis-mode activation on a cyber event), distinct from and cross-referenced with [incident_response_plan.md](../../../incidents/incident_response_plan.md).

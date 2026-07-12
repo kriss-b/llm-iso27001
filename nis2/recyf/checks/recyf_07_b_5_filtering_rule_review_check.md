@@ -1,0 +1,1 @@
+Read the required filtering-rule (firewall) review frequency from [communication_security_policy.md](../../../policies/communication_security_policy.md), then verify a filtering-rule review has been recorded within that frequency.
