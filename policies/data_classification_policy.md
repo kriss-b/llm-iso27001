@@ -1,7 +1,7 @@
 # Data Classification Policy
 
 ## 1. Purpose
-This policy establishes a framework for classifying information assets based on their sensitivity and criticality. It ensures that information is handled, protected, and shared in a manner appropriate to its classification level, in alignment with **ISO 27001:2022 (Control A.5.12)**.
+This policy establishes a framework for classifying information assets based on their sensitivity and criticality. It ensures that information is handled, protected, and shared in a manner appropriate to its classification level, in alignment with **ISO 27001:2022 (Control A.5.12)**, using the **Traffic Light Protocol (TLP) 2.0** maintained by FIRST as the labeling scheme.
 
 ---
 
@@ -22,10 +22,10 @@ All information assets shall be assigned one of the following classification lev
 
 | **Level** | **Definition** | **Examples** |
 |-----------|---------------|--------------|
-| **Public** | Information approved for public disclosure. | Marketing materials, public website content. |
-| **Internal** | Information for internal use only; not for public release. | Internal procedures, meeting notes, org charts. |
-| **Confidential** | Sensitive information restricted to specific roles or teams. | Customer data, contracts, financial reports, HR records, prompt logs, AI evaluation datasets. |
-| **Restricted** | Highly sensitive information requiring the strictest controls. | Encryption keys, credentials, audit findings, personal health data, proprietary fine-tuned model weights. |
+| **TLP:CLEAR** | Information approved for unlimited disclosure. | Marketing materials, public website content. |
+| **TLP:GREEN** | Information that may be shared within the organization and its trusted peer community, but not via publicly accessible channels. | Internal procedures, meeting notes, org charts. |
+| **TLP:AMBER** | Sensitive information limited to the organization and, on a need-to-know basis, its clients. Use **TLP:AMBER+STRICT** to restrict to the organization only, excluding clients. | Customer data, contracts, financial reports, HR records, prompt logs, AI evaluation datasets. |
+| **TLP:RED** | Highly sensitive information restricted to named individual recipients only. | Encryption keys, credentials, audit findings, personal health data, proprietary fine-tuned model weights. |
 
 ### 3.2 Classification Responsibilities
 - All information assets shall be classified at the time of creation or acquisition.
@@ -33,6 +33,7 @@ All information assets shall be assigned one of the following classification lev
 - Classification shall be reviewed when assets are transferred, repurposed, or significantly modified.
 
 ### 3.3 Labelling
+- Labels shall be written in uppercase with the `TLP:` prefix and no space (e.g. `TLP:AMBER`).
 - Digital documents shall include the classification level in the file header, metadata, or footer where technically feasible.
 - Physical documents shall be labelled with the classification level on the first page.
 
@@ -40,10 +41,10 @@ All information assets shall be assigned one of the following classification lev
 
 | **Level** | **Storage** | **Transmission** | **Disposal** |
 |-----------|------------|-----------------|-------------|
-| **Public** | No restrictions. | No restrictions. | Standard disposal. |
-| **Internal** | Access-controlled systems. | Internal channels only. | Standard disposal. |
-| **Confidential** | Encrypted, access-controlled. | Encrypted channels only. | Secure deletion or shredding. |
-| **Restricted** | Encrypted, MFA-protected, need-to-know access only. | Encrypted channels, approval required. | Certified destruction. |
+| **TLP:CLEAR** | No restrictions. | No restrictions. | Standard disposal. |
+| **TLP:GREEN** | Access-controlled systems. | Internal and trusted-community channels only. | Standard disposal. |
+| **TLP:AMBER** | Encrypted, access-controlled. | Encrypted channels, need-to-know. | Secure deletion or shredding. |
+| **TLP:RED** | Encrypted, MFA-protected, need-to-know access only. | Encrypted channels, named recipients, approval required. | Certified destruction. |
 
 ### 3.5 Reclassification and Declassification
 - Information may be reclassified or declassified when its sensitivity changes (e.g., upon contract expiry or public release).
@@ -52,7 +53,7 @@ All information assets shall be assigned one of the following classification lev
 ### 3.6 Third-Party Sharing
 - Information shared with third parties shall be classified before sharing.
 - Third parties shall be informed of the classification and required handling obligations.
-- Confidential and Restricted information shall only be shared under a signed NDA or equivalent contractual protection.
+- TLP:AMBER and TLP:RED information shall only be shared under a signed NDA or equivalent contractual protection.
 
 ---
 
