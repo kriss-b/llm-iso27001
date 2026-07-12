@@ -54,7 +54,7 @@ The following activities are **strictly prohibited**:
 
 ### 3.7 AI Tools
 - Only AI tools approved by the IT Team may be used to process Company data.
-- Confidential or Restricted data shall not be entered into AI tools or services.
+- TLP:AMBER or TLP:RED data shall not be entered into AI tools or services.
 - AI-generated outputs shall be critically reviewed before use in business decisions or communications.
 
 ### 3.8 Monitoring and Privacy

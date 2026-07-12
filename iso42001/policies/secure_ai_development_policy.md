@@ -34,7 +34,7 @@ This policy applies to:
 
 ### 3.4 Data Classification and Protection
 - All data used in AI systems shall be classified in accordance with the **[Data Classification Policy](../../policies/data_classification_policy.md)**.
-- Restricted and Confidential data shall not be used in training without explicit approval from the CTO and CISO.
+- TLP:RED and TLP:AMBER data shall not be used in training without explicit approval from the CTO and CISO.
 - Personal data used in AI systems shall comply with applicable data protection regulations, including GDPR and the EU AI Act.
 
 ### 3.5 Model Evaluation and Testing

@@ -30,7 +30,7 @@ This policy applies to all cloud services, including infrastructure (IaaS), plat
 ## 5. Data Classification and Residency
 
 - Data stored or processed in cloud environments shall be classified in accordance with the **[Data Classification Policy](data_classification_policy.md)**.
-- Confidential and Restricted data shall only be stored in cloud regions that meet the Company's data residency requirements, including GDPR obligations for EU personal data.
+- TLP:AMBER and TLP:RED data shall only be stored in cloud regions that meet the Company's data residency requirements, including GDPR obligations for EU personal data.
 - Data residency requirements shall be verified before onboarding a new cloud provider or enabling a new cloud region.
 
 ---
