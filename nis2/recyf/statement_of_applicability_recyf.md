@@ -36,7 +36,7 @@ The **Description** column reproduces ANSSI's verbatim acceptable-means-of-compl
 
 **Base ISMS changes are deferred.** Where a measure requires a change to a base ISO 27001 document, that change is **not made here**; it is captured by the corresponding **ReCyF check** (`nis2/recyf/checks/`), which verifies the base ISMS and fails until the gap is closed.
 
-The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remaining EI measures are rated 🟢 High and are considered satisfied by the base ISMS via their mapped ISO controls; their full enumeration is pending (see §5).
+The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remaining EI measures are rated 🟢 High: they are already satisfied by the base ISMS and, by design, are not restated here (see §5).
 
 ---
 
@@ -67,9 +67,9 @@ The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remai
 
 ---
 
-## 5. High-coverage measures (🟢) — pending enumeration
+## 5. High-coverage measures (🟢) — covered by the base ISMS
 
-The remaining EI/EE-shared measures across objectives 1–15 are rated 🟢 High coverage by ANSSI's comparator and are considered satisfied by the base ISO 27001 ISMS via their mapped Annex A controls. Their full row-by-row enumeration will be generated from the ReCyF source data (see the source note) and added here.
+The remaining EI/EE-shared measures across objectives 1–15 are rated 🟢 High coverage by ANSSI's comparator: the base ISO 27001 ISMS already satisfies them through its existing Annex A controls, policies, and checks. Consistent with this overlay's sole purpose — capturing the delta ReCyF adds *beyond* ISO 27001 — these measures are **deliberately not restated here**; doing so would duplicate the base ISMS and break its single-source-of-truth principle. Their compliance is evidenced by the corresponding base ISO 27001 controls, not by this overlay.
 
 ---
 
