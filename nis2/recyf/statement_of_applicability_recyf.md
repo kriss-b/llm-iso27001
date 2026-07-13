@@ -18,7 +18,7 @@ NIS 2 classifies regulated entities as **Important Entities (EI)** or **Essentia
 > **This overlay is scoped to an Important Entity (EI).**
 > _Classification basis (to be completed for the organization): sector, headcount, turnover / balance-sheet against the NIS 2 transposition thresholds._
 
-Consequently, **objectives 16–20 and all EE-only measures are out of scope** by classification, not by risk-based exclusion. Only objectives **1–15** and their **EI/EE-shared measures** apply.
+Consequently, **objectives 16–20 and all EE-only measures are out of scope** by classification, not by risk-based exclusion. Only the **measures applicable to Important Entities**, within objectives **1–15**, are in scope.
 
 ---
 
@@ -69,7 +69,7 @@ The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remai
 
 ## 5. High-coverage measures (🟢) — covered by the base ISMS
 
-The remaining EI/EE-shared measures across objectives 1–15 are rated 🟢 High coverage by ANSSI's comparator: the base ISO 27001 ISMS already satisfies them through its existing Annex A controls, policies, and checks. Consistent with this overlay's sole purpose — capturing the delta ReCyF adds *beyond* ISO 27001 — these measures are **deliberately not restated here**; doing so would duplicate the base ISMS and break its single-source-of-truth principle. Their compliance is evidenced by the corresponding base ISO 27001 controls, not by this overlay.
+The remaining in-scope measures across objectives 1–15 are rated 🟢 High coverage by ANSSI's comparator: the base ISO 27001 ISMS already satisfies them through its existing Annex A controls, policies, and checks. Consistent with this overlay's sole purpose — capturing the delta ReCyF adds *beyond* ISO 27001 — these measures are **deliberately not restated here**; doing so would duplicate the base ISMS and break its single-source-of-truth principle. Their compliance is evidenced by the corresponding base ISO 27001 controls, not by this overlay.
 
 ---
 
