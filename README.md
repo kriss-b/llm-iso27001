@@ -1,6 +1,6 @@
 # LLM ISO 27001
 
-This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001:2022**, with optional overlays for **ISO 42001:2023** (AI Management System - AIMS) and **NIS 2** (France's **ReCyF**). It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
+This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2** (France's **ReCyF**). It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human - even more preferably with a human having some level of ISO 27001 expertise.
 
@@ -22,7 +22,7 @@ The full ISMS produced in this demo is public in the companion repo: **[kriss-b/
 
 ## What's in here
 
-A full ISMS: policies and procedures, living operational records (logs and registers), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001:2022 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISMS: policies and procedures, living operational records (logs and registers), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
@@ -32,13 +32,13 @@ A full ISMS: policies and procedures, living operational records (logs and regis
 | `incidents/` | Incident log, response plan, and report template |
 | `run/` | Operational records: logs and registers updated as the ISMS runs |
 | `checks/` | Automated compliance checks, one per control |
-| `iso42001/` | Optional ISO 42001:2023 AI Management System overlay |
+| `iso42001/` | Optional ISO 42001 AI Management System overlay |
 | `nis2/` | Optional NIS 2 overlay — national frameworks (France: **ReCyF**) mapped to ISO 27001 |
 | `statement_of_applicability.md` | Master index mapping all 93 controls to status and documents |
 
-The `statement_of_applicability.md` is the master index. It maps every ISO 27001:2022 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. The default status is intentionally 'not yet implemented' to force proactive review of all controls.
+The `statement_of_applicability.md` is the master index. It maps every ISO 27001 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. The default status is intentionally 'not yet implemented' to force proactive review of all controls.
 
-The `iso42001/` directory is an optional overlay that extends the ISMS with an AI Management System (AIMS) aligned to **ISO 42001:2023**. It adds AI-specific policies and its own `iso42001/statement_of_applicability_iso42001.md`, while reusing and referencing the base ISO 27001 documents wherever possible rather than duplicating them.
+The `iso42001/` directory is an optional overlay that extends the ISMS with an AI Management System (AIMS) aligned to **ISO 42001**. It adds AI-specific policies and its own `iso42001/statement_of_applicability_iso42001.md`, while reusing and referencing the base ISO 27001 documents wherever possible rather than duplicating them.
 
 The `nis2/` directory is an optional overlay for organizations subject to the **NIS 2 Directive**. It maps a national transposition onto the base ISMS and captures only the **delta** the framework adds beyond ISO 27001, leaving everything already covered to the base ISO 27001 documents. It currently includes **France's ReCyF** (`nis2/recyf/`), with its own Statement of Applicability and checks.
 
