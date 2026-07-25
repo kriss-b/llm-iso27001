@@ -57,7 +57,7 @@ Then provide to your LLM Agent context about your company. The more context, the
 > 1. Replace ACME CORP with our company name across all documents.
 > 2. Rewrite the ISMS Policy — context, scope, internal/external issues, interested parties — to reflect our actual situation.
 > 3. Update roles and responsibilities based on our team structure.
-> 4. Populate the risk register with initial risks based on our context, industry, and tech stack.
+> 4. Populate the assets register from our tech stack — systems, data stores, SaaS, and their owners.
 > 5. Populate the suppliers register with our key vendors.
 > 6. Populate the security feeds register with feeds relevant to our tech stack and sector.
 > 7. Run all checks and report which pass, which fail, and which are not applicable.
