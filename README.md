@@ -80,7 +80,7 @@ From there, iterate. The LLM can update policies and the SoA, run checks, mainta
 
 **Git is the audit trail.** Per-document Changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
 
-**ISO 42001 as an overlay, not a parallel system.** The `iso42001/` directory extends the ISMS rather than duplicating it. AI-specific controls live there; everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the two standards in sync without maintaining redundant content.
+**Overlays, not parallel systems.** Additional frameworks extend the ISMS rather than duplicating it. The `iso42001/` directory adds AI-specific controls; the `nis2/` directory adds only the delta a national NIS 2 transposition (France's ReCyF) requires beyond ISO 27001. Everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the frameworks in sync without maintaining redundant content.
 
 ---
 
