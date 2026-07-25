@@ -1,5 +1,10 @@
 # LLM ISO 27001
 
+[![Use this template](https://img.shields.io/badge/GitHub-Use%20this%20template-2ea44f?logo=github)](https://github.com/kriss-b/llm-iso27001/generate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kriss-b/llm-iso27001/blob/main/LICENSE.md)
+[![GitHub stars](https://img.shields.io/github/stars/kriss-b/llm-iso27001)](https://github.com/kriss-b/llm-iso27001/stargazers)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)](https://github.com/kriss-b/llm-iso27001/blob/main/CONTRIBUTING.md)
+
 This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2**. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. Because nothing is locked in, the LLM agent can also draw on the tools you already use — Jira, Confluence, your GRC platform, etc... The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human security expert.
