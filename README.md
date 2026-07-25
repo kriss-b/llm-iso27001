@@ -78,7 +78,7 @@ From there, iterate. The LLM can update policies and the SoA, run checks, mainta
 
 **LLM-maintainable.** All documents are self-contained markdown with a standard structure. The LLM that reads the Changelog at the end of any file knows the owner, approver, version, and history without needing to parse free-form text.
 
-**Git is the changelog.** Per-document changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
+**Git is the audit trail.** Per-document Changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
 
 **ISO 42001 as an overlay, not a parallel system.** The `iso42001/` directory extends the ISMS rather than duplicating it. AI-specific controls live there; everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the two standards in sync without maintaining redundant content.
 
@@ -175,4 +175,4 @@ The LLM should not merge blindly. Your instantiated ISMS has been customised for
 
 ## What this is not
 
-This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. The `checks/` directory and `run/` logs are the start of your evidence trail. An ISMS that runs its checks and keeps its logs current is evidence of an *operating* system, not just a documented one.
+This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. The `checks/` directory and `run/` logs are the start of your evidence base. An ISMS that runs its checks and keeps its logs current is evidence of an *operating* system, not just a documented one.
