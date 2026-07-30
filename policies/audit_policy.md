@@ -23,7 +23,7 @@ This policy applies to:
 | Technical audit | Vulnerability assessment and/or penetration testing of systems and applications | Annual |
 | Compliance audit | Reviews adherence to legal, regulatory, and contractual obligations (e.g., GDPR) | Annual |
 | Supplier audit | Reviews security practices of critical third-party suppliers | Annual or upon significant change |
-| Independent review | External assessment of the ISMS by a qualified third party | At least every 2 years |
+| Independent review | External assessment of the ISMS by a qualified third party | Annual |
 
 ---
 
@@ -103,7 +103,7 @@ Non-conformities not resolved within the target timeline are escalated to execut
 
 ## 8. Independent Review
 
-An independent review of the ISMS is conducted by a qualified external party at least every two years, or following a significant security incident or major organisational change. The review assesses:
+An independent review of the ISMS is conducted by a qualified external party at least every year, or following a significant security incident or major organisational change. The review assesses:
 - The overall design and effectiveness of the ISMS.
 - Conformance with ISO 27001:2022.
 - Adequacy of risk management and control implementation.
