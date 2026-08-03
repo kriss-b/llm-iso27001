@@ -37,7 +37,7 @@ A full ISMS: policies and procedures, living operational records (logs and regis
 | `incidents/` | Incident log, response plan, and report template |
 | `run/` | Operational records: logs and registers updated as the ISMS runs |
 | `checks/` | Automated compliance checks, one per control |
-| `iso42001/` | Optional ISO 42001 AI Management System (AIMS) overlay, with its own SoA |
+| `iso42001/` | Optional ISO 42001 AI Management System (AIMS) overlay, with its own SoA and checks |
 | `nis2/` | Optional NIS 2 overlay — national transpositions (France: **ReCyF**), each with its own SoA and checks |
 | `statement_of_applicability.md` | Master index mapping all 93 controls to status and documents |
 

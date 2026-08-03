@@ -1,0 +1,1 @@
+Read [aims_policy.md](../policies/aims_policy.md) and verify that AI management objectives are defined for the current annual period, that each is expressed as a measurable target, and that they take into account AI risk assessment and AI system impact assessment results.
