@@ -11,16 +11,14 @@ This policy is aligned with **ISO 42001:2023 (Clauses 4, 5, 6, 8, 9 and 10)** an
 
 ACME CORP is committed to establishing, implementing, maintaining, and continually improving its AIMS in accordance with ISO 42001:2023.
 
-The objectives of the AIMS are to:
+The following are the AI management objectives for the current annual period. They take into account the results of the AI risk assessment and AI system impact assessments, and are reviewed and updated at each management review (see Section 10).
 
-- Ensure AI systems are developed and operated responsibly, with fairness, transparency, and human oversight.
-- Identify, assess, and treat AI-related risks and impacts in a systematic and proportionate manner.
-- Ensure compliance with applicable AI regulations, including the EU AI Act and ISO 42001:2023.
-- Build trust with customers, partners, and regulators through demonstrable AI governance practices.
-- Foster a culture of AI safety and ethical awareness across the organisation.
-- Protect individuals and society from potential harms arising from AI systems.
-
-These objectives are reviewed at least annually as part of the management review process (see Section 10).
+- 100% of AI systems in the [AI Systems Register](../../run/registers/ai_systems_register.md) have a completed impact assessment before deployment.
+- Zero AI systems in production with a harm rated High in its impact assessment and no documented mitigation.
+- Zero AI systems classified as high risk operating without documented human oversight measures.
+- 100% of AI systems in the register reviewed within the annual review cycle.
+- 100% completion of AI safety training across all employees using AI tools by year-end.
+- 100% of AI suppliers assessed against AI governance requirements before onboarding.
 
 ---
 
