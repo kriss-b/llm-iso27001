@@ -83,7 +83,7 @@ From there, iterate. The LLM can update policies and the SoA, run checks, mainta
 
 **Overlays, not parallel systems.** Additional frameworks extend the ISMS rather than duplicating it. The `iso42001/` directory adds AI-specific controls; the `nis2/` directory adds only the delta a national NIS 2 transposition (France's ReCyF) requires beyond ISO 27001. Everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the frameworks in sync without maintaining redundant content.
 
-**Works with your existing tools.** Your documentation, tickets, evidence, etc... may already live somewhere — Confluence, Notion, Jira, CISO Assistant, etc... Through MCP connectors the LLM Agent can read from them and reconcile them into this structure — typically importing them so git becomes the source of truth, or leaving the external tool as the reference when that fits better. A deliberate choice, made per source.
+**Works with your existing tools.** Your documentation, tickets, evidence, etc... may already live somewhere — Confluence, Notion, Jira, Probo, CISO Assistant, etc... Through MCP connectors the LLM Agent can read from them and reconcile them into this structure — typically importing them so git becomes the source of truth, or leaving the external tool as the reference when that fits better. A deliberate choice, made per source.
 
 ---
 
