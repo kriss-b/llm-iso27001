@@ -47,7 +47,7 @@ The `statement_of_applicability.md` is the master index. It maps every ISO 27001
 
 ## How to use this with an LLM Agent
 
-Click **Use this template** on GitHub to create your own repository under **YOUR_GITHUB_USERNAME**, name it **my-company-isms**, then clone it locally:
+Click [**Use this template**](https://github.com/kriss-b/llm-iso27001/generate) on GitHub to create your own repository under **YOUR_GITHUB_USERNAME**, name it **my-company-isms**, then clone it locally:
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/my-company-isms.git
