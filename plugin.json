@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "llm-iso27001",
+  "version": "1.0.0",
+  "description": "Operate an ISO 27001 / ISO 42001 / NIS 2 ISMS: policies, live registers, and executable compliance checks, in markdown + git.",
+  "homepage": "https://github.com/kriss-b/llm-iso27001",
+  "repository": "https://github.com/kriss-b/llm-iso27001",
+  "license": "MIT",
+  "keywords": ["iso27001", "iso42001", "nis2", "compliance", "grc", "agent-skills", "open-source"]
+}
