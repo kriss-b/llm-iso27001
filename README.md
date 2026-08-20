@@ -7,6 +7,8 @@
 
 This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2**. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
+Inspired by Andrej Karpathy's [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), applied here to an ISMS.
+
 Everything is plain markdown, version-controlled with git, and intentionally kept free of tooling, build steps, or proprietary formats. Because nothing is locked in, the LLM agent can also draw on the tools you already use — Jira, Confluence, your GRC platform, etc... The LLM can read it, understand it, modify it, and maintain it - preferably with the supervision of a human security expert.
 
 ---
