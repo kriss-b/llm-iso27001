@@ -1,0 +1,1 @@
+Read [aims_policy.md](../policies/aims_policy.md) and verify that the AIMS Policy has been reviewed within the review interval defined by the policy itself, that the review has an identifiable owner and approver, and that material changes retain version history in the changelog; report a failure if the required review or approval evidence cannot be established.
