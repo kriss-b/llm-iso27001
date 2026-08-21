@@ -68,7 +68,7 @@ Risk criteria shall be established before each risk assessment and documented in
   - **Accept**: Accept the risk if it is within the risk appetite.
   - **Avoid**: Eliminate the risk by discontinuing the activity.
   - **Transfer**: Transfer the risk (e.g., via insurance or outsourcing).
-- **Controls**: Select controls from **Annex A of ISO 27001:2022** to mitigate risks. Record the selected control identifiers in the **Controls** column of the [Risk Register](risks_register.md) — this is the single source of truth for the risk-to-control mapping. Risks treated by **Accept**, **Avoid**, or **Transfer** do not require controls.
+- **Controls**: Select controls from **Annex A of ISO 27001:2022** to mitigate risks. Record the selected control identifiers in the **Treatment controls** column of the [Risk Register](risks_register.md) — this is the single source of truth for the risk-to-control mapping. Risks treated by **Accept**, **Avoid**, or **Transfer** do not require controls.
   - Identifiers are written bare for ISO 27001 (`A.8.5`), and prefixed for overlays: `42001:A.6.2.4` for ISO 42001, `recyf:3.A.2` for NIS 2 / ReCyF. The prefix is required because ISO 42001 Annex A also numbers controls `A.5.x`–`A.8.x`.
   - The reverse view — which risks justify a given control — is **derived** from this column, never stored separately. The [Statement of Applicability](../statement_of_applicability.md) records only *why* a control is in scope (its **Inclusion / exclusion justification**), not which specific risks drive it.
 - **Residual risk**: After treatment is applied, evaluate the remaining risk level and obtain formal acceptance from the risk owner. Document the residual risk level in the [Risk Register](risks_register.md).
