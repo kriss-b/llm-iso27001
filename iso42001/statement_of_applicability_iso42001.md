@@ -10,6 +10,16 @@ The **Implementation status** column uses these values:
 - ❌ Not implemented
 - ❓ TBC — not yet assessed
 
+The **Inclusion / exclusion justification** column uses these values, and combinations are allowed (`Risk, Legal`):
+
+- Risk — driven by one or more risks in the [risk register](../risks/risks_register.md)
+- Legal — statutory or regulatory obligation
+- Contractual — customer or supplier commitment
+- Business — operational or commercial decision
+- Baseline — foundational ISMS requirement, no specific risk
+- Excluded — not applicable, with the reason
+- ❓ TBC — not yet assessed
+
 ---
 
 ## 2. Scope
@@ -65,86 +75,86 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.2 Policies related to AI
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.2.2 | AI policy | Define and communicate the organization's AI policy. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.2.3 | Alignment with other organizational policies | Ensure AI policy aligns with other organizational policies. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.2.4 | Review of the AI policy | Review AI policy at defined intervals or upon significant changes. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.2.2 | AI policy | Define and communicate the organization's AI policy. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.2.3 | Alignment with other organizational policies | Ensure AI policy aligns with other organizational policies. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.2.4 | Review of the AI policy | Review AI policy at defined intervals or upon significant changes. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 
 ### A.3 Internal organization
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.3.2 | AI roles and responsibilities | Define roles and responsibilities for AI system activities. | ❓ TBC | [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
-| A.3.3 | Reporting of concerns | Establish processes for reporting AI-related concerns. | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.3.2 | AI roles and responsibilities | Define roles and responsibilities for AI system activities. | ❓ TBC | ❓ TBC | [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
+| A.3.3 | Reporting of concerns | Establish processes for reporting AI-related concerns. | ❓ TBC | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 
 ### A.4 Resources for AI systems
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.4.2 | Resource documentation | Document resources required for AI system development and operation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | — |
-| A.4.4 | Tooling resources | Manage tools used for AI system development and operation. | ❓ TBC | — |
-| A.4.5 | System and computing resources | Manage computing infrastructure for AI systems. | ❓ TBC | — |
-| A.4.6 | Human resources | Manage human resources involved in AI activities. | ❓ TBC | [human_resource_security_policy.md](../policies/human_resource_security_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.4.2 | Resource documentation | Document resources required for AI system development and operation. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | ❓ TBC | — |
+| A.4.4 | Tooling resources | Manage tools used for AI system development and operation. | ❓ TBC | ❓ TBC | — |
+| A.4.5 | System and computing resources | Manage computing infrastructure for AI systems. | ❓ TBC | ❓ TBC | — |
+| A.4.6 | Human resources | Manage human resources involved in AI activities. | ❓ TBC | ❓ TBC | [human_resource_security_policy.md](../policies/human_resource_security_policy.md) |
 
 ### A.5 Assessing impacts of AI systems
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.5.2 | AI system impact assessment process | Establish processes for assessing AI system impacts. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| A.5.3 | Documentation of AI system impact assessments | Document AI system impact assessments. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| A.5.4 | Assessing AI system impact on individuals or groups | Assess impacts on individuals or groups affected by AI systems. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| A.5.5 | Assessing societal impacts of AI systems | Assess broader societal impacts of AI systems. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.5.2 | AI system impact assessment process | Establish processes for assessing AI system impacts. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| A.5.3 | Documentation of AI system impact assessments | Document AI system impact assessments. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| A.5.4 | Assessing AI system impact on individuals or groups | Assess impacts on individuals or groups affected by AI systems. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| A.5.5 | Assessing societal impacts of AI systems | Assess broader societal impacts of AI systems. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 
 ### A.6 AI system life cycle
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.6.1.2 | Objectives for responsible development of AI system | Define objectives for responsible AI system development. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.1.3 | Processes for responsible AI system design and development | Establish processes for responsible AI design and development. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.2 | AI system requirements and specification | Define and document AI system requirements and specifications. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.3 | Documentation of AI system design and development | Document AI system design and development activities. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.4 | AI system verification and validation | Verify and validate AI systems against requirements. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.5 | AI system deployment | Control deployment of AI systems into production. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.6 | AI system operation and monitoring | Monitor AI system operation and performance. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.7 | AI system technical documentation | Maintain technical documentation for AI systems. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.8 | AI system recording of event logs | Record event logs for AI system activities. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.6.1.2 | Objectives for responsible development of AI system | Define objectives for responsible AI system development. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.1.3 | Processes for responsible AI system design and development | Establish processes for responsible AI design and development. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.2 | AI system requirements and specification | Define and document AI system requirements and specifications. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.3 | Documentation of AI system design and development | Document AI system design and development activities. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.4 | AI system verification and validation | Verify and validate AI systems against requirements. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.5 | AI system deployment | Control deployment of AI systems into production. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.6 | AI system operation and monitoring | Monitor AI system operation and performance. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.7 | AI system technical documentation | Maintain technical documentation for AI systems. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.8 | AI system recording of event logs | Record event logs for AI system activities. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 
 ### A.7 Data for AI systems
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.7.2 | Data for development and enhancement of AI system | Manage data used for AI system development and enhancement. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.7.3 | Acquisition of data | Control acquisition of data for AI systems. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.7.4 | Quality of data for AI systems | Ensure data quality meets AI system requirements. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.7.5 | Data provenance | Track and document data origin and lineage. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.7.6 | Data preparation | Control data preparation processes for AI systems. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.7.2 | Data for development and enhancement of AI system | Manage data used for AI system development and enhancement. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.3 | Acquisition of data | Control acquisition of data for AI systems. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.4 | Quality of data for AI systems | Ensure data quality meets AI system requirements. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.5 | Data provenance | Track and document data origin and lineage. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.7.6 | Data preparation | Control data preparation processes for AI systems. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 
 ### A.8 Information for interested parties of AI systems
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | — |
-| A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
-| A.8.5 | Information for interested parties | Provide information to interested parties about AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | ❓ TBC | — |
+| A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
+| A.8.5 | Information for interested parties | Provide information to interested parties about AI systems. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 
 ### A.9 Use of AI systems
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
-| A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
-| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | ❓ TBC | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
 
 ### A.10 Third-party and customer relationships
 
-| Control | Title | Description | Implementation status | Document |
-|---------|-------|-------------|--------|----------|
-| A.10.2 | Allocating responsibilities | Allocate AI-related responsibilities between parties. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.10.3 | Suppliers | Manage suppliers involved in AI system activities. | ❓ TBC | [supplier_security_policy.md](../policies/supplier_security_policy.md) |
-| A.10.4 | Customers | Manage customer relationships for AI systems. | ❓ TBC | — |
+| Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
+|---------|-------|-------------|--------|--------|----------|
+| A.10.2 | Allocating responsibilities | Allocate AI-related responsibilities between parties. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.10.3 | Suppliers | Manage suppliers involved in AI system activities. | ❓ TBC | ❓ TBC | [supplier_security_policy.md](../policies/supplier_security_policy.md) |
+| A.10.4 | Customers | Manage customer relationships for AI systems. | ❓ TBC | ❓ TBC | — |
 
 ---
 
