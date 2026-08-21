@@ -89,7 +89,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 |---------|-------|-------------|--------|--------|----------|
 | A.5.2 | AI system impact assessment process | Establish processes for assessing AI system impacts. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.5.3 | Documentation of AI system impact assessments | Document AI system impact assessments. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| A.5.4 | Assessing AI system impact on individuals or groups | Assess impacts on individuals or groups affected by AI systems. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
+| A.5.4 | Assessing AI system impact on individuals or groups of individuals | Assess impacts on individuals or groups of individuals affected by AI systems. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.5.5 | Assessing societal impacts of AI systems | Assess broader societal impacts of AI systems. | ❓ TBC | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 
 ### A.6 AI system life cycle
