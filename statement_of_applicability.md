@@ -3,6 +3,13 @@
 ## 1. Introduction
 This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 27001:2022** that are applicable to the organization and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **Information Security Management System (ISMS)**.
 
+The **Implementation status** column uses these values:
+
+- ✅ Implemented
+- ⚠️ Partially implemented
+- ❌ Not implemented
+- ❓ TBC — not yet assessed
+
 ---
 
 ## 2. Scope
@@ -48,7 +55,7 @@ The following table tracks implementation of the mandatory ISO 27001:2022 clause
 
 ## 4. Annex A Controls
 
-All 93 controls from Annex A are applicable to the organization. Controls not yet implemented are marked ❓ TBC or ❓ TBC.
+All 93 controls from Annex A are applicable to the organization.
 
 ### A.5 Organisational Controls
 

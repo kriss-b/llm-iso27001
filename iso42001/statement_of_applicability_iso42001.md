@@ -3,6 +3,13 @@
 ## 1. Introduction
 This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to the organization and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
 
+The **Implementation status** column uses these values:
+
+- ✅ Implemented
+- ⚠️ Partially implemented
+- ❌ Not implemented
+- ❓ TBC — not yet assessed
+
 ---
 
 ## 2. Scope
