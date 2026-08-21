@@ -14,10 +14,8 @@ versioned in git.
 
 ## Core rules
 
-- The SoA is the single source of truth for control status. Never mark a
+- The SoA is the single source of truth for control coverage. Never mark a
   control implemented without a document behind it.
-- Status changes require explicit human approval. Propose changes; do not
-  apply them unilaterally.
 - Git is the audit trail. Commit every change with a clear message.
 - This repository can be the system of record on its own — nothing else is
   required. When content already lives elsewhere (Confluence, Notion, Jira,

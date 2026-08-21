@@ -6,8 +6,6 @@
 
 **SoA is the single source of truth for control coverage.** There are two SoAs: `statement_of_applicability.md` (ISO 27001) and `iso42001/statement_of_applicability_iso42001.md` (ISO 42001). Never mark a control as implemented in either without a document to back it up.
 
-**SoA status changes require explicit human approval.** Never update a control status autonomously — propose the change and wait for confirmation.
-
 **No redundancy.** Before creating a new document, check whether the content already exists elsewhere. Extend existing documents rather than creating new ones.
 
 **External systems may already be authoritative.** Before importing content from elsewhere (Confluence, Notion, a GRC tool...), ask whether it should stay the reference there or move into git.
