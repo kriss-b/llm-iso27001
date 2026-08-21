@@ -41,9 +41,9 @@ A full ISMS: policies and procedures, living operational records (logs and regis
 | `checks/` | Automated compliance checks, one per control |
 | `iso42001/` | Optional ISO 42001 AI Management System (AIMS) overlay, with its own SoA and checks |
 | `nis2/` | Optional NIS 2 overlay — national transpositions (France: **ReCyF**), each with its own SoA and checks |
-| `statement_of_applicability.md` | Master index mapping all 93 controls to status and documents |
+| `statement_of_applicability.md` | Master index mapping all 93 controls to implementation status and documents |
 
-The `statement_of_applicability.md` is the master index. It maps every ISO 27001 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. The default status is intentionally 'not yet implemented' to force proactive review of all controls.
+The `statement_of_applicability.md` is the master index. It maps every ISO 27001 clause and Annex A control to its implementation status and the document that covers it. Start there to understand what exists and what gaps remain. Every control starts at ❓ TBC (not yet assessed), deliberately: nothing is presumed compliant until you have reviewed it.
 
 ---
 
