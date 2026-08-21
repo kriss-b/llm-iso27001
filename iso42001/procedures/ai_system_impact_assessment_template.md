@@ -112,7 +112,7 @@
 | Societal harm                            |                   |                |              |                |           |
 | [Additional harm specific to this system]|                   |                |              |                |           |
 
-*Likelihood, Severity and Significance: Low / Medium / High. Risk Level derived from the [Risk Assessment Framework](../../risks/risk_assessment_framework.md). Risks to the organisation itself are recorded in the [Risk Register](../../risks/risks_register.md), not here.*
+*Likelihood, Severity and Significance: Low / Medium / High. Risk Level derived from the [Risk Assessment Procedure](../../risks/risk_assessment_procedure.md). Risks to the organisation itself are recorded in the [Risk Register](../../risks/risks_register.md), not here.*
 
 ---
 

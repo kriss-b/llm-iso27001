@@ -1,34 +1,114 @@
-# Risk Assessment Procedure
+# ISO 27001:2022 Risk Assessment Procedure
 
-## 1. Purpose
-This procedure outlines the steps for conducting risk assessments in alignment with the **Risk Assessment Policy**.
+## **1. Purpose**
+This procedure outlines the methodology for identifying, assessing, and treating information security risks in accordance with **ISO 27001:2022**. It ensures that risks are managed systematically to protect the confidentiality, integrity, and availability of information assets.
 
-## 2. Scope
-Scope is defined in the [Risk Assessment Policy](../policies/risk_assessment_policy.md).
+---
 
-## 3. Roles and Responsibilities
-Roles and responsibilities are defined in the [Risk Assessment Framework](risk_assessment_framework.md).
+## **2. Scope**
+This procedure applies to:
+- All information assets owned or managed by the organization.
+- All employees, contractors, and third-party vendors with access to organizational information.
+- All processes, systems, and technologies used to store, process, or transmit information.
 
-## 4. Risk Assessment Process
-### 4.1 Asset Identification
-- Identify and document all information assets.
-- Assign an owner to each asset.
+---
 
-### 4.2 Threat and Vulnerability Identification
-- Identify threats (e.g., cyberattacks, natural disasters) and vulnerabilities (e.g., unpatched software, weak access controls).
-- Use tools (e.g., vulnerability scanners, threat intelligence feeds) to assist in identification.
-- Assign an **AI Specificity** value (`None`, `Indirect`, or `Direct`) to each identified risk, as defined in the [Risk Assessment Framework](risk_assessment_framework.md).
+## **3. Risk Assessment Methodology**
 
-### 4.3 Risk Evaluation
-- Assess the **likelihood** and **impact** of each risk using the matrix defined in the [Risk Assessment Framework](risk_assessment_framework.md) §5.
+### **3.0 Risk Criteria**
+Risk criteria shall be established before each risk assessment and documented in the Risk Assessment Report. They define the scales used to assess likelihood and impact, and the threshold above which risks require treatment.
 
-### 4.4 Risk Treatment
-- Develop a risk treatment plan for **High** risks.
-- Treatment options are defined in the [Risk Assessment Framework](risk_assessment_framework.md) §3.4.
+**Likelihood:**
 
-### 4.5 Documentation
-- Document all findings in the **Risk Register** (see `risks/risks_register.md`).
-- Update the Risk Register in accordance with the frequency defined in the [Risk Assessment Policy](../policies/risk_assessment_policy.md).
+| Level | Definition |
+|---|---|
+| **High** | Can occur approximately once per year, or has already occurred |
+| **Medium** | Can occur approximately once every 5 years |
+| **Low** | Can occur approximately once every 10 years |
+
+**Impact** (highest applicable dimension drives the level):
+
+| Level | Definition |
+|---|---|
+| **High** | Service disruption > 48h; OR confirmed personal data breach; OR regulatory fine likely; OR major reputational damage |
+| **Medium** | Service disruption between 4h and 48h; OR potential data exposure of limited scope; OR regulatory attention possible; OR contained reputational impact |
+| **Low** | Service disruption < 4h; no personal data at risk; no regulatory implications; negligible reputational impact |
+
+**Risk acceptance threshold:**
+
+| Risk Level | Decision |
+|---|---|
+| **Low** | Acceptable — log and monitor |
+| **Medium** | Management review required; may be accepted with documented justification |
+| **High** | Treatment required; acceptance only with explicit CEO or ISMS Owner sign-off |
+
+### **3.1 Risk Identification**
+- **Assets**: Identify all information assets (e.g., data, systems, hardware, software, people).
+- **Threats**: Identify potential threats (e.g., cyberattacks, human error, natural disasters).
+- **Weaknesses**: Identify weaknesses — technical or organisational — that could be exploited by threats (e.g., unpatched software, lack of MFA, inadequate processes).
+- **Impacts**: Determine the potential impact of a security incident (e.g., financial loss, reputational damage, legal consequences).
+- **Owner**: Assign a named owner to each identified risk, responsible for deciding and driving the treatment.
+- **AI Specificity**: Classify each risk according to how directly it relates to AI systems, using one of three values:
+  - `None`: The risk has no meaningful connection to AI systems or their use.
+  - `Indirect`: The risk originates independently of AI but also applies to AI systems (e.g., unauthorized access, supply chain attack).
+  - `Direct`: The risk only exists because of AI systems (e.g., model poisoning, hallucination, prompt injection, training data leakage).
+
+### **3.2 Risk Analysis**
+- **Likelihood**: Assess the likelihood of a risk occurring (e.g., Low, Medium, High).
+- **Impact**: Assess the impact of a risk if it occurs (e.g., Low, Medium, High).
+- **Risk Level**: Calculate the risk level using a **Risk Matrix** (see Section 5).
+
+### **3.3 Risk Evaluation**
+- Compare the risk level against the organization’s **risk appetite**.
+- Determine whether the risk is **acceptable** or requires **treatment**.
+
+### **3.4 Risk Treatment**
+- **Options**: 
+  - **Mitigate**: Implement controls to reduce the risk.
+  - **Accept**: Accept the risk if it is within the risk appetite.
+  - **Avoid**: Eliminate the risk by discontinuing the activity.
+  - **Transfer**: Transfer the risk (e.g., via insurance or outsourcing).
+- **Controls**: Select controls from **Annex A of ISO 27001:2022** to mitigate risks. Record the selected control identifiers in the **Controls** column of the [Risk Register](risks_register.md) — this is the single source of truth for the risk-to-control mapping. Risks treated by **Accept**, **Avoid**, or **Transfer** do not require controls.
+  - Identifiers are written bare for ISO 27001 (`A.8.5`), and prefixed for overlays: `42001:A.6.2.4` for ISO 42001, `recyf:3.A.2` for NIS 2 / ReCyF. The prefix is required because ISO 42001 Annex A also numbers controls `A.5.x`–`A.8.x`.
+  - The reverse view — which risks justify a given control — is **derived** from this column, never stored separately. The [Statement of Applicability](../statement_of_applicability.md) records only *why* a control is in scope (its **Inclusion / exclusion justification**), not which specific risks drive it.
+- **Residual risk**: After treatment is applied, evaluate the remaining risk level and obtain formal acceptance from the risk owner. Document the residual risk level in the [Risk Register](risks_register.md).
+
+---
+
+## **4. Roles and Responsibilities**
+| **Role**               | **Responsibility**                                                                 |
+|------------------------|------------------------------------------------------------------------------------|
+| **ISMS Owner**         | Oversees the risk assessment process and ensures compliance with ISO 27001.        |
+| **Risk Assessment Team** | Identifies, analyzes, and evaluates risks.                                        |
+| **IT Team**            | Provides technical input on vulnerabilities and controls.                          |
+| **Management**         | Approves risk treatment plans and provides resources for mitigation.               |
+| **Employees**          | Report risks and adhere to risk treatment measures.                               |
+
+---
+
+## **5. Risk Matrix**
+| **Likelihood \ Impact** | **Low** | **Medium** | **High** |
+|-----------------------|---------|------------|---------|
+| **Low**               | Low     | Low        | Medium  |
+| **Medium**            | Low     | Medium     | High    |
+| **High**              | Medium  | High       | High    |
+
+---
+
+## **6. Risk Assessment Frequency**
+- The frequency of risk assessments and register reviews is defined in the [Risk Assessment Policy](../policies/risk_assessment_policy.md).
+
+---
+
+## **7. Documentation**
+- **[Risk Register](risks_register.md)**: Document all identified risks, their assessment, and treatment plans.
+- **Risk findings and recommendations** are presented at the annual management review using the **[Management Review Template](../procedures/management_review_template.md)** (§11 and §12).
+
+---
+
+## **8. Review and Improvement**
+- This procedure will be reviewed annually or after significant changes to ensure its effectiveness.
+- Feedback from risk assessments will be used to improve the procedure.
 
 ---
 

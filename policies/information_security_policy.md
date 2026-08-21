@@ -20,7 +20,7 @@ This policy applies to:
 ## Policy Statements
 
 ### Risk Management
-- Risks to information assets shall be **identified, assessed, and treated** in accordance with the **Risk Assessment Framework**.
+- Risks to information assets shall be **identified, assessed, and treated** in accordance with the **Risk Assessment Procedure**.
 - The **Risk Treatment Plan** shall be reviewed and updated annually or after significant change.
 
 ### Access Control

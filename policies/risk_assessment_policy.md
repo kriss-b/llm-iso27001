@@ -7,13 +7,13 @@ This policy establishes a framework for identifying, evaluating, and mitigating 
 This policy applies to all employees, contractors, and third-party vendors with access to the organization’s information systems, data, or infrastructure.
 
 ## 3. Risk Assessment Process
-Risk assessments shall be conducted in accordance with the [Risk Assessment Procedure](../risks/risk_assessment_procedure.md), using the methodology defined in the [Risk Assessment Framework](../risks/risk_assessment_framework.md).
+Risk assessments shall be conducted using the methodology defined in the [Risk Assessment Procedure](../risks/risk_assessment_procedure.md).
 
 ## 4. Roles and Responsibilities
-Roles and responsibilities are defined in the [Risk Assessment Framework](../risks/risk_assessment_framework.md).
+Roles and responsibilities are defined in the [Risk Assessment Procedure](../risks/risk_assessment_procedure.md).
 
-## 5. Risk Register Review Frequency
-The risk register shall be reviewed and updated at least annually, or after any significant change to the business, threat landscape, or following a security incident.
+## 5. Risk Assessment and Register Review Frequency
+A full risk assessment shall be conducted, and the risk register reviewed and updated, at least annually, or after any significant change to the business, threat landscape, or following a security incident.
 
 ## 6. Compliance
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or contracts.

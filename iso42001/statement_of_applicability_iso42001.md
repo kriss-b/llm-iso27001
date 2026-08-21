@@ -28,9 +28,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 5.1 | Leadership and commitment | Demonstrate commitment to AI governance through active leadership involvement. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.2 | AI policy | Establish an AI policy appropriate to organizational purpose and objectives. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 5.3 | Roles, responsibilities and authorities | Assign and communicate AI-related roles, responsibilities and authorities. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md) |
-| 6.1.1 | Actions to address risks and opportunities — General | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md) |
-| 6.1.2 | AI risk assessment | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md), [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
-| 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md) |
+| 6.1.1 | Actions to address risks and opportunities — General | — | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
+| 6.1.2 | AI risk assessment | — | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
+| 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
 | 6.1.4 | AI system impact assessment | — | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 6.2 | AI objectives and planning to achieve them | Establish measurable AI objectives and plans to achieve them. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 6.3 | Planning of changes | Plan and manage changes to the AI management system. | ❓ TBC | — |
@@ -43,7 +43,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 7.5.3 | Control of documented information | Control availability, distribution and protection of documentation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.1 | Operational planning and control | Plan, implement and control processes for AI system operations. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 8.2 | AI risk assessment | Conduct risk assessments for AI systems considering impacts and likelihood. | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md), [risks_register.md](../risks/risks_register.md) |
-| 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_framework.md](../risks/risk_assessment_framework.md), [risks_register.md](../risks/risks_register.md) |
+| 8.3 | AI risk treatment | Select and implement appropriate AI risk treatment options. | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md), [risks_register.md](../risks/risks_register.md) |
 | 8.4 | AI system impact assessment | Assess potential impacts of AI systems on individuals and society. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 9.1 | Monitoring, measurement, analysis and evaluation | Monitor, measure, analyze and evaluate AI system performance. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [audit_policy.md](../policies/audit_policy.md) |
 | 9.2.1 | Internal audit — General | Conduct internal audits at planned intervals. | ❓ TBC | [audit_policy.md](../policies/audit_policy.md) |

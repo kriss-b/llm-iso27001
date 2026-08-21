@@ -1,7 +1,7 @@
 # ISO 27001:2022 Risk Register
 
 ## **1. Introduction**
-This **Risk Register** documents identified risks, their assessment, and treatment plans. It is maintained in accordance with the **[Risk Assessment Framework](risk_assessment_framework.md)** and **ISO 27001:2022** requirements.
+This **Risk Register** documents identified risks, their assessment, and treatment plans. It is maintained in accordance with the **[Risk Assessment Procedure](risk_assessment_procedure.md)** and **ISO 27001:2022** requirements.
 
 The risks listed below are **examples** provided as a starting point. Replace them with risks identified during your organisation's own risk assessment.
 
