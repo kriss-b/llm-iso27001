@@ -34,12 +34,7 @@ Each in-scope measure is rated by how well the base ISO 27001 ISMS already cover
 
 The **Description** column reproduces ANSSI's verbatim acceptable-means-of-compliance text (© ANSSI); the **Requirement** column is the measure's theme.
 
-The **Implementation status** column uses these values:
-
-- ✅ Implemented
-- ⚠️ Partially implemented
-- ❌ Not implemented
-- ❓ TBC — not yet assessed
+The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../../statement_of_applicability.md) §1.
 
 **Base ISMS changes are deferred.** Where a measure requires a change to a base ISO 27001 document, that change is **not made here**; it is captured by the corresponding **ReCyF check** (`nis2/recyf/checks/`), which verifies the base ISMS and fails until the gap is closed.
 

@@ -3,22 +3,7 @@
 ## 1. Introduction
 This **Statement of Applicability (SoA)** identifies the controls from **Annex A of ISO 42001:2023** that are applicable to the organization and justifies their inclusion or exclusion. It also tracks the implementation status and the document(s) that implement each control. This document is a key artefact of the **AI Management System (AIMS)**.
 
-The **Implementation status** column uses these values:
-
-- ✅ Implemented
-- ⚠️ Partially implemented
-- ❌ Not implemented
-- ❓ TBC — not yet assessed
-
-The **Inclusion / exclusion justification** column uses these values, and combinations are allowed (`Risk, Legal`):
-
-- Risk — driven by one or more risks in the [risk register](../risks/risks_register.md)
-- Legal — statutory or regulatory obligation
-- Contractual — customer or supplier commitment
-- Business — operational or commercial decision
-- Baseline — foundational ISMS requirement, no specific risk
-- Excluded — not applicable, with the reason
-- ❓ TBC — not yet assessed
+The **Inclusion / exclusion justification** and **Implementation status** columns use the values defined in the [ISO 27001 Statement of Applicability](../statement_of_applicability.md) §1.
 
 ---
 
