@@ -17,7 +17,7 @@ This SoA applies to all AI systems developed, deployed, or used within the scope
 
 The following table tracks implementation of the mandatory ISO 42001:2023 clauses (4–10).
 
-| Clause | Requirement | Description | Status | Document |
+| Clause | Requirement | Description | Implementation status | Document |
 |--------|-------------|-------------|--------|----------|
 | 4.1 | Understanding the organization and its context | Identify internal and external factors relevant to AI system development and use. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 4.2 | Understanding the needs and expectations of interested parties | Determine stakeholder requirements and expectations for AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
@@ -58,7 +58,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.2 Policies related to AI
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.2.2 | AI policy | Define and communicate the organization's AI policy. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.2.3 | Alignment with other organizational policies | Ensure AI policy aligns with other organizational policies. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
@@ -66,14 +66,14 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.3 Internal organization
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.3.2 | AI roles and responsibilities | Define roles and responsibilities for AI system activities. | ❓ TBC | [roles_and_responsibilities_policy.md](../policies/roles_and_responsibilities_policy.md), [aims_policy.md](policies/aims_policy.md) |
 | A.3.3 | Reporting of concerns | Establish processes for reporting AI-related concerns. | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 
 ### A.4 Resources for AI systems
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.4.2 | Resource documentation | Document resources required for AI system development and operation. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | — |
@@ -83,7 +83,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.5 Assessing impacts of AI systems
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.5.2 | AI system impact assessment process | Establish processes for assessing AI system impacts. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.5.3 | Documentation of AI system impact assessments | Document AI system impact assessments. | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
@@ -92,7 +92,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.6 AI system life cycle
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.6.1.2 | Objectives for responsible development of AI system | Define objectives for responsible AI system development. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.1.3 | Processes for responsible AI system design and development | Establish processes for responsible AI design and development. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
@@ -106,7 +106,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.7 Data for AI systems
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.7.2 | Data for development and enhancement of AI system | Manage data used for AI system development and enhancement. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.7.3 | Acquisition of data | Control acquisition of data for AI systems. | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
@@ -116,7 +116,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.8 Information for interested parties of AI systems
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | — |
@@ -125,7 +125,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.9 Use of AI systems
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
 | A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
@@ -133,7 +133,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 ### A.10 Third-party and customer relationships
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.10.2 | Allocating responsibilities | Allocate AI-related responsibilities between parties. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | A.10.3 | Suppliers | Manage suppliers involved in AI system activities. | ❓ TBC | [supplier_security_policy.md](../policies/supplier_security_policy.md) |

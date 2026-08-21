@@ -42,7 +42,7 @@ The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remai
 
 ## 4. Delta crosswalk (EI — objectives 1–15)
 
-| Measure | Requirement | Description | Cov. | Base ISMS document | Status |
+| Measure | Requirement | Description | Cov. | Base ISMS document | Implementation status |
 |---|---|---|---|---|---|
 | 1.2 | IS inventory | The entity shall specify in the list provided for in 1.1-EI/EE the information systems which are not exposed to any of the risks mentioned in paragraph 2 of the security objective.<br>The entity shall provide justifications for those choices. | 🔴 | [assets_register.md](../../run/registers/assets_register.md) | ❓ TBC |
 | 1.3 | IS inventory | The entity shall validate and review annually the list set out in 1.1-EI/EE, or as necessary in particular in the event of changes to the entity's activities and services or when a new information system is put into operation. | 🔴 | [assets_register.md](../../run/registers/assets_register.md), [asset_management_policy.md](../../policies/asset_management_policy.md) | ❓ TBC |

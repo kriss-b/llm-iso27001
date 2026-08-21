@@ -18,7 +18,7 @@ This SoA applies to all information assets, systems, and processes within the sc
 
 The following table tracks implementation of the mandatory ISO 27001:2022 clauses (4–10).
 
-| Clause | Requirement | Description | Status | Document |
+| Clause | Requirement | Description | Implementation status | Document |
 |--------|-------------|-------------|--------|----------|
 | 4.1 | Understanding the organization and its context | Identify internal and external factors that influence the organization’s ability to achieve information security objectives, ensuring the ISMS is aligned with its context. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
 | 4.2 | Understanding the needs and expectations of interested parties | Analyze the needs and expectations of interested parties to incorporate them into the ISMS and address relevant information security requirements. | ❓ TBC | [isms_policy.md](policies/isms_policy.md) |
@@ -52,7 +52,7 @@ All 93 controls from Annex A are applicable to the organization. Controls not ye
 
 ### A.5 Organisational Controls
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.5.1 | Policies for information security | This control establishes and maintains information security policies aligned with organizational objectives. Measures include defining scope, setting goals, and ensuring alignment with compliance requirements. | ❓ TBC | [information_security_policy.md](policies/information_security_policy.md) |
 | A.5.2 | Information security roles and responsibilities | This control defines and assigns roles and responsibilities for information security to ensure accountability. Measures include clear documentation of responsibilities, periodic reviews, and enforcement mechanisms. | ❓ TBC | [roles_and_responsibilities_policy.md](policies/roles_and_responsibilities_policy.md) |
@@ -94,7 +94,7 @@ All 93 controls from Annex A are applicable to the organization. Controls not ye
 
 ### A.6 People Controls
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.6.1 | Screening | This control ensures the implementation of screening processes to verify the suitability of candidates before employment. Measures include background checks, identity verification, and assessment of qualifications to reduce security risks. | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md) |
 | A.6.2 | Terms and conditions of employment | This control ensures that terms and conditions of employment include information security responsibilities. Measures include explicit clauses about confidentiality, compliance with policies, and consequences for breaches. | ❓ TBC | [human_resource_security_policy.md](policies/human_resource_security_policy.md) |
@@ -107,7 +107,7 @@ All 93 controls from Annex A are applicable to the organization. Controls not ye
 
 ### A.7 Physical Controls
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.7.1 | Physical security perimeters | This control establishes physical security perimeters to protect critical areas from unauthorized access. Measures include barriers, access controls, and monitoring systems to ensure only authorized individuals can enter. | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
 | A.7.2 | Physical entry | This control ensures physical entry points are controlled and monitored to prevent unauthorized access. Measures include badge systems, security personnel, and visitor logs. | ❓ TBC | [physical_and_environmental_security_policy.md](policies/physical_and_environmental_security_policy.md) |
@@ -126,7 +126,7 @@ All 93 controls from Annex A are applicable to the organization. Controls not ye
 
 ### A.8 Technological Controls
 
-| Control | Title | Description | Status | Document |
+| Control | Title | Description | Implementation status | Document |
 |---------|-------|-------------|--------|----------|
 | A.8.1 | User end point devices | This control ensures the protection of endpoint devices such as laptops, desktops, and mobile devices by implementing security measures like endpoint detection, encryption, and secure configurations to minimize risks. | ❓ TBC | [mobile_device_policy.md](policies/mobile_device_policy.md) |
 | A.8.2 | Privileged access rights | This control ensures that privileged access rights are granted, managed, and monitored carefully to prevent misuse and enhance security. Measures include role-based access controls, periodic reviews, and strict account management. | ❓ TBC | [access_control_policy.md](policies/access_control_policy.md), [access_review_log.md](run/logs/access_review_log.md) |
