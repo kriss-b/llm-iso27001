@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kriss-b/llm-iso27001)](https://github.com/kriss-b/llm-iso27001/stargazers)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)](https://github.com/kriss-b/llm-iso27001/blob/main/CONTRIBUTING.md)
 
-This repository is a minimal, viable, and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2**. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
+This repository is a lightweight and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2**. It is designed to be cloned and immediately customised by your own LLM Agent (e.g. OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
 Inspired by Andrej Karpathy's [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) and [Is Grep All You Need?](https://arxiv.org/abs/2605.15184) paper, applied here to an ISMS.
 
