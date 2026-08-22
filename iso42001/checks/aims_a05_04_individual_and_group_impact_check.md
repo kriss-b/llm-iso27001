@@ -1,0 +1,1 @@
+Verify that every impact assessment linked from [ai_systems_register.md](../../run/registers/ai_systems_register.md) identifies the individuals and groups of individuals affected by the AI system and assesses the impact on each; report a failure for any assessment with unidentified affected parties or unassessed impact.
