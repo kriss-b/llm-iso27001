@@ -68,6 +68,9 @@ Then provide to your LLM Agent context about your company. The more context, the
 > 5. Populate the suppliers register with our key vendors.
 > 6. Populate the security feeds register with feeds relevant to our tech stack and sector.
 > 7. Run all checks and report which pass, which fail, and which are not applicable.
+> 8. Add this template as the `upstream` remote, tag its current `main` as `last-upstream-check`, and push the tag — so I can track template updates later.
+
+Step 8 is worth doing now: at instantiation time `upstream/main` is your starting point by definition, so the marker is correct for free. Recovering it later is possible but fiddlier — see [Staying up to date with the template](#staying-up-to-date-with-the-template).
 
 From there, iterate. The LLM can update policies and the SoA, run checks, maintain operational logs, refine risks, and keep cross-references in sync as your ISMS evolves.
 
@@ -155,16 +158,49 @@ git remote add upstream https://github.com/kriss-b/llm-iso27001.git
 
 **First time — mark your starting point:**
 
+If you tagged your starting point during initial setup, skip to the next step. Otherwise the marker has to be recovered, because **Use this template** squashes the template's history into a single Initial commit — your repo shares no commits with upstream, so there is no merge base to fall back on. Tagging `upstream/main` now would silently mark every template change since you instantiated as "already reviewed".
+
+Ask your LLM Agent:
+
+> Find the upstream commit this repository was created from by matching my root commit's tree against `upstream/main`, tag it `last-upstream-check`, and push the tag. Then show me the commits I have not reviewed.
+
+Template instantiation copies content verbatim, and git trees are content-addressed, so your root commit's tree hash is identical to that of the upstream commit it came from — an exact match, independent of commit timestamps:
+
 ```bash
-git tag last-upstream-check upstream/main
+root_tree=$(git rev-parse "$(git rev-list --max-parents=0 HEAD)^{tree}")
+git log --format='%H %T' upstream/main | awk -v t="$root_tree" '$2==t {print $1}'
 ```
+
+If that returns nothing, your first commit already contained local edits. Fall back to the commit date of your root commit (`git rev-list -n1 --before=<date> upstream/main`), then diff the candidates and pick the closest — and have the agent confirm it with you rather than accept it silently. If it returns more than one commit, upstream has commits with identical trees; use your root commit's date to choose between them.
+
+Then tag it and push it:
+
+```bash
+git tag last-upstream-check <the commit found above>
+git push origin last-upstream-check
+```
+
+Push the tag rather than keeping it local — it records how far you have reviewed upstream changes, which is auditable evidence of a review cadence, and it survives losing your working copy. Push it by name: `git push --tags` would also publish the template's own release tags onto your repo, since `git fetch upstream` brought them into your clone.
 
 **When you want to check for updates:**
 
 ```bash
 git fetch upstream
 git log --oneline last-upstream-check..upstream/main > upstream_changes.log
-git tag -f last-upstream-check upstream/main  # move the marker forward after review
+```
+
+After reviewing, move the marker forward. Publishing the move needs `--force`, because the tag is a moving bookmark being rewritten rather than immutable history:
+
+```bash
+git tag -f last-upstream-check upstream/main
+git push --force origin last-upstream-check
+```
+
+If you would rather keep the history of when reviews happened — so the tag list itself answers an auditor asking how often you review changes to your framework — add an immutable dated tag per round alongside the moving pointer:
+
+```bash
+git tag upstream-check-$(date +%F) upstream/main
+git push origin upstream-check-$(date +%F)
 ```
 
 Then open a session with your LLM Agent and say something like:
