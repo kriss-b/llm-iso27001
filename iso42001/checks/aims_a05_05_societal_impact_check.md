@@ -1,0 +1,1 @@
+Verify that every impact assessment linked from [ai_systems_register.md](../../run/registers/ai_systems_register.md) assesses the impact of the AI system on society beyond the individuals and groups it directly affects; report a failure for any assessment where societal impact is left unassessed.
