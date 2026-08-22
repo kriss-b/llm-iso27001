@@ -11,7 +11,7 @@ This policy is aligned with **ISO 42001:2023 (Clauses 4, 5, 6, 8, 9 and 10)** an
 
 ACME CORP is committed to establishing, implementing, maintaining, and continually improving its AIMS in accordance with ISO 42001:2023.
 
-The following are the AI management objectives for the current annual period. They take into account the results of the AI risk assessment and AI system impact assessments, and are reviewed and updated at each management review (see Section 10).
+The following are the AI management objectives for the current annual period. They take into account the results of the AI risk assessment and AI system impact assessments, and are reviewed and updated at each management review.
 
 - 100% of AI systems in the [AI Systems Register](../../run/registers/ai_systems_register.md) have a completed impact assessment before deployment.
 - Zero AI systems in production with a harm rated High in its impact assessment and no documented mitigation.

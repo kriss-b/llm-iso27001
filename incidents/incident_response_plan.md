@@ -12,7 +12,7 @@ Scope is defined in the [Incident Management Policy](../policies/incident_manage
 
 ## 🔐 **Roles and Responsibilities**
 
-Roles and responsibilities are defined in the [Incident Management Policy](../policies/incident_management_policy.md) §4.
+Roles and responsibilities are defined in the [Incident Management Policy](../policies/incident_management_policy.md).
 
 ---
 
@@ -48,7 +48,7 @@ Incident severity levels (Low / Medium / High / Critical) are defined in the [In
 - Update security controls to prevent similar incidents.
 
 ### 6. **Post-Incident Review**
-Post-incident reviews are conducted in accordance with the [Incident Management Policy](../policies/incident_management_policy.md) §3.6.
+Post-incident reviews are conducted in accordance with the [Incident Management Policy](../policies/incident_management_policy.md).
 
 ---
 

@@ -11,7 +11,7 @@ This policy is aligned with **ISO 27001:2022 (Clauses 4, 5, 6, 8, 9 and 10)** an
 
 ACME CORP is committed to establishing, implementing, maintaining, and continually improving its ISMS in accordance with ISO 27001:2022.
 
-The following are the information security objectives for the current annual period. They are reviewed and updated at each management review (see Section 10).
+The following are the information security objectives for the current annual period. They are reviewed and updated at each management review.
 
 - Maintain zero critical or high security incidents.
 - Maintain ISO 27001:2022 certification with no critical non-conformities.

@@ -56,7 +56,7 @@ Risk criteria shall be established before each risk assessment and documented in
 ### **3.2 Risk Analysis**
 - **Likelihood**: Assess the likelihood of a risk occurring (e.g., Low, Medium, High).
 - **Impact**: Assess the impact of a risk if it occurs (e.g., Low, Medium, High).
-- **Risk Level**: Calculate the risk level using a **Risk Matrix** (see Section 5).
+- **Risk Level**: Calculate the risk level using a **Risk Matrix**.
 
 ### **3.3 Risk Evaluation**
 - Compare the risk level against the organization’s **risk appetite**.
@@ -102,7 +102,7 @@ Risk criteria shall be established before each risk assessment and documented in
 
 ## **7. Documentation**
 - **[Risk Register](risks_register.md)**: Document all identified risks, their assessment, and treatment plans.
-- **Risk findings and recommendations** are presented at the annual management review using the **[Management Review Template](../procedures/management_review_template.md)** (§11 and §12).
+- **Risk findings and recommendations** are presented at the annual management review using the **[Management Review Template](../procedures/management_review_template.md)**.
 
 ---
 

@@ -34,11 +34,11 @@ Each in-scope measure is rated by how well the base ISO 27001 ISMS already cover
 
 The **Description** column reproduces ANSSI's verbatim acceptable-means-of-compliance text (© ANSSI); the **Requirement** column is the measure's theme.
 
-The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../../statement_of_applicability.md) §1.
+The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../../statement_of_applicability.md).
 
 **Base ISMS changes are deferred.** Where a measure requires a change to a base ISO 27001 document, that change is **not made here**; it is captured by the corresponding **ReCyF check** (`nis2/recyf/checks/`), which verifies the base ISMS and fails until the gap is closed.
 
-The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remaining EI measures are rated 🟢 High: they are already satisfied by the base ISMS and, by design, are not restated here (see §5).
+The table below lists the **delta measures** (🔴 Low + 🟠 Medium). The remaining EI measures are rated 🟢 High: they are already satisfied by the base ISMS and, by design, are not restated here (see the high-coverage measures section).
 
 ---
 
