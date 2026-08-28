@@ -68,7 +68,7 @@ The following steps shall be completed on or before the employee's last day.
 ---
 
 ## 5. Role Changes
-When an employee changes role internally, access rights shall be reviewed and updated to reflect the new role. Access no longer required shall be revoked. The steps in Section 3.1 (items 5 and 7) and Section 4.1 (items 1–3) apply as relevant.
+When an employee changes role internally, access rights shall be reviewed and updated to reflect the new role. Access associated with the previous role — system and application access, along with any MFA tokens and API keys issued for it — shall be revoked, and active sessions invalidated. Access for the new role shall be granted following least privilege, to the systems the new role requires and no others. The account itself is not disabled.
 
 ---
 
