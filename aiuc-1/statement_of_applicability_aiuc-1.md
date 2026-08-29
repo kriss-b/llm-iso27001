@@ -8,7 +8,7 @@ This document is an **overlay on the existing ISMS and AIMS**, not a parallel sy
 
 AIUC-1 is **not an extension of ISO 42001**, and this overlay does not treat it as one. The two standards were written independently and overlap only in part: AIUC-1 states concrete, auditable requirements about AI agent behaviour, where ISO 42001 states management system requirements. An AIMS being in place does not, by itself, remove a control from the delta.
 
-- **Source:** AIUC-1, **July 2026 version** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs). AIUC-1 is updated **quarterly**, so this overlay pins the version it was mapped against and must be re-checked against each release.
+- **Version mapped:** AIUC-1, **July 2026** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs) — stated here only. AIUC-1 is updated **quarterly**; re-map at each release.
 - **Coverage ratings are derived in this repository.** Every rating below is an assessment made here against the documents cited, not a figure lifted from the publisher.
 - **This is a readiness and gap mapping, not a compliance claim.** Per AIUC-1's own terms, an organization may only claim AIUC-1 certification after an audit by an accredited auditor and independent technical testing.
 
@@ -392,7 +392,7 @@ Controls assessed as already satisfied, listed with the documents that satisfy t
 
 ## 7. Source & attribution
 
-Requirement and control text is reproduced verbatim from **AIUC-1, July 2026 version**, published by the AIUC-1 Consortium. This overlay is an independent mapping onto this ISMS and is not endorsed by the publisher. The standard is updated quarterly — see `aiuc-1.com/changelog`.
+Requirement and control text is reproduced verbatim from the version mapped above, published by the AIUC-1 Consortium. This overlay is an independent mapping and is not endorsed by the publisher. See `aiuc-1.com/changelog`.
 
 The *ISO 42001 counterparts* table comes from the publisher's reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`, the *Full Gap* clauses from the forward crosswalk, `aiuc-1.com/crosswalks/iso-42001`; both are re-checked at each quarterly release. The reverse mapping's own titles and descriptions match the requirement index above, confirming the transcription.
 
