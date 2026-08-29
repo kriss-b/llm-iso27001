@@ -116,7 +116,7 @@ The **ISO 42001 counterparts** table is derived by inverting AIUC-1's published 
 
 ### ISO 42001 counterparts (inverted crosswalk)
 
-Read the caveat in section 3 before using this table: a counterpart is a related ISO 42001 clause or control, not evidence that the requirement is met.
+Read the caveat under *How to read this overlay* before using this table: a counterpart is a related ISO 42001 clause or control, not evidence that the requirement is met.
 
 | Req | ISO 42001 clauses and controls that AIUC-1 covers through this requirement |
 |---|---|
@@ -156,7 +156,7 @@ ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.10.4` are rated *Full Ga
 
 ## 5. Delta crosswalk (control level)
 
-Controls rated 🟢 are listed in section 6 and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is section 4. Each table is collapsed below; open it to read the rows.
+Controls rated 🟢 are listed under *Covered controls* and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is the *Requirement index*. A capability gate listing several capabilities is satisfied by any one of them; the *Applicability profile* lists what each capability switches on. Each table is collapsed below; open it to read the rows.
 
 ### 5.1 Universal · Mandatory · Core — 37 controls
 
@@ -383,32 +383,7 @@ These ratings are derived here rather than taken from a published comparator, so
 
 ---
 
-## 7. Delta summary
-
-| Rating | Controls | Share |
-|---|---|---|
-| 🟢 High — already covered | 4 | 3% |
-| 🟠 Medium — addition to an existing document | 67 | 47% |
-| 🔴 Low — genuine gap | 71 | 50% |
-
-The gap is much wider than in the ReCyF overlay, and the reason is structural: ISO 27001 and ISO 42001 govern how an organization *manages* AI, while AIUC-1 specifies how an AI system must *behave at runtime*. A complete ISMS and AIMS therefore leaves most of AIUC-1 unmet by construction.
-
-Four themes account for most of the 🔴 controls:
-
-- **Runtime guardrails on inputs and outputs** — filtering, moderation, sanitization, output limits (A005, A006.2, B005, B009, C003.1, C003.2, C004.2, C006).
-- **Agent identity, permissions, and tool calls** — nothing in the ISMS treats an agent as a principal with its own identity, scope, or audit trail (A003.2, A003.3, B006, D003, E015.2).
-- **Third-party evaluation** — five Core controls across C010, C011, C012, D002, D004, all on a quarterly cycle, with no equivalent obligation anywhere in the base ISMS.
-- **Hallucination and reliability** — the D principle is almost entirely a gap; hallucination is currently mitigated by asking humans to review output, not by any technical control.
-
-The 🟠 controls are worth reading separately, because they do not all cost the same. Roughly a third — about 23 — are satisfied in substance already and fail only because AI systems are not named in scope: penetration testing runs annually but excludes AI endpoints (B004.3, B004.4); secure coding standards exist but do not reach generated code (B010.1–B010.6); digital signatures are standardised for documents but not for model artefacts (B008.5, E004.2); access reviews run at the required quarterly cadence but record no AI-specific context (B007.2); other reviews happen but not at the cadence AIUC-1 sets (E008.1, E012.1). Closing those is a scope sentence, a cadence, or a register column in a document that already exists.
-
-The remaining two thirds are not. About 29 have policy backing for the theme but require engineering to close — PII redaction in AI outputs and logs (A006.1), MCP and agent-to-agent authentication (B008.1), logging of AI inputs and outputs (E015.1), groundedness controls (D001.1), the disclosure notices (E016). About 15 need a document or process that does not exist yet, including the C001 taxonomy and the E002 and E003 failure plans.
-
-Two items unblock disproportionately many others and are the natural starting point: **C001 (AI risk taxonomy)**, a stated dependency of C005, C007, C012 and E002.2, where the impact assessment's harm categories give a usable starting point; and a **third-party evaluation programme**, which alone closes five Core controls and has no foothold anywhere in the current ISMS.
-
----
-
-## 8. Source & attribution
+## 7. Source & attribution
 
 Requirement and control text is reproduced verbatim from **AIUC-1, July 2026 version**, published by the AIUC-1 Consortium. This overlay is an independent mapping onto this ISMS and is not endorsed by the publisher. The standard is updated quarterly — see `aiuc-1.com/changelog`.
 
