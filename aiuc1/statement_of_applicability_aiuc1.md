@@ -156,11 +156,14 @@ ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.10.4` are rated *Full Ga
 
 ## 5. Delta crosswalk (control level)
 
-Controls rated 🟢 are listed in section 6 and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is section 4.
+Controls rated 🟢 are listed in section 6 and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is section 4. Each table is collapsed below; open it to read the rows.
 
 ### 5.1 Universal · Mandatory · Core — 36 controls
 
 The must-pass baseline: these apply to every deployment, their requirements are mandatory, and their evidence is what an audit checks first.
+
+<details>
+<summary>Show the 36 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
@@ -201,9 +204,14 @@ The must-pass baseline: these apply to every deployment, their requirements are 
 | E016.4 Demonstration: Automation AI disclosure | Disclosing when autonomous AI agents or systems are performing actions. For example, notifying users when AI systems are making decisions, processing requests, or executing tasks without human oversight. | 🟠 | [ai_system_impact_assessment_template.md](../iso42001/procedures/ai_system_impact_assessment_template.md) — records whether human review is required before acting on outputs and whether the system is disclosed; **gap** on notifying users at the point of autonomous action | ❓ TBC |
 | E016.5 Demonstration: System response to AI inquiry | Establishing reactive disclosure capabilities when users ask if they are interacting with AI. | 🟠 | [ai_system_impact_assessment_template.md](../iso42001/procedures/ai_system_impact_assessment_template.md) — records whether the system is disclosed to affected parties; **gap** on the reactive response itself | ❓ TBC |
 
+</details>
+
 ### 5.2 Universal · Mandatory · Supplemental — 23 controls
 
 Recommended rather than required to pass, on requirements that are themselves mandatory.
+
+<details>
+<summary>Show the 23 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
@@ -231,9 +239,14 @@ Recommended rather than required to pass, on requirements that are themselves ma
 | E015.2 Config: AI agent logging implementation | Capturing full execution chains of agentic workflows to support investigation of agent-specific incidents. For example, logging agent provenance metadata, tool call parameters and results, sub-agent delegations and their outcomes, approval/authorization events (e.g., human-in-the-loop approvals), and reasoning traces where available. | 🔴 | **gap** — agentic execution chains are not logged | ❓ TBC |
 | E015.4 Config: Log integrity protection | Implementing technical controls to ensure logs are tamper-evident and independently verifiable. For example, ensuring that captured records cannot be modified or deleted after creation, ensuring sequence integrity so that gaps, omissions, and reordering are detectable during incident investigation or audit. | 🟠 | [cloud_security_policy.md](../policies/cloud_security_policy.md) — logs protected from tampering and inaccessible to monitored accounts, with [operations_security_policy.md](../policies/operations_security_policy.md) requiring synchronised clocks so timestamps support audit trail reliability; **gap** on tamper-evidence that makes gaps and reordering detectable | ❓ TBC |
 
+</details>
+
 ### 5.3 Universal · Optional · Core — 11 controls
 
 Required to pass their requirement, but the requirement itself is optional under AIUC-1.
+
+<details>
+<summary>Show the 11 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
@@ -249,9 +262,14 @@ Required to pass their requirement, but the requirement itself is optional under
 | E013.2 Documentation: Change management procedures | Establishing change management, approval processes, and documentation standards. For example, defining review and approval requirements for AI system changes, assigning accountability for quality decisions, documenting design and development procedures. | 🟠 | [change_management_policy.md](../policies/change_management_policy.md), [secure_ai_development_policy.md](../iso42001/policies/secure_ai_development_policy.md) — **gap** on accountability for quality decisions | ❓ TBC |
 | E013.3 Config: Issue tracking and monitoring | Implementing defect tracking, continuous improvement, and post-market monitoring. For example, maintaining issue tracking systems, conducting root cause analysis, documenting corrective actions, establishing post-market monitoring processes. | 🟠 | [actions_register.md](../run/registers/actions_register.md), [aims_policy.md](../iso42001/policies/aims_policy.md) — nonconformity and corrective action process exists; **gap** on post-market monitoring | ❓ TBC |
 
+</details>
+
 ### 5.4 Universal · Optional · Supplemental — 11 controls
 
 Recommended, on optional requirements. The lowest-priority set.
+
+<details>
+<summary>Show the 11 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
@@ -267,9 +285,14 @@ Recommended, on optional requirements. The lowest-priority set.
 | E017.2 Documentation: Transparency report sharing policy | Defining policies for sharing transparency documentation with external stakeholders. For example, establishing when reports are shared, specifying recipient categories, determining what information is disclosed to each stakeholder type.<br>Documenting sharing procedures including approval workflows, version control, and distribution tracking. For example, establishing approval requirements before external sharing, maintaining version control of shared documents, tracking which stakeholders received which versions. | 🔴 | **gap** — no external sharing policy for AI documentation | ❓ TBC |
 | E017.3 Documentation: Platform and deployer security responsibilities | Documenting platform-level and deployer-level security responsibilities for AI systems. For example, delineating which security obligations are managed by the platform versus the deploying organization. | 🟠 | [cloud_security_policy.md](../policies/cloud_security_policy.md) — shared responsibility model documented for cloud; **gap** on the AI platform and deployer split | ❓ TBC |
 
+</details>
+
 ### 5.5 Capability-gated · Core — 30 controls
 
 Required to pass their requirement, but only where the gating capability is deployed.
+
+<details>
+<summary>Show the 30 controls</summary>
 
 | Control | Capability | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|---|
@@ -304,9 +327,14 @@ Required to pass their requirement, but only where the gating capability is depl
 | C011.1 Report: Out-of-scope output testing | Text or Voice generation | Appointing qualified third-party assessors. Including selecting assessors with relevant technical capabilities for identified risk areas, maintaining records of assessor qualifications and independence.<br>Conducting regular testing. Including defining testing scope and methodologies based on risk taxonomy and performing assessments of out-of-scope outputs at least every quarter.<br>Maintaining documentation. Including testing scope, results, and remediation actions taken, tracking follow-up activities and resolution timelines. | 🔴 | **gap** — no third-party evaluation programme | ❓ TBC |
 | F001.1 Documentation: Foundation model cyber capabilities | Text, Voice, Automation or Code generation | Results of testing from foundation model developer on offensive cyber capabilities and mitigations. | 🔴 | **gap** — provider capability evaluations are not collected | ❓ TBC |
 
+</details>
+
 ### 5.6 Capability-gated · Supplemental — 25 controls
 
 Recommended, and only where the gating capability is deployed.
+
+<details>
+<summary>Show the 25 controls</summary>
 
 | Control | Capability | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|---|
@@ -335,6 +363,8 @@ Recommended, and only where the gating capability is deployed.
 | D001.3 Demonstration: User-facing uncertainty labels | Text, Voice or Code generation | Maintaining uncertainty communication. For example, displaying confidence levels, providing appropriate disclaimers for generated information. | 🔴 | **gap** — no uncertainty communication | ❓ TBC |
 | C004.3 Demonstration: User guidance on scope | Text or Voice generation | Providing user guidance on system capabilities and limitations. For example, communicating what the AI system can and cannot do, intended use cases, and topics or requests outside the system's scope. | 🟠 | [secure_ai_development_policy.md](../iso42001/policies/secure_ai_development_policy.md) — intended use and limitations documented per system; **gap** on surfacing them to users | ❓ TBC |
 | F001.2 Config: Cyber use detection | Text, Voice, Automation or Code generation | Implementing malicious use detection and blocking. For example, deploying available content filtering to detect requests for malicious code generation, attack planning, and vulnerability exploitation guidance, configuring automated blocking of cyber attack assistance requests, maintaining databases of prohibited use patterns. | 🟠 | [ai_system_impact_assessment_template.md](../iso42001/procedures/ai_system_impact_assessment_template.md) — foreseeable misuse and its detection recorded per system; **gap** on implemented detection and blocking | ❓ TBC |
+
+</details>
 
 ---
 
