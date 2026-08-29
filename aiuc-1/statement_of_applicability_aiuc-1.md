@@ -6,10 +6,10 @@
 
 This document is an **overlay on the existing ISMS and AIMS**, not a parallel system. It maps each AIUC-1 control to the documents already maintained in this repository and identifies the **delta** — what AIUC-1 requires beyond what is already in place — so effort focuses only where existing documents do not already satisfy the control.
 
-AIUC-1 is **not an extension of ISO 42001**, and this overlay does not treat it as one. The two standards were written independently and overlap only in part: AIUC-1 states concrete, auditable requirements about AI agent behaviour, where ISO 42001 states management system requirements. Where an ISO 42001 or ISO 27001 artefact happens to satisfy an AIUC-1 control, it is reused and cross-referenced; where it does not, the control appears in the delta below regardless of the AIMS being in place.
+AIUC-1 is **not an extension of ISO 42001**, and this overlay does not treat it as one. The two standards were written independently and overlap only in part: AIUC-1 states concrete, auditable requirements about AI agent behaviour, where ISO 42001 states management system requirements. An AIMS being in place does not, by itself, remove a control from the delta.
 
 - **Source:** AIUC-1, **July 2026 version** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs). AIUC-1 is updated **quarterly**, so this overlay pins the version it was mapped against and must be re-checked against each release.
-- **Coverage ratings are derived in this repository.** AIUC-1 publishes a crosswalk to ISO 42001, but it runs in the opposite direction — it states which ISO 42001 controls AIUC-1 covers, not whether a given ISMS satisfies a given AIUC-1 control. Every rating below is an assessment made here, not a figure lifted from the publisher.
+- **Coverage ratings are derived in this repository.** Every rating below is an assessment made here against the documents cited, not a figure lifted from the publisher.
 - **This is a readiness and gap mapping, not a compliance claim.** Per AIUC-1's own terms, an organization may only claim AIUC-1 certification after an audit by an accredited auditor and independent technical testing.
 
 ---
@@ -18,7 +18,7 @@ AIUC-1 is **not an extension of ISO 42001**, and this overlay does not treat it 
 
 AIUC-1 requirements are gated by the **AI capabilities** the organization actually deploys — a scoping determination made *before* any requirement selection. **32 requirements are Universal**; the remaining 19 apply only if the corresponding capability is present.
 
-Where AIUC-1 lists several capabilities against one requirement, this overlay reads them as **any one of** them, not all of them together: `F001` is gated on text generation, voice generation, automation and code generation, and a system that only generates code plainly needs cyber-misuse guardrails. The source does not state the semantics, so the table below expresses the reading applied here — each capability listed with every requirement it switches on.
+The source does not state what it means to list several capabilities against one requirement, so this overlay reads them as **any one of** them, not all of them together: `F001` is gated on text generation, voice generation, automation and code generation, and a system that only generates code plainly needs cyber-misuse guardrails.
 
 | Capability | In scope | Requirements switched on |
 |---|---|---|
@@ -32,7 +32,7 @@ Where AIUC-1 lists several capabilities against one requirement, this overlay re
 > **All capabilities are declared in scope, so all 51 requirements apply.**
 > _To be completed for the organization: confirm which capabilities the deployed AI systems actually have, per the [AI Systems Register](../run/registers/ai_systems_register.md). Declaring a capability out of scope strikes the requirements listed against it, and the exclusion shall be justified here._
 
-Text-generation and voice-generation gate exactly the same requirements in this version of the standard; they are listed separately because AIUC-1 declares them separately.
+Text and voice generation gate the same requirements in this version; AIUC-1 declares them separately.
 
 ---
 
@@ -46,13 +46,11 @@ Each **control** is rated by how well the existing ISMS and AIMS already cover i
 | 🟠 **Medium** | Theme is covered, but AIUC-1 pins an AI-specific scope, technique, or review cycle | Usually an addition to an existing document |
 | 🔴 **Low** | Not covered by the ISMS or the AIMS | Genuine gap — new content required |
 
-Ratings sit at **control** level, not requirement level, because that is where AIUC-1 attaches evidence: a requirement passes on its Core controls' evidence. A single rating per requirement would hide which part is met — `A003`, for instance, is largely satisfied for data access scoping and not at all for agent identity.
+Ratings sit at **control** level, not requirement level, because that is where AIUC-1 attaches evidence. A single rating per requirement would hide which part is met — `A003`, for instance, is largely satisfied for data access scoping and not at all for agent identity.
 
-Attributes that belong to the **requirement** — Mandatory/Optional, review cycle, capability gate — are stated once in the requirement index and are not repeated on each control row.
+The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../statement_of_applicability.md).
 
-The **Control** column reproduces AIUC-1's control text verbatim. The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../statement_of_applicability.md).
-
-The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mapping, which states, for each AIUC-1 requirement, the ISO 42001 clauses and controls it corresponds to. It is a navigation aid and a cross-check on the documents cited below — **not evidence of coverage**. AIUC-1's forward crosswalk qualifies this further: a "no gap" pairing there means AIUC-1 *subsumes* that ISO 42001 control, so the ISO artefact is at best a partial counterpart and never sufficient on its own. The publisher states no counterpart at all for 24 of the 51 requirements — the whole Security principle among them — which is itself informative.
+The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mapping. It is a navigation aid — **not evidence of coverage**: in AIUC-1's forward crosswalk a "no gap" pairing means AIUC-1 *subsumes* that ISO 42001 control, so the ISO artefact is at best a partial counterpart and never sufficient on its own. The publisher states no counterpart at all for 24 of the 51 requirements, the whole Security principle among them.
 
 **Changes to existing documents are deferred.** Where a control calls for a change to a base ISMS or AIMS document, that change is **not made here**; it is captured by the corresponding **AIUC-1 check** (`aiuc-1/checks/`), which verifies the underlying document and fails until the gap is closed.
 
@@ -116,7 +114,7 @@ The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mappi
 
 ### ISO 42001 counterparts
 
-Source: AIUC-1's published reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`. Read the caveat under *How to read this overlay* before using this table: a counterpart is a related ISO 42001 clause or control, not evidence that the requirement is met.
+Source: AIUC-1's published reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`.
 
 | Req | ISO 42001 clauses and controls that AIUC-1 covers through this requirement |
 |---|---|
@@ -165,7 +163,7 @@ In the other direction, ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.
 
 ## 5. Delta crosswalk (control level)
 
-Controls rated 🟢 are listed under *Covered controls* and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is the *Requirement index*. A capability gate listing several capabilities is satisfied by any one of them; the *Applicability profile* lists what each capability switches on. Each table is collapsed below; open it to read the rows.
+Controls rated 🟢 are listed under *Covered controls* and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is the *Requirement index*.
 
 ### 5.1 Universal · Mandatory · Core — 37 controls
 
@@ -381,7 +379,7 @@ Recommended, and only where the gating capability is deployed.
 
 ## 6. Covered controls (🟢)
 
-These ratings are derived here rather than taken from a published comparator, so the controls assessed as already satisfied are listed with the documents that satisfy them. Their content is not restated.
+Controls assessed as already satisfied, listed with the documents that satisfy them. Their content is not restated.
 
 | Control | App. | Control (verbatim) | Covering document(s) |
 |---|---|---|---|
@@ -396,7 +394,7 @@ These ratings are derived here rather than taken from a published comparator, so
 
 Requirement and control text is reproduced verbatim from **AIUC-1, July 2026 version**, published by the AIUC-1 Consortium. This overlay is an independent mapping onto this ISMS and is not endorsed by the publisher. The standard is updated quarterly — see `aiuc-1.com/changelog`.
 
-The *ISO 42001 counterparts* table is taken from the publisher's reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`; the *Full Gap* clauses are taken from the forward crosswalk it links to, `aiuc-1.com/crosswalks/iso-42001`. Both must be re-checked against each quarterly release alongside the requirements themselves. The reverse mapping also carries a requirement title and description for all 53 rows; these were compared against the requirement index above and match it, which independently confirms the transcription.
+The *ISO 42001 counterparts* table comes from the publisher's reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`, the *Full Gap* clauses from the forward crosswalk, `aiuc-1.com/crosswalks/iso-42001`; both are re-checked at each quarterly release. The reverse mapping's own titles and descriptions match the requirement index above, confirming the transcription.
 
 Two editorial normalisations are applied to the source text: bullet separators are rendered as `<br>`, and capability lists are given in a consistent order (the source varies the order between rows for the same set). The requirement and control statements themselves are unchanged.
 
