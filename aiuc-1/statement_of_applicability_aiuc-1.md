@@ -395,8 +395,6 @@ The *ISO 42001 counterparts* table comes from the publisher's reverse mapping, `
 
 Two editorial normalisations: bullet separators are rendered as `<br>`, and capability lists are given in a consistent order (the source varies it between rows). The requirement and control statements are unchanged.
 
-This overlay maps the 51 requirements and 142 controls active in that version.
-
 Nothing in this document constitutes a claim that the organization is AIUC-1 certified, compliant with AIUC-1, or follows AIUC-1. Such claims require an audit by an accredited auditor and independent technical testing.
 
 ---
