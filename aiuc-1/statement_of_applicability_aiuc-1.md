@@ -52,9 +52,9 @@ Attributes that belong to the **requirement** — Mandatory/Optional, review cyc
 
 The **Control** column reproduces AIUC-1's control text verbatim. The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../statement_of_applicability.md).
 
-The **ISO 42001 counterparts** table is derived by inverting AIUC-1's published ISO 42001 crosswalk, which lists, for each ISO 42001 clause and control, the AIUC-1 requirements that cover it. It is a navigation aid and a cross-check on the documents cited below — **not evidence of coverage**. The crosswalk's direction matters: a "no gap" pairing means AIUC-1 *subsumes* that ISO 42001 control, so the ISO artefact is at best a partial counterpart and never sufficient on its own. Inversion also reaches only 27 of the 51 requirements; the 24 blank cells — the whole Security principle among them — are requirements with no ISO 42001 counterpart at all, which is itself informative.
+The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mapping, which states, for each AIUC-1 requirement, the ISO 42001 clauses and controls it corresponds to. It is a navigation aid and a cross-check on the documents cited below — **not evidence of coverage**. AIUC-1's forward crosswalk qualifies this further: a "no gap" pairing there means AIUC-1 *subsumes* that ISO 42001 control, so the ISO artefact is at best a partial counterpart and never sufficient on its own. The publisher states no counterpart at all for 24 of the 51 requirements — the whole Security principle among them — which is itself informative.
 
-**Changes to existing documents are deferred.** Where a control calls for a change to a base ISMS or AIMS document, that change is **not made here**; it is captured by the corresponding **AIUC-1 check** (`aiuc1/checks/`), which verifies the underlying document and fails until the gap is closed.
+**Changes to existing documents are deferred.** Where a control calls for a change to a base ISMS or AIMS document, that change is **not made here**; it is captured by the corresponding **AIUC-1 check** (`aiuc-1/checks/`), which verifies the underlying document and fails until the gap is closed.
 
 ---
 
@@ -114,9 +114,9 @@ The **ISO 42001 counterparts** table is derived by inverting AIUC-1's published 
 | F001 | Prevent AI cyber misuse | Implement or document guardrails to prevent AI-enabled misuse for cyber attacks and exploitation. | Mandatory · 12m · Text, Voice, Automation or Code generation | 2 | 🟠1 🔴1 |
 | F002 | Prevent catastrophic misuse | Implement or document guardrails to prevent AI-enabled catastrophic system misuse (chemical / bio / radio / nuclear). | Mandatory · 12m · Text, Voice or Image generation | 2 | 🟠1 🔴1 |
 
-### ISO 42001 counterparts (inverted crosswalk)
+### ISO 42001 counterparts
 
-Read the caveat under *How to read this overlay* before using this table: a counterpart is a related ISO 42001 clause or control, not evidence that the requirement is met.
+Source: AIUC-1's published reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`. Read the caveat under *How to read this overlay* before using this table: a counterpart is a related ISO 42001 clause or control, not evidence that the requirement is met.
 
 | Req | ISO 42001 clauses and controls that AIUC-1 covers through this requirement |
 |---|---|
@@ -137,20 +137,29 @@ Read the caveat under *How to read this overlay* before using this table: a coun
 | E003 | A.8.4 |
 | E004 | 5.1, 5.3, 7.2, A.3.2, A.4.6, A.6.2.2, A.10.2 |
 | E006 | A.10.3 |
-| E008 | 6.3, 7.5.2, 9.2.1, 9.2.2, 9.3.1, 9.3.2, A.2.3, A.2.4, A.3.3 |
+| E008 | 6.3, 7.5.2, 9.2.1, 9.2.2, 9.3.1, 9.3.2, 9.3.3, A.2.3, A.2.4, A.3.3 |
 | E010 | 4.1, 4.3, 5.2, A.2.2, A.2.4, A.9.2, A.9.3, A.9.4 |
 | E011 | A.7.5 |
 | E012 | 10.2, A.2.3, A.8.5 |
-| E013 | 4.4, 6.1.4, 7.1, 7.5.1, 8.4, 9.1, 10.1, 10.2, A.4.2, A.5.2, A.5.3, A.5.4, A.6.2.3, A.6.2.7 |
+| E013 | 4.4, 6.1.4, 7.1, 7.5.1, 8.1, 8.4, 9.1, 10.1, 10.2, A.4.2, A.5.2, A.5.3, A.5.4, A.6.2.3, A.6.2.7 |
 | E015 | A.6.2.8 |
 | E016 | A.8.2 |
 | E017 | 4.3, 5.2, A.2.2, A.2.4, A.4.2, A.4.3, A.4.4, A.4.5, A.6.2.3 |
 | F001 | A.5.5 |
 | F002 | A.5.5 |
 
-**No counterpart:** A002, A003, A004, A005, A006, A008, B001, B002, B003, B004, B005, B006, B007, B008, B009, B010, C003, C004, C005, C006, D001, D003. The entire Security principle sits outside ISO 42001's scope.
+The remaining 24 requirements have no ISO 42001 counterpart at all. Grouped by principle, the gap is uneven — the entire Security principle sits outside ISO 42001's scope, where Accountability is almost fully paired:
 
-ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.10.4` are rated *Full Gap* by the crosswalk — AIUC-1 does not cover them. They remain the AIMS's responsibility and are out of scope for this overlay.
+| Principle | Requirements with no ISO 42001 counterpart | Of |
+|---|---|---|
+| Data & Privacy | A002, A003, A004, A005, A006, A008 | 6 of 8 |
+| Security | **all ten** — B001 to B010 | 10 of 10 |
+| Safety | C003, C004, C005, C006 | 4 of 12 |
+| Reliability | D001, D003 | 2 of 4 |
+| Accountability | E005, E009 | 2 of 15 |
+| Society | — | 0 of 2 |
+
+In the other direction, ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.10.4` are rated *Full Gap* by the forward crosswalk — AIUC-1 does not cover them. They remain the AIMS's responsibility and are out of scope for this overlay.
 
 ---
 
@@ -386,6 +395,8 @@ These ratings are derived here rather than taken from a published comparator, so
 ## 7. Source & attribution
 
 Requirement and control text is reproduced verbatim from **AIUC-1, July 2026 version**, published by the AIUC-1 Consortium. This overlay is an independent mapping onto this ISMS and is not endorsed by the publisher. The standard is updated quarterly — see `aiuc-1.com/changelog`.
+
+The *ISO 42001 counterparts* table is taken from the publisher's reverse mapping, `aiuc-1.com/crosswalks/iso-42001/reverse-mapping`; the *Full Gap* clauses are taken from the forward crosswalk it links to, `aiuc-1.com/crosswalks/iso-42001`. Both must be re-checked against each quarterly release alongside the requirements themselves. The reverse mapping also carries a requirement title and description for all 53 rows; these were compared against the requirement index above and match it, which independently confirms the transcription.
 
 Two editorial normalisations are applied to the source text: bullet separators are rendered as `<br>`, and capability lists are given in a consistent order (the source varies the order between rows for the same set). The requirement and control statements themselves are unchanged.
 
