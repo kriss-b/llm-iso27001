@@ -62,7 +62,7 @@ The **ISO 42001 counterparts** table is derived by inverting AIUC-1's published 
 
 | Req | Requirement | Full requirement | Applicability | Controls | Coverage |
 |---|---|---|---|---|---|
-| A001 | Establish input data policy | Establish and communicate AI input data policies covering how customer data is used for model training, inference processing, data retention periods, and customer data rights. | Mandatory · 12m · Universal | 3 | 🟢1 🟠2 |
+| A001 | Establish input data policy | Establish and communicate AI input data policies covering how customer data is used for model training, inference processing, data retention periods, and customer data rights. | Mandatory · 12m · Universal | 3 | 🟠3 |
 | A002 | Establish output data policy | Establish AI output ownership, usage, opt-in/out and deletion policies to customers and communicate these policies. | Mandatory · 12m · Universal | 2 | 🔴2 |
 | A003 | Limit AI agent data access | Implement safeguards to limit AI agent data access based on task, user role, agent role and context. | Mandatory · 12m · Universal | 3 | 🟠1 🔴2 |
 | A004 | Protect IP & trade secrets | Implement safeguards or technical controls to prevent AI systems from leaking company intellectual property or confidential information. | Mandatory · 12m · Universal | 4 | 🟢1 🟠1 🔴2 |
@@ -76,7 +76,7 @@ The **ISO 42001 counterparts** table is derived by inverting AIUC-1's published 
 | B004 | Prevent AI endpoint scraping | Implement safeguards to prevent probing or scraping of external AI endpoints. | Mandatory · 12m · Universal | 4 | 🟠2 🔴2 |
 | B005 | Implement real-time input filtering | Implement real-time input filtering using automated moderation tools. | Optional · 12m · Text, Voice or Image generation | 5 | 🔴5 |
 | B006 | Prevent unauthorized AI agent actions | Implement safeguards to prevent AI agents from performing actions beyond intended scope and authorized privileges. | Mandatory · 12m · Automation | 3 | 🔴3 |
-| B007 | Enforce user access privileges to AI systems | Establish and maintain user access controls and admin privileges for AI systems in line with policy. | Mandatory · 3m · Universal | 2 | 🟢1 🟠1 |
+| B007 | Enforce user access privileges to AI systems | Establish and maintain user access controls and admin privileges for AI systems in line with policy. | Mandatory · 3m · Universal | 2 | 🟠2 |
 | B008 | Protect AI system deployment environment | Implement security measures for AI system deployment environments including encryption, access controls and authorization. | Mandatory · 12m · Universal | 5 | 🟠4 🔴1 |
 | B009 | Limit output over-exposure | Implement output limitations and obfuscation techniques to safeguard against information leakage. | Mandatory · 12m · Text, Voice or Image generation | 3 | 🔴3 |
 | B010 | Promote secure patterns in generated code | Implement safeguards to promote secure patterns and prevent known vulnerabilities in generated code. | Mandatory · 12m · Code generation | 6 | 🟠6 |
@@ -158,12 +158,12 @@ ISO 42001 clauses `4.2`, `6.2`, `7.3`, `A.6.1.3` and `A.10.4` are rated *Full Ga
 
 Controls rated 🟢 are listed in section 6 and are not repeated here. The tables are ordered by how binding the control is: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Within each table, controls are in identifier order, so the principle a control belongs to stays readable from its identifier; the principle-ordered view is section 4. Each table is collapsed below; open it to read the rows.
 
-### 5.1 Universal · Mandatory · Core — 36 controls
+### 5.1 Universal · Mandatory · Core — 37 controls
 
 The must-pass baseline: these apply to every deployment, their requirements are mandatory, and their evidence is what an audit checks first.
 
 <details>
-<summary>Show the 36 controls</summary>
+<summary>Show the 37 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
@@ -180,6 +180,7 @@ The must-pass baseline: these apply to every deployment, their requirements are 
 | B004.3 Report: External pentest of AI endpoints | Conducting simulated external attack testing of AI endpoints. For example, performing automated attack simulations, testing endpoint protection effectiveness against high-volume and distributed attacks, and documenting methodologies appropriate to organizational threat profile. | 🟠 | [audit_policy.md](../policies/audit_policy.md), [secure_development_policy.md](../policies/secure_development_policy.md) — annual penetration testing, formally scoped and authorised by the CTO; **gap** on including AI endpoints in scope | ❓ TBC |
 | B004.4 Documentation: Vulnerability remediation | Maintaining endpoint security through remediation. For example, tracking identified vulnerabilities, implementing protective measures based on testing outcomes, and regularly updating endpoint defenses and detection thresholds. | 🟠 | [secure_development_policy.md](../policies/secure_development_policy.md), [patch_management_procedure.md](../procedures/patch_management_procedure.md) — remediation timelines defined; **gap** on AI endpoint scope | ❓ TBC |
 | B007.1 Config: User access controls | Implementing system-level access controls tailored to AI systems. For example, using role-based or attribute-based access to restrict access to model configuration, training datasets, tool-calling capabilities, or prompt logs, based on job function and system sensitivity.<br>Restricting administrative and configuration privileges to authorized personnel. For example, limiting ability to alter system behavior, tools, or models. | 🟠 | [access_control_policy.md](../policies/access_control_policy.md) — role-based access and privileged account approval, with [data_classification_policy.md](../policies/data_classification_policy.md) already classifying prompt logs and AI evaluation datasets as TLP:AMBER and model weights as TLP:RED; **gap** on access control over tool-calling capabilities and model configuration | ❓ TBC |
+| B007.2 Documentation: Access reviews | Conducting access reviews and updates at least quarterly. For example, validating access assignments, updating based on policy or role changes, documenting access changes with AI-specific context (e.g. model access justification, changes to agent capability boundaries, or access to sensitive prompt/response history). | 🟠 | [access_control_policy.md](../policies/access_control_policy.md), [access_review_log.md](../run/logs/access_review_log.md) — quarterly review already matches the required cycle; **gap** on recording AI-specific context in the review records | ❓ TBC |
 | B008.1 Config: API and agentic interface authentication | Enforcing caller authentication across API endpoints and agentic interfaces. For example, applying scoped API tokens or signed requests for model API access; enforcing OAuth 2.0 or OIDC token validation with appropriate scoping for MCP server connections; implementing mutual authentication for agent-to-agent interfaces. | 🟠 | [access_control_policy.md](../policies/access_control_policy.md), [cloud_security_policy.md](../policies/cloud_security_policy.md) — **gap** on MCP and agent-to-agent authentication | ❓ TBC |
 | B008.2 Config: API and agentic interface transport security | Securing data in transit across model API endpoints and agentic interfaces. For example, enforcing TLS for all model API endpoint traffic, MCP server connections, and agent-to-agent communication channels; implementing credential rotation policies for long-lived service connections. | 🟠 | [cryptography_policy.md](../policies/cryptography_policy.md), [communication_security_policy.md](../policies/communication_security_policy.md) — TLS required in transit; **gap** on credential rotation for long-lived service connections | ❓ TBC |
 | C001.1 Documentation: AI risk taxonomy | Defining risk categories with severity levels and examples based on industry and deployment context. For example, classifying harmful outputs such as distressed outputs, angry responses, high-risk advice, offensive content, bias, and deception, identifying other high-risk use cases such as safety-critical instructions, legal recommendations, financial advice.<br>Aligning risk taxonomy with external frameworks and standards.<br>Establishing severity grading appropriate to organizational context and risk tolerance. For example, implementing consistent scoring methodology across risk categories, defining thresholds for flagging and human review. | 🟠 | [ai_system_impact_assessment_template.md](../iso42001/procedures/ai_system_impact_assessment_template.md) — enumerates harm categories (biased output, privacy violation, hallucination, psychological, financial, societal) with likelihood and severity graded per the [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md); **gap** on an organization-level taxonomy and on thresholds for flagging and human review | ❓ TBC |
@@ -206,15 +207,16 @@ The must-pass baseline: these apply to every deployment, their requirements are 
 
 </details>
 
-### 5.2 Universal · Mandatory · Supplemental — 23 controls
+### 5.2 Universal · Mandatory · Supplemental — 24 controls
 
 Recommended rather than required to pass, on requirements that are themselves mandatory.
 
 <details>
-<summary>Show the 23 controls</summary>
+<summary>Show the 24 controls</summary>
 
 | Control | Control (verbatim) | Cov. | Covering document(s) | Implementation status |
 |---|---|---|---|---|
+| A001.3 Documentation: Data subject right processes | Documenting processes for handling end-user data subject rights. For example, handling requests for opt-in/opt-out rights, access, portability, or deletion of input data. | 🟠 | [data_protection_policy.md](../policies/data_protection_policy.md) — access, rectification, erasure, restriction, objection and portability defined, with the DPO as point of contact; **gap** on opt-in and opt-out of AI input data | ❓ TBC |
 | A002.2 Config: Opt-in/opt-out and output deletion implementation | Implementing technical controls to enforce AI output opt-in/opt-out and deletion policies. For example, automating customer preference enforcement through consent management configuration, processing opt-out and deletion requests within defined workflows, and validating that opted-out outputs are excluded from storage and downstream reuse. | 🔴 | **gap** — depends on A002.1 | ❓ TBC |
 | A003.2 Config: Agent identity management | Enabling agent identity management. For example, assigning each agent a unique, cryptographically verifiable identity; supporting standard identity federation protocols (e.g., OAuth 2.0, OIDC) for enterprise IAM integration; publishing agent cards declaring each agent's capabilities, tools, and permission scopes. | 🔴 | **gap** — agents have no identity of their own | ❓ TBC |
 | A003.3 Config: Agent access and permissions management | Enabling agent access and governance through permission-ready architecture. For example, exposing per-agent permission scopes mappable to enterprise roles; supporting just-in-time permissions scoped to specific subtasks; preventing silent inheritance of elevated permissions from orchestrators or parent agents; enforcing segregation of duties across systems; and integrating data loss prevention controls on agent actions and tool calls. | 🔴 | **gap** — no per-agent permission model | ❓ TBC |
@@ -372,14 +374,12 @@ Recommended, and only where the gating capability is deployed.
 
 These ratings are derived here rather than taken from a published comparator, so the controls assessed as already satisfied are listed with the documents that satisfy them. Their content is not restated.
 
-| Control | App. | Covering document(s) |
-|---|---|---|
-| A001.3 Documentation: Data subject right processes | Suppl | [data_protection_policy.md](../policies/data_protection_policy.md) — data subject rights defined, with the DPO as point of contact |
-| A004.1 Documentation: User guidance on confidential information | Core | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) — the AI Tools section bars TLP:AMBER and TLP:RED data from AI tools and restricts use to approved tools; [data_classification_policy.md](../policies/data_classification_policy.md) places customer data, contracts and financial reports at TLP:AMBER and credentials and model weights at TLP:RED |
-| B007.2 Documentation: Access reviews | Core | [access_control_policy.md](../policies/access_control_policy.md), [access_review_log.md](../run/logs/access_review_log.md) — quarterly access review already matches the required cycle |
-| E005.1 Documentation: Data storage security practices | Core | [data_classification_policy.md](../policies/data_classification_policy.md), [cryptography_policy.md](../policies/cryptography_policy.md), [cloud_security_policy.md](../policies/cloud_security_policy.md), [data_retention_disposal_policy.md](../policies/data_retention_disposal_policy.md) |
-| E006.1 Documentation: Vendor due diligence | Core | [supplier_security_policy.md](../policies/supplier_security_policy.md) — supplier evaluation already requires disclosure of AI use, purpose, data handling, AI sub-processors, model governance and data retention practices, with AI processing of Company data prohibited absent written consent; assessed via [vendor_security_review_template.md](../procedures/vendor_security_review_template.md) and recorded in [suppliers_register.md](../run/registers/suppliers_register.md) |
-| E017.1 Documentation: AI system transparency documentation | Core | [secure_ai_development_policy.md](../iso42001/policies/secure_ai_development_policy.md) — intended use, limitations, performance metrics and data provenance documented per system |
+| Control | App. | Control (verbatim) | Covering document(s) |
+|---|---|---|---|
+| A004.1 Documentation: User guidance on confidential information | Core | Providing user guidance on protecting confidential information. For example, instructing employees not to input trade secrets, proprietary code, or confidential business information into AI systems, communicating data handling policies for AI tool usage, or establishing clear guidelines on what information can and cannot be shared with AI agents. | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) — the AI Tools section bars TLP:AMBER and TLP:RED data from AI tools and restricts use to approved tools; [data_classification_policy.md](../policies/data_classification_policy.md) places customer data, contracts and financial reports at TLP:AMBER and credentials and model weights at TLP:RED |
+| E005.1 Documentation: Data storage security practices | Core | Documenting data storage security. For example, assessments around cloud vs. on-premises processing. | [data_classification_policy.md](../policies/data_classification_policy.md), [cryptography_policy.md](../policies/cryptography_policy.md), [cloud_security_policy.md](../policies/cloud_security_policy.md), [data_retention_disposal_policy.md](../policies/data_retention_disposal_policy.md) |
+| E006.1 Documentation: Vendor due diligence | Core | Defining assessment criteria for foundational or upstream AI models. For example, data handling and ownership practices, PII controls, security measures, compliance status, open-source.<br>Conducting documented assessments. For example, scoring results, verification activities such as certifications reviewed and references contacted, and approval decisions.<br>Maintaining assessment records with sufficient detail for audit purposes and retaining due diligence evidence before vendor approval. | [supplier_security_policy.md](../policies/supplier_security_policy.md) — supplier evaluation already requires disclosure of AI use, purpose, data handling, AI sub-processors, model governance and data retention practices, with AI processing of Company data prohibited absent written consent; assessed via [vendor_security_review_template.md](../procedures/vendor_security_review_template.md) and recorded in [suppliers_register.md](../run/registers/suppliers_register.md) |
+| E017.1 Documentation: AI system transparency documentation | Core | Creating transparency documentation for major AI systems. For example, documenting system characteristics, data provenance, and model behavior for systems meeting documentation criteria. | [secure_ai_development_policy.md](../iso42001/policies/secure_ai_development_policy.md) — intended use, limitations, performance metrics and data provenance documented per system |
 
 ---
 
@@ -387,8 +387,8 @@ These ratings are derived here rather than taken from a published comparator, so
 
 | Rating | Controls | Share |
 |---|---|---|
-| 🟢 High — already covered | 6 | 4% |
-| 🟠 Medium — addition to an existing document | 65 | 46% |
+| 🟢 High — already covered | 4 | 3% |
+| 🟠 Medium — addition to an existing document | 67 | 47% |
 | 🔴 Low — genuine gap | 71 | 50% |
 
 The gap is much wider than in the ReCyF overlay, and the reason is structural: ISO 27001 and ISO 42001 govern how an organization *manages* AI, while AIUC-1 specifies how an AI system must *behave at runtime*. A complete ISMS and AIMS therefore leaves most of AIUC-1 unmet by construction.
@@ -400,9 +400,9 @@ Four themes account for most of the 🔴 controls:
 - **Third-party evaluation** — five Core controls across C010, C011, C012, D002, D004, all on a quarterly cycle, with no equivalent obligation anywhere in the base ISMS.
 - **Hallucination and reliability** — the D principle is almost entirely a gap; hallucination is currently mitigated by asking humans to review output, not by any technical control.
 
-The 🟠 controls are worth reading separately, because they do not all cost the same. Roughly a third — about 21 — are satisfied in substance already and fail only because AI systems are not named in scope: penetration testing runs annually but excludes AI endpoints (B004.3, B004.4); secure coding standards exist but do not reach generated code (B010.1–B010.6); digital signatures are standardised for documents but not for model artefacts (B008.5, E004.2); reviews happen but not at the cadence AIUC-1 sets (E008.1, E012.1). Closing those is a scope sentence, a cadence, or a register column in a document that already exists.
+The 🟠 controls are worth reading separately, because they do not all cost the same. Roughly a third — about 23 — are satisfied in substance already and fail only because AI systems are not named in scope: penetration testing runs annually but excludes AI endpoints (B004.3, B004.4); secure coding standards exist but do not reach generated code (B010.1–B010.6); digital signatures are standardised for documents but not for model artefacts (B008.5, E004.2); access reviews run at the required quarterly cadence but record no AI-specific context (B007.2); other reviews happen but not at the cadence AIUC-1 sets (E008.1, E012.1). Closing those is a scope sentence, a cadence, or a register column in a document that already exists.
 
-The remaining two thirds are not. About 28 have policy backing for the theme but require engineering to close — PII redaction in AI outputs and logs (A006.1), MCP and agent-to-agent authentication (B008.1), logging of AI inputs and outputs (E015.1), groundedness controls (D001.1), the disclosure notices (E016). About 15 need a document or process that does not exist yet, including the C001 taxonomy and the E002 and E003 failure plans.
+The remaining two thirds are not. About 29 have policy backing for the theme but require engineering to close — PII redaction in AI outputs and logs (A006.1), MCP and agent-to-agent authentication (B008.1), logging of AI inputs and outputs (E015.1), groundedness controls (D001.1), the disclosure notices (E016). About 15 need a document or process that does not exist yet, including the C001 taxonomy and the E002 and E003 failure plans.
 
 Two items unblock disproportionately many others and are the natural starting point: **C001 (AI risk taxonomy)**, a stated dependency of C005, C007, C012 and E002.2, where the impact assessment's harm categories give a usable starting point; and a **third-party evaluation programme**, which alone closes five Core controls and has no foothold anywhere in the current ISMS.
 
