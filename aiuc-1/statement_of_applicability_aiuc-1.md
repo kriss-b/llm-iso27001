@@ -10,7 +10,7 @@ AIUC-1 is **not an extension of ISO 42001**, and this overlay does not treat it 
 
 - **Version mapped:** AIUC-1, **July 2026** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs) — stated here only. AIUC-1 is updated **quarterly**; re-map at each release.
 - **Coverage ratings are derived in this repository.** Every rating below is an assessment made here against the documents cited, not a figure lifted from the publisher.
-- **This is a readiness and gap mapping, not a compliance claim.** Per AIUC-1's own terms, an organization may only claim AIUC-1 certification after an audit by an accredited auditor and independent technical testing.
+- **This is a readiness and gap mapping, not a compliance claim.** See the disclaimer under *Source & attribution*.
 
 ---
 
@@ -22,8 +22,7 @@ The source does not state what it means to list several capabilities against one
 
 | Capability | In scope | Requirements switched on |
 |---|---|---|
-| Text-generation | ✅ | B005, B009, C003, C004, C006, C010, C011, D001, D002, F001, F002 |
-| Voice-generation | ✅ | B005, B009, C003, C004, C006, C010, C011, D001, D002, F001, F002 |
+| Text- or voice-generation | ✅ | B005, B009, C003, C004, C006, C010, C011, D001, D002, F001, F002 |
 | Image-generation | ✅ | B005, B009, C003, C010, F002 |
 | Code-generation | ✅ | A008, B010, C006, D001, D002, F001 |
 | Automation (tool calls) | ✅ | B006, D003, D004, F001 |
@@ -32,19 +31,17 @@ The source does not state what it means to list several capabilities against one
 > **All capabilities are declared in scope, so all 51 requirements apply.**
 > _To be completed for the organization: confirm which capabilities the deployed AI systems actually have, per the [AI Systems Register](../run/registers/ai_systems_register.md). Declaring a capability out of scope strikes the requirements listed against it, and the exclusion shall be justified here._
 
-Text and voice generation gate the same requirements in this version; AIUC-1 declares them separately.
-
 ---
 
 ## 3. How to read this overlay
 
 Each **control** is rated by how well the existing ISMS and AIMS already cover it:
 
-| Rating | Meaning | Action |
-|---|---|---|
-| 🟢 **High** | Existing documents already satisfy the control | Cross-reference only — no new work |
-| 🟠 **Medium** | Theme is covered, but AIUC-1 pins an AI-specific scope, technique, or review cycle | Usually an addition to an existing document |
-| 🔴 **Low** | Not covered by the ISMS or the AIMS | Genuine gap — new content required |
+| Rating | Meaning |
+|---|---|
+| 🟢 **High** | Existing documents already satisfy the control — cross-reference only |
+| 🟠 **Medium** | Theme is covered, but AIUC-1 pins an AI-specific scope, technique, or review cycle |
+| 🔴 **Low** | Not covered by the ISMS or the AIMS — new content required |
 
 Ratings sit at **control** level, not requirement level, because that is where AIUC-1 attaches evidence. A single rating per requirement would hide which part is met — `A003`, for instance, is largely satisfied for data access scoping and not at all for agent identity.
 
