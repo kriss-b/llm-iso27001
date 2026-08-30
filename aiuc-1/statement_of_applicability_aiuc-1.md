@@ -18,8 +18,6 @@ AIUC-1 is **not an extension of ISO 42001**. The two were written independently:
 
 Requirements are gated by the **AI capabilities** the organization deploys — scoped *before* any requirement selection. **32 requirements are Universal**; the other 19 apply only where the capability is present.
 
-Several capabilities listed against one requirement are read as **any one of** them: `F001` is gated on text, voice, automation and code generation, and code generation alone plainly needs cyber-misuse guardrails.
-
 | Capability | In scope | Requirements switched on |
 |---|---|---|
 | Text- or voice-generation | ✅ | B005, B009, C003, C004, C006, C010, C011, D001, D002, F001, F002 |
