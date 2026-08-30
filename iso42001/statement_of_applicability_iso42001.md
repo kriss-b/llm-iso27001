@@ -129,9 +129,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
 |---------|-------|-------------|--------|--------|----------|
-| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.2 | Processes for responsible use of AI systems | Establish processes for responsible AI system use. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md), [ai_end_user_acceptable_use_policy.md](policies/ai_end_user_acceptable_use_policy.md) |
 | A.9.3 | Objectives for responsible use of AI system | Define objectives for responsible use of AI systems. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
-| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | ❓ TBC | [acceptable_use_policy.md](../policies/acceptable_use_policy.md) |
+| A.9.4 | Intended use of the AI system | Document and communicate intended use of AI systems. | ❓ TBC | ❓ TBC | [acceptable_use_policy.md](../policies/acceptable_use_policy.md), [ai_end_user_acceptable_use_policy.md](policies/ai_end_user_acceptable_use_policy.md) |
 
 ### A.10 Third-party and customer relationships
 
