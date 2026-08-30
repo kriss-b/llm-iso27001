@@ -6,11 +6,7 @@
 
 This document is an **overlay on the existing ISMS and AIMS**, not a parallel system: it maps each AIUC-1 control to the documents already in this repository and states the **delta** — what AIUC-1 requires beyond them.
 
-AIUC-1 is **not an extension of ISO 42001**. The two were written independently: AIUC-1 states auditable requirements about AI agent behaviour, ISO 42001 states management system requirements. An AIMS in place does not, by itself, remove a control from the delta.
-
-- **Version mapped:** AIUC-1, **July 2026** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs) — stated here only. AIUC-1 is updated **quarterly**; re-map at each release.
-- **Coverage ratings are derived in this repository.** Every rating below is an assessment made here against the documents cited, not a figure lifted from the publisher.
-- **This is a readiness and gap mapping, not a compliance claim.** See the disclaimer under *Source & attribution*.
+**Version mapped:** AIUC-1, **July 2026** (`AIUC-1 requirements` and `AIUC-1 Controls & Evidence` tabs). AIUC-1 is updated **quarterly**; re-map at each release.
 
 ---
 
@@ -41,11 +37,9 @@ Each **control** is rated by how well the existing ISMS and AIMS already cover i
 | 🟠 **Medium** | Theme is covered, but AIUC-1 pins an AI-specific scope, technique, or review cycle |
 | 🔴 **Low** | Not covered by the ISMS or the AIMS — new content required |
 
-Ratings sit at **control** level, where AIUC-1 attaches evidence: `A003`, for instance, is largely satisfied for data access scoping and not at all for agent identity.
-
 The **Implementation status** column uses the values defined in the [ISO 27001 Statement of Applicability](../statement_of_applicability.md).
 
-The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mapping — a navigation aid, **not evidence of coverage**: where the forward crosswalk records "no gap", AIUC-1 *subsumes* the ISO 42001 control, so the ISO artefact is at best a partial counterpart. The publisher gives no counterpart at all for 24 of the 51 requirements.
+The **ISO 42001 counterparts** table reproduces AIUC-1's published reverse mapping — a navigation aid, **not evidence of coverage**: where the forward crosswalk records "no gap", AIUC-1 *subsumes* the ISO 42001 control, so the ISO artefact is at best a partial counterpart.
 
 **Changes to existing documents are deferred.** Where a control calls for a change to a base ISMS or AIMS document, that change is **not made here**; it is captured by the corresponding **AIUC-1 check** (`aiuc-1/checks/`), which verifies the underlying document and fails until the gap is closed.
 
@@ -141,7 +135,7 @@ Source: AIUC-1's published reverse mapping, `aiuc-1.com/crosswalks/iso-42001/rev
 | F001 | A.5.5 |
 | F002 | A.5.5 |
 
-The remaining 24 requirements have no ISO 42001 counterpart. The gap is uneven — Security sits entirely outside ISO 42001's scope, Accountability is almost fully paired:
+The remaining 24 requirements have no ISO 42001 counterpart:
 
 | Principle | Requirements with no ISO 42001 counterpart | Of |
 |---|---|---|
@@ -158,7 +152,7 @@ In the other direction, the forward crosswalk rates ISO 42001 clauses `4.2`, `6.
 
 ## 5. Delta crosswalk (control level)
 
-Controls rated 🟢 are in *Covered controls*, not repeated here. The tables run from most to least binding: **Core** controls carry the evidence a requirement is passed on, **Supplemental** ones are recommended. Rows are in identifier order; the principle-ordered view is the *Requirement index*.
+Controls rated 🟢 are in *Covered controls*, not repeated here. The tables run from most to least binding, rows in identifier order; the principle-ordered view is the *Requirement index*.
 
 ### 5.1 Universal · Mandatory · Core — 37 controls
 
@@ -373,8 +367,6 @@ Recommended, and only where the gating capability is deployed.
 ---
 
 ## 6. Covered controls (🟢)
-
-Controls assessed as already satisfied, listed with the documents that satisfy them. Their content is not restated.
 
 | Control | App. | Control (verbatim) | Covering document(s) |
 |---|---|---|---|
