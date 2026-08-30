@@ -100,7 +100,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | A.6.1.3 | Processes for responsible AI system design and development | Establish processes for responsible AI design and development. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.2 | AI system requirements and specification | Define and document AI system requirements and specifications. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.3 | Documentation of AI system design and development | Document AI system design and development activities. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.4 | AI system verification and validation | Verify and validate AI systems against requirements. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.4 | AI system verification and validation | Verify and validate AI systems against requirements. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md), [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.6.2.5 | AI system deployment | Control deployment of AI systems into production. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.6 | AI system operation and monitoring | Monitor AI system operation and performance. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.7 | AI system technical documentation | Maintain technical documentation for AI systems. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
@@ -120,7 +120,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 
 | Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
 |---------|-------|-------------|--------|--------|----------|
-| A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
+| A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | ❓ TBC | — |
 | A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 | A.8.5 | Information for interested parties | Provide information to interested parties about AI systems. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |

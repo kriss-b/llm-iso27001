@@ -9,23 +9,14 @@
 
 ---
 
-## 1. Scope of this Assessment
-
-| **Field**              | **Details**                          |
-|------------------------|--------------------------------------|
-| AI System ID           | [Reference to the AI Systems Register] |
-| System version covered |                                      |
-| Lifecycle stage        | [Design / Development / Pre-deployment / In operation / Change] |
-| What this assessment covers |                                 |
-| What it explicitly excludes |                                 |
-
----
-
-## 2. AI System Information
+## AI System Information
 
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
+| AI System ID          | [Reference to the AI Systems Register] |
 | System Name           |                                      |
+| System version covered |                                     |
+| Lifecycle stage       | [Design / Development / Pre-deployment / In operation / Change] |
 | Owner                 |                                      |
 | Purpose               | [Why the system exists]              |
 | Functionalities and capabilities | [What it can do — outputs, autonomy, decisions it influences] |
@@ -35,7 +26,7 @@
 
 ---
 
-## 3. Data
+## Data
 
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
@@ -46,7 +37,7 @@
 
 ---
 
-## 4. Algorithm and Model
+## Algorithm and Model
 
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
@@ -57,7 +48,7 @@
 
 ---
 
-## 5. Deployment Environment
+## Deployment Environment
 
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
@@ -68,29 +59,24 @@
 
 ---
 
-## 6. Interested Parties
+## Interested Parties
 
-**Directly affected** — those the AI system acts on or about:
+*Directly affected: the AI system acts on or about them.*
 
-| **Party**             | **How Affected**                     |
-|-----------------------|--------------------------------------|
-| Employees             |                                      |
-| Customers             |                                      |
-| Vulnerable groups     |                                      |
-
-**Other relevant** — those with a stake but not directly acted upon:
-
-| **Party**             | **Interest**                         |
-|-----------------------|--------------------------------------|
-| Third parties / partners |                                   |
-| Regulators            |                                      |
-| Society / public      |                                      |
+| **Party**             | **Directly affected** | **Stake or how affected** |
+|-----------------------|-----------------------|---------------------------|
+| Employees             |                       |                           |
+| Customers             |                       |                           |
+| Vulnerable groups     |                       |                           |
+| Third parties / partners |                    |                           |
+| Regulators            |                       |                           |
+| Society / public      |                       |                           |
 
 ---
 
-## 7. Impacts
+## Impacts
 
-### 7.1 Benefits
+### Benefits
 
 | **Potential Benefit**                     | **Who Benefits** | **Likelihood** | **Significance** | **Notes** |
 |------------------------------------------|------------------|----------------|------------------|-----------|
@@ -99,7 +85,7 @@
 | Improved accessibility or service access |                  |                |                  |           |
 | [Additional benefit specific to this system] |              |                |                  |           |
 
-### 7.2 Harms
+### Harms
 
 | **Potential Harm**                        | **Who is Harmed** | **Likelihood** | **Severity** | **Risk Level** | **Notes** |
 |------------------------------------------|-------------------|----------------|--------------|----------------|-----------|
@@ -116,7 +102,7 @@
 
 ---
 
-## 8. Failure Modes and Foreseeable Misuse
+## Failure Modes and Foreseeable Misuse
 
 | **Failure or Misuse**                     | **How it could occur** | **Resulting Harm** | **Detection** |
 |------------------------------------------|------------------------|--------------------|---------------|
@@ -125,21 +111,25 @@
 
 ---
 
-## 9. Measures
+## Evaluation
 
-### 9.1 Measures Addressing Harms
+| **What was tested** | **Test set or method** | **Metric** | **Result** | **Threshold met** | **Date** | **Run by** |
+|---------------------|------------------------|------------|------------|-------------------|----------|------------|
+|                     |                        |            |            |                   |          |            |
+|                     |                        |            |            |                   |          |            |
 
-| **Harm**              | **Measure**                          | **Owner**   | **Status**  |
+*Cover the harms rated Medium or High above, and the intended uses. Re-run at each model or version change recorded under Algorithm and Model.*
+
+---
+
+## Measures
+
+| **Addresses**         | **Measure**                          | **Owner**   | **Status**  |
 |-----------------------|--------------------------------------|-------------|-------------|
+| [Harm or benefit]     |                                      |             |             |
 |                       |                                      |             |             |
 
-### 9.2 Measures Realising Benefits
-
-| **Benefit**           | **Measure**                          | **Owner**   | **Status**  |
-|-----------------------|--------------------------------------|-------------|-------------|
-|                       |                                      |             |             |
-
-### 9.3 Human Oversight
+### Human Oversight
 
 - **Is human review required before acting on AI outputs?** ☐ Yes ☐ No
 - **If yes, describe the review process:**
@@ -149,7 +139,24 @@
 
 ---
 
-## 10. Conclusion and Approval
+## Information for Users
+
+*The publishable extract of this assessment — the model card for this system. Publish this section; do not publish the rest.*
+
+| **Field**             | **Details**                          |
+|-----------------------|--------------------------------------|
+| What the system does  | [Purpose and capabilities, in user terms] |
+| Intended use          |                                      |
+| Out-of-scope use      |                                      |
+| Known limitations     | [From Harms and Failure Modes above] |
+| Performance           | [Headline results from Evaluation above] |
+| Human review expected | [What the user must check before acting on an output] |
+| AI disclosure         | [How users are told they are interacting with an AI system] |
+| Contact               | [Where to report harmful output or a vulnerability] |
+
+---
+
+## Conclusion and Approval
 
 - **Overall Risk Level**: [Low / Medium / High / Critical]
 - **Do the benefits justify the residual harms?** ☐ Yes ☐ No
