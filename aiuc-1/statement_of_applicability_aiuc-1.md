@@ -23,7 +23,7 @@ Requirements are gated by the **AI capabilities** the organization deploys — s
 | Externally facing agents | ✅ | A007, E002, E003 |
 
 > **All capabilities are declared in scope, so all 51 requirements apply.**
-> _To be completed for the organization: confirm which capabilities the deployed AI systems actually have, per the [AI Systems Register](../run/registers/ai_systems_register.md). Declaring a capability out of scope strikes the requirements listed against it, and the exclusion shall be justified here._
+> _To be completed for the organization: confirm which capabilities the deployed AI systems actually have, per the [AI Systems Register](../run/registers/ai_systems_register.md). A requirement is struck only when no in-scope capability lists it; justify each exclusion here._
 
 ---
 
