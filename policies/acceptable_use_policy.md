@@ -54,8 +54,10 @@ The following activities are **strictly prohibited**:
 
 ### 3.7 AI Tools
 - Only AI tools approved by the IT Team may be used to process Company data.
+- Approval covers a specific tool, plan and account; it does not extend to its consumer edition, plug-ins, browser extensions, agents, or API.
+- Connecting an AI tool to Company mailboxes, drives, repositories, or customer systems requires separate IT Team approval.
 - TLP:AMBER or TLP:RED data shall not be entered into AI tools or services.
-- AI-generated outputs shall be critically reviewed before use in business decisions or communications.
+- AI-generated outputs shall be critically reviewed before use in business decisions or communications; the user remains accountable for the result.
 
 ### 3.8 Monitoring and Privacy
 - The Company reserves the right to monitor the use of its information systems and resources.
