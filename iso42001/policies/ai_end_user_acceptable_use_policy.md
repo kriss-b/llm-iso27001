@@ -34,7 +34,7 @@ Users shall not:
 - The user remains accountable for any decision taken or content published on the basis of an output.
 
 ### Reporting and Enforcement
-- Harmful outputs, safety concerns, and suspected vulnerabilities shall be reported to the Company without delay.
+- Harmful outputs, safety concerns, and suspected vulnerabilities shall be reported without delay, via the contact route given in the system's user information.
 - The Company may rate-limit, suspend, or terminate access where this policy is breached or where continued use presents a risk to users, third parties, or the system.
 
 ---

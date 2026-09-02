@@ -121,7 +121,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
 |---------|-------|-------------|--------|--------|----------|
 | A.8.2 | System documentation and information for users | Provide system documentation and user information. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md), [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
-| A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | ❓ TBC | — |
+| A.8.3 | External reporting | Report externally on AI system activities as required. | ❓ TBC | ❓ TBC | [ai_end_user_acceptable_use_policy.md](policies/ai_end_user_acceptable_use_policy.md) |
 | A.8.4 | Communication of incidents | Communicate AI-related incidents to relevant parties. | ❓ TBC | ❓ TBC | [incident_response_plan.md](../incidents/incident_response_plan.md) |
 | A.8.5 | Information for interested parties | Provide information to interested parties about AI systems. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 
