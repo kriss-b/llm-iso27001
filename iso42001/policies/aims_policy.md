@@ -205,7 +205,7 @@ All employees complete AI safety training as part of the annual security awarene
 AI-specific incidents are managed in accordance with the **[Incident Response Plan](../../incidents/incident_response_plan.md)**. AI incidents include hallucination, biased output, prompt injection, model failure, and harmful AI-generated content.
 
 ### 12.6 Supplier AI Management
-Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Vendor Security Review Template](../../procedures/vendor_security_review_template.md)**.
+Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Vendor Security Review Template](../../procedures/supplier_security_review_template.md)**.
 
 ### 12.7 Nonconformity and Corrective Actions
 Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) shall be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the CTO and reported at the next management review.

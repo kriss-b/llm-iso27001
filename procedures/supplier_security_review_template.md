@@ -1,9 +1,9 @@
-# Vendor Security Review Template
+# Supplier Security Review Template
 
-## 📋 **Vendor Information**
+## 📋 **Supplier Information**
 | **Field**               | **Details**                          |
 |-------------------------|--------------------------------------|
-| Vendor Name             |                                      |
+| Supplier Name             |                                      |
 | Contact Person          |                                      |
 | Contact Email           |                                      |
 | Contact Phone           |                                      |
@@ -16,34 +16,34 @@
 ## 🔐 **Security Assessment**
 
 ### 1. **Information Security Policies**
-- Does the vendor have documented information security policies? ☐ Yes ☐ No
+- Does the supplier have documented information security policies? ☐ Yes ☐ No
 - If yes, provide details:
   ________________________________________________________
 
 ### 2. **Compliance with Standards**
-- Does the vendor comply with ISO 27001:2022 or equivalent standards? ☐ Yes ☐ No
+- Does the supplier comply with ISO 27001:2022 or equivalent standards? ☐ Yes ☐ No
 - If yes, provide certification details:
   ________________________________________________________
 
 ### 3. **Data Protection**
-- Does the vendor encrypt data in transit and at rest? ☐ Yes ☐ No
+- Does the supplier encrypt data in transit and at rest? ☐ Yes ☐ No
 - Describe the encryption methods used:
   ________________________________________________________
 
 ### 4. **Access Management**
-- Does the vendor implement least-privilege access controls? ☐ Yes ☐ No
-- Does the vendor use multi-factor authentication (MFA) for remote access? ☐ Yes ☐ No
+- Does the supplier implement least-privilege access controls? ☐ Yes ☐ No
+- Does the supplier use multi-factor authentication (MFA) for remote access? ☐ Yes ☐ No
 
 ### 5. **Incident Response**
-- Does the vendor have an incident response plan? ☐ Yes ☐ No
-- Does the vendor commit to reporting security incidents within 24 hours? ☐ Yes ☐ No
+- Does the supplier have an incident response plan? ☐ Yes ☐ No
+- Does the supplier commit to reporting security incidents within 24 hours? ☐ Yes ☐ No
 
 ### 6. **Audit and Compliance**
-- Does the vendor allow the organization to audit their security practices? ☐ Yes ☐ No
-- Has the vendor provided evidence of compliance with this template? ☐ Yes ☐ No
+- Does the supplier allow the organization to audit their security practices? ☐ Yes ☐ No
+- Has the supplier provided evidence of compliance with this template? ☐ Yes ☐ No
 
 ### 7. **AI Usage**
-- Does the vendor use AI systems to process organizational data? ☐ Yes ☐ No
+- Does the supplier use AI systems to process organizational data? ☐ Yes ☐ No
 - If yes, describe the AI systems used, their purpose, any AI sub-processors, and data retention practices:
   ________________________________________________________
 
@@ -65,14 +65,14 @@
 ## ✅ **Approval**
 | **Role**               | **Name**               | **Signature** | **Date**              |
 |------------------------|------------------------|---------------|-----------------------|
-| Vendor Representative  |                        |               |                       |
+| Supplier Representative  |                        |               |                       |
 | Reviewer           |                        |               |                       |
 
 ---
 
 ## 📌 **Notes**
-- This template shall be completed for all new vendors before engagement.
-- Existing vendors shall be reassessed annually using this template.
+- This template shall be completed for all new suppliers before engagement.
+- Existing suppliers shall be reassessed annually using this template.
 
 ---
 
