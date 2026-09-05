@@ -7,7 +7,7 @@ This **Business Continuity Plan (BCP)** ensures the resilience of the organizati
 
 ## 2. Scope
 This plan applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - Critical business processes, including:
   - SaaS platform operations.
   - Customer support.
@@ -25,7 +25,7 @@ This plan applies to:
 
 ### 3.2 External Communication
 - **Customers**: Status page (status.courtier-demo.com) and email notifications.
-- **Vendors**: Contact via the [Emergency Contacts Register](../run/registers/emergency_contacts_register.md).
+- **Suppliers**: Contact via the [Emergency Contacts Register](../run/registers/emergency_contacts_register.md).
 - **Media**: Statements approved by the COO or CEO.
 
 ---

@@ -4,7 +4,7 @@
 This policy establishes a framework for identifying, evaluating, and mitigating risks to the confidentiality, integrity, and availability of information assets in alignment with **ISO 27001:2022 (Clause 6.1 — Actions to address risks and opportunities, and Control A.5.7 — Threat intelligence)**.
 
 ## 2. Scope
-This policy applies to all employees, contractors, and third-party vendors with access to the organization’s information systems, data, or infrastructure.
+This policy applies to all employees, contractors, and third-party suppliers with access to the organization’s information systems, data, or infrastructure.
 
 ## 3. Risk Assessment Process
 Risk assessments shall be conducted using the methodology defined in the [Risk Assessment Procedure](../risks/risk_assessment_procedure.md).

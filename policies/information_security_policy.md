@@ -7,7 +7,7 @@ This Information Security Policy establishes the framework for protecting the **
 
 ## Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All information assets, including:
   - Customer data.
   - Company data (financial records, HR data, internal documents).

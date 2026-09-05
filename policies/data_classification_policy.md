@@ -7,7 +7,7 @@ This policy establishes a framework for classifying information assets based on 
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All information assets owned, processed, or stored by the Company, including:
   - Digital data (databases, files, emails, cloud storage).
   - Physical documents (printed reports, contracts, notes).

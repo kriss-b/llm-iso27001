@@ -62,7 +62,7 @@ The following steps shall be completed on or before the employee's last day.
 |------|-------------|-------|
 | Confirm all access has been revoked (access rights review) | CTO | Cross-check against access register |
 | Update asset register to reflect returned equipment | COO | |
-| Notify relevant third-party suppliers of access changes if applicable | COO | E.g., remove from vendor portals |
+| Notify relevant third-party suppliers of access changes if applicable | COO | E.g., remove from supplier portals |
 | Document offboarding completion in HR records | CPO | |
 
 ---

@@ -8,7 +8,7 @@ This procedure outlines the methodology for identifying, assessing, and treating
 ## **2. Scope**
 This procedure applies to:
 - All information assets owned or managed by the organization.
-- All employees, contractors, and third-party vendors with access to organizational information.
+- All employees, contractors, and third-party suppliers with access to organizational information.
 - All processes, systems, and technologies used to store, process, or transmit information.
 
 ---

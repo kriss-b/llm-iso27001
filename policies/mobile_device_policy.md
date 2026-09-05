@@ -7,7 +7,7 @@ This policy establishes guidelines for the secure use of **mobile devices** and 
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All mobile devices (e.g., laptops, smartphones, tablets) used to access Company systems or data.
 - All teleworking arrangements, including remote work and work-from-home.
 

@@ -86,7 +86,7 @@ The AIMS does not operate in isolation. It interfaces with the following interna
 - **Legal & Compliance**: AI regulatory monitoring, contract review for AI providers, EU AI Act compliance.
 - **Human Resources**: AI safety training, onboarding, and disciplinary processes.
 - **Engineering & IT**: Implementation of AI technical controls, model deployment, and monitoring.
-- **Finance & Procurement**: AI vendor assessment and contractual AI governance requirements.
+- **Finance & Procurement**: AI supplier assessment and contractual AI governance requirements.
 - **Executive Leadership**: Resource allocation, risk acceptance, and strategic AI direction.
 - **AI Model Providers**: Model governance, data handling obligations, and incident coordination.
 - **ISMS**: The AIMS operates alongside and interfaces with the ISMS; AI-related risks feed into the shared risk register.
@@ -205,7 +205,7 @@ All employees complete AI safety training as part of the annual security awarene
 AI-specific incidents are managed in accordance with the **[Incident Response Plan](../../incidents/incident_response_plan.md)**. AI incidents include hallucination, biased output, prompt injection, model failure, and harmful AI-generated content.
 
 ### 12.6 Supplier AI Management
-Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Vendor Security Review Template](../../procedures/supplier_security_review_template.md)**.
+Third-party AI providers and suppliers using AI to process Company data are assessed in accordance with the **[Supplier Security Policy](../../policies/supplier_security_policy.md)** and the **[Supplier Security Review Template](../../procedures/supplier_security_review_template.md)**.
 
 ### 12.7 Nonconformity and Corrective Actions
 Nonconformities identified from any source (audits, incidents, management reviews, or employee feedback) shall be recorded, root-caused, and resolved by the responsible owner. Corrective actions are tracked to resolution by the CTO and reported at the next management review.
@@ -240,7 +240,7 @@ The following opportunities have been identified through the operation of the AI
 - **Reduced AI incident impact**: Mature detection and response capabilities reduce the cost and reputational impact of AI incidents.
 - **Regulatory readiness**: A strong AIMS simplifies compliance with the EU AI Act and future AI regulatory requirements.
 - **Responsible innovation**: A governed AI framework enables faster, more confident AI adoption across the business.
-- **Supplier confidence**: A certified AIMS strengthens the Company's position in AI vendor negotiations and due diligence processes.
+- **Supplier confidence**: A certified AIMS strengthens the Company's position in AI supplier negotiations and due diligence processes.
 
 ---
 

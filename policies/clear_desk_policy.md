@@ -7,7 +7,7 @@ This policy ensures the protection of sensitive information by establishing guid
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All physical and digital workspaces, including:
   - Offices, desks, and workstations.
   - Computers, laptops, and mobile devices.

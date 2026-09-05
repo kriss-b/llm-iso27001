@@ -7,7 +7,7 @@ This policy establishes a structured approach to managing changes to information
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All changes to information systems, including:
   - Software updates and patches.
   - Hardware upgrades or replacements.

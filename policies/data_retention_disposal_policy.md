@@ -35,13 +35,13 @@ Data shall be disposed of securely to prevent unauthorized access. Approved disp
 | **Data Type**               | **Disposal Method**        | **Notes**                          |
 |-----------------------------|----------------------------|------------------------------------|
 | Digital data                | Secure erasure or destruction | Use tools like DBAN or cryptographic shredding. |
-| Physical records            | Shredding or incineration  | Use a certified disposal vendor.   |
+| Physical records            | Shredding or incineration  | Use a certified disposal supplier.   |
 | Hardware                    | Physical destruction        | Degaussing or crushing for HDDs/SSDs. |
 
 ### 4.2 Disposal Process
 - All disposal activities shall be documented in an **Asset Disposal Log**.
 - A designated employee shall verify the disposal process.
-- Third-party vendors shall provide a certificate of destruction for physical records.
+- Third-party suppliers shall provide a certificate of destruction for physical records.
 
 ---
 

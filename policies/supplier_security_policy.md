@@ -7,7 +7,7 @@ This policy defines requirements for selecting, engaging, and managing suppliers
 
 ## 2. Scope
 This policy applies to:
-- All third-party suppliers and vendors providing goods or services to the organization.
+- All third-party suppliers providing goods or services to the organization.
 - All employees, contractors, and stakeholders involved in supplier relationships.
 
 ---

@@ -13,7 +13,7 @@ This policy establishes the framework for managing information security incident
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All information assets, systems, and processes operated by or on behalf of the Company.
 - All types of information security incidents, including but not limited to:
   - Data breaches and unauthorised access.

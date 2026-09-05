@@ -50,7 +50,7 @@ The following issues are considered in defining the scope and objectives of the 
 | GDPR and data protection regulations | Strict requirements on personal data handling and breach notification |
 | Customer contractual requirements | Some customers require evidence of ISO 27001 compliance |
 | Evolving threat landscape | Continuous monitoring and threat intelligence required |
-| Third-party and supply chain risks | Vendors and cloud providers shall meet security standards |
+| Third-party and supply chain risks | Suppliers and cloud providers shall meet security standards |
 | Climate change (ISO/IEC 27001:2022/AMD 1:2024) | The organization shall determine whether climate change is a relevant issue affecting its context. Where relevant, climate-related risks (e.g. extreme weather disrupting facilities or supply chains) shall be assessed and treated within the risk management process. |
 | Regulatory requirements in target markets | Compliance obligations vary across jurisdictions |
 
@@ -67,7 +67,7 @@ The following interested parties have been identified as having requirements rel
 | Regulators (e.g., CNIL, ICO) | Compliance with GDPR and applicable data protection laws |
 | Law enforcement authorities | Cooperation in the event of a security incident or criminal investigation |
 | Special interest groups (e.g., CERTs, ISACs, security communities) | Threat intelligence sharing; awareness of emerging vulnerabilities and best practices |
-| Cloud and technology vendors | Clear contractual security obligations; timely incident notification |
+| Cloud and technology suppliers | Clear contractual security obligations; timely incident notification |
 | Investors and board | Adequate risk management; business continuity assurance |
 | Certification body | Compliance with ISO 27001:2022 requirements |
 
@@ -86,7 +86,7 @@ The ISMS does not operate in isolation. It interfaces with the following interna
 - **Legal & Compliance**: Regulatory monitoring, contract review, NDA management.
 - **Human Resources**: Onboarding, offboarding, training, and disciplinary processes.
 - **Engineering & IT**: Implementation of technical controls, patch management, and secure development.
-- **Finance & Procurement**: Vendor assessment and contractual security requirements.
+- **Finance & Procurement**: Supplier assessment and contractual security requirements.
 - **Executive Leadership**: Resource allocation, risk acceptance, and strategic alignment.
 - **Cloud Providers**: Shared responsibility model, security configurations, and incident coordination.
 
@@ -106,7 +106,7 @@ The ISMS does not operate in isolation. It interfaces with the following interna
 **People**
 - 5 engineers (development, operations, security).
 - All employees of the Company.
-- Third-party vendors with access to systems (e.g., payment processors, hosting providers).
+- Third-party suppliers with access to systems (e.g., payment processors, hosting providers).
 
 **Locations**
 - Main office (primary place of business).

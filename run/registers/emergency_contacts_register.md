@@ -13,7 +13,7 @@ This register is the single source of truth for emergency contacts used during b
 
 ## Suppliers
 
-| **Vendor**      | **Contact** | **Email**                | **Phone**       | **Notes** |
+| **Supplier**    | **Contact** | **Email**                | **Phone**       | **Notes** |
 |-----------------|-------------|--------------------------|-----------------|-----------|
 | AWS Support     | [Name]      | support@aws.com          | +1 XXX XXX XXX  | —         |
 | Zendesk Support | [Name]      | support@zendesk.com      | +1 XXX XXX XXX  | —         |

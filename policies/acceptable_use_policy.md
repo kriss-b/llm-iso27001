@@ -7,7 +7,7 @@ This **Acceptable Use Policy (AUP)** defines the rules and guidelines for the ap
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All Company-owned or managed information systems, including:
   - Computers, laptops, and mobile devices.
   - Network infrastructure (e.g., Wi-Fi, VPN).

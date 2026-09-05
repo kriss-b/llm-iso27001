@@ -9,7 +9,7 @@ This Confidentiality and Non-Disclosure Agreement (the "Agreement") is entered i
 
 ## 1. Purpose
 
-The Company may disclose certain confidential information to the Recipient in connection with **[PURPOSE — e.g., employment, consulting engagement, vendor relationship, due diligence]**. This Agreement sets out the terms under which such information may be received and used, in alignment with **ISO 27001:2022 (Control A.6.6 — Confidentiality or non-disclosure agreements)**.
+The Company may disclose certain confidential information to the Recipient in connection with **[PURPOSE — e.g., employment, consulting engagement, supplier relationship, due diligence]**. This Agreement sets out the terms under which such information may be received and used, in alignment with **ISO 27001:2022 (Control A.6.6 — Confidentiality or non-disclosure agreements)**.
 
 ---
 

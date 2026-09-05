@@ -7,7 +7,7 @@ This policy ensures the resilience of the organization by establishing a framewo
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All critical business processes, systems, and data.
 - All locations where business operations are conducted.
 
@@ -40,8 +40,8 @@ This policy applies to:
 - Conduct **awareness campaigns** to ensure preparedness.
 
 ### 3.6 Third-Party Continuity
-- Ensure third-party vendors have BC/DR plans that align with this policy.
-- Include BC/DR requirements in vendor contracts.
+- Ensure third-party suppliers have BC/DR plans that align with this policy.
+- Include BC/DR requirements in supplier contracts.
 
 ---
 

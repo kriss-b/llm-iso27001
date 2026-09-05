@@ -65,7 +65,7 @@ Then provide to your LLM Agent context about your company. The more context, the
 > 2. Rewrite the ISMS Policy — context, scope, internal/external issues, interested parties — to reflect our actual situation.
 > 3. Update roles and responsibilities based on our team structure.
 > 4. Populate the assets register from our tech stack — systems, data stores, SaaS, and their owners.
-> 5. Populate the suppliers register with our key vendors.
+> 5. Populate the suppliers register with our key suppliers.
 > 6. Populate the security feeds register with feeds relevant to our tech stack and sector.
 > 7. Run all checks and report which pass, which fail, and which are not applicable.
 
@@ -116,7 +116,7 @@ organised by type of task.
 
 ### Quick lookups
 
-- **Use the LLM as a search layer.** Faster than grepping markdown by hand. The LLM scans across the vendor list, SoA, procedures, and risk register simultaneously — and tells you exactly where something appears, or doesn't.
+- **Use the LLM as a search layer.** Faster than grepping markdown by hand. The LLM scans across the supplier list, SoA, procedures, and risk register simultaneously — and tells you exactly where something appears, or doesn't.
 
 > Is this supplier already referenced anywhere in the ISMS?
 

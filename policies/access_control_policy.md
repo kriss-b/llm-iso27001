@@ -7,7 +7,7 @@ This **Access Control Policy** defines the requirements for managing access to t
 
 ## 2. **Scope**
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All information assets, including:
   - Systems (cloud services, internal networks, endpoints).
   - Data (customer data, company data, intellectual property).

@@ -7,7 +7,7 @@ This policy establishes guidelines for the **secure disposal and destruction** o
 
 ## 2. Scope
 This policy applies to:
-- All employees, contractors, and third-party vendors.
+- All employees, contractors, and third-party suppliers.
 - All information assets, including:
   - Physical assets (e.g., laptops, hard drives, USB drives, paper documents).
   - Digital assets (e.g., data, software, backups).
@@ -22,7 +22,7 @@ All assets shall be classified and handled according to the [Data Classification
 - **Electronic Media**:
   - **Degaussing**: Use degaussing for magnetic media (e.g., hard drives, tapes).
   - **Physical Destruction**: Shred or crush media that cannot be degaussed.
-  - **Third-Party Services**: Use certified vendors for disposal (e.g., e-waste recyclers).
+  - **Third-Party Services**: Use certified suppliers for disposal (e.g., e-waste recyclers).
 - **Paper Documents**:
   - Shred or incinerate sensitive documents.
   - Use cross-cut shredders for **Confidential** or **Restricted** documents.
@@ -36,8 +36,8 @@ All assets shall be classified and handled according to the [Data Classification
   - Destroy media that cannot be securely wiped.
 
 ### 3.4 Third-Party Disposal
-- Use **certified third-party vendors** for disposal of physical and digital assets.
-- Ensure vendors sign a **confidentiality agreement** and provide a **certificate of destruction**.
+- Use **certified third-party suppliers** for disposal of physical and digital assets.
+- Ensure suppliers sign a **confidentiality agreement** and provide a **certificate of destruction**.
 
 ### 3.5 Documentation
 - Document all disposal and destruction activities in an **Asset Disposal Log**.

@@ -4,7 +4,7 @@
 This procedure ensures all employees receive regular training on information security policies and best practices in alignment with the **Human Resource Security Policy**.
 
 ## 2. Scope
-This procedure applies to all employees (full-time, part-time, temporary), contractors, and third-party vendors with access to organizational systems or data.
+This procedure applies to all employees (full-time, part-time, temporary), contractors, and third-party suppliers with access to organizational systems or data.
 
 ## 3. Training Program
 
@@ -21,7 +21,7 @@ This procedure applies to all employees (full-time, part-time, temporary), contr
   - Safe browsing and email practices
 
 ### 3.2 Annual Refresher Training
-- **Audience**: All employees, contractors, and third-party vendors.
+- **Audience**: All employees, contractors, and third-party suppliers.
 - **When**: Annually.
 - **Format**: Online module + quiz. Duration: 45 minutes.
 - **Topics**:

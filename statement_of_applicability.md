@@ -27,7 +27,7 @@ This SoA applies to all information assets, systems, and processes within the sc
 - Customer data and intellectual property.
 - SaaS application code and infrastructure.
 - Internal documentation and communication systems.
-- Third-party suppliers and vendors.
+- Third-party suppliers.
 
 ---
 

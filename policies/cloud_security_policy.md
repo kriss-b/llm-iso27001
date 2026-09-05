@@ -13,7 +13,7 @@ This policy applies to all cloud services, including infrastructure (IaaS), plat
 ## 3. Cloud Provider Assessment and Approval
 
 - All cloud services shall be formally assessed and approved before use. Unapproved cloud services shall not be used to process or store Company or customer data.
-- Cloud providers shall be assessed against the criteria defined in the **[Supplier Security Policy](supplier_security_policy.md)** and the **[Vendor Security Review Template](../procedures/supplier_security_review_template.md)**.
+- Cloud providers shall be assessed against the criteria defined in the **[Supplier Security Policy](supplier_security_policy.md)** and the **[Supplier Security Review Template](../procedures/supplier_security_review_template.md)**.
 - Approved cloud providers are maintained in the asset register (see **[Asset Management Policy](asset_management_policy.md)**).
 - Cloud service agreements shall include provisions for security, data protection, incident notification, audit rights, and data deletion upon termination.
 
