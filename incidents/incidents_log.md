@@ -4,7 +4,7 @@ This log records all security incidents. One row per incident. Use [incident_rep
 
 | Incident ID | Date detected | Severity | Summary | Impact | Status | Lessons learned | Closed date |
 |-------------|--------------|----------|---------|--------|--------|----------------|-------------|
-| — | — | — | — | — | — | — | — |
+| [INC-EXAMPLE-001](../run/records/examples/inc_example_001_incident_report.md) | 2026-09-03 | Low | Login API errors after a config change | Availability, 6 min | Closed | Load-test config changes before release | 2026-09-03 |
 
 Severity levels: `Low` | `Medium` | `High` | `Critical` — see [Incident Management Policy](../policies/incident_management_policy.md).
 

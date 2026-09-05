@@ -6,7 +6,7 @@ Sources: `Risk treatment` | `Management review` | `Internal audit` | `Nonconform
 
 | Action ID | Source | Description | Owner | Due date | Status | Notes |
 |-----------|--------|-------------|-------|----------|--------|-------|
-| ACT-001 | — | — | — | — | Open | — |
+| ACT-EXAMPLE-014 | Incident | Load-test configuration changes before release | CTO | 2026-10-31 | Open | From [INC-EXAMPLE-001](../records/examples/inc_example_001_incident_report.md) |
 
 ---
 
