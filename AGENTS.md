@@ -8,14 +8,12 @@
 
 **No redundancy.** Before creating a new document, check whether the content already exists elsewhere. Extend existing documents rather than creating new ones.
 
-**Records.** A completed template instance — an incident report, a supplier review, an impact assessment — is a record. Records live in `run/records/` or in an external system, and are indexed by the register or log that references them.
-
 **External systems may already be authoritative.** Before importing content from elsewhere (Confluence, Notion, a GRC tool...), ask whether it should stay the reference there or move into git.
 
 **Meet people where they work.** If tickets, tasks, evidence, etc. already live in Jira, Confluence, Monday, OpenProject, GitHub Issues, etc., act there directly rather than making people adopt a separate system for the ISMS — but log the action here so git stays the audit trail.
 
 **Git is the audit trail.** Every change to any document must be committed and pushed immediately. Commit messages should describe what changed and why. Never batch unrelated changes into a single commit.
 
-**File naming.** The suffix describes the document type: `_policy` (rules and requirements), `_procedure` (step-by-step instructions), `_plan` (operational playbook for a specific scenario), `_template` (blank form to be filled in), `_log` (append-only history of past events), `_register` (current state of a set of entities), `_check` (automated verification that a control is operating as required — reads thresholds from the relevant procedure, never hard-codes them).
+**File naming.** The suffix describes the document type: `_policy` (rules and requirements), `_procedure` (step-by-step instructions), `_plan` (operational playbook for a specific scenario), `_template` (blank form to be filled in), `_log` (append-only history of past events), `_register` (current state of a set of entities), `_check` (automated verification that a control is operating as required). A filled-in template is a **record**, named by its subject and kept in `run/records/`. The types chain: **policy** (rules) → **procedure** or **plan** (how) → **template** (what to write down) → **record** (the filled instance) → **register** or **log** (the index).
 
 **Template content is a starting point, not ground truth.** All existing content — scope, context, risks, roles, controls — was written for a generic placeholder company. When working with a real company, treat everything as a draft: question it, challenge it, and propose rewording wherever the content doesn't accurately reflect the company's actual situation.
