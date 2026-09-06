@@ -29,7 +29,7 @@ The full ISMS produced in this demo is public in the companion repo: **[kriss-b/
 
 ## What's in here
 
-A full ISMS: policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control when relevant. The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
