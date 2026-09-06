@@ -4,7 +4,7 @@
 
 **Relative links.** All cross-references between documents use relative markdown links. Update them if files are moved or renamed.
 
-**SoA is the single source of truth for control coverage.** There are two SoAs: `statement_of_applicability.md` (ISO 27001) and `iso42001/statement_of_applicability_iso42001.md` (ISO 42001). Never mark a control as implemented in either without a document to back it up.
+**SoA is the single source of truth for control coverage.** Each framework has its own SoA.
 
 **No redundancy.** Before creating a new document, check whether the content already exists elsewhere. Extend existing documents rather than creating new ones.
 
