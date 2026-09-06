@@ -29,7 +29,7 @@ The full ISMS produced in this demo is public in the companion repo: **[kriss-b/
 
 ## What's in here
 
-A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control when relevant. The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control when relevant. The placeholder company is **ACME CORP**. Policies, procedures and templates follow the same structure and end with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
@@ -38,7 +38,7 @@ A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, l
 | `risks/` | Risk assessment procedure and register |
 | `incidents/` | Incident log, response plan, and report template |
 | `run/` | Operational state: logs, registers, and completed records, updated as the ISMS runs |
-| `checks/` | Automated compliance checks, one per control |
+| `checks/` | Automated compliance checks, one per control when relevant |
 | `iso42001/` | Optional ISO 42001 AI Management System (AIMS) overlay, with its own SoA and checks |
 | `nis2/` | Optional NIS 2 overlay — national transpositions (France: **ReCyF**), each with its own SoA and checks |
 | `aiuc-1/` | Optional **AIUC-1** overlay — AI agent certification, with its own SoA and checks |
