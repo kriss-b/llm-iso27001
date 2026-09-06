@@ -29,7 +29,7 @@ The full ISMS produced in this demo is public in the companion repo: **[kriss-b/
 
 ## What's in here
 
-A full ISMS: policies and procedures, living operational records (logs and registers), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISMS: policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control — plus a Statement of Applicability covering all 93 ISO 27001 Annex A controls and an annual management review template (among others). The placeholder company is **ACME CORP**. Every document follows the same structure and ends with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
@@ -180,4 +180,4 @@ The LLM should not merge blindly. Your instantiated ISMS has been customised for
 
 ## What this is not
 
-This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. The `checks/` directory and `run/` logs are the start of your evidence base. An ISMS that runs its checks and keeps its logs current is evidence of an *operating* system, not just a documented one.
+This is a LLM friendly template, not a certification. Achieving ISO 27001 certification requires an accredited external audit, evidence of the ISMS operating over time (logs, completed reviews, incident records), and demonstrated continual improvement. The `checks/` directory and `run/` are the start of your evidence base. An ISMS that runs its checks and keeps its logs current is evidence of an *operating* system, not just a documented one.
