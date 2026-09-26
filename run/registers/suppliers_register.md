@@ -4,7 +4,7 @@ Current state of third-party suppliers. One row per supplier. Update rows in pla
 
 | Supplier ID | Supplier | Department | Description | Certifications | Last reviewed | Next review | Status | Notes |
 |-------------|----------|------------|-------------|---------------|---------------|-------------|--------|-------|
-| SUP-001 | — | — | — | — | — | — | — | — |
+| — | — | — | — | — | — | — | — | — |
 
 ---
 
