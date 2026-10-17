@@ -2,7 +2,7 @@
 
 Inventory of AI systems in use or under development. One row per system. Update rows in place when status or classification changes.
 
-| AI System ID | Name | Owner | Purpose | Deployment Context | Risk Level | Status | Last reviewed | Impact Assessment Link | Notes |
+| AI System ID | Name | Owner | Intended purpose | Deployment Context | Risk Level | Status | Last reviewed | Impact Assessment Link | Notes |
 |--------------|------|-------|---------|--------------------|------------|--------|---------------|------------------------|-------|
 | — | — | — | — | — | — | — | — | — | — |
 
