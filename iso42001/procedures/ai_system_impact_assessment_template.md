@@ -18,9 +18,8 @@
 | System version covered |                                     |
 | Lifecycle stage       | [Design / Development / Pre-deployment / In operation / Change] |
 | Owner                 |                                      |
-| Purpose               | [Why the system exists]              |
+| Intended purpose      | [The use the system is intended for, with its context and conditions of use; same wording as the AI Systems Register] |
 | Functionalities and capabilities | [What it can do — outputs, autonomy, decisions it influences] |
-| Intended uses         |                                      |
 | Unintended or out-of-scope uses |                            |
 | AI Specificity        | [Direct / Indirect]                  |
 
@@ -118,7 +117,7 @@
 |                     |                        |            |            |                   |          |            |
 |                     |                        |            |            |                   |          |            |
 
-*Cover the harms rated Medium or High above, and the intended uses. Re-run at each model or version change recorded under Algorithm and Model.*
+*Cover the harms rated Medium or High above, and the intended purpose. Re-run at each model or version change recorded under Algorithm and Model.*
 
 ---
 
@@ -146,7 +145,7 @@
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
 | What the system does  | [Purpose and capabilities, in user terms] |
-| Intended use          |                                      |
+| Intended purpose      | [Same as in AI System Information]   |
 | Out-of-scope use      |                                      |
 | Known limitations     | [From Harms and Failure Modes above] |
 | Performance           | [Headline results from Evaluation above] |
