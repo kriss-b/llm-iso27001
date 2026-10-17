@@ -71,7 +71,7 @@ Changes are classified as follows:
 
 ### 3.9 Changes to the Management Systems
 - Changes to the ISMS, AIMS and QMS themselves, and to their processes and scope, shall be planned before they are made, with their purpose, consequences, resources and responsibilities stated.
-- Such changes shall be approved by top management and documented as in 3.8.
+- Such changes shall be approved by top management and documented as described under Documentation.
 - Adding anything to the scope, or a substantial modification of anything in scope, shall trigger a review of the management systems.
 
 ---
