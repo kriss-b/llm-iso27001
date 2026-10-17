@@ -61,8 +61,8 @@ Changes are classified as follows:
 - Document review findings and update processes as needed.
 
 ### 3.8 Documentation
-- All changes shall be documented in the **Change Log**.
-- The Change Log shall include:
+- All changes shall be documented and the record retained.
+- The record shall include:
   - Change details.
   - Approval status.
   - Deployment status.
