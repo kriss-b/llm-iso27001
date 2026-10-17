@@ -14,6 +14,7 @@ This policy applies to:
   - Network configuration changes.
   - Process or procedural changes.
   - Third-party service modifications.
+  - Changes to the management systems (ISMS, AIMS, QMS), their processes and their scope.
 
 ---
 
@@ -67,6 +68,11 @@ Changes are classified as follows:
   - Approval status.
   - Deployment status.
   - Rollback status (if applicable).
+
+### 3.9 Changes to the Management Systems
+- Changes to the ISMS, AIMS and QMS themselves, and to their processes and scope, shall be planned before they are made, with their purpose, consequences, resources and responsibilities stated.
+- Such changes shall be approved by top management and documented as in 3.8.
+- Adding anything to the scope, or a substantial modification of anything in scope, shall trigger a review of the management systems.
 
 ---
 
