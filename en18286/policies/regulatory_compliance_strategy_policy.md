@@ -1,7 +1,7 @@
 # Regulatory Compliance Strategy Policy
 
 ## Purpose
-This policy sets the Company's strategy for complying with the regulatory requirements that apply to the AI systems it provides, in alignment with **EN 18286:2026 (Clause 4.4 — Strategy for regulatory compliance)**. It is the high-level approach; the methods and measures for each AI system are recorded in its [technical documentation](../../iso42001/procedures/technical_documentation_template.md).
+This policy sets the Company's strategy for complying with the regulatory requirements that apply to the AI systems it provides, in alignment with **EN 18286:2026 (Clause 4.4 — Strategy for regulatory compliance)**. It is the high-level approach; the methods and measures for each AI system are recorded in its [technical documentation](../../iso42001/procedures/ai_system_technical_documentation_template.md).
 
 ---
 
