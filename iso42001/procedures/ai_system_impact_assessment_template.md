@@ -18,7 +18,7 @@
 | System version covered |                                     |
 | Lifecycle stage       | [Design / Development / Pre-deployment / In operation / Change] |
 | Owner                 |                                      |
-| Intended purpose      | [The use the system is intended for, with its context and conditions of use; same wording as the AI Systems Register] |
+| Intended purpose      | [As defined in EU AI Act Article 3(12)] |
 | Functionalities and capabilities | [What it can do — outputs, autonomy, decisions it influences] |
 | Unintended or out-of-scope uses |                            |
 | AI Specificity        | [Direct / Indirect]                  |
