@@ -66,7 +66,7 @@ The following table tracks implementation of the clauses of EN 18286:2026 (4–1
 | 9.6 | Reporting serious incidents | Investigate serious incidents and report them to the competent authorities within the regulatory deadlines, with procedures agreed with deployers. | 🟠 | ❓ TBC | [incident_management_policy.md](../policies/incident_management_policy.md), [incident_response_plan.md](../incidents/incident_response_plan.md) |
 | 9.7 | Non-compliance | Detect, correct and analyse non-compliance and AI systems presenting a risk; inform deployers, distributors and authorities; keep records. | 🟠 | ❓ TBC | [compliance_policy.md](../policies/compliance_policy.md), [actions_register.md](../run/registers/actions_register.md), [audit_policy.md](../policies/audit_policy.md) |
 | 10.1 | Management review | Review the QMS at planned intervals with top management against measurable criteria, and after a serious incident that exposes the QMS as inadequate. | 🟠 | ❓ TBC | [management_review_template.md](../procedures/management_review_template.md), [aims_policy.md](../iso42001/policies/aims_policy.md) |
-| 10.2 | Planning of changes | Plan and control changes to the QMS, including when an AI system is added to its scope or substantially modified. | 🔴 | ❓ TBC | — |
+| 10.2 | Planning of changes | Plan and control changes to the QMS, including when an AI system is added to its scope or substantially modified. | 🟠 | ❓ TBC | [change_management_policy.md](../policies/change_management_policy.md) |
 
 ---
 

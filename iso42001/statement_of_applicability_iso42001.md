@@ -33,7 +33,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | 6.1.3 | AI risk treatment | — | ❓ TBC | [risk_assessment_procedure.md](../risks/risk_assessment_procedure.md) |
 | 6.1.4 | AI system impact assessment | — | ❓ TBC | [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | 6.2 | AI objectives and planning to achieve them | Establish measurable AI objectives and plans to achieve them. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| 6.3 | Planning of changes | Plan and manage changes to the AI management system. | ❓ TBC | — |
+| 6.3 | Planning of changes | Plan and manage changes to the AI management system. | ❓ TBC | [change_management_policy.md](../policies/change_management_policy.md) |
 | 7.1 | Resources | Determine and provide resources needed for AI management. | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
 | 7.2 | Competence | Ensure personnel have necessary competence for AI-related activities. | ❓ TBC | [employee_training_procedure.md](../procedures/employee_training_procedure.md) |
 | 7.3 | Awareness | Ensure awareness of AI policy, roles and system implications. | ❓ TBC | [employee_training_procedure.md](../procedures/employee_training_procedure.md) |
