@@ -78,9 +78,9 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | Control | Title | Description | Inclusion / exclusion justification | Implementation status | Document |
 |---------|-------|-------------|--------|--------|----------|
 | A.4.2 | Resource documentation | Document resources required for AI system development and operation. | ❓ TBC | ❓ TBC | [aims_policy.md](policies/aims_policy.md) |
-| A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | ❓ TBC | — |
-| A.4.4 | Tooling resources | Manage tools used for AI system development and operation. | ❓ TBC | ❓ TBC | — |
-| A.4.5 | System and computing resources | Manage computing infrastructure for AI systems. | ❓ TBC | ❓ TBC | — |
+| A.4.3 | Data resources | Manage data resources used in AI systems. | ❓ TBC | ❓ TBC | [technical_documentation_template.md](procedures/technical_documentation_template.md) |
+| A.4.4 | Tooling resources | Manage tools used for AI system development and operation. | ❓ TBC | ❓ TBC | [technical_documentation_template.md](procedures/technical_documentation_template.md) |
+| A.4.5 | System and computing resources | Manage computing infrastructure for AI systems. | ❓ TBC | ❓ TBC | [technical_documentation_template.md](procedures/technical_documentation_template.md) |
 | A.4.6 | Human resources | Manage human resources involved in AI activities. | ❓ TBC | ❓ TBC | [human_resource_security_policy.md](../policies/human_resource_security_policy.md) |
 
 ### A.5 Assessing impacts of AI systems
@@ -103,7 +103,7 @@ The following table tracks implementation of the mandatory ISO 42001:2023 clause
 | A.6.2.4 | AI system verification and validation | Verify and validate AI systems against requirements. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md), [ai_system_impact_assessment_template.md](procedures/ai_system_impact_assessment_template.md) |
 | A.6.2.5 | AI system deployment | Control deployment of AI systems into production. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.6 | AI system operation and monitoring | Monitor AI system operation and performance. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
-| A.6.2.7 | AI system technical documentation | Maintain technical documentation for AI systems. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
+| A.6.2.7 | AI system technical documentation | Maintain technical documentation for AI systems. | ❓ TBC | ❓ TBC | [technical_documentation_template.md](procedures/technical_documentation_template.md), [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 | A.6.2.8 | AI system recording of event logs | Record event logs for AI system activities. | ❓ TBC | ❓ TBC | [secure_ai_development_policy.md](policies/secure_ai_development_policy.md) |
 
 ### A.7 Data for AI systems
