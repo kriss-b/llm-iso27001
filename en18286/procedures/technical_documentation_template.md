@@ -26,6 +26,8 @@
 | (f) Product images    | [If the AI system is a component of products: external features, marking, internal layout] |
 | (g) Deployer user interface | [Basic description]            |
 | (h) Instructions for use | [Link to the instructions for use] |
+| Application area      | [High-risk area of AI Act Annex III, or the Annex I product legislation — per the [Regulatory Compliance Strategy Policy](../policies/regulatory_compliance_strategy_policy.md)] |
+| Conformity assessment procedure | [Procedure required by AI Act Article 43] |
 
 ---
 
@@ -85,12 +87,18 @@
 
 ## 7. Standards Applied
 
-| **Standard or specification** | **Applied in full or in part** | **OJ reference** |
-|-------------------------------|--------------------------------|------------------|
-| EN 18286:2026                 |                                |                  |
-|                               |                                |                  |
+| **Requirement**           | **AI Act** | **Approach** | **Standard or specification (OJ reference if harmonised)** | **Applied in full or in part** | **Measures where not fully covered** |
+|---------------------------|------------|--------------|------------------------------------------------------------|--------------------------------|--------------------------------------|
+| Risk management system    | Article 9  |              |                                                            |                                |                                      |
+| Data and data governance  | Article 10 |              |                                                            |                                |                                      |
+| Technical documentation   | Article 11 |              |                                                            |                                |                                      |
+| Record-keeping            | Article 12 |              |                                                            |                                |                                      |
+| Transparency and provision of information to deployers | Article 13 | |                                                   |                                |                                      |
+| Human oversight           | Article 14 |              |                                                            |                                |                                      |
+| Accuracy, robustness and cybersecurity | Article 15 |  |                                                            |                                |                                      |
+| Quality management system | Article 17 | Harmonised standard | EN 18286:2026                                       |                                |                                      |
 
-*Where no harmonised standard was applied, describe the solutions adopted to meet the requirements, and list the other standards and technical specifications applied.*
+*Approach: harmonised standard, common specification, other standard or other technical specification, as set by the [Regulatory Compliance Strategy Policy](../policies/regulatory_compliance_strategy_policy.md). Where the approach is another standard or technical specification, or a harmonised standard does not cover the requirement in full, state what is not covered and describe in detail the measures that meet it.*
 
 ---
 
