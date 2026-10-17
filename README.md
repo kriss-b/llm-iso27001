@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kriss-b/llm-iso27001)](https://github.com/kriss-b/llm-iso27001/stargazers)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)](https://github.com/kriss-b/llm-iso27001/blob/main/CONTRIBUTING.md)
 
-This repository is a lightweight and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS) and **NIS 2**. It is designed to be cloned and immediately customised by any LLM Agent of your choice (e.g. Mistral Vibe, OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
+This repository is a lightweight and LLM-maintainable Information Security Management System (ISMS) — covering policies, operational records, and executable compliance checks — aligned with **ISO 27001**, with optional overlays for **ISO 42001** (AI Management System - AIMS), **EN 18286** (AI Act quality management system) and **NIS 2**. It is designed to be cloned and immediately customised by any LLM Agent of your choice (e.g. Mistral Vibe, OpenAI Codex, Claude Code, OpenCode / Pi, or etc.) for any company seeking ISO 27001 certification or a structured approach to information security.
 
 Inspired by Andrej Karpathy's [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) and [Is Grep All You Need?](https://arxiv.org/abs/2605.15184) paper, applied here to an ISMS.
 
@@ -29,7 +29,7 @@ The full ISMS produced in this demo is public in the companion repo: **[kriss-b/
 
 ## What's in here
 
-A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control when relevant. The placeholder company is **ACME CORP**. Policies, procedures and templates follow the same structure and end with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
+A full ISO 27001 ISMS (+ ISO 42001, EN 18286, NIS2 and AIUC-1): policies and procedures, living operational state (logs, registers, and records), and executable compliance checks — one per control when relevant. The placeholder company is **ACME CORP**. Policies, procedures and templates follow the same structure and end with a Changelog so nothing is ambiguous about ownership, approver, version, or history.
 
 | Directory | Contents |
 |---|---|
@@ -40,6 +40,7 @@ A full ISO 27001 ISMS (+ ISO 42001, NIS2 and AIUC-1): policies and procedures, l
 | `run/` | Operational state: logs, registers, and completed records, updated as the ISMS runs |
 | `checks/` | Automated compliance checks, one per control when relevant |
 | `iso42001/` | Optional ISO 42001 AI Management System (AIMS) overlay, with its own SoA and checks |
+| `en18286/` | Optional **EN 18286** overlay — AI Act quality management system for providers of high-risk AI systems, operated through the AIMS, with its own SoA |
 | `nis2/` | Optional NIS 2 overlay — national transpositions (France: **ReCyF**), each with its own SoA and checks |
 | `aiuc-1/` | Optional **AIUC-1** overlay — AI agent certification, with its own SoA and checks |
 | `statement_of_applicability.md` | Master index mapping all 93 controls to implementation status and documents |
@@ -84,7 +85,7 @@ From there, iterate. The LLM can update policies and the SoA, run checks, mainta
 
 **Git is the audit trail.** Per-document Changelog tables exist for human readability, but git history is the authoritative record. Don't fight it.
 
-**Overlays, not parallel systems.** Additional frameworks extend the ISMS rather than duplicating it. The `iso42001/` directory adds AI-specific controls; the `nis2/` directory adds only the delta a national NIS 2 transposition (France's ReCyF) requires beyond ISO 27001. Everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the frameworks in sync without maintaining redundant content.
+**Overlays, not parallel systems.** Additional frameworks extend the ISMS rather than duplicating it. The `iso42001/` directory adds AI-specific controls; the `en18286/` directory adds only what the AI Act quality management system requires beyond ISO 42001; the `nis2/` directory adds only the delta a national NIS 2 transposition (France's ReCyF) requires beyond ISO 27001. Everything else is handled by cross-referencing existing ISO 27001 documents. This keeps the frameworks in sync without maintaining redundant content.
 
 **Works with your existing tools.** Your documentation, tickets, evidence, etc... may already live somewhere — Confluence, Notion, Jira, Probo, CISO Assistant, etc... Through MCP connectors the LLM Agent can read from them and reconcile them into this structure — typically importing them so git becomes the source of truth, or leaving the external tool as the reference when that fits better. A deliberate choice, made per source.
 
