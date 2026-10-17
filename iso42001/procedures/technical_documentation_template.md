@@ -6,7 +6,7 @@
 **Owner**: [Name, Role]
 **Review Date**: [YYYY-MM-DD]
 
-> Structure follows Annex IV of the EU AI Act, as required by Article 11 and EN 18286 8.9.2; section numbers match Annex IV. Complete one per AI system and version in the [AI Systems Register](../../run/registers/ai_systems_register.md), before it is placed on the market or put into service, and update it when a modification affects compliance. Write "N/A" with a reason for any point that does not apply.
+> Structure follows Annex IV of the EU AI Act; section numbers match Annex IV. Complete one per AI system and version in the [AI Systems Register](../../run/registers/ai_systems_register.md) (ISO 42001 A.6.2.7), and update it when a modification affects compliance. For a high-risk AI system the Company provides, all points apply and the documentation shall be complete before the system is placed on the market or put into service (AI Act Article 11, EN 18286 8.9.2). For other AI systems, including third-party systems used internally, write "N/A" with a reason for any point that does not apply.
 >
 > An SME or SMC may use the Commission's simplified technical documentation form instead. For an AI system related to a product covered by Annex I, Section A, draw up a single set of documentation that also contains the information required by that legislation.
 
@@ -26,7 +26,7 @@
 | (f) Product images    | [If the AI system is a component of products: external features, marking, internal layout] |
 | (g) Deployer user interface | [Basic description]            |
 | (h) Instructions for use | [Link to the instructions for use] |
-| Application area      | [High-risk area of AI Act Annex III, or the Annex I product legislation — per the [Regulatory Compliance Strategy Policy](../policies/regulatory_compliance_strategy_policy.md)] |
+| Application area      | [High-risk area of AI Act Annex III, or the Annex I product legislation — per the [Regulatory Compliance Strategy Policy](../../en18286/policies/regulatory_compliance_strategy_policy.md)] |
 | Conformity assessment procedure | [Procedure required by AI Act Article 43] |
 
 ---
@@ -38,10 +38,10 @@
 | (a) Development methods and steps | [Including third-party pre-trained systems or tools, and how they were used, integrated or modified — see the [Supplier Register](../../run/registers/suppliers_register.md)] |
 | (b) Design specifications | [General logic and algorithms; key design choices, rationale and assumptions, including about the persons or groups the system is used on; main classification choices; what the system optimises for and the relevance of its parameters; expected output and output quality; trade-offs made to meet the requirements] |
 | (c) System architecture | [How software components build on or feed into each other; computational resources used to develop, train, test and validate] |
-| (d) Data requirements | [Datasheets: training methods and techniques; training datasets, their provenance, scope and main characteristics; how data was obtained and selected; labelling and cleaning — see the Data section of the [impact assessment](../../iso42001/procedures/ai_system_impact_assessment_template.md)] |
-| (e) Human oversight   | [Assessment of the oversight measures needed, and of the technical measures that help deployers interpret outputs — see the Human Oversight section of the [impact assessment](../../iso42001/procedures/ai_system_impact_assessment_template.md)] |
+| (d) Data requirements | [Datasheets: training methods and techniques; training datasets, their provenance, scope and main characteristics; how data was obtained and selected; labelling and cleaning — see the Data section of the [impact assessment](ai_system_impact_assessment_template.md)] |
+| (e) Human oversight   | [Assessment of the oversight measures needed, and of the technical measures that help deployers interpret outputs — see the Human Oversight section of the [impact assessment](ai_system_impact_assessment_template.md)] |
 | (g) Validation and testing | [Procedures; validation and testing data and their main characteristics; metrics for accuracy, robustness, other requirements and potentially discriminatory impacts; link to the test logs and reports, dated and signed by the responsible persons, including for pre-determined changes] |
-| (h) Cybersecurity measures | [See the [Secure AI Development Policy](../../iso42001/policies/secure_ai_development_policy.md) and the [Secure Development Policy](../../policies/secure_development_policy.md)] |
+| (h) Cybersecurity measures | [See the [Secure AI Development Policy](../policies/secure_ai_development_policy.md) and the [Secure Development Policy](../../policies/secure_development_policy.md)] |
 
 ### (f) Pre-determined Changes
 
@@ -61,7 +61,7 @@
 | **Field**             | **Details**                          |
 |-----------------------|--------------------------------------|
 | Capabilities and limitations | [Including accuracy for specific persons or groups, and the overall expected accuracy for the intended purpose] |
-| Foreseeable unintended outcomes and sources of risk | [To health, safety and fundamental rights, and discrimination — see the Harms and Failure Modes sections of the [impact assessment](../../iso42001/procedures/ai_system_impact_assessment_template.md)] |
+| Foreseeable unintended outcomes and sources of risk | [To health, safety and fundamental rights, and discrimination — see the Harms and Failure Modes sections of the [impact assessment](ai_system_impact_assessment_template.md)] |
 | Human oversight measures | [Including the technical measures that help deployers interpret outputs] |
 | Input data specifications |                                  |
 
@@ -75,7 +75,7 @@
 
 ## 5. Risk Management System
 
-[Description of the risk management system for this AI system — link the [impact assessment](../../iso42001/procedures/ai_system_impact_assessment_template.md) and the relevant entries of the [Risk Register](../../risks/risks_register.md)]
+[Description of the risk management system for this AI system — link the [impact assessment](ai_system_impact_assessment_template.md) and the relevant entries of the [Risk Register](../../risks/risks_register.md)]
 
 ---
 
@@ -98,7 +98,7 @@
 | Accuracy, robustness and cybersecurity | Article 15 |  |                                                            |                                |                                      |
 | Quality management system | Article 17 | Harmonised standard | EN 18286:2026                                       |                                |                                      |
 
-*Approach: harmonised standard, common specification, other standard or other technical specification, as set by the [Regulatory Compliance Strategy Policy](../policies/regulatory_compliance_strategy_policy.md). Where the approach is another standard or technical specification, or a harmonised standard does not cover the requirement in full, state what is not covered and describe in detail the measures that meet it.*
+*Approach: harmonised standard, common specification, other standard or other technical specification, as set by the [Regulatory Compliance Strategy Policy](../../en18286/policies/regulatory_compliance_strategy_policy.md). Where the approach is another standard or technical specification, or a harmonised standard does not cover the requirement in full, state what is not covered and describe in detail the measures that meet it.*
 
 ---
 
